@@ -62,40 +62,47 @@ sequelize
 });
 // ****** Set up default MYSQL connection END ****** //
 
-//User model for sequelize
+//
+// User model for sequelize
+//
 const User = sequelize.define('user', {
   name: { type: Sequelize.STRING },
   email: { type: Sequelize.STRING },
   password: { type: Sequelize.STRING },
-  roles: { type: Sequelize.STRING },
+  roles: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci',
+  collate: 'utf8mb4_unicode_ci'
 });
 
+// force: true will drop the table if it already exists
 User
 .sync({force: true})
 .then(() => {
-  //Table created
+  // Table created
   return User.create({
-    name: "ʕ'ʷɛ́",
+    name: "Angelaɛ́ʕ'ʷ",
     email: "angelahughes@email.arizona.edu",
-    password: "angelahughes@email.arizona.edu",
+    password: "special",
     roles: "admin"
   });
 })
 .then((user) => {
   console.log(user);
-
-return User.findOne({
-  where: { id: 1 }
-}).then((res) => {
-  return [{
-    
-  }]
+  return User.findOne({
+    where: { id: 1 }
+  }).then((res) => {
+    return [{
+      id: res.dataValues.id,
+      name: res.dataValues.name,
+      email: res.dataValues.email,
+      roles: res.dataValues.roles.split(',')
+    }];
+  });
 })
-
+.then((newuser) => {
+  console.log(newuser);
 });
 
 app.use('/', (req, res) => res.send("Welcome COLRC User"));
