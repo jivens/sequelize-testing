@@ -45,10 +45,11 @@ const sequelize = new Sequelize(
     //operatorsAliases: false,
     pool: { max: 5, min: 0, acquire: 30000, idle: 10000 },
     define: {
-		charset: 'utfmb4',
-		collate: 'utf8mb4_unicode_ci',
-		timestamps: true
-    }
+      charset: 'utf8mb4',
+      collate: 'utf8mb4_unicode_ci',
+      timestamps: true
+    },
+    //logging:false
   });
 
 sequelize
@@ -85,6 +86,49 @@ User.sync({force: true}).then(() => {
 })
 .then((user) => {
 	console.log(user);
+});
+
+//
+// User model for sequelize
+//
+const User = sequelize.define('user', {
+  name: { type: Sequelize.STRING },
+  email: { type: Sequelize.STRING },
+  password: { type: Sequelize.STRING },
+  roles: { type: Sequelize.STRING }
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
+// force: true will drop the table if it already exists
+User
+.sync({force: true})
+.then(() => {
+  // Table created
+  return User.create({
+    name: "John Ivensɛ́ʕ'ʷ",
+    email: 'john.wagner.ivens@gmail.com',
+    password: 'john.wagner.ivens@gmail.com',
+    roles: "admin"
+  });
+})
+.then((user) => {
+  console.log(user);
+  return User.findOne({
+    where: { id: 1 }
+  }).then((res) => {
+    return [{
+      id: res.dataValues.id,
+      name: res.dataValues.name,
+      email: res.dataValues.email,
+      roles: res.dataValues.roles.split(',')
+    }];
+  });
+})
+.then((newuser) => {
+  console.log(newuser);
 });
 
 app.use('/', (req, res) => res.send("Welcome COLRC User"));
