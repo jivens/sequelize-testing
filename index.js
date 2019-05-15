@@ -42,8 +42,14 @@ const sequelize = new Sequelize(
   {
     host: process.env.DB_HOST,
     dialect: process.env.DB_DIALECT,
-    operatorsAliases: false,
-    pool: { max: 5, min: 0, acquire: 30000, idle: 10000 }
+    //operatorsAliases: false,
+    pool: { max: 5, min: 0, acquire: 30000, idle: 10000 },
+    define: {
+      charset: 'utf8mb4',
+      collate: 'utf8mb4_unicode_ci',
+      timestamps: true
+    },
+    //logging:false
   });
 
 sequelize
@@ -55,6 +61,42 @@ sequelize
   console.error('Unable to connect to the database:', err);
 });
 // ****** Set up default MYSQL connection END ****** //
+
+//User model for sequelize
+const User = sequelize.define('user', {
+  name: { type: Sequelize.STRING },
+  email: { type: Sequelize.STRING },
+  password: { type: Sequelize.STRING },
+  roles: { type: Sequelize.STRING },
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci',
+});
+
+User
+.sync({force: true})
+.then(() => {
+  //Table created
+  return User.create({
+    name: "ʕ'ʷɛ́",
+    email: "angelahughes@email.arizona.edu",
+    password: "angelahughes@email.arizona.edu",
+    roles: "admin"
+  });
+})
+.then((user) => {
+  console.log(user);
+
+return User.findOne({
+  where: { id: 1 }
+}).then((res) => {
+  return [{
+    
+  }]
+})
+
+});
 
 app.use('/', (req, res) => res.send("Welcome COLRC User"));
 app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
