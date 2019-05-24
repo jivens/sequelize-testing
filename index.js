@@ -61,38 +61,14 @@ sequelize
   console.error('Unable to connect to the database:', err);
 });
 // ****** Set up default MYSQL connection END ****** //
-//
-// User model for sequelize, controlling connections to the application; not controlling connections to the db
-//
-const User = sequelize.define('user', {
-	name: { type: Sequelize.STRING },
-	email: { type: Sequelize.STRING },
-	password: { type: Sequelize.STRING }, 
-	roles: { type: Sequelize.STRING },
-},{
-	charset: 'utf8mb4',
-	collate: 'utf8mb4_general_ci'
-});
-
-// force creation of a table with the right schema, add the user
-User.sync({force: true}).then(() => {
-	// Table created
-	return User.create({
-		name: "Amy ɛ́ Fountain ʕ'ʷ 💩",
-		email: "a.v.fountain@gmail.com",
-		password: "a.v.fountain@gmail.com",
-		roles: "admin"
-	});
-})
-.then((user) => {
-	console.log(user);
-});
 
 //
 // User model for sequelize
 //
 const User = sequelize.define('user', {
-  name: { type: Sequelize.STRING },
+  first: { type: Sequelize.STRING },
+  last: { type: Sequelize.STRING },
+  username: { type: Sequelize.STRING },
   email: { type: Sequelize.STRING },
   password: { type: Sequelize.STRING },
   roles: { type: Sequelize.STRING }
@@ -108,9 +84,11 @@ User
 .then(() => {
   // Table created
   return User.create({
-    name: "John Ivensɛ́ʕ'ʷ",
-    email: 'john.wagner.ivens@gmail.com',
+    first: "John",
+    last: "Ivens",
+    username: "jivens",
     password: 'john.wagner.ivens@gmail.com',
+    email: 'john.wagner.ivens@gmail.com',
     roles: "admin"
   });
 })
@@ -121,7 +99,10 @@ User
   }).then((res) => {
     return [{
       id: res.dataValues.id,
-      name: res.dataValues.name,
+      first: res.dataValues.first,
+      last: res.dataValues.last,
+      username: res.dataValues.username,
+      password: res.dataValues.password,
       email: res.dataValues.email,
       roles: res.dataValues.roles.split(',')
     }];
@@ -129,7 +110,72 @@ User
 })
 .then((newuser) => {
   console.log(newuser);
+  console.log("John Ivens");
 });
 
+const Root = sequelize.define('root', {
+  root: { type: Sequelize.STRING },
+  number: { type: Sequelize.INTEGER },
+  salish: { type: Sequelize.STRING },
+  nicodemus: { type: Sequelize.STRING },
+  english: { type: Sequelize.STRING },
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
+const Affix = sequelize.define('affix', {
+  type: { type: Sequelize.STRING },
+  salish: { type: Sequelize.STRING },
+  nicodemus: { type: Sequelize.STRING },
+  english: { type: Sequelize.STRING },
+  link: { type: Sequelize.STRING },
+  page: { type: Sequelize.STRING },
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
+async function makeAffixTable(){
+	await Affix.sync({force: true});
+	var fs = require('fs');
+	var contents = fs. readFileSync('/Users/avf/OneDrive - University of Arizona/Desktop/affixes.txt', 'utf8');
+	var rows = contents.split("\n");
+	rows.forEach(async function (row, index) {
+		columns = row.split(":::");
+		await Affix.create({
+			type: columns[0],
+			salish: columns[1],
+			nicodemus: columns[2],
+			english: columns[3],
+			link: columns[4],
+			page: columns[5]
+		});
+	});
+	console.log("I have an affixes table");
+}
+makeAffixTable();
+
+async function makeRootTable(){
+	await Root.sync({force: true});
+	var fs = require('fs');
+	var contents = fs. readFileSync('/Users/avf/OneDrive - University of Arizona/Desktop/entries.txt', 'utf8');
+	var rows = contents.split("\n");
+	rows.forEach(async function (row, index) {
+		columns = row.split(":::");
+		await Root.create({
+			root: columns[2],
+			number: parseInt(columns[3]),
+			salish: columns[4],
+			nicodemus: columns[5],
+			english: columns[6]
+		});
+	});
+	console.log("I have a roots table");
+}
+
+//makeRootTable();
 app.use('/', (req, res) => res.send("Welcome COLRC User"));
 app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
