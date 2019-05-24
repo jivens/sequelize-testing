@@ -84,6 +84,7 @@ User
 .then(() => {
   // Table created
   return User.create({
+<<<<<<< HEAD
     first: "John",
     last: "Ivens",
     username: "jivens",
