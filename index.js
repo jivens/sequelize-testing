@@ -66,7 +66,9 @@ sequelize
 // User model for sequelize
 //
 const User = sequelize.define('user', {
-  name: { type: Sequelize.STRING },
+  first: { type: Sequelize.STRING },
+  last: { type: Sequelize.STRING },
+  username: { type: Sequelize.STRING },
   email: { type: Sequelize.STRING },
   password: { type: Sequelize.STRING },
   roles: { type: Sequelize.STRING }
@@ -82,7 +84,9 @@ User
 .then(() => {
   // Table created
   return User.create({
-    name: "John Ivensɛ́ʕ'ʷ",
+    first: "John",
+    last: "Ivens",
+    username: "jivens",
     email: 'john.wagner.ivens@gmail.com',
     password: 'john.wagner.ivens@gmail.com',
     roles: "admin"
@@ -95,7 +99,9 @@ User
   }).then((res) => {
     return [{
       id: res.dataValues.id,
-      name: res.dataValues.name,
+      first: res.dataValues.first,
+      last: res.dataValues.last,
+      username: res.dataValues.username,
       email: res.dataValues.email,
       roles: res.dataValues.roles.split(',')
     }];
