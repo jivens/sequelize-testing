@@ -84,7 +84,6 @@ User
 .then(() => {
   // Table created
   return User.create({
-<<<<<<< HEAD
     first: "John",
     last: "Ivens",
     username: "jivens",
@@ -139,6 +138,20 @@ const Affix = sequelize.define('affix', {
   collate: 'utf8mb4_unicode_ci'
 });
 
+const Stems = sequelize.define('stem', {
+  category: { type: Sequelize.STRING },
+  reichard: { type: Sequelize.STRING },
+  doak: { type: Sequelize.STRING },
+  salish: { type: Sequelize.STRING },
+  nicodemus: { type: Sequelize.STRING },
+  english: { type: Sequelize.STRING },
+  note: { type: Sequelize.STRING },
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
 async function makeAffixTable(){
 	await Affix.sync({force: true});
 	var fs = require('fs');
@@ -157,7 +170,7 @@ async function makeAffixTable(){
 	});
 	console.log("I have an affixes table");
 }
-makeAffixTable();
+//makeAffixTable();
 
 async function makeRootTable(){
 	await Root.sync({force: true});
@@ -177,6 +190,29 @@ async function makeRootTable(){
 	console.log("I have a roots table");
 }
 
+async function makeStemTable(){
+	await Stems.sync({force: true});
+	var fs = require('fs');
+	var contents = fs. readFileSync('/Users/angel/Documents/src/stems_both_lists.txt', 'utf8');
+	var rows = contents.split("\n");
+	rows.forEach(async function (row, index) {
+		columns = row.split(":::");
+		await Stems.create({
+      category: columns[0],
+      reichard: columns[2],
+      doak: columns[3],
+			salish: columns[4],
+			nicodemus: columns[5],
+			english: columns[6],
+			note: columns[7]
+		});
+	});
+	console.log("I have a stems table");
+}
+
 //makeRootTable();
+
+makeStemTable();
+
 app.use('/', (req, res) => res.send("Welcome COLRC User"));
 app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
