@@ -138,7 +138,7 @@ const Affix = sequelize.define('affix', {
   collate: 'utf8mb4_unicode_ci'
 });
 
-const Stems = sequelize.define('stem', {
+const Stem = sequelize.define('stem', {
   category: { type: Sequelize.STRING },
   reichard: { type: Sequelize.STRING },
   doak: { type: Sequelize.STRING },
@@ -170,7 +170,6 @@ async function makeAffixTable(){
 	});
 	console.log("I have an affixes table");
 }
-//makeAffixTable();
 
 async function makeRootTable(){
 	await Root.sync({force: true});
@@ -191,13 +190,13 @@ async function makeRootTable(){
 }
 
 async function makeStemTable(){
-	await Stems.sync({force: true});
+	await Stem.sync({force: true});
 	var fs = require('fs');
 	var contents = fs. readFileSync('/Users/angel/Documents/src/stems_both_lists.txt', 'utf8');
 	var rows = contents.split("\n");
 	rows.forEach(async function (row, index) {
 		columns = row.split(":::");
-		await Stems.create({
+		await Stem.create({
       category: columns[0],
       reichard: columns[2],
       doak: columns[3],
@@ -210,9 +209,11 @@ async function makeStemTable(){
 	console.log("I have a stems table");
 }
 
+//makeAffixTable();
+
 //makeRootTable();
 
-makeStemTable();
+//makeStemTable();
 
 app.use('/', (req, res) => res.send("Welcome COLRC User"));
 app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
