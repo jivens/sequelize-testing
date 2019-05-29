@@ -120,6 +120,7 @@ const Root = sequelize.define('root', {
   salish: { type: Sequelize.STRING },
   nicodemus: { type: Sequelize.STRING },
   english: { type: Sequelize.STRING },
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -184,7 +185,8 @@ async function makeRootTable(){
 			number: parseInt(columns[3]),
 			salish: columns[4],
 			nicodemus: columns[5],
-			english: columns[6]
+			english: columns[6],
+      userId: "1"
 		});
 	});
 	console.log("I have a roots table");
@@ -193,7 +195,7 @@ async function makeRootTable(){
 async function makeStemTable(){
 	await Stem.sync({force: true});
 	var fs = require('fs');
-	var contents = fs. readFileSync('/Users/angel/Documents/src/stems_both_lists.txt', 'utf8');
+	var contents = fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/stems_both_lists.txt', 'utf8');
 	var rows = contents.split("\n");
 	rows.forEach(async function (row, index) {
 		columns = row.split(":::");
@@ -212,7 +214,7 @@ async function makeStemTable(){
 
 //makeAffixTable();
 
-//makeRootTable();
+makeRootTable();
 
 //makeStemTable();
 
