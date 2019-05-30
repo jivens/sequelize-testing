@@ -176,7 +176,7 @@ async function makeAffixTable(){
 async function makeRootTable(){
 	await Root.sync({force: true});
 	var fs = require('fs');
-	var contents = fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/entries.txt', 'utf8');
+	var contents = fs. readFileSync('/Users/avf/OneDrive - University of Arizona/Desktop/entries.txt', 'utf8');
 	var rows = contents.split("\n");
 	rows.forEach(async function (row, index) {
 		columns = row.split(":::");
@@ -186,7 +186,7 @@ async function makeRootTable(){
 			salish: columns[4],
 			nicodemus: columns[5],
 			english: columns[6],
-      userId: "1"
+      		userId: "1"
 		});
 	});
 	console.log("I have a roots table");
