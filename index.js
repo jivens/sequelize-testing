@@ -79,39 +79,40 @@ const User = sequelize.define('user', {
 });
 
 // force: true will drop the table if it already exists
-User
-.sync({force: true})
-.then(() => {
-  // Table created
-  return User.create({
-    first: "John",
-    last: "Ivens",
-    username: "jivens",
-    password: 'john.wagner.ivens@gmail.com',
-    email: 'john.wagner.ivens@gmail.com',
-    roles: "admin"
-  });
-})
-.then((user) => {
-  console.log(user);
-  return User.findOne({
-    where: { id: 1 }
-  }).then((res) => {
-    return [{
-      id: res.dataValues.id,
-      first: res.dataValues.first,
-      last: res.dataValues.last,
-      username: res.dataValues.username,
-      password: res.dataValues.password,
-      email: res.dataValues.email,
-      roles: res.dataValues.roles.split(',')
-    }];
-  });
-})
-.then((newuser) => {
-  console.log(newuser);
-  console.log("John Ivens");
-});
+// User
+// .sync({force: true})
+// .then(() => {
+//   // Table created
+//   return User.create({
+//     first: "John",
+//     last: "Ivens",
+//     username: "jivens",
+//     email: 'john.wagner.ivens@gmail.com',
+//     password: 'john.wagner.ivens@gmail.com',
+//     email: 'john.wagner.ivens@gmail.com',
+//     roles: "admin"
+//   });
+// })
+// .then((user) => {
+//   console.log(user);
+//   return User.findOne({
+//     where: { id: 1 }
+//   }).then((res) => {
+//     return [{
+//       id: res.dataValues.id,
+//       first: res.dataValues.first,
+//       last: res.dataValues.last,
+//       username: res.dataValues.username,
+//       password: res.dataValues.password,
+//       email: res.dataValues.email,
+//       roles: res.dataValues.roles.split(',')
+//     }];
+//   });
+// })
+// .then((newuser) => {
+//   console.log(newuser);
+//   console.log("John Ivens");
+// });
 
 const Root = sequelize.define('root', {
   root: { type: Sequelize.STRING },
@@ -119,6 +120,7 @@ const Root = sequelize.define('root', {
   salish: { type: Sequelize.STRING },
   nicodemus: { type: Sequelize.STRING },
   english: { type: Sequelize.STRING },
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -155,7 +157,7 @@ const Stem = sequelize.define('stem', {
 async function makeAffixTable(){
 	await Affix.sync({force: true});
 	var fs = require('fs');
-	var contents = fs. readFileSync('/Users/avf/OneDrive - University of Arizona/Desktop/affixes.txt', 'utf8');
+	var contents = fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/affixes.txt', 'utf8');
 	var rows = contents.split("\n");
 	rows.forEach(async function (row, index) {
 		columns = row.split(":::");
@@ -170,12 +172,11 @@ async function makeAffixTable(){
 	});
 	console.log("I have an affixes table");
 }
-//makeAffixTable();
 
 async function makeRootTable(){
 	await Root.sync({force: true});
 	var fs = require('fs');
-	var contents = fs. readFileSync('/Users/avf/OneDrive - University of Arizona/Desktop/entries.txt', 'utf8');
+	var contents = fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/entries.txt', 'utf8');
 	var rows = contents.split("\n");
 	rows.forEach(async function (row, index) {
 		columns = row.split(":::");
@@ -184,7 +185,8 @@ async function makeRootTable(){
 			number: parseInt(columns[3]),
 			salish: columns[4],
 			nicodemus: columns[5],
-			english: columns[6]
+			english: columns[6],
+      userId: "1"
 		});
 	});
 	console.log("I have a roots table");
@@ -210,9 +212,11 @@ async function makeStemTable(){
 	console.log("I have a stems table");
 }
 
-//makeRootTable();
+//makeAffixTable();
 
-makeStemTable();
+makeRootTable();
+
+//makeStemTable();
 
 app.use('/', (req, res) => res.send("Welcome COLRC User"));
 app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
