@@ -157,7 +157,7 @@ const Stem = sequelize.define('stem', {
 async function makeAffixTable(){
 	await Affix.sync({force: true});
 	var fs = require('fs');
-	var contents = fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/affixes.txt', 'utf8');
+	var contents = fs. readFileSync('/Users/angel/Documents/src/data_files/affixes.txt', 'utf8');
 	var rows = contents.split("\n");
 	rows.forEach(async function (row, index) {
 		columns = row.split(":::");
@@ -176,7 +176,7 @@ async function makeAffixTable(){
 async function makeRootTable(){
 	await Root.sync({force: true});
 	var fs = require('fs');
-	var contents = fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/entries.txt', 'utf8');
+	var contents = fs. readFileSync('/Users/angel/Documents/src/data_files/entries.txt', 'utf8');
 	var rows = contents.split("\n");
 	rows.forEach(async function (row, index) {
 		columns = row.split(":::");
@@ -195,7 +195,7 @@ async function makeRootTable(){
 async function makeStemTable(){
 	await Stem.sync({force: true});
 	var fs = require('fs');
-	var contents = fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/stems_both_lists.txt', 'utf8');
+	var contents = fs. readFileSync('/Users/angel/Documents/src/data_files/stems_both_lists.txt', 'utf8');
 	var rows = contents.split("\n");
 	rows.forEach(async function (row, index) {
 		columns = row.split(":::");
@@ -214,7 +214,7 @@ async function makeStemTable(){
 
 //makeAffixTable();
 
-makeRootTable();
+// makeRootTable();
 
 //makeStemTable();
 
