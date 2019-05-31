@@ -185,52 +185,61 @@ async function makeAffixTable(){
 }
 
 async function makeRootTable(){
-	await Root.sync({force: true});
-	var fs = require('fs');
-	var contents = fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/entries.txt', 'utf8');
-	var rows = contents.split("\n");
-	rows.forEach(async function (row, index) {
-		columns = row.split(":::");
-		await Root.create({
-			root: columns[2],
-			number: parseInt(columns[3]),
-			salish: columns[4],
-			nicodemus: columns[5],
-			english: columns[6],
-      		active: 'Y',
-      		prevId: Sequelize.NULL,
-      		userId: "1"
-		});
-	});
-	console.log("I have a roots table");
+  try {
+  	await Root.sync({force: true});
+  	var fs = require('fs');
+  	var contents = await fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/entries.txt', 'utf8');
+  	var rows = contents.split("\n");
+  	rows.forEach(async function (row, index) {
+  		columns = row.split(":::");
+  		await Root.create({
+  			root: columns[2],
+  			number: parseInt(columns[3]),
+  			salish: columns[4],
+  			nicodemus: columns[5],
+  			english: columns[6],
+        		active: 'Y',
+        		prevId: Sequelize.NULL,
+        		userId: "1"
+  		});
+  	});
+  	console.log("I have a roots table");
+  } catch (err) {
+    console.log(err);
+  }
 }
 
 async function makeStemTable(){
-	await Stem.sync({force: true});
-	var fs = require('fs');
-	var contents = fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/stems_both_lists.txt', 'utf8');
-	var rows = contents.split("\n");
-	rows.forEach(async function (row, index) {
-		columns = row.split(":::");
-		await Stem.create({
-      category: columns[0],
-      reichard: columns[2],
-      doak: columns[3],
-			salish: columns[4],
-			nicodemus: columns[5],
-			english: columns[6],
-			note: columns[7],
-      		active: 'Y',
-      		prevId: Sequelize.NULL,
-      		userId: "1"
-		});
-	});
-	console.log("I have a stems table");
+  try {
+  	await Stem.sync({force: true});
+  	var fs = require('fs');
+  	var contents = fs.readFileSync('/Users/johnw/Documents/COLRC/data_files/stems_both_lists.txt', 'utf8');
+  	var rows = contents.split("\n");
+  	rows.forEach(async function (row, index) {
+  		columns = row.split(":::");
+  		await Stem.create({
+        category: columns[0],
+        reichard: columns[2],
+        doak: columns[3],
+  			salish: columns[4],
+  			nicodemus: columns[5],
+  			english: columns[6],
+  			note: columns[7],
+        		active: 'Y',
+        		prevId: Sequelize.NULL,
+        		userId: "1"
+  		});
+  	});
+  	console.log("I have a stems table");
+  }
+  catch (err) {
+    console.log(err);
+  }
 }
 
 //makeAffixTable();
 
-//makeRootTable();
+makeRootTable();
 
 //makeStemTable();
 
