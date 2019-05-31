@@ -120,6 +120,8 @@ const Root = sequelize.define('root', {
   salish: { type: Sequelize.STRING },
   nicodemus: { type: Sequelize.STRING },
   english: { type: Sequelize.STRING },
+  active: { type: Sequelize.STRING(1) },
+  prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.STRING }
 },
 {
@@ -186,6 +188,8 @@ async function makeRootTable(){
 			salish: columns[4],
 			nicodemus: columns[5],
 			english: columns[6],
+      active: 'Y',
+      prevId: Sequelize.NULL,
       userId: "1"
 		});
 	});
