@@ -150,6 +150,9 @@ const Stem = sequelize.define('stem', {
   nicodemus: { type: Sequelize.STRING },
   english: { type: Sequelize.STRING },
   note: { type: Sequelize.STRING },
+  active: { type: Sequelize.STRING(1) },
+  prevId: { type: Sequelize.INTEGER },
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -210,15 +213,18 @@ async function makeStemTable(){
 			salish: columns[4],
 			nicodemus: columns[5],
 			english: columns[6],
-			note: columns[7]
+      note: columns[7],
+      active: 'Y',
+      prevId: Sequelize.NULL,
+      userId: "1"
 		});
 	});
 	console.log("I have a stems table");
 }
 
-//makeAffixTable();
+makeAffixTable();
 
-// makeRootTable();
+makeRootTable();
 
 //makeStemTable();
 
