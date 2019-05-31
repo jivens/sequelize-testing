@@ -188,7 +188,7 @@ async function makeRootTable(){
   try {
   	await Root.sync({force: true});
   	var fs = require('fs');
-  	var contents = await fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/entries.txt', 'utf8');
+  	var contents = await fs. readFileSync('/Users/angel/Documents/src/data_files/entries.txt', 'utf8');
   	var rows = contents.split("\n");
   	rows.forEach(async function (row, index) {
   		columns = row.split(":::");
