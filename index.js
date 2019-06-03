@@ -43,7 +43,7 @@ const sequelize = new Sequelize(
     host: process.env.DB_HOST,
     dialect: process.env.DB_DIALECT,
     //operatorsAliases: false,
-    pool: { max: 5, min: 0, acquire: 30000, idle: 10000 },
+    pool: { max: 5, min: 0, acquire: 300000, idle: 10000 },
     define: {
       charset: 'utf8mb4',
       collate: 'utf8mb4_unicode_ci',
@@ -239,7 +239,7 @@ async function makeStemTable(){
 
 //makeAffixTable();
 
-makeRootTable();
+// makeRootTable();
 
 //makeStemTable();
 
