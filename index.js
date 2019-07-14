@@ -79,40 +79,40 @@ const User = sequelize.define('user', {
 });
 
 // force: true will drop the table if it already exists
-// User
-// .sync({force: true})
-// .then(() => {
-//   // Table created
-//   return User.create({
-//     first: "John",
-//     last: "Ivens",
-//     username: "jivens",
-//     email: 'john.wagner.ivens@gmail.com',
-//     password: 'john.wagner.ivens@gmail.com',
-//     email: 'john.wagner.ivens@gmail.com',
-//     roles: "admin"
-//   });
-// })
-// .then((user) => {
-//   console.log(user);
-//   return User.findOne({
-//     where: { id: 1 }
-//   }).then((res) => {
-//     return [{
-//       id: res.dataValues.id,
-//       first: res.dataValues.first,
-//       last: res.dataValues.last,
-//       username: res.dataValues.username,
-//       password: res.dataValues.password,
-//       email: res.dataValues.email,
-//       roles: res.dataValues.roles.split(',')
-//     }];
-//   });
-// })
-// .then((newuser) => {
-//   console.log(newuser);
-//   console.log("John Ivens");
-// });
+User
+.sync({force: true})
+.then(() => {
+  // Table created
+  return User.create({
+    first: "John",
+    last: "Ivens",
+    username: "jivens",
+    email: 'john.wagner.ivens@gmail.com',
+    password: 'john.wagner.ivens@gmail.com',
+    email: 'john.wagner.ivens@gmail.com',
+    roles: "admin"
+  });
+})
+.then((user) => {
+  console.log(user);
+  return User.findOne({
+    where: { id: 1 }
+  }).then((res) => {
+    return [{
+      id: res.dataValues.id,
+      first: res.dataValues.first,
+      last: res.dataValues.last,
+      username: res.dataValues.username,
+      password: res.dataValues.password,
+      email: res.dataValues.email,
+      roles: res.dataValues.roles.split(',')
+    }];
+  });
+})
+.then((newuser) => {
+  console.log(newuser);
+  console.log("John Ivens");
+});
 
 const Root = sequelize.define('root', {
   root: { type: Sequelize.STRING },
@@ -239,7 +239,7 @@ async function makeStemTable(){
 
 //makeAffixTable();
 
-makeRootTable();
+//makeRootTable();
 
 //makeStemTable();
 
