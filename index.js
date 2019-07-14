@@ -136,6 +136,9 @@ const Affix = sequelize.define('affix', {
   english: { type: Sequelize.STRING },
   link: { type: Sequelize.STRING },
   page: { type: Sequelize.STRING },
+  active: { type: Sequelize.STRING(1) },
+  prevId: { type: Sequelize.INTEGER },
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -150,6 +153,9 @@ const Stem = sequelize.define('stem', {
   nicodemus: { type: Sequelize.STRING },
   english: { type: Sequelize.STRING },
   note: { type: Sequelize.STRING },
+  active: { type: Sequelize.STRING(1) },
+  prevId: { type: Sequelize.INTEGER },
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -169,7 +175,10 @@ async function makeAffixTable(){
 			nicodemus: columns[2],
 			english: columns[3],
 			link: columns[4],
-			page: columns[5]
+			page: columns[5],
+      		active: 'Y',
+      		prevId: Sequelize.NULL,
+      		userId: "1"
 		});
 	});
 	console.log("I have an affixes table");
