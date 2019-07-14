@@ -62,21 +62,21 @@ sequelize
 });
 // ****** Set up default MYSQL connection END ****** //
 
-//
+
 // User model for sequelize
-//
-const User = sequelize.define('user', {
-  first: { type: Sequelize.STRING },
-  last: { type: Sequelize.STRING },
-  username: { type: Sequelize.STRING },
-  email: { type: Sequelize.STRING },
-  password: { type: Sequelize.STRING },
-  roles: { type: Sequelize.STRING }
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
+
+// const User = sequelize.define('user', {
+//   first: { type: Sequelize.STRING },
+//   last: { type: Sequelize.STRING },
+//   username: { type: Sequelize.STRING },
+//   email: { type: Sequelize.STRING },
+//   password: { type: Sequelize.STRING },
+//   roles: { type: Sequelize.STRING }
+// },
+// {
+//   charset: 'utf8mb4',
+//   collate: 'utf8mb4_unicode_ci'
+// });
 
 // force: true will drop the table if it already exists
 // User
@@ -84,12 +84,11 @@ const User = sequelize.define('user', {
 // .then(() => {
 //   // Table created
 //   return User.create({
-//     first: "John",
-//     last: "Ivens",
-//     username: "jivens",
-//     email: 'john.wagner.ivens@gmail.com',
-//     password: 'john.wagner.ivens@gmail.com',
-//     email: 'john.wagner.ivens@gmail.com',
+//     first: "Original",
+//     last: "Data",
+//     username: "original",
+//     email: 'colrc@gmail.com',
+//     password: 'colrc@gmail.com',
 //     roles: "admin"
 //   });
 // })
@@ -111,7 +110,7 @@ const User = sequelize.define('user', {
 // })
 // .then((newuser) => {
 //   console.log(newuser);
-//   console.log("John Ivens");
+//   console.log("COLRC");
 // });
 
 const Root = sequelize.define('root', {
@@ -120,6 +119,7 @@ const Root = sequelize.define('root', {
   salish: { type: Sequelize.STRING },
   nicodemus: { type: Sequelize.STRING },
   english: { type: Sequelize.STRING },
+  editnote: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.STRING }
@@ -136,6 +136,10 @@ const Affix = sequelize.define('affix', {
   english: { type: Sequelize.STRING },
   link: { type: Sequelize.STRING },
   page: { type: Sequelize.STRING },
+  editnote: { type: Sequelize.STRING },
+  active: { type: Sequelize.STRING(1) },
+  prevId: { type: Sequelize.INTEGER },
+  userId: { type: Sequelize.STRING }  
 },
 {
   charset: 'utf8mb4',
@@ -150,6 +154,10 @@ const Stem = sequelize.define('stem', {
   nicodemus: { type: Sequelize.STRING },
   english: { type: Sequelize.STRING },
   note: { type: Sequelize.STRING },
+  editnote: { type: Sequelize.STRING },
+  active: { type: Sequelize.STRING(1) },
+  prevId: { type: Sequelize.INTEGER },
+  userId: { type: Sequelize.STRING }  
 },
 {
   charset: 'utf8mb4',
@@ -159,7 +167,7 @@ const Stem = sequelize.define('stem', {
 async function makeAffixTable(){
 	await Affix.sync({force: true});
 	var fs = require('fs');
-	var contents = fs. readFileSync('/Users/johnw/Documents/COLRC/data_files/affixes.txt', 'utf8');
+	var contents = fs. readFileSync('/Users/avf/OneDrive - University of Arizona/Desktop/affixes.txt', 'utf8');
 	var rows = contents.split("\n");
 	rows.forEach(async function (row, index) {
 		columns = row.split(":::");
@@ -169,7 +177,11 @@ async function makeAffixTable(){
 			nicodemus: columns[2],
 			english: columns[3],
 			link: columns[4],
-			page: columns[5]
+			page: columns[5],
+      editnote: Sequelize.NULL,
+      active: 'Y',
+      prevId: Sequelize.NULL,
+      userId: "1"
 		});
 	});
 	console.log("I have an affixes table");
@@ -188,9 +200,10 @@ async function makeRootTable(){
 			salish: columns[4],
 			nicodemus: columns[5],
 			english: columns[6],
-      		active: 'Y',
-      		prevId: Sequelize.NULL,
-      		userId: "1"
+      editnote: Sequelize.NULL,
+      active: 'Y',
+      prevId: Sequelize.NULL,
+      userId: "1"
 		});
 	});
 	console.log("I have a roots table");
@@ -210,17 +223,21 @@ async function makeStemTable(){
 			salish: columns[4],
 			nicodemus: columns[5],
 			english: columns[6],
-			note: columns[7]
+			note: columns[7],
+      editnote: Sequelize.NULL,
+      active: 'Y',
+      prevId: Sequelize.NULL,
+      userId: "1"
 		});
 	});
 	console.log("I have a stems table");
 }
 
-//makeAffixTable();
+makeAffixTable();
 
-makeRootTable();
+//makeRootTable();
 
 //makeStemTable();
 
-app.use('/', (req, res) => res.send("Welcome COLRC User"));
-app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
+// app.use('/', (req, res) => res.send("Welcome COLRC User"));
+// app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
