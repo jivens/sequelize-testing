@@ -213,7 +213,7 @@ async function makeStemTable(){
   try {
   	await Stem.sync({force: true});
   	var fs = require('fs');
-  	var contents = fs.readFileSync('/Users/johnw/Documents/COLRC/data_files/stems_both_lists.txt', 'utf8');
+  	var contents = fs.readFileSync('/Users/angel/Documents/src/data_files/stems_both_lists.txt', 'utf8');
   	var rows = contents.split("\n");
   	rows.forEach(async function (row, index) {
   		columns = row.split(":::");
@@ -237,11 +237,11 @@ async function makeStemTable(){
   }
 }
 
-//makeAffixTable();
+// makeAffixTable();
 
 // makeRootTable();
 
-//makeStemTable();
+makeStemTable();
 
 app.use('/', (req, res) => res.send("Welcome COLRC User"));
 app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
