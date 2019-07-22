@@ -62,34 +62,34 @@ sequelize
 });
 // ****** Set up default MYSQL connection END ****** //
 
-//
-// User model for sequelize
-//
-const User = sequelize.define('user', {
-  first: { type: Sequelize.STRING },
-  last: { type: Sequelize.STRING },
-  username: { type: Sequelize.STRING },
-  email: { type: Sequelize.STRING },
-  password: { type: Sequelize.STRING },
-  roles: { type: Sequelize.STRING }
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
 
-// force: true will drop the table if it already exists
+// User model for sequelize
+
+// const User = sequelize.define('user', {
+//   first: { type: Sequelize.STRING },
+//   last: { type: Sequelize.STRING },
+//   username: { type: Sequelize.STRING },
+//   email: { type: Sequelize.STRING },
+//   password: { type: Sequelize.STRING },
+//   roles: { type: Sequelize.STRING }
+// },
+// {
+//   charset: 'utf8mb4',
+//   collate: 'utf8mb4_unicode_ci'
+// });
+
+// // force: true will drop the table if it already exists
+
 // User
 // .sync({force: true})
 // .then(() => {
 //   // Table created
 //   return User.create({
-//     first: "John",
-//     last: "Ivens",
-//     username: "jivens",
-//     email: 'john.wagner.ivens@gmail.com',
-//     password: 'john.wagner.ivens@gmail.com',
-//     email: 'john.wagner.ivens@gmail.com',
+//     first: "Original",
+//     last: "Data",
+//     username: "original",
+//     email: 'colrc@gmail.com',
+//     password: 'colrc@gmail.com',
 //     roles: "admin"
 //   });
 // })
@@ -111,7 +111,7 @@ const User = sequelize.define('user', {
 // })
 // .then((newuser) => {
 //   console.log(newuser);
-//   console.log("John Ivens");
+//   console.log("COLRC");
 // });
 
 const Root = sequelize.define('root', {
@@ -120,6 +120,7 @@ const Root = sequelize.define('root', {
   salish: { type: Sequelize.STRING },
   nicodemus: { type: Sequelize.STRING },
   english: { type: Sequelize.STRING },
+  editnote: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.STRING }
@@ -136,9 +137,10 @@ const Affix = sequelize.define('affix', {
   english: { type: Sequelize.STRING },
   link: { type: Sequelize.STRING },
   page: { type: Sequelize.STRING },
+  editnote: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }
+  userId: { type: Sequelize.STRING }  
 },
 {
   charset: 'utf8mb4',
@@ -153,9 +155,10 @@ const Stem = sequelize.define('stem', {
   nicodemus: { type: Sequelize.STRING },
   english: { type: Sequelize.STRING },
   note: { type: Sequelize.STRING },
+  editnote: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }
+  userId: { type: Sequelize.STRING }  
 },
 {
   charset: 'utf8mb4',
@@ -176,65 +179,59 @@ async function makeAffixTable(){
 			english: columns[3],
 			link: columns[4],
 			page: columns[5],
-      		active: 'Y',
-      		prevId: Sequelize.NULL,
-      		userId: "1"
+      editnote: Sequelize.NULL,
+      active: 'Y',
+      prevId: Sequelize.NULL,
+      userId: "1"
 		});
 	});
 	console.log("I have an affixes table");
 }
 
 async function makeRootTable(){
-  try {
-  	await Root.sync({force: true});
-  	var fs = require('fs');
-  	var contents = await fs. readFileSync('/Users/angel/Documents/src/data_files/entries.txt', 'utf8');
-  	var rows = contents.split("\n");
-  	rows.forEach(async function (row, index) {
-  		columns = row.split(":::");
-  		await Root.create({
-  			root: columns[2],
-  			number: parseInt(columns[3]),
-  			salish: columns[4],
-  			nicodemus: columns[5],
-  			english: columns[6],
-        		active: 'Y',
-        		prevId: Sequelize.NULL,
-        		userId: "1"
-  		});
-  	});
-  	console.log("I have a roots table");
-  } catch (err) {
-    console.log(err);
-  }
+	await Root.sync({force: true});
+	var fs = require('fs');
+	var contents = fs. readFileSync('/Users/angel/Documents/src/data_files/entries.txt', 'utf8');
+	var rows = contents.split("\n");
+	rows.forEach(async function (row, index) {
+		columns = row.split(":::");
+		await Root.create({
+			root: columns[2],
+			number: parseInt(columns[3]),
+			salish: columns[4],
+			nicodemus: columns[5],
+			english: columns[6],
+      editnote: Sequelize.NULL,
+      active: 'Y',
+      prevId: Sequelize.NULL,
+      userId: "1"
+		});
+	});
+	console.log("I have a roots table");
 }
 
 async function makeStemTable(){
-  try {
-  	await Stem.sync({force: true});
-  	var fs = require('fs');
-  	var contents = fs.readFileSync('/Users/angel/Documents/src/data_files/stems_both_lists.txt', 'utf8');
-  	var rows = contents.split("\n");
-  	rows.forEach(async function (row, index) {
-  		columns = row.split(":::");
-  		await Stem.create({
-        category: columns[0],
-        reichard: columns[2],
-        doak: columns[3],
-  			salish: columns[4],
-  			nicodemus: columns[5],
-  			english: columns[6],
-  			note: columns[7],
-        		active: 'Y',
-        		prevId: Sequelize.NULL,
-        		userId: "1"
-  		});
-  	});
-  	console.log("I have a stems table");
-  }
-  catch (err) {
-    console.log(err);
-  }
+	await Stem.sync({force: true});
+	var fs = require('fs');
+	var contents = fs. readFileSync('/Users/angel/Documents/src/data_files/stems_both_lists.txt', 'utf8');
+	var rows = contents.split("\n");
+	rows.forEach(async function (row, index) {
+		columns = row.split(":::");
+		await Stem.create({
+      category: columns[0],
+      reichard: columns[2],
+      doak: columns[3],
+			salish: columns[4],
+			nicodemus: columns[5],
+			english: columns[6],
+			note: columns[7],
+      editnote: Sequelize.NULL,
+      active: 'Y',
+      prevId: Sequelize.NULL,
+      userId: "1"
+		});
+	});
+	console.log("I have a stems table");
 }
 
 // makeAffixTable();
@@ -243,5 +240,5 @@ async function makeStemTable(){
 
 makeStemTable();
 
-app.use('/', (req, res) => res.send("Welcome COLRC User"));
-app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
+// app.use('/', (req, res) => res.send("Welcome COLRC User"));
+// app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
