@@ -234,9 +234,15 @@ async function makeStemTable(){
 	console.log("I have a stems table");
 }
 
+<<<<<<< HEAD
 // makeAffixTable();
 
 // makeRootTable();
+=======
+makeAffixTable();
+
+//makeRootTable();
+>>>>>>> origin
 
 makeStemTable();
 
