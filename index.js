@@ -1,3 +1,4 @@
+const data = require('./Data');
 const express = require('express');
 const app = express();
 // store config variables in dotenv
@@ -113,6 +114,18 @@ sequelize
 //   console.log("COLRC");
 // });
 
+const Spelling = sequelize.define('spelling', {
+  reichard: { type: Sequelize.STRING },
+  nicodemus: { type: Sequelize.STRING },
+  salish: { type: Sequelize.STRING },
+  english: { type: Sequelize.STRING },
+  note: { type: Sequelize.STRING }    
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
 const Root = sequelize.define('root', {
   root: { type: Sequelize.STRING },
   number: { type: Sequelize.INTEGER },
@@ -163,7 +176,19 @@ const Stem = sequelize.define('stem', {
   charset: 'utf8mb4',
   collate: 'utf8mb4_unicode_ci'
 });
-
+async function makeSpellingTable(){
+  await Spelling.sync({force: true});
+  data.spelling.forEach(async function (row) {
+    await Spelling.create({
+      reichard: row.reichard,
+      salish: row.salish,
+      nicodemus: row.nicodemus,
+      english: row.english,
+      note: row.note,
+    });
+  });
+  console.log("I have an spelling table");
+}
 async function makeAffixTable(){
 	await Affix.sync({force: true});
 	var fs = require('fs');
@@ -233,7 +258,9 @@ async function makeStemTable(){
 	console.log("I have a stems table");
 }
 
-makeAffixTable();
+makeSpellingTable();
+
+//makeAffixTable();
 
 //makeRootTable();
 
