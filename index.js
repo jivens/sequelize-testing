@@ -126,6 +126,39 @@ const Spelling = sequelize.define('spelling', {
   collate: 'utf8mb4_unicode_ci'
 });
 
+const Vowel = sequelize.define('vowel', {
+  orthography: { type: Sequelize.STRING },
+  height: { type: Sequelize.STRING },
+  front: { type: Sequelize.STRING },
+  central: { type: Sequelize.STRING },
+  back: { type: Sequelize.STRING }    
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
+const Consonant = sequelize.define('consonant', {
+  orthography: { type: Sequelize.STRING },
+  type: { type: Sequelize.STRING },
+  voice: { type: Sequelize.STRING },
+  manner: { type: Sequelize.STRING },
+  secondary: { type: Sequelize.STRING },
+  labial: { type: Sequelize.STRING },
+  alveolar: { type: Sequelize.STRING },
+  alveopalatal: { type: Sequelize.STRING },
+  lateral: { type: Sequelize.STRING },
+  palatal: { type: Sequelize.STRING },
+  velar: { type: Sequelize.STRING },
+  uvular: { type: Sequelize.STRING },
+  glottal: { type: Sequelize.STRING },
+  pharyngeal: { type: Sequelize.STRING }    
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
 const Root = sequelize.define('root', {
   root: { type: Sequelize.STRING },
   number: { type: Sequelize.INTEGER },
@@ -176,6 +209,44 @@ const Stem = sequelize.define('stem', {
   charset: 'utf8mb4',
   collate: 'utf8mb4_unicode_ci'
 });
+
+async function makeVowelTable(){
+  await Vowel.sync({force: true});
+  data.vowels.forEach(async function (row) {
+    await Vowel.create({
+      orthography: row.orthography,
+      height: row.height,
+      front: row.front,
+      central: row.central,
+      back: row.back,
+    });
+  });
+  console.log("I have a vowel table");
+}
+
+async function makeConsonantTable(){
+  console.log(data.consonants)
+  await Consonant.sync({force: true});
+  data.consonants.forEach(async function (row) {
+    await Consonant.create({
+      orthography: row.orthography ? row.orthography : '',
+      voice: row.voice ? row.voice : '',
+      manner: row.manner ? row.manner : '',
+      secondary: row.secondary ? row.secondary : '',
+      labial: row.labial ? row.labial : '',
+      alveolar: row.alveolar ? row.alveolar : '',
+      alveopalatal: row.alveopalatal ? row.alveopalatal : '',
+      lateral: row.lateral ? row.lateral : '',
+      palatal: row.palatal ? row.palatal : '',
+      velar: row.velar ? row.velar : '',
+      uvular: row.uvular ? row.uvular : '',
+      glottal: row.glottal ? row.glottal : '',
+      pharyngeal: row.pharyngeal ? row.pharyngeal : '',
+    });
+  });
+  console.log("I have a consonant table");
+}
+
 async function makeSpellingTable(){
   await Spelling.sync({force: true});
   data.spelling.forEach(async function (row) {
@@ -189,6 +260,7 @@ async function makeSpellingTable(){
   });
   console.log("I have an spelling table");
 }
+
 async function makeAffixTable(){
 	await Affix.sync({force: true});
 	var fs = require('fs');
@@ -257,8 +329,11 @@ async function makeStemTable(){
 	});
 	console.log("I have a stems table");
 }
+makeVowelTable();
 
-makeSpellingTable();
+//makeConsonantTable();
+
+//makeSpellingTable();
 
 //makeAffixTable();
 

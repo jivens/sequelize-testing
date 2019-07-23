@@ -2307,5 +2307,7 @@ const textimages = [
   ]
 
 module.exports = {
-  spelling: spelling
+  spelling: spelling,
+  consonants: consonants,
+  vowels: vowels
 };
