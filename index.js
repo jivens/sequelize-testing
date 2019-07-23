@@ -295,6 +295,7 @@ async function makeBibliographyTable(){
 	console.log("I have a bibliography table");
 }
 
+makeSpellingTable();
 
 // makeUsersTable();
 
