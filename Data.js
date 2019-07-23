@@ -401,7 +401,8 @@ const textimages = [
       "year": "1996",
       "title": "A Dictionary of Coeur d'Alene Salish from Gladys Reichard's file slips",
       "reference": "University of Montana M.A. Thesis.",
-      "link": "https://scholarworks.umt.edu/etd/8274/"
+      "link": "https://scholarworks.umt.edu/etd/8274/",
+      "linktext": "here"
     },
     {
       "id": 2,
@@ -2307,5 +2308,14 @@ const textimages = [
   ]
 
 module.exports = {
-  spelling: spelling
+  spelling: spelling,
+  bibliography: bibliography,
+  vowels: vowels,
+  consonants: consonants,
+  texts: texts,
+  textfiles: textfiles,
+  textimages: textimages,
+  audiosets: audiosets,
+  audiofiles: audiofiles,
+  elicitations: elicitations
 };
