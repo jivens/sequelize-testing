@@ -1,3 +1,4 @@
+const data = require('./Data');
 const express = require('express');
 const app = express();
 // store config variables in dotenv
@@ -113,6 +114,18 @@ await User.sync({force: true})
   console.log("COLRC");
 });
 }
+
+const Spelling = sequelize.define('spelling', {
+  reichard: { type: Sequelize.STRING },
+  nicodemus: { type: Sequelize.STRING },
+  salish: { type: Sequelize.STRING },
+  english: { type: Sequelize.STRING },
+  note: { type: Sequelize.STRING }    
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
 
 const Spelling = sequelize.define('spelling', {
   reichard: { type: Sequelize.STRING },
