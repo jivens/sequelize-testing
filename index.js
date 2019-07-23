@@ -4,6 +4,7 @@ const app = express();
 require('dotenv').config();
 // ORM (Object-Relational Mapper library)
 const Sequelize = require('sequelize');
+const data = require('./Data')
 
 //****** Set up default mysql connection START ******
 // const mysql = require('mysql2');
@@ -64,55 +65,66 @@ sequelize
 
 
 // User model for sequelize
+const User = sequelize.define('user', {
+  first: { type: Sequelize.STRING },
+  last: { type: Sequelize.STRING },
+  username: { type: Sequelize.STRING },
+  email: { type: Sequelize.STRING },
+  password: { type: Sequelize.STRING },
+  roles: { type: Sequelize.STRING }
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
 
-// const User = sequelize.define('user', {
-//   first: { type: Sequelize.STRING },
-//   last: { type: Sequelize.STRING },
-//   username: { type: Sequelize.STRING },
-//   email: { type: Sequelize.STRING },
-//   password: { type: Sequelize.STRING },
-//   roles: { type: Sequelize.STRING }
-// },
-// {
-//   charset: 'utf8mb4',
-//   collate: 'utf8mb4_unicode_ci'
-// });
+async function makeUsersTable(){
+// force: true will drop the table if it already exists
+await User.sync({force: true})
+.then(() => {
+  // Table created
+  return User.create({
+    first: "Original",
+    last: "Data",
+    username: "original",
+    email: 'colrc@gmail.com',
+    password: 'colrc@gmail.com',
+    roles: "admin"
+  });
+})
+.then((user) => {
+  console.log(user);
+  return User.findOne({
+    where: { id: 1 }
+  }).then((res) => {
+    return [{
+      id: res.dataValues.id,
+      first: res.dataValues.first,
+      last: res.dataValues.last,
+      username: res.dataValues.username,
+      password: res.dataValues.password,
+      email: res.dataValues.email,
+      roles: res.dataValues.roles.split(',')
+    }];
+  });
+})
+.then((newuser) => {
+  console.log(newuser);
+  console.log("COLRC");
+});
+}
 
-// // force: true will drop the table if it already exists
-
-// User
-// .sync({force: true})
-// .then(() => {
-//   // Table created
-//   return User.create({
-//     first: "Original",
-//     last: "Data",
-//     username: "original",
-//     email: 'colrc@gmail.com',
-//     password: 'colrc@gmail.com',
-//     roles: "admin"
-//   });
-// })
-// .then((user) => {
-//   console.log(user);
-//   return User.findOne({
-//     where: { id: 1 }
-//   }).then((res) => {
-//     return [{
-//       id: res.dataValues.id,
-//       first: res.dataValues.first,
-//       last: res.dataValues.last,
-//       username: res.dataValues.username,
-//       password: res.dataValues.password,
-//       email: res.dataValues.email,
-//       roles: res.dataValues.roles.split(',')
-//     }];
-//   });
-// })
-// .then((newuser) => {
-//   console.log(newuser);
-//   console.log("COLRC");
-// });
+const Spelling = sequelize.define('spelling', {
+  reichard: { type: Sequelize.STRING },
+  nicodemus: { type: Sequelize.STRING },
+  salish: { type: Sequelize.STRING },
+  english: { type: Sequelize.STRING },
+  note: { type: Sequelize.STRING }    
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
 
 const Root = sequelize.define('root', {
   root: { type: Sequelize.STRING },
@@ -164,6 +176,36 @@ const Stem = sequelize.define('stem', {
   charset: 'utf8mb4',
   collate: 'utf8mb4_unicode_ci'
 });
+
+const Bibliography = sequelize.define('bibliography', {
+  author: { type: Sequelize.STRING },
+  year: { type: Sequelize.STRING },
+  title: { type: Sequelize.STRING },
+  reference: { type: Sequelize.STRING },
+  link: { type: Sequelize.STRING },
+  linktext: { type: Sequelize.STRING },
+  active: { type: Sequelize.STRING(1) },
+  prevId: { type: Sequelize.INTEGER },
+  userId: { type: Sequelize.STRING }  
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
+async function makeSpellingTable(){
+  await Spelling.sync({force: true});
+  data.spelling.forEach(async function (row) {
+    await Spelling.create({
+      reichard: row.reichard,
+      salish: row.salish,
+      nicodemus: row.nicodemus,
+      english: row.english,
+      note: row.note,
+    });
+  });
+  console.log("I have an spelling table");
+}
 
 async function makeAffixTable(){
 	await Affix.sync({force: true});
@@ -234,17 +276,35 @@ async function makeStemTable(){
 	console.log("I have a stems table");
 }
 
-<<<<<<< HEAD
+async function makeBibliographyTable(){
+	await Bibliography.sync({force: true});
+	var contents = data.bibliography;
+	contents.forEach(async function (row) {
+		await Bibliography.create({
+      author: row.author,
+      year: row.year,
+      title: row.title,
+      reference: row.reference,
+      link: row.link,
+      linktext: row.linktext,
+      active: 'Y',
+      prevId: Sequelize.NULL,
+      userId: "1"
+		});
+	});
+	console.log("I have a bibliography table");
+}
+
+
+// makeUsersTable();
+
 // makeAffixTable();
 
 // makeRootTable();
-=======
-makeAffixTable();
 
-//makeRootTable();
->>>>>>> origin
+// makeStemTable();
 
-makeStemTable();
+makeBibliographyTable();
 
 // app.use('/', (req, res) => res.send("Welcome COLRC User"));
 // app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
