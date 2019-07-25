@@ -345,9 +345,6 @@ async function makeStemTable(){
 	});
 	console.log("I have a stems table");
 }
-makeVowelTable();
-
-makeConsonantTable();
 
 async function makeBibliographyTable(){
 	await Bibliography.sync({force: true});
@@ -378,7 +375,10 @@ makeSpellingTable();
 
 // makeStemTable();
 
-makeBibliographyTable();
+//makeBibliographyTable();
 
+//makeVowelTable();
+
+//makeConsonantTable();
 // app.use('/', (req, res) => res.send("Welcome COLRC User"));
 // app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));

@@ -1266,15 +1266,15 @@ const textimages = [
       "reichard": "a",
       "nicodemus": "a",
       "salish": "a",
-      "english": "f<bold>a</bold>ther",
+      "english": "f<b>a</b>ther",
       "note": ""
     },
     {
       "id": 2,
       "reichard": "á",
-      "nicodemus": "<underline>a</underline>",
+      "nicodemus": "<u>a</u>",
       "salish": "á",
-      "english": "f<bold>a</bold>ther",
+      "english": "f<b>a</b>ther",
       "note": "underlines or accents indicate the vowel is stressed"
     },
     {
@@ -1282,7 +1282,7 @@ const textimages = [
       "reichard": "b",
       "nicodemus": "b",
       "salish": "b",
-      "english": "<bold>b</bold>at",
+      "english": "<b>b</b>at",
       "note": ""
     },
     {
@@ -1290,7 +1290,7 @@ const textimages = [
       "reichard": "tc",
       "nicodemus": "ch",
       "salish": "č",
-      "english": "<bold>ch</bold>ur<bold>ch</bold>",
+      "english": "<b>ch</b>ur<b>ch</b>",
       "note": ""
     },
     {
@@ -1306,7 +1306,7 @@ const textimages = [
       "reichard": "ts",
       "nicodemus": "ts",
       "salish": "c",
-      "english": "<bold>ts</bold>i<bold>ts</bold>i fly",
+      "english": "<b>ts</b>i<b>ts</b>i fly",
       "note": ""
     },
     {
@@ -1322,7 +1322,7 @@ const textimages = [
       "reichard": "d",
       "nicodemus": "d",
       "salish": "d",
-      "english": "<bold>d</bold>og",
+      "english": "<b>d</b>og",
       "note": ""
     },
     {
@@ -1330,15 +1330,15 @@ const textimages = [
       "reichard": "ä",
       "nicodemus": "e",
       "salish": "ɛ, e",
-      "english": "<bold>e</bold>gg",
+      "english": "<b>e</b>gg",
       "note": ""
     },
     {
       "id": 10,
       "reichard": "ä́",
-      "nicodemus": "<underline>e</underline>",
+      "nicodemus": "<u>e</u>",
       "salish": "ɛ́, é",
-      "english": "<bold>e</bold>gg",
+      "english": "<b>e</b>gg",
       "note": "underlines or accents indicate the vowel is stressed"
     },
     {
@@ -1346,7 +1346,7 @@ const textimages = [
       "reichard": "E,ι, ụ",
       "nicodemus": "no form",
       "salish": "ə",
-      "english": "sof<bold>a</bold>",
+      "english": "sof<b>a</b>",
       "note": ""
     },
     {
@@ -1354,7 +1354,7 @@ const textimages = [
       "reichard": "gw",
       "nicodemus": "gw",
       "salish": "gʷ",
-      "english": "lin<bold>gu</bold>ini",
+      "english": "lin<b>gu</b>ini",
       "note": ""
     },
     {
@@ -1362,7 +1362,7 @@ const textimages = [
       "reichard": "h",
       "nicodemus": "h",
       "salish": "h",
-      "english": "<bold>h</bold>ello",
+      "english": "<b>h</b>ello",
       "note": ""
     },
     {
@@ -1370,15 +1370,15 @@ const textimages = [
       "reichard": "i",
       "nicodemus": "i",
       "salish": "i",
-      "english": "mach<bold>i</bold>ne",
+      "english": "mach<b>i</b>ne",
       "note": ""
     },
     {
       "id": 15,
       "reichard": "í",
-      "nicodemus": "<underline>i</underline>",
+      "nicodemus": "<u>i</u>",
       "salish": "í",
-      "english": "mach<bold>i</bold>ne",
+      "english": "mach<b>i</b>ne",
       "note": "underlines or accents indicate the vowel is stressed"
     },
     {
@@ -1386,7 +1386,7 @@ const textimages = [
       "reichard": "dj",
       "nicodemus": "j",
       "salish": "ǰ",
-      "english": "<bold>j</bold>ar",
+      "english": "<b>j</b>ar",
       "note": ""
     },
     {
@@ -1394,7 +1394,7 @@ const textimages = [
       "reichard": "kʷ",
       "nicodemus": "kw",
       "salish": "kʷ",
-      "english": "<bold>qu</bold>een",
+      "english": "<b>qu</b>een",
       "note": ""
     },
     {
@@ -1474,7 +1474,7 @@ const textimages = [
       "reichard": "l",
       "nicodemus": "l",
       "salish": "l",
-      "english": "<bold>l</bold>ike",
+      "english": "<b>l</b>ike",
       "note": ""
     },
     {
@@ -1498,7 +1498,7 @@ const textimages = [
       "reichard": "m",
       "nicodemus": "m",
       "salish": "m",
-      "english": "<bold>m</bold>o<bold>m</bold>",
+      "english": "<b>m</b>o<b>m</b>",
       "note": ""
     },
     {
@@ -1530,15 +1530,15 @@ const textimages = [
       "reichard": "ɔ",
       "nicodemus": "o",
       "salish": "ɔ, o",
-      "english": "l<bold>a</bold>w",
+      "english": "l<b>a</b>w",
       "note": ""
     },
     {
       "id": 35,
       "reichard": "ɔ́",
-      "nicodemus": "<underline>o</underline>",
+      "nicodemus": "<u>o</u>",
       "salish": "ɔ́, ó",
-      "english": "l<bold>a</bold>w",
+      "english": "l<b>a</b>w",
       "note": "underlines or accents indicate the vowel is stressed"
     },
     {
@@ -1546,7 +1546,7 @@ const textimages = [
       "reichard": "p",
       "nicodemus": "p",
       "salish": "p",
-      "english": "<bold>p</bold>at",
+      "english": "<b>p</b>at",
       "note": ""
     },
     {
@@ -1562,7 +1562,7 @@ const textimages = [
       "reichard": "r",
       "nicodemus": "r",
       "salish": "r",
-      "english": "fa<bold>r</bold>",
+      "english": "fa<b>r</b>",
       "note": ""
     },
     {
@@ -1610,7 +1610,7 @@ const textimages = [
       "reichard": "s",
       "nicodemus": "s",
       "salish": "s",
-      "english": "<bold>s</bold>un",
+      "english": "<b>s</b>un",
       "note": ""
     },
     {
@@ -1618,7 +1618,7 @@ const textimages = [
       "reichard": "c",
       "nicodemus": "sh",
       "salish": "š",
-      "english": "<bold>sh</bold>ell",
+      "english": "<b>sh</b>ell",
       "note": ""
     },
     {
@@ -1626,7 +1626,7 @@ const textimages = [
       "reichard": "t",
       "nicodemus": "t",
       "salish": "t",
-      "english": "<bold>t</bold>ar",
+      "english": "<b>t</b>ar",
       "note": ""
     },
     {
@@ -1642,15 +1642,15 @@ const textimages = [
       "reichard": "u",
       "nicodemus": "u",
       "salish": "u",
-      "english": "J<bold>u</bold>piter",
+      "english": "J<b>u</b>piter",
       "note": ""
     },
     {
       "id": 49,
       "reichard": "ú",
-      "nicodemus": "<underline>u</underline>",
+      "nicodemus": "<u>u</u>",
       "salish": "ú",
-      "english": "J<bold>u</bold>piter",
+      "english": "J<b>u</b>piter",
       "note": "underlines or accents indicate the vowel is stressed"
     },
     {
@@ -1658,7 +1658,7 @@ const textimages = [
       "reichard": "w",
       "nicodemus": "w",
       "salish": "w",
-      "english": "<bold>w</bold>agon",
+      "english": "<b>w</b>agon",
       "note": ""
     },
     {
@@ -1674,7 +1674,7 @@ const textimages = [
       "reichard": "y",
       "nicodemus": "y",
       "salish": "y",
-      "english": "<bold>y</bold>ard",
+      "english": "<b>y</b>ard",
       "note": ""
     },
     {
