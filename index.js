@@ -5,7 +5,6 @@ const app = express();
 require('dotenv').config();
 // ORM (Object-Relational Mapper library)
 const Sequelize = require('sequelize');
-const data = require('./Data')
 
 //****** Set up default mysql connection START ******
 // const mysql = require('mysql2');
@@ -114,18 +113,6 @@ await User.sync({force: true})
   console.log("COLRC");
 });
 }
-
-const Spelling = sequelize.define('spelling', {
-  reichard: { type: Sequelize.STRING },
-  nicodemus: { type: Sequelize.STRING },
-  salish: { type: Sequelize.STRING },
-  english: { type: Sequelize.STRING },
-  note: { type: Sequelize.STRING }    
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
 
 const Spelling = sequelize.define('spelling', {
   reichard: { type: Sequelize.STRING },
@@ -358,9 +345,6 @@ async function makeStemTable(){
 	});
 	console.log("I have a stems table");
 }
-makeVowelTable();
-
-//makeConsonantTable();
 
 async function makeBibliographyTable(){
 	await Bibliography.sync({force: true});
@@ -391,7 +375,10 @@ makeSpellingTable();
 
 // makeStemTable();
 
-makeBibliographyTable();
+//makeBibliographyTable();
 
+//makeVowelTable();
+
+//makeConsonantTable();
 // app.use('/', (req, res) => res.send("Welcome COLRC User"));
 // app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
