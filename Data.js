@@ -1,3 +1,71 @@
+const audiorelations = [
+  { "id": 1,
+    "audiosetId": "1",
+    "audiofileId": "11"
+  },
+  { "id": 2,
+    "audiosetId": "1",
+    "audiofileId": "12"
+  },
+  { "id": 3,
+    "audiosetId": "2",
+    "audiofileId": "13"
+  },
+  { "id": 4,
+    "audiosetId": "2",
+    "audiofileId": "15"
+  },
+  { "id": 5,
+    "audiosetId": "3",
+    "audiofileId": "14"
+  },
+  { "id": 6,
+    "audiosetId": "3",
+    "audiofileId": "16"
+  },
+]
+const elicitationrelations = [
+  { "id": 1,
+    "elicitationsetId": "1",
+    "elicitationfileId": "1"
+  },
+  { "id": 2,
+    "elicitationsetId": "2",
+    "elicitationfileId": "2"
+  },
+  { "id": 3,
+    "elicitationsetId": "3",
+    "elicitationfileId": "3"
+  },
+  { "id": 4,
+    "elicitationsetId": "4",
+    "elicitationfileId": "4"
+  },
+  { "id": 5,
+    "elicitationsetId": "5",
+    "elicitationfileId": "5"
+  },
+  { "id": 6,
+    "elicitationsetId": "6",
+    "elicitationfileId": "6"
+  },
+  { "id": 7,
+    "elicitationsetId": "7",
+    "elicitationfileId": "7"
+  },
+  { "id": 8,
+    "elicitationsetId": "8",
+    "elicitationfileId": "8"
+  },
+  { "id": 9,
+    "elicitationsetId": "9",
+    "elicitationfileId": "9"
+  },  
+  { "id": 10,
+    "elicitationsetId": "10",
+    "elicitationfileId": "10"
+  },
+]
  const texts = [
     {
       "id": 1,
@@ -212,7 +280,7 @@ const textimages = [
       "src": "CricketRidesCoyote_Typed3.png"
     }
   ]
- const elicitations = [
+ const elicitationsets = [
     {
       "id": 1,
       "title": "He is clubbing him on the neck - English"
@@ -274,8 +342,7 @@ const textimages = [
       "textId": ''
     }
   ]
-
- const audiofiles = [
+const elicitationfiles = [
     {
       "id": 1,
       "src": "1835_027_CoeurdAlene_2_bNoiseReduced_8.wav",
@@ -345,7 +412,9 @@ const textimages = [
       "type": "audio/wav",
       "direct": "yes",
       "elicitationId": 10
-    },
+    }
+  ]
+ const audiofiles = [
     {
       "id": 11,
       "subdir": "CricketRidesCoyote",
@@ -2318,5 +2387,8 @@ module.exports = {
   textimages: textimages,
   audiosets: audiosets,
   audiofiles: audiofiles,
-  elicitations: elicitations
+  audiorelations: audiorelations,
+  elicitationsets: elicitationsets,
+  elicitationfiles: elicitationfiles,
+  elicitationrelations: elicitationrelations
 };
