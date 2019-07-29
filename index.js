@@ -365,7 +365,7 @@ async function makeBibliographyTable(){
 	console.log("I have a bibliography table");
 }
 
-makeSpellingTable();
+// makeSpellingTable();
 
 // makeUsersTable();
 
@@ -377,8 +377,9 @@ makeSpellingTable();
 
 //makeBibliographyTable();
 
-//makeVowelTable();
+// makeVowelTable();
 
-//makeConsonantTable();
+makeConsonantTable();
+
 // app.use('/', (req, res) => res.send("Welcome COLRC User"));
 // app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
