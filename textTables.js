@@ -43,7 +43,7 @@ const Text = sequelize.define('text', {
   cycle: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }   
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -57,10 +57,10 @@ const Textfile = sequelize.define('textfile', {
   resType: { type: Sequelize.STRING },
   msType: { type: Sequelize.STRING },
   fileType: { type: Sequelize.STRING },
-  textID: { type: Sequelize.STRING }, 
+  textID: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }   
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -74,7 +74,7 @@ const Textimage = sequelize.define('textimage', {
   src: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }   
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -87,7 +87,7 @@ const Audiofile = sequelize.define('audiofile', {
   type: { type: Sequelize.STRING },
   direct: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
-  userId: { type: Sequelize.STRING }   
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -100,7 +100,7 @@ const Audioset = sequelize.define('audioset', {
   speaker: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   textId: { type: Sequelize.STRING },
-  userId: { type: Sequelize.STRING }   
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -128,8 +128,8 @@ const Elicitationrelation = sequelize.define('elicitationrelation', {
 const Elicitationset = sequelize.define('elicitationset', {
   title: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
-  userId: { type: Sequelize.STRING }, 
-  prevID: { type: Sequelize.INTEGER }   
+  userId: { type: Sequelize.STRING },
+  prevID: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -141,7 +141,7 @@ const Elicitationfile = sequelize.define('elicitationfile', {
   type: { type: Sequelize.STRING },
   direct: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
-  userId: { type: Sequelize.STRING }   
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -173,7 +173,7 @@ async function makeTextfileTable(){
       resType: row.resType,
       msType: row.msType,
       fileType: row.fileType,
-      textID: row.textId,    
+      textID: row.textId,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: '1'
@@ -286,22 +286,20 @@ async function makeElicitationrelationTable(){
 }
 //  all function calls to build tables are below.  Uncomment the ones you want to build
 
-// makeElicitationsetTable();
+makeElicitationsetTable();
 
-// makeElicitationrelationTable();
+makeElicitationrelationTable();
 
-// makeElicitationfileTable();
+makeElicitationfileTable();
 
-// makeAudiosetTable();
+makeAudiosetTable();
 
- makeAudiorelationTable();
+makeAudiorelationTable();
 
-// makeAudiofileTable();
+makeAudiofileTable();
 
-//makeTextimageTable();
+makeTextimageTable();
 
-//makeTextfileTable();
+makeTextfileTable();
 
-//makeTextTable();
-
-
+makeTextTable();

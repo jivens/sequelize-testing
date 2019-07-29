@@ -1,27 +1,27 @@
 const audiorelations = [
   { "id": 1,
     "audiosetId": "1",
-    "audiofileId": "11"
+    "audiofileId": "1"
   },
   { "id": 2,
     "audiosetId": "1",
-    "audiofileId": "12"
+    "audiofileId": "2"
   },
   { "id": 3,
     "audiosetId": "2",
-    "audiofileId": "13"
+    "audiofileId": "3"
   },
   { "id": 4,
     "audiosetId": "2",
-    "audiofileId": "15"
+    "audiofileId": "4"
   },
   { "id": 5,
     "audiosetId": "3",
-    "audiofileId": "14"
+    "audiofileId": "5"
   },
   { "id": 6,
     "audiosetId": "3",
-    "audiofileId": "16"
+    "audiofileId": "6"
   },
 ]
 const elicitationrelations = [
@@ -60,7 +60,7 @@ const elicitationrelations = [
   { "id": 9,
     "elicitationsetId": "9",
     "elicitationfileId": "9"
-  },  
+  },
   { "id": 10,
     "elicitationsetId": "10",
     "elicitationfileId": "10"
@@ -151,7 +151,7 @@ const elicitationrelations = [
       "textId": 3
     }
   ]
-  
+
 const textimages = [
     {
       "id": 1,
@@ -1329,7 +1329,7 @@ const elicitationfiles = [
       "link": ""
     }
   ]
-  
+
  const spelling = [
     {
       "id": 1,
@@ -1764,7 +1764,7 @@ const elicitationfiles = [
       "note": ""
     }
   ]
- 
+
  const consonants = [
     {
       "id": 1,
@@ -2301,7 +2301,7 @@ const elicitationfiles = [
       "pharyngeal": "ṛ'ʷ"
     }
   ]
-  
+
  const vowels = [
     {
       "id": 1,
