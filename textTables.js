@@ -233,8 +233,8 @@ async function makeAudiorelationTable(){
   await Audiorelation.sync({force: true});
   data.audiorelations.forEach(async function (row) {
     await Audiorelation.create({
-      audioset: row.audiosetId,
-      audiofile: row.audiofileId,
+      audiosetId: row.audiosetId,
+      audiofileId: row.audiofileId,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: '1'
@@ -275,8 +275,8 @@ async function makeElicitationrelationTable(){
   await Elicitationrelation.sync({force: true});
   data.elicitationrelations.forEach(async function (row) {
     await Elicitationrelation.create({
-      elicitationset: row.elicitationsetId,
-      elicitationfile: row.elicitationfileId,
+      elicitationsetId: row.elicitationsetId,
+      elicitationfileId: row.elicitationfileId,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: '1'
@@ -294,9 +294,9 @@ async function makeElicitationrelationTable(){
 
 // makeAudiosetTable();
 
-// makeAudiorelationTable();
+ makeAudiorelationTable();
 
- makeAudiofileTable();
+// makeAudiofileTable();
 
 //makeTextimageTable();
 
