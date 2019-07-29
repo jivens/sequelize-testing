@@ -451,10 +451,10 @@ const Audiofile = sequelize.define('audiofile', {
 
 // then an audioset type
 const Audioset = sequelize.define('audioset', {
-  src: { type: Sequelize.STRING },
   title: { type: Sequelize.STRING },
   speaker: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
+  textId: { type: Sequelize.STRING },
   userId: { type: Sequelize.STRING }   
 },
 {
@@ -466,7 +466,8 @@ const Audioset = sequelize.define('audioset', {
 const Elicitation = sequelize.define('elicitation', {
   title: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
-  userId: { type: Sequelize.STRING }   
+  userId: { type: Sequelize.STRING }, 
+  prevID: { type: Sequelize.INTEGER }   
 },
 {
   charset: 'utf8mb4',
@@ -548,6 +549,7 @@ async function makeAudiosetTable(){
     await Audioset.create({
       title: row.title,
       speaker: row.speaker,
+      textId: row.textId,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: '1'
@@ -571,9 +573,9 @@ async function makeElicitationTable(){
 
 //  all function calls to build tables are below.  Uncomment the ones you want to build
 
-makeElicitationTable();
+//makeElicitationTable();
 
-//makeAudiosetTable();
+makeAudiosetTable();
 
 //makeAudiofileTable();
 

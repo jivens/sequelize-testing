@@ -270,7 +270,8 @@ const textimages = [
     {
       "id": 3,
       "title": "When Deer Kills Children - song, in Coeur d'Alene",
-      "speaker": "Unknown"
+      "speaker": "Unknown",
+      "textId": ''
     }
   ]
 
