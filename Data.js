@@ -23,7 +23,7 @@
       "id": 1,
       "subdir": "CricketRidesCoyote",
       "src": "CricketRidesCoyote_Hand.pdf",
-      "title": "Handwritten Fieldnotes",
+      "resType": "Handwritten Fieldnotes",
       "msType": "Handwritten",
       "fileType": "pdf",
       "textId": 1
@@ -32,7 +32,7 @@
       "id": 2,
       "subdir": "CricketRidesCoyote",
       "src": "CricketRidesCoyote_Typed.pdf",
-      "title": "Typed Manuscript",
+      "resType": "Typed Manuscript",
       "msType": "Typed",
       "fileType": "pdf",
       "textId": 1
@@ -41,7 +41,7 @@
       "id": 3,
       "subdir": "CricketRidesCoyote",
       "src": "CricketRidesCoyote_Engl.pdf",
-      "title": "English Translation",
+      "resType": "English Translation",
       "msType": "English",
       "fileType": "pdf",
       "textId": 1
@@ -50,7 +50,7 @@
       "id": 4,
       "subdir": "CallingOnesKind",
       "src": "CallingOnesKind__Dorthy_Engl.pdf",
-      "title": "English Translation",
+      "resType": "English Translation",
       "msType": "English",
       "fileType": "pdf",
       "textId": 2
@@ -59,7 +59,7 @@
       "id": 5,
       "subdir": "CallingOnesKind",
       "src": "CallingOnesKind__Dorthy_Typed.pdf",
-      "title": "Typed Manuscript",
+      "resType": "Typed Manuscript",
       "msType": "Typed",
       "fileType": "pdf",
       "textId": 2
@@ -68,7 +68,7 @@
       "id": 6,
       "subdir": "CallingOnesKind",
       "src": "CallingOnesKind__Tom_Engl.pdf",
-      "title": "English Translation",
+      "resType": "English Translation",
       "msType": "English",
       "fileType": "pdf",
       "textId": 3
@@ -77,7 +77,7 @@
       "id": 7,
       "subdir": "CallingOnesKind",
       "src": "CallingOnesKind__Tom_Typed.pdf",
-      "title": "Typed Manuscript",
+      "resType": "Typed Manuscript",
       "msType": "Typed",
       "fileType": "pdf",
       "textId": 3
@@ -270,7 +270,8 @@ const textimages = [
     {
       "id": 3,
       "title": "When Deer Kills Children - song, in Coeur d'Alene",
-      "speaker": "Unknown"
+      "speaker": "Unknown",
+      "textId": ''
     }
   ]
 
