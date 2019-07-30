@@ -389,20 +389,24 @@ async function makeVowelTable(){
 
 //  all function calls to build tables are below.  Uncomment the ones you want to build
 
-makeSpellingTable();
 
-makeUsersTable();
+// makeSpellingTable();
 
-makeAffixTable();
+// makeUsersTable();
 
-makeRootTable();
+// makeAffixTable();
 
-makeStemTable();
+// makeRootTable();
 
-makeBibliographyTable();
+// makeStemTable();
 
-makeVowelTable();
 
-makeConsonantTable();
+//makeBibliographyTable();
+
+
+//makeVowelTable();
+
+//makeConsonantTable();
+
 // app.use('/', (req, res) => res.send("Welcome COLRC User"));
 // app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
