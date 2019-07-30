@@ -282,6 +282,7 @@ async function makeBibliographyTable(){
 	console.log("I have a bibliography table");
 }
 
+
 // all the machinery needed to create the Spelling and Pronunciation Guide materials
 // first, type definitions
 // this one builds the spelling list
@@ -388,6 +389,7 @@ async function makeVowelTable(){
 
 //  all function calls to build tables are below.  Uncomment the ones you want to build
 
+
 // makeSpellingTable();
 
 // makeUsersTable();
@@ -398,10 +400,13 @@ async function makeVowelTable(){
 
 // makeStemTable();
 
+
 //makeBibliographyTable();
+
 
 //makeVowelTable();
 
 //makeConsonantTable();
+
 // app.use('/', (req, res) => res.send("Welcome COLRC User"));
 // app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
