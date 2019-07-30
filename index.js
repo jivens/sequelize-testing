@@ -573,17 +573,17 @@ async function makeElicitationTable(){
 
 //  all function calls to build tables are below.  Uncomment the ones you want to build
 
-//makeElicitationTable();
+// makeElicitationTable();
 
-makeAudiosetTable();
+// makeAudiosetTable();
 
-//makeAudiofileTable();
+// makeAudiofileTable();
 
-//makeTextimageTable();
+// makeTextimageTable();
 
-//makeTextfileTable();
+// makeTextfileTable();
 
-//makeTextTable();
+// makeTextTable();
 
 // makeSpellingTable();
 
@@ -599,7 +599,7 @@ makeAudiosetTable();
 
 // makeVowelTable();
 
-makeConsonantTable();
+// makeConsonantTable();
 
 // app.use('/', (req, res) => res.send("Welcome COLRC User"));
 // app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
