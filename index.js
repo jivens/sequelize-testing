@@ -144,7 +144,7 @@ const Affix = sequelize.define('affix', {
   editnote: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }  
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -163,7 +163,7 @@ const Stem = sequelize.define('stem', {
   editnote: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }  
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -218,7 +218,7 @@ async function makeAffixTable(){
   });
   console.log("I have an affixes table");
 }
-// build the stems table by reading in entries from the stems_both_lists.txt file, which is ::: delimited.  
+// build the stems table by reading in entries from the stems_both_lists.txt file, which is ::: delimited.
 // be sure to customize the path to find the file on your machine
 async function makeStemTable(){
   await Stem.sync({force: true});
@@ -255,7 +255,7 @@ const Bibliography = sequelize.define('bibliography', {
   linktext: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }  
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -290,7 +290,7 @@ const Spelling = sequelize.define('spelling', {
   nicodemus: { type: Sequelize.STRING },
   salish: { type: Sequelize.STRING },
   english: { type: Sequelize.STRING },
-  note: { type: Sequelize.STRING }    
+  note: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -303,7 +303,7 @@ const Vowel = sequelize.define('vowel', {
   height: { type: Sequelize.STRING },
   front: { type: Sequelize.STRING },
   central: { type: Sequelize.STRING },
-  back: { type: Sequelize.STRING }    
+  back: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -325,7 +325,7 @@ const Consonant = sequelize.define('consonant', {
   velar: { type: Sequelize.STRING },
   uvular: { type: Sequelize.STRING },
   glottal: { type: Sequelize.STRING },
-  pharyngeal: { type: Sequelize.STRING }    
+  pharyngeal: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -386,204 +386,7 @@ async function makeVowelTable(){
   console.log("I have a vowel table");
 }
 
-// build the tables required for the 'texts', 'audio' and 'elicitations' areas.
-// we need the following tables:  'texts', 'textfiles', 'textimages', 'audiosets' and 'audiofiles'
-
-// first, we need a text type
-const Text = sequelize.define('text', {
-  title: { type: Sequelize.STRING },
-  speaker: { type: Sequelize.STRING },
-  cycle: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
-  prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }   
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
-
-// now we need a textfiles type
-const Textfile = sequelize.define('textfile', {
-  subdir: { type: Sequelize.STRING },
-  src: { type: Sequelize.STRING },
-  resType: { type: Sequelize.STRING },
-  msType: { type: Sequelize.STRING },
-  fileType: { type: Sequelize.STRING },
-  textID: { type: Sequelize.STRING }, 
-  active: { type: Sequelize.STRING(1) },
-  prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }   
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
-
-// now we need a textimages type
-const Textimage = sequelize.define('textimage', {
-  textfileId: { type: Sequelize.STRING },
-  subdir: { type: Sequelize.STRING },
-  src: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
-  prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }   
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
-
-// next let's get an audiofile type
-const Audiofile = sequelize.define('audiofile', {
-  src: { type: Sequelize.STRING },
-  type: { type: Sequelize.STRING },
-  direct: { type: Sequelize.STRING },
-  elicitationId: { type: Sequelize.STRING },
-  audiosetId: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
-  userId: { type: Sequelize.STRING }   
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
-
-// then an audioset type
-const Audioset = sequelize.define('audioset', {
-  title: { type: Sequelize.STRING },
-  speaker: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
-  textId: { type: Sequelize.STRING },
-  userId: { type: Sequelize.STRING }   
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
-
-// then an elicitations type
-const Elicitation = sequelize.define('elicitation', {
-  title: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
-  userId: { type: Sequelize.STRING }, 
-  prevID: { type: Sequelize.INTEGER }   
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
-
-// make the Text table, using Data.js
-async function makeTextTable(){
-  await Text.sync({force: true});
-  data.texts.forEach(async function (row) {
-    await Text.create({
-      title: row.title,
-      speaker: row.speaker,
-      cycle: row.cycle,
-      active: 'Y',
-      prevId: Sequelize.NULL,
-      userId: '1'
-    });
-  });
-  console.log("I have a texts table");
-}
-
-// make the Textfile table, using Data.js
-async function makeTextfileTable(){
-  await Textfile.sync({force: true});
-  data.textfiles.forEach(async function (row) {
-    await Textfile.create({
-      subdir: row.subdir,
-      src: row.src,
-      resType: row.resType,
-      msType: row.msType,
-      fileType: row.fileType,
-      textID: row.textId,    
-      active: 'Y',
-      prevId: Sequelize.NULL,
-      userId: '1'
-    });
-  });
-  console.log("I have a textfiles table");
-}
-
-// make the Textfile table, using Data.js
-async function makeTextimageTable(){
-  await Textimage.sync({force: true});
-  data.textimages.forEach(async function (row) {
-    await Textimage.create({
-      textfileId: row.textfileId,
-      subdir: row.subdir,
-      src: row.src,
-      active: 'Y',
-      prevId: Sequelize.NULL,
-      userId: '1'
-    });
-  });
-  console.log("I have a textimages table");
-}
-
-// make the audiofile table from Data.js
-async function makeAudiofileTable(){
-  await Audiofile.sync({force: true});
-  data.audiofiles.forEach(async function (row) {
-    await Audiofile.create({
-      src: row.src,
-      type: row.type,
-      direct: row.direct,
-      elicitationId: row.elicitationId,
-      audiosetId: row.audiosetId,
-      active: 'Y',
-      prevId: Sequelize.NULL,
-      userId: '1'
-    });
-  });
-  console.log("I have an audiofiles table");
-}
-// make the audioset table
-async function makeAudiosetTable(){
-  await Audioset.sync({force: true});
-  data.audiosets.forEach(async function (row) {
-    await Audioset.create({
-      title: row.title,
-      speaker: row.speaker,
-      textId: row.textId,
-      active: 'Y',
-      prevId: Sequelize.NULL,
-      userId: '1'
-    });
-  });
-  console.log("I have an audiosets table");
-}
-// make the elicitation table
-async function makeElicitationTable(){
-  await Elicitation.sync({force: true});
-  data.elicitations.forEach(async function (row) {
-    await Elicitation.create({
-      title: row.title,
-      active: 'Y',
-      prevId: Sequelize.NULL,
-      userId: '1'
-    });
-  });
-  console.log("I have an elicitations table");
-}
-
 //  all function calls to build tables are below.  Uncomment the ones you want to build
-
-// makeElicitationTable();
-
-// makeAudiosetTable();
-
-// makeAudiofileTable();
-
-// makeTextimageTable();
-
-// makeTextfileTable();
-
-// makeTextTable();
 
 // makeSpellingTable();
 
