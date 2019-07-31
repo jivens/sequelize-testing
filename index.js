@@ -282,6 +282,7 @@ async function makeBibliographyTable(){
 	console.log("I have a bibliography table");
 }
 
+
 // all the machinery needed to create the Spelling and Pronunciation Guide materials
 // first, type definitions
 // this one builds the spelling list
@@ -402,6 +403,7 @@ makeSpellingTable();
 // makeRootTable();
 
 // makeStemTable();
+
 
 //makeBibliographyTable();
 
