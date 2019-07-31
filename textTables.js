@@ -108,8 +108,8 @@ const Audioset = sequelize.define('audioset', {
 });
 
 const Audiorelation = sequelize.define('audiorelation', {
-  audiosetId: { type: Sequelize.STRING, unique: 'audio' },
-  audiofileId: { type: Sequelize.STRING, unique: 'audio' },
+  audiosetId: { type: Sequelize.STRING },
+  audiofileId: { type: Sequelize.STRING },
 },
 {
   charset: 'utf8mb4',
@@ -198,21 +198,6 @@ async function makeTextimageTable(){
   console.log("I have a textimages table");
 }
 
-// make the audiofile table from Data.js
-async function makeAudiofileTable(){
-  await Audiofile.sync({force: true});
-  data.audiofiles.forEach(async function (row) {
-    await Audiofile.create({
-      src: row.src,
-      type: row.type,
-      direct: row.direct,
-      active: 'Y',
-      prevId: Sequelize.NULL,
-      userId: '1'
-    });
-  });
-  console.log("I have an audiofiles table");
-}
 // make the audioset table
 async function makeAudiosetTable(){
   await Audioset.sync({force: true});
@@ -228,21 +213,62 @@ async function makeAudiosetTable(){
   });
   console.log("I have an audiosets table");
 }
+
+// Set up relationships that will be used later
+Audioset.belongsToMany( Audiofile, {
+  //as: [SetToFile],
+  through: "audiorelations", //this can be string or a model,
+  foreignKey: 'AudiosetId'
+})
+Audiofile.belongsToMany( Audioset, {
+  //as: [FileToSet],
+  through: "audiorelations",
+  foreignKey: 'AudiofileId'
+})
+
 // make the audiorelation table
 async function makeAudiorelationTable(){
+  // Define the relationships, which will automatically create a table
   await Audiorelation.sync({force: true});
-  data.audiorelations.forEach(async function (row) {
-    await Audiorelation.create({
-      audiosetId: row.audiosetId,
-      audiofileId: row.audiofileId,
+}
+//   data.audiorelations.forEach(async function (row) {
+//     await Audiorelation.create({
+//       audiosetId: row.audiosetId,
+//       audiofileId: row.audiofileId,
+//       active: 'Y',
+//       prevId: Sequelize.NULL,
+//       userId: '1'
+//     });
+//   });
+//   console.log("I have an audiorelation table");
+// }
+
+// make the audiofile table from Data.js
+async function makeAudiofileTable(){
+  await makeAudiosetTable()
+  await makeAudiorelationTable()
+  await Audiofile.sync({force: true})
+  data.audiofiles.forEach(await async function (row) {
+    let newAudioFile = await Audiofile.create({
+      src: row.src,
+      type: row.type,
+      direct: row.direct,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: '1'
-    });
-  });
-  console.log("I have an audiorelation table");
+    })
+    //console.log("The audio set id is: " + row.audiosetId)
+    let myAudioSet = await Audioset.findOne({  where: {id: row.audiosetId} })
+    //console.log(myAudioSet)
+    //console.log("Fuck, the goddamn audio set is: " + myAudioSet.title)
+    //console.log("Fuck, the goddamn file is: " + newAudioFile.src)
+    await newAudioFile.addAudioset(myAudioSet)
+  })
+  console.log("I have an audiofiles table")
 }
+
 // make the elicitationfile table from Data.js
+
 async function makeElicitationfileTable(){
   await Elicitationfile.sync({force: true});
   data.elicitationfiles.forEach(async function (row) {
@@ -286,20 +312,20 @@ async function makeElicitationrelationTable(){
 }
 //  all function calls to build tables are below.  Uncomment the ones you want to build
 
-makeElicitationsetTable();
+//makeElicitationsetTable();
 
-makeElicitationrelationTable();
+//makeElicitationrelationTable();
 
-makeElicitationfileTable();
+//makeElicitationfileTable();
 
-makeAudiosetTable();
+//makeAudiorelationTable();
 
-makeAudiorelationTable();
+//makeAudiosetTable();
 
 makeAudiofileTable();
 
-makeTextimageTable();
+//makeTextimageTable();
 
-makeTextfileTable();
+//makeTextfileTable();
 
-makeTextTable();
+//makeTextTable();

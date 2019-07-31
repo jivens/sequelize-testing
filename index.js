@@ -291,7 +291,10 @@ const Spelling = sequelize.define('spelling', {
   nicodemus: { type: Sequelize.STRING },
   salish: { type: Sequelize.STRING },
   english: { type: Sequelize.STRING },
-  note: { type: Sequelize.STRING }
+  note: { type: Sequelize.STRING },
+  active: { type: Sequelize.STRING(1) },
+  prevId: { type: Sequelize.INTEGER },
+  userId: { type: Sequelize.STRING }
 },
 {
   charset: 'utf8mb4',
@@ -314,7 +317,6 @@ const Vowel = sequelize.define('vowel', {
 //this one builds the consonant chart
 const Consonant = sequelize.define('consonant', {
   orthography: { type: Sequelize.STRING },
-  type: { type: Sequelize.STRING },
   voice: { type: Sequelize.STRING },
   manner: { type: Sequelize.STRING },
   secondary: { type: Sequelize.STRING },
@@ -344,6 +346,9 @@ async function makeSpellingTable(){
       nicodemus: row.nicodemus,
       english: row.english,
       note: row.note,
+      active: 'Y',
+      prevId: Sequelize.NULL,
+      userId: "1"
     });
   });
   console.log("I have a spelling table");
@@ -389,8 +394,7 @@ async function makeVowelTable(){
 
 //  all function calls to build tables are below.  Uncomment the ones you want to build
 
-
-// makeSpellingTable();
+makeSpellingTable();
 
 // makeUsersTable();
 
@@ -403,10 +407,9 @@ async function makeVowelTable(){
 
 //makeBibliographyTable();
 
+// makeVowelTable();
 
-//makeVowelTable();
-
-//makeConsonantTable();
+makeConsonantTable();
 
 // app.use('/', (req, res) => res.send("Welcome COLRC User"));
 // app.listen(process.env.GRAPHQLPORT, () => console.log('COLRC Enterprise Server is ready on localhost:' + process.env.GRAPHQLPORT));
