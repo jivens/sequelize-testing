@@ -83,6 +83,7 @@ const Textimage = sequelize.define('textimage', {
 
 // next let's get an audiofile type
 const Audiofile = sequelize.define('audiofile', {
+  subdir: { type: Sequelize.STRING },
   src: { type: Sequelize.STRING },
   type: { type: Sequelize.STRING },
   direct: { type: Sequelize.STRING },
@@ -250,6 +251,7 @@ async function makeAudiofileTable(){
   await Audiofile.sync({force: true})
   data.audiofiles.forEach(await async function (row) {
     let newAudioFile = await Audiofile.create({
+      subdir: row.subdir,
       src: row.src,
       type: row.type,
       direct: row.direct,
