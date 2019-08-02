@@ -68,7 +68,7 @@ const Textfile = sequelize.define('textfile', {
 });
 
 // set up the Text to Textfile relationship
-const TextToFileRelation = sequelize.define('texttofilerelation', {
+const Texttofilerelation = sequelize.define('texttofilerelation', {
   textId: { type: Sequelize.STRING },
   textfileId: { type: Sequelize.STRING },
 },
@@ -92,7 +92,7 @@ const Textimage = sequelize.define('textimage', {
 });
 
 // set up the Text to Textfile relationship
-const FileToImageRelation = sequelize.define('filetoimagerelation', {
+const Filetoimagerelation = sequelize.define('filetoimagerelation', {
   textfileId: { type: Sequelize.STRING },
   textimageId: { type: Sequelize.STRING },
 },
@@ -138,9 +138,9 @@ const Audiorelation = sequelize.define('audiorelation', {
 });
 
 // set up the Text to Audioset relationship
-const TextToAudiosetRelation = sequelize.define('texttoaudiosetrelation', {
-  textfileId: { type: Sequelize.STRING },
-  textimageId: { type: Sequelize.STRING },
+const Texttoaudiosetrelation = sequelize.define('texttoaudiosetrelation', {
+  textId: { type: Sequelize.STRING },
+  audiosetId: { type: Sequelize.STRING },
 },
 {
   charset: 'utf8mb4',
@@ -181,6 +181,125 @@ const Elicitationrelation = sequelize.define('elicitationrelation', {
   collate: 'utf8mb4_unicode_ci'
 });
 
+//make all the relation tables
+//make the filetoimagerelation table
+async function makeFiletoimagerelationTable(){
+  // Define the relationships, which will automatically create a table
+  await Filetoimagerelation.sync({force: true});
+}
+//make the texttofilerelation table
+async function makeTexttofilerelationTable(){
+  // Define the relationships, which will automatically create a table
+  await Texttofilerelation.sync({force: true});
+}
+//make the texttoaudiosetrelation table
+async function makeTexttoaudiosetrelationTable(){
+  // Define the relationships, which will automatically create a table
+  await Texttoaudiosetrelation.sync({force: true});
+}
+// make the audiorelation table
+async function makeAudiorelationTable(){
+  // Define the relationships, which will automatically create a table
+  await Audiorelation.sync({force: true});
+}
+//make the elicitationrelation table
+async function makeElicitationrelationTable(){
+  await Elicitationrelation.sync({force: true});
+}
+
+//Set up all the relationships as foreign keys
+//Textfiles are linked to textimages
+Textfile.belongsToMany( Textimage, {
+  through: "filetoimagerelations", //this can be string or a model,
+  foreignKey: 'TextfileId'
+})
+Textimage.belongsToMany( Textfile, {
+  through: "filetoimagerelations", //this can be string or a model,
+  foreignKey: 'TextimageId'
+})
+//Texts are linked to textfiles
+Text.belongsToMany( Textfile, {
+  through: "texttofilerelations", //this can be string or a model,
+  foreignKey: 'TextId'
+})
+Textfile.belongsToMany( Text, {
+  through: "texttofilerelations", //this can be string or a model,
+  foreignKey: 'TextfileId'
+})
+//Texts are linked to audiosets
+Text.belongsToMany( Audioset, {
+  through: "texttoaudiosetrelations", //this can be string or a model,
+  foreignKey: 'TextId'
+})
+Audioset.belongsToMany( Text, {
+  through: "texttoaudiosetrelations", //this can be string or a model,
+  foreignKey: 'AudiosetId'
+})
+//audiosets are linked to audiofiles
+Audioset.belongsToMany( Audiofile, {
+  //as: [SetToFile],
+  through: "audiorelations", //this can be string or a model,
+  foreignKey: 'AudiosetId'
+})
+Audiofile.belongsToMany( Audioset, {
+  //as: [FileToSet],
+  through: "audiorelations",
+  foreignKey: 'AudiofileId'
+})
+
+async function makeMedia(){
+  await makeFiletoimagerelationTable();
+  await makeTexttofilerelationTable();
+  await makeTexttoaudiosetrelationTable();
+  await makeAudiorelationTable();
+  await makeTextTable();    
+  await makeTextimageTable(); 
+  await makeAudiofileTable();
+}
+
+//individual table builders, for the record.
+// make the Textimages table, using Data.js
+async function makeTextimageTable(){
+  await makeFiletoimagerelationTable();
+  await makeTextfileTable();
+  await Textimage.sync({force: true});
+  data.textimages.forEach(async function (row) {
+    let newTextImage = await Textimage.create({
+      textfileId: row.textfileId,
+      subdir: row.subdir,
+      src: row.src,
+      active: 'Y',
+      prevId: Sequelize.NULL,
+      userId: '1'
+    })
+    let myTextFile = await Textfile.findOne({  where: {id: row.textfileId} })
+    await newTextImage.addTextfile(myTextFile)    
+  });
+  console.log("I have a textimages table");
+}
+
+// make the Textfiles table, using Data.js
+async function makeTextfileTable(){
+  await makeTexttofilerelationTable(); 
+  await Textfile.sync({force: true});
+  data.textfiles.forEach(async function (row) {
+    let newTextfile = await Textfile.create({
+      subdir: row.subdir,
+      src: row.src,
+      resType: row.resType,
+      msType: row.msType,
+      fileType: row.fileType,
+      textID: row.textId,
+      active: 'Y',
+      prevId: Sequelize.NULL,
+      userId: '1'
+    })
+    let myText = await Text.findOne({  where: {id: row.textId} })
+    await newTextfile.addText(myText)  
+  });
+  console.log("I have a textfiles table")
+}
+
 // make the Text table, using Data.js
 async function makeTextTable(){
   await Text.sync({force: true});
@@ -197,118 +316,23 @@ async function makeTextTable(){
   console.log("I have a texts table");
 }
 
-// make the Textfile table, using Data.js
-async function makeTextfileTable(){
-  await Textfile.sync({force: true});
-  data.textfiles.forEach(async function (row) {
-    await Textfile.create({
-      subdir: row.subdir,
-      src: row.src,
-      resType: row.resType,
-      msType: row.msType,
-      fileType: row.fileType,
-      textID: row.textId,
-      active: 'Y',
-      prevId: Sequelize.NULL,
-      userId: '1'
-    });
-  });
-  console.log("I have a textfiles table");
-}
-
-// make the Textfile table, using Data.js
-async function makeTextimageTable(){
-  await Textimage.sync({force: true});
-  data.textimages.forEach(async function (row) {
-    await Textimage.create({
-      textfileId: row.textfileId,
-      subdir: row.subdir,
-      src: row.src,
-      active: 'Y',
-      prevId: Sequelize.NULL,
-      userId: '1'
-    });
-  });
-  console.log("I have a textimages table");
-}
-
 // make the audioset table
 async function makeAudiosetTable(){
+  await makeTexttoaudiosetrelationTable();  
   await Audioset.sync({force: true});
   data.audiosets.forEach(async function (row) {
-    await Audioset.create({
+    let newAudioSet = await Audioset.create({
       title: row.title,
       speaker: row.speaker,
       textId: row.textId,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: '1'
-    });
+    })
+    let myText = await Text.findOne({  where: {id: row.textId} })
+    await newAudioSet.addText(myText)
   });
   console.log("I have an audiosets table");
-}
-
-// Set up relationships that will be used later
-//Texts are linked to textfiles
-Text.belongsToMany( Textfile, {
-  through: "texttofilerelation", //this can be string or a model,
-  foreignKey: 'TextId'
-})
-Textfile.belongsToMany( Text, {
-  through: "texttofilerelation", //this can be string or a model,
-  foreignKey: 'TextfileId'
-})
-//Textfiles are linked to textimages
-Textfile.belongsToMany( Textimage, {
-  through: "filetoimagerelation", //this can be string or a model,
-  foreignKey: 'TextfileId'
-})
-Textimage.belongsToMany( Textfile, {
-  through: "filetoimagerelation", //this can be string or a model,
-  foreignKey: 'TextimageId'
-})
-//Texts are linked to audiosets
-Text.belongsToMany( Audioset, {
-  through: "texttoaudiosetrelation", //this can be string or a model,
-  foreignKey: 'TextId'
-})
-Audioset.belongsToMany( Text, {
-  through: "texttoaudiosetrelation", //this can be string or a model,
-  foreignKey: 'AudiosetId'
-})
-
-//audiosets are linked to audiofiles
-Audioset.belongsToMany( Audiofile, {
-  //as: [SetToFile],
-  through: "audiorelations", //this can be string or a model,
-  foreignKey: 'AudiosetId'
-})
-Audiofile.belongsToMany( Audioset, {
-  //as: [FileToSet],
-  through: "audiorelations",
-  foreignKey: 'AudiofileId'
-})
-
-
-//make the texttofilerelation table
-async function makeTexttofilerelationTable(){
-  // Define the relationships, which will automatically create a table
-  await Texttofilerelation.sync({force: true});
-}
-//make the texttoaudiosetrelation table
-async function makeTexttoaudiorelationTable(){
-  // Define the relationships, which will automatically create a table
-  await Texttoaudiorelation.sync({force: true});
-}
-//make the filetoimagerelation table
-async function makefiletoimagerelationTable(){
-  // Define the relationships, which will automatically create a table
-  await Filetoimagerelation.sync({force: true});
-}
-// make the audiorelation table
-async function makeAudiorelationTable(){
-  // Define the relationships, which will automatically create a table
-  await Audiorelation.sync({force: true});
 }
 
 // make the audiofile table from Data.js
@@ -335,6 +359,7 @@ async function makeAudiofileTable(){
   })
   console.log("I have an audiofiles table")
 }
+// Elicitations aren't linked to texts, so they're here.
 //elicitationsets are linked to elicitationfiles
 Elicitationset.belongsToMany( Elicitationfile, {
   through: "elicitationrelations", //this can be string or a model,
@@ -357,10 +382,7 @@ async function makeElicitationsetTable(){
   });
   console.log("I have an elicitationsets table");
 }
-//make the elicitationrelation table
-async function makeElicitationrelationTable(){
-  await Elicitationrelation.sync({force: true});
-}
+
 // make the elicitationfile table from Data.js
 async function makeElicitationfileTable(){
   await makeElicitationrelationTable();
@@ -397,7 +419,7 @@ async function makeElicitationfileTable(){
 // }
 //  all function calls to build tables are below.  Uncomment the ones you want to build
 
-makeElicitationfileTable();
+//makeElicitationfileTable();
 
 //makeElicitationsetTable();
 
@@ -412,3 +434,5 @@ makeElicitationfileTable();
 //makeTextfileTable();
 
 //makeTextTable();
+
+makeMedia();
