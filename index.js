@@ -210,7 +210,7 @@ const Textfile = sequelize.define('textfile', {
   resType: { type: Sequelize.STRING },
   msType: { type: Sequelize.STRING },
   fileType: { type: Sequelize.STRING },
-  textID: { type: Sequelize.STRING },
+  textId: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.STRING }
