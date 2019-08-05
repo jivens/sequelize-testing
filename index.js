@@ -412,39 +412,19 @@ async function makeTexttoaudiosetrelationTable(){
 // now build tables from data
 // build the users table
 async function makeUsersTable(){
-// force: true will drop the table if it already exists
-await User.sync({force: true})
-.then(() => {
-  // Table created
-  return User.create({
-    first: "Original",
-    last: "Data",
-    username: "original",
-    email: 'colrc@gmail.com',
-    password: 'colrc@gmail.com',
-    roles: "admin"
-  });
-})
-.then((user) => {
-  console.log(user);
-  return User.findOne({
-    where: { id: 1 }
-  }).then((res) => {
-    return [{
-      id: res.dataValues.id,
-      first: res.dataValues.first,
-      last: res.dataValues.last,
-      username: res.dataValues.username,
-      password: res.dataValues.password,
-      email: res.dataValues.email,
-      roles: res.dataValues.roles.split(',')
-    }];
-  });
-})
-.then((newuser) => {
-  console.log(newuser);
-  console.log("COLRC");
-});
+  // force: true will drop the table if it already exists
+  await User.sync({force: true})
+  for (row of data.users) {
+    // Table created
+    await User.create({
+      first: row.first,
+      last: row.last,
+      username: row.username,
+      email: row.email,
+      password: row.password,
+      roles: row.roles
+    });
+  }
 }
 
 // next, build the Root Dictionary, Affix List and Stem List from files in the 'data' directory
@@ -772,4 +752,9 @@ makeTables();
 
 //makeElicitationfileTable();
 
+<<<<<<< HEAD
 //makeMedia();
+=======
+// makeMedia();
+
+>>>>>>> 586fea089b31ff987770775299dc6e856e922ada
