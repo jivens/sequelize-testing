@@ -2310,6 +2310,33 @@ const elicitationfiles = [
     }
   ]
 
+  const users = [
+    {
+      first: "Original",
+      last: "Data",
+      username: "original",
+      email: 'colrc@gmail.com',
+      password: 'colrc@gmail.com',
+      roles: "admin"
+    },
+    {
+      first: "View",
+      last: "Data",
+      username: "view",
+      email: 'colrc@gmail.com',
+      password: 'colrc@gmail.com',
+      roles: "view"
+    },
+    {
+      first: "Dummy",
+      last: "Data",
+      username: "dummy",
+      email: 'colrc@gmail.com',
+      password: 'colrc@gmail.com',
+      roles: "dummy"
+    }
+  ]
+
 module.exports = {
   spelling: spelling,
   bibliography: bibliography,
@@ -2322,4 +2349,5 @@ module.exports = {
   audiofiles: audiofiles,
   elicitationsets: elicitationsets,
   elicitationfiles: elicitationfiles,
+  users: users
 };
