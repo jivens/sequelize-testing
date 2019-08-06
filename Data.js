@@ -2320,12 +2320,12 @@ const elicitationfiles = [
       roles: "admin"
     },
     {
-      first: "View",
+      first: "Update",
       last: "Data",
-      username: "view",
-      email: 'view@gmail.com',
-      password: 'view@gmail.com',
-      roles: "view"
+      username: "update",
+      email: 'update@gmail.com',
+      password: 'update@gmail.com',
+      roles: "update"
     },
     {
       first: "Owner",
@@ -2334,7 +2334,15 @@ const elicitationfiles = [
       email: 'owner@gmail.com',
       password: 'owner@gmail.com',
       roles: "owner"
-    }
+    },
+    {
+      first: "View",
+      last: "Data",
+      username: "view",
+      email: 'view@gmail.com',
+      password: 'view@gmail.com',
+      roles: "view"
+    },
   ]
 
 module.exports = {
