@@ -434,6 +434,7 @@ async function makeRootTable(){
   var contents = fs. readFileSync('data\\entries.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
+    row = row.replace(/(\r)/gm, "");
     columns = row.split(":::");
     if (columns[5]) {
       await Root.create({
@@ -458,6 +459,7 @@ async function makeAffixTable(){
   var contents = fs. readFileSync('data\\affixes.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
+    row = row.replace(/(\r)/gm, "");
     columns = row.split(":::");
     if (columns[2]) {
       await Affix.create({
@@ -483,6 +485,7 @@ async function makeStemTable(){
   var contents = fs. readFileSync('data\\stems_both_lists.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
+    row = row.replace(/(\r)/gm, "");  
     columns = row.split(":::");
     if (columns[5]) {
       await Stem.create({
