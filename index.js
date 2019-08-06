@@ -749,10 +749,10 @@ async function makeTables(){
 
 // below call the build function(s) you want.
 
-makeTables();
+// makeTables();
 
 //makeAudiofileTable();
 
 //makeElicitationfileTable();
 
-//makeMedia();
+makeMedia();

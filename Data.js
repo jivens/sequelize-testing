@@ -2323,17 +2323,17 @@ const elicitationfiles = [
       first: "View",
       last: "Data",
       username: "view",
-      email: 'colrc@gmail.com',
-      password: 'colrc@gmail.com',
+      email: 'view@gmail.com',
+      password: 'view@gmail.com',
       roles: "view"
     },
     {
-      first: "Dummy",
+      first: "Owner",
       last: "Data",
-      username: "dummy",
-      email: 'colrc@gmail.com',
-      password: 'colrc@gmail.com',
-      roles: "dummy"
+      username: "owner",
+      email: 'owner@gmail.com',
+      password: 'owner@gmail.com',
+      roles: "owner"
     }
   ]
 
