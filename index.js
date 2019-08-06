@@ -281,7 +281,7 @@ const Elicitationfile = sequelize.define('elicitationfile', {
 });
 
 // fundamental types for relation tables, supporting many-to-many mappings
-// audiosets to audiofiles; elicitationsets to elicitationfiles; textfiles to textimages; 
+// audiosets to audiofiles; elicitationsets to elicitationfiles; textfiles to textimages;
 // texts to textfiles; and texts to audiosets
 
 // audiosets to audiofiles
@@ -433,7 +433,7 @@ async function makeRootTable(){
   var fs = require('fs');
   var contents = fs. readFileSync('data\\entries.txt', 'utf8');
   var rows = contents.split("\n");
-  rows.forEach(async function (row, index) {
+  for (row of rows) {
     columns = row.split(":::");
     if (columns[5]) {
       await Root.create({
@@ -446,9 +446,9 @@ async function makeRootTable(){
         active: 'Y',
         prevId: Sequelize.NULL,
         userId: "1"
-      });
+      })
     }
-  });
+  }
   console.log("I have a roots table");
 }
 
@@ -457,9 +457,9 @@ async function makeAffixTable(){
   var fs = require('fs');
   var contents = fs. readFileSync('data\\affixes.txt', 'utf8');
   var rows = contents.split("\n");
-  rows.forEach(async function (row, index) {
+  for (row of rows) {
     columns = row.split(":::");
-    if (columns[2]) {    
+    if (columns[2]) {
       await Affix.create({
         type: columns[0],
         salish: columns[1],
@@ -473,7 +473,7 @@ async function makeAffixTable(){
         userId: "1"
       });
     }
-  });
+  }
   console.log("I have an affixes table");
 }
 
@@ -482,7 +482,7 @@ async function makeStemTable(){
   var fs = require('fs');
   var contents = fs. readFileSync('data\\stems_both_lists.txt', 'utf8');
   var rows = contents.split("\n");
-  rows.forEach(async function (row, index) {
+  for (row of rows) {
     columns = row.split(":::");
     if (columns[5]) {
       await Stem.create({
@@ -499,7 +499,7 @@ async function makeStemTable(){
         userId: "1"
       });
     }
-  });
+  }
   console.log("I have a stems table");
 }
 
@@ -520,7 +520,7 @@ async function makeBibliographyTable(){
       prevId: Sequelize.NULL,
       userId: "1"
 		});
-	};
+	}
 	console.log("I have a bibliography table");
 }
 
@@ -603,7 +603,7 @@ async function makeTextTable(){
 
 // the textfiles table requires the texttofilerelation table
 async function makeTextfileTable(){
-  await makeTexttofilerelationTable(); 
+  await makeTexttofilerelationTable();
   await Textfile.sync({force: true});
   for (row of data.textfiles) {
     let newTextfile = await Textfile.create({
@@ -618,7 +618,7 @@ async function makeTextfileTable(){
       userId: '1'
     })
     let myText = await Text.findOne({  where: {id: row.textId} })
-    await newTextfile.addText(myText)  
+    await newTextfile.addText(myText)
   };
   console.log("I have a textfiles table")
 }
@@ -628,7 +628,7 @@ async function makeTextimageTable(){
   await makeFiletoimagerelationTable();
   await makeTextfileTable();
   await Textimage.sync({force: true});
-  for (row of data.textimages) {  
+  for (row of data.textimages) {
     let newTextImage = await Textimage.create({
       subdir: row.subdir,
       src: row.src,
@@ -637,14 +637,14 @@ async function makeTextimageTable(){
       userId: '1'
     })
     let myTextFile = await Textfile.findOne({  where: {id: row.textfileId} })
-    await newTextImage.addTextfile(myTextFile)    
+    await newTextImage.addTextfile(myTextFile)
   };
   console.log("I have a textimages table");
 }
 
 // make the audioset table
 async function makeAudiosetTable(){
-  await makeTexttoaudiosetrelationTable();  
+  await makeTexttoaudiosetrelationTable();
   await Audioset.sync({force: true});
   for (row of data.audiosets) {
     let newAudioSet = await Audioset.create({
@@ -719,15 +719,15 @@ async function makeElicitationfileTable(){
   console.log("I have an elicitationfiles table");
 }
 
-// we can bundle these table builds, but order matters.  Relation tables must come before 
+// we can bundle these table builds, but order matters.  Relation tables must come before
 // the tables that use them
 async function makeMedia(){
   await makeFiletoimagerelationTable();
   await makeTexttofilerelationTable();
   await makeTexttoaudiosetrelationTable();
   await makeAudiorelationTable();
-  await makeTextTable();    
-  await makeTextimageTable(); 
+  await makeTextTable();
+  await makeTextimageTable();
   await makeAudiofileTable();
   await makeElicitationfileTable();
 }
@@ -752,5 +752,4 @@ makeTables();
 
 //makeElicitationfileTable();
 
-// makeMedia();
-
+//makeMedia();
