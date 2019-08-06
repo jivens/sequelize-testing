@@ -433,7 +433,7 @@ async function makeRootTable(){
   var fs = require('fs');
   var contents = fs. readFileSync('data\\entries.txt', 'utf8');
   var rows = contents.split("\n");
-  rows.forEach(async function (row, index) {
+  for (row of rows) {
     columns = row.split(":::");
     if (columns[5]) {
       await Root.create({
@@ -446,9 +446,9 @@ async function makeRootTable(){
         active: 'Y',
         prevId: Sequelize.NULL,
         userId: "1"
-      });
+      })
     }
-  });
+  }
   console.log("I have a roots table");
 }
 
@@ -457,7 +457,7 @@ async function makeAffixTable(){
   var fs = require('fs');
   var contents = fs. readFileSync('data\\affixes.txt', 'utf8');
   var rows = contents.split("\n");
-  rows.forEach(async function (row, index) {
+  for (row of rows) {
     columns = row.split(":::");
     if (columns[2]) {
       await Affix.create({
@@ -473,7 +473,7 @@ async function makeAffixTable(){
         userId: "1"
       });
     }
-  });
+  }
   console.log("I have an affixes table");
 }
 
@@ -482,7 +482,7 @@ async function makeStemTable(){
   var fs = require('fs');
   var contents = fs. readFileSync('data\\stems_both_lists.txt', 'utf8');
   var rows = contents.split("\n");
-  rows.forEach(async function (row, index) {
+  for (row of rows) {
     columns = row.split(":::");
     if (columns[5]) {
       await Stem.create({
@@ -499,7 +499,7 @@ async function makeStemTable(){
         userId: "1"
       });
     }
-  });
+  }
   console.log("I have a stems table");
 }
 
@@ -520,7 +520,7 @@ async function makeBibliographyTable(){
       prevId: Sequelize.NULL,
       userId: "1"
 		});
-	};
+	}
 	console.log("I have a bibliography table");
 }
 
@@ -752,9 +752,4 @@ makeTables();
 
 //makeElicitationfileTable();
 
-<<<<<<< HEAD
 //makeMedia();
-=======
-// makeMedia();
-
->>>>>>> 586fea089b31ff987770775299dc6e856e922ada
