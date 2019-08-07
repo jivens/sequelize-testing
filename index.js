@@ -740,7 +740,7 @@ async function makeTables(){
   await makeRootTable();
   await makeStemTable();
   await makeAffixTable();
-  await makeUsersTable();
+  await makeBibliographyTable();
   await makeSpellingTable();
   await makeConsonantTable();
   await makeVowelTable();
