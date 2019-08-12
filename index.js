@@ -753,10 +753,8 @@ async function makeTables(){
 
 // below call the build function(s) you want.
 
-//makeStemTable();
-
-makeTables();
-
+makeAffixTable();
+//makeTables();
 //makeAudiofileTable();
 
 //makeElicitationfileTable();
