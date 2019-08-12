@@ -259,6 +259,8 @@ const Audiofile = sequelize.define('audiofile', {
 
 const Elicitationset = sequelize.define('elicitationset', {
   title: { type: Sequelize.STRING },
+  language: { type: Sequelize.STRING },
+  speaker: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   userId: { type: Sequelize.STRING },
   prevID: { type: Sequelize.INTEGER }
@@ -692,6 +694,8 @@ async function makeElicitationsetTable(){
   //data.elicitationsets.forEach(await async function (row) {
     await Elicitationset.create({
       title: row.title,
+      language: row.language,
+      speaker: row.speaker,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: '1'
@@ -748,9 +752,9 @@ async function makeTables(){
 }
 
 // below call the build function(s) you want.
+
 makeAffixTable();
 //makeTables();
-
 //makeAudiofileTable();
 
 //makeElicitationfileTable();

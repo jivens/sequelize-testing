@@ -215,43 +215,63 @@ const textimages = [
  const elicitationsets = [
     {
       "id": 1,
-      "title": "He is clubbing him on the neck - English"
+      "title": "He is clubbing him on the neck",
+      "language": "English",
+      "speaker": "Clarence Sloat"
     },
     {
       "id": 2,
-      "title": "He is clubbing him on the neck - Coeur d'Alene"
+      "title": "He is clubbing him on the neck",
+      "language": "Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus"
     },
     {
       "id": 3,
-      "title": "He is being clubbed on the neck - English"
+      "title": "He is being clubbed on the neck",
+      "language": "English",
+      "speaker": "Clarence Sloat"      
     },
     {
       "id": 4,
-      "title": "He is being clubbed on the neck - Coeur d'Alene"
+      "title": "He is being clubbed on the neck",
+      "language": "Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus"
     },
     {
       "id": 5,
-      "title": "I am clubbing him on the neck - English"
+      "title": "I am clubbing him on the neck",
+      "language": "English",
+      "speaker": "Clarence Sloat"
     },
     {
       "id": 6,
-      "title": "I am clubbing him on the neck - Coeur d'Alene"
+      "title": "I am clubbing him on the neck",
+      "language": "Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus"
     },
     {
       "id": 7,
-      "title": "I am being clubbed on the neck - English"
+      "title": "I am being clubbed on the neck",
+      "language": "English",
+      "speaker": "Clarence Sloat"
     },
     {
       "id": 8,
-      "title": "I am being clubbed on the neck - Coeur d'Alene"
+      "title": "I am being clubbed on the neck",
+      "language": "Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus"
     },
     {
       "id": 9,
-      "title": "You are being clubbed on the neck - English"
+      "title": "You are being clubbed on the neck",
+      "language": "English",
+      "speaker": "Clarence Sloat"
     },
     {
       "id": 10,
-      "title": "You are being clubbed on the neck - Coeur d'Alene"
+      "title": "You are being clubbed on the neck",
+      "language": "Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus"
     }
   ]
  const audiosets = [
