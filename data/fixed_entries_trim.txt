@@ -64,7 +64,7 @@
 2:::c:::cgʷ:::1:::27:::ɫe+č'is+eɫ+cegʷ+t:::ɫech'iseɫtsegwt::::::boor. (lit. one who has bad manners):::n.::::::
 2:::c:::cgʷ:::1:::28:::pos+pos+ɫ+cégʷ+t:::posposɫtsegwt::::::He has comical ways.:::vi.::::::
 2:::c:::cgʷ:::1:::29:::qʷy'+qʷi+ɫ+cegʷt:::qwu'yqwiɫtsegwt::::::He has a poor personality. (lit. He is poor as to his nature).:::vi.::::::
-
+2:::c:::cgʷ:::1:::30:::x̣es+eɫ+cʔégʷ+t:::qheseɫts'egwt:::::: courtly, refined. (He has nice manners, he is courtly:::adj.:::[also recorded as cʔgʷ]:::
 2:::c:::cgʷ:::2:::1:::cugʷ:::tsugw:::†:::feathered.:::stem adj.::::::
 2:::c:::cgʷ:::2:::2:::s+t+cugʷ+cugʷ=íʔsn:::sttsugwtsugwi'sn::://:::feather(s).:::n.::::::
 2:::c:::ch:::1:::1:::cehé:::tsehe:::†:::an example, a specified instance, a case. (lit. See!):::n.::::::
@@ -174,9 +174,9 @@
 2:::c:::cqʷ:::2:::4:::s+cáqʷ+m:::stsaqum:::::: arbutus, strawberry (wild...).:::n.:::[also recorded with low vowel]:::
 2:::c:::cqʷ:::2:::5:::*céqʷ+qʷ=alqʷ:::tseqwgwalqw::://:::dogwood, elderberry bush. Redwood.:::n.::::::
 2:::c:::cqʷ:::2:::6:::t+coq[ʷ]+céqʷ=us:::ttsoqtsequs::::::blood‑shot (He has...eyes).:::adj.::::::
-
+2:::c:::cry::::::1:::co·ray:::tsooray:::†:::July.:::n.:::[see also ǰly]:::
 2:::c:::cs:::1:::1:::ces:::tses:::†:::fine, long, slender.:::stem adj.::::::
-
+2:::c:::cs:::1:::2:::s+cas=alqs:::stsasalqs::://:::mosquito.:::n.:::[xref cš]:::
 2:::c:::cs:::2:::1:::cus:::tsus:::†:::to rattle (e.g. snake):::::::::
 2:::c:::cs:::2:::2:::cus+cú·s:::tsustsuuus!::::::jingle jingle.:::excl.::::::
 2:::c:::csp::::::1:::ni kʷu‿cósep:::ni ku Tsosep?::::::Are you Joseph?:::qu.).::::::
@@ -184,7 +184,7 @@
 2:::c:::cš::::::2:::ciš+t:::tsisht::::::long (it is...).:::adj.::::::
 2:::c:::cš::::::3:::céš=alqʷ:::tseshalqw::://:::tall (he is...).:::adj.::::::
 2:::c:::cš::::::4:::t+céš+ceš=qn:::ttseshtseshqn::::::comet. (lit. It (star) is long‑hair):::n.::::::
-
+2:::c:::cš::::::5:::s+cen+cíš+tis=čn=šn:::stsentsishtischnshn:::§:::high top shoes.:::n.:::[xref cs]:::
 2:::c:::ct:::1:::1:::cut:::tsut:::†:::although.:::conj.::::::
 2:::c:::ct:::1:::2:::cut ciʔ:::tsut tsi'::::::although.:::conj.::::::
 2:::c:::ct:::2:::1:::cut:::tsut:::†:::self.:::n.::::::
@@ -196,13 +196,13 @@
 2:::c:::ctxʷ::::::6:::cétxʷ+s xʷa maʔ+maʔám=al'qs:::tsetkhws khwa ma'ma'ama'lqs:::§:::convent. (lit. their house those who wear women's clothes (nuns(:::n.::::::
 2:::c:::ctxʷ::::::7:::ul mac'p he cétxʷ+s:::ul mats'p he tsetkhws::::::apiary. (lit. belonging to a bee's house):::n.::::::
 2:::c:::ctxʷ::::::8:::nuk'ʷ+ɫ+cétxʷ:::nuk'wɫtsetkhw::::::caste. (lit. one house):::n.::::::
-
+2:::c:::ctxʷ::::::9:::aʕʷ+eɫ+cetxʷ:::a(weɫtsetkhw::::::H/s has many houses.:::vt.:::[see also cɫxʷ]:::
 2:::c:::cw':::1:::1:::ciw':::tsi'w:::†:::child (youngest).:::stem n.::::::
 2:::c:::cw':::1:::2:::s+cíw'+t'=mš:::stsi'wt'msh::://:::child (youngest...).:::n.::::::
 2:::c:::cw':::1:::3:::s+c+cíw'+t'=mš:::ststsi'wt'msh::::::baby (...of the family).:::n.::::::
 2:::c:::cw':::1:::4:::s+c+céw'+t=m'š=qn'=čt:::ststse'wt'mshq'ncht::::::finger (little or fourth...). (lit. youngest finger):::n.::::::
 2:::c:::cw':::2:::1:::cuw':::tsu'w:::†:::punch.:::stem vt.::::::
-
+2:::c:::cw':::2:::2:::cúʔ+um:::tsu'um:::::: hit (he...something with the fist).:::vt.:::[also recorded as cʔ]:::
 2:::c:::cw':::2:::3:::s+cúʔ+uʔ:::stsu'u'::::::blow. (lit. a sudden hard stroke, as of the fist):::n.::::::
 2:::c:::cw':::2:::4:::cuw'=íčt+m:::tsu'wichtm::://:::boxing (he feinted in...), feinted (he...in boxing).:::n, vi.::::::
 2:::c:::cw':::2:::5:::s+cuw'=íɫc'eʔ:::stsu'wiɫts'e'::::::clout. (lit. hitting a person with the fist):::vt.::::::
@@ -214,11 +214,11 @@
 2:::c:::cw':::2:::11:::ul sye+cuw'+n't-wíš he s+ɫúxʷ=čt:::ul syetsu'w'ntwish he sɫukhwcht:::§:::glove (boxing...). (lit. glove of a boxer):::n.::::::
 2:::c:::cxʷ:::1:::1:::cexʷ:::tsekhw:::†:::caress, fondle.:::stem vt.::::::
 2:::c:::cxʷ:::1:::2:::céxʷ‑nt‑s:::tsekhwnts:::‡:::caress. (lit. He touched or treated him in an affectionate or loving manner):::vt.::::::
-
-
+2:::c:::cxʷ:::1:::3:::céxʷ‑nt‑se-s:::tsekhwntses::::::condole. (lit. She expressed sympathy to me by caressing me):::vi.:::[see also cx̣ʷ]:::
+2:::c:::cxʷ:::2:::1:::hn+c+cxʷ+út:::hntstskhut:::†:::creek, rivulet.:::n.:::[xref c'xʷ]:::
 2:::c:::cx̣ʷ:::1:::1:::cax̣ʷ:::tsaqhw:::†:::accumulate.:::stem vt.::::::
 2:::c:::cx̣ʷ:::2:::1:::s+céx̣ʷ=[t]kʷeʔ:::stseqhwɫkwe'::://:::Spokane Falls, Spokane, Wash.:::n.::::::
-
+2:::c:::cx̣ʷ:::3:::1:::s+cex̣ʷ+n:::stseqhwn:::†:::condolence, caressing.:::n.::::::[for expected cxʷ]
 2:::c:::cy'::::::1:::cuy':::tsu'y:::†:::chilling.:::stem adj.::::::
 2:::c:::cy'::::::2:::u· cúy':::uutsu'y::::::chilly (it is...).:::adj.::::::
 2:::c:::cy'::::::3:::cúy'+cuy'+t:::tsu'ytsu'yt::::::clammy. (lit. It is disagreeably moist and cold; it causes chills):::adj.::::::
@@ -330,23 +330,23 @@
 3:::c':::c'm':::1:::9:::x̣amá+[c]'am':::qhamast'a'm::::::heavy‑boned. (lit. He is heavy as to the bone):::adj.::::::
 3:::c':::c'm':::1:::10:::x̣am+a+s+c'am' ɫ dol+dólq'ʷ+t:::qhamats'a'm ɫ doldolq'wt::::::burly, husky. (lit. He is heavy‑boned and strong):::adj.::::::
 3:::c':::c'm':::2:::1:::c'o[m]':::ts'o'n:::†:::suck (on a solid object).:::stem vt.::::::
-
+3:::c':::c'm':::2:::2:::s+cóm'+m:::stso'mm:::::: sucking.:::n.:::[also recorded as cm']:::
 3:::c':::c'm':::2:::3:::s+c'úm'+m:::sts'u'mm::::::making the sound of sucking.:::vt.::::::
 3:::c':::c'm':::2:::4:::is+c'úm'+c'm'+iš:::ists'u'mts'u'mish::::::H/S is making the sound of sucking; h/s is making the sound of a mouse.:::vt.::::::
 3:::c':::c'm':::2:::5:::c'óm'‑nt‑s:::ts'o'mnts:::‡:::sucked (H/s...on it), sucked (he...it).:::vi, vt.::::::
-
+3:::c':::c'm'ɫ::::::1:::s+c'óm'+c'om'ɫ+t:::sts'o'mts'o'mɫt:::†:::abscess, boil, carbuncle.:::n.:::[see also mc'ɫt]:::
 3:::c':::c'p::::::1:::u+y+c'óp:::uyts'op:::†:::grasp, hold (H/i suddenly gets a very tight hold or grasp), suddenly (it...became tightened).:::adv, n.::::::
 3:::c':::c'p::::::2:::ya+c'p:::yats'p::::::clam up (lit. It became tightened up).:::vt.::::::
 3:::c':::c'p::::::3:::*ye+c'óp:::yetsop::::::to tighten (suddenly).:::::::::
 3:::c':::c'p::::::4:::s+y+c'p=a'wes:::syts'pa'wes::://:::connection, tightening together.:::n.::::::
-
+3:::c':::c'p::::::5:::s+n+c'ip=s+m:::snts'ipsm::::::cat nap. (lit. an eye pinching):::n.:::[xref c'p']:::
 3:::c':::c'p':::1:::1:::c'ep':::ts'ep':::†:::airtight, lightproof.:::stem adj.::::::
-
+3:::c':::c'p':::1:::2:::c'ep+m‑st‑m:::ts'epmstm:::‡:::caulk. (lit. It (canoe) was made water­tight by packing seams with pitch:::vt.:::[xref c'p]:::
 3:::c':::c'p':::2:::1:::c'ip':::ts'ip:::†:::pinch.:::stem v.::::::
 3:::c':::c'p':::2:::2:::hn+c'ap'‑s:::hnts'ap's:::‡:::She "snapped" her eyes (a sign of contempt).:::v.::::::
-
+3:::√c':::c'p':::2:::3:::c'+c'íp'‑n't‑s:::ts'ts'ip''nts::::::chuck. (lit. He pinched her slightly (playfully)::: vt.:::[xref c'p, č'p'1]:::
 3:::c':::c'p'l::::::1:::s+c'ip'al+yóh+m:::sts'ip'alyohm:::§:::dole. (lit. dealing out something sparingly):::vt.::::::
-
+3:::c':::c'p'q'::::::1:::c'ap'q:::ts'ap'q':::†:::  adhere, stick to (as glue). (adhere:::stem. , vi.:::[also recorded as c'p'q]:::
 3:::c':::c'p'q'::::::2:::t+c'áp'q:::tts'ap'q::::::adhere, stick to. (lit. It stuck fast as if glued to something; he became firmly attached):::vi, vt.::::::
 3:::c':::c'p'q'::::::3:::c'p'q'+mín+n:::ts'p'q'minn::::::glue, agglutinin.:::n.::::::
 3:::c':::c'p'q'::::::4:::ča[t]+c'p'q'=iɫxʷ+n:::chats'p'q'iɫkhwn::://:::asphalt, glue for the roof. (black‑top, pitch. (lit. means of paving roads):::n.::::::
@@ -436,7 +436,7 @@
 3:::c':::c'w'q::::::2:::c'ow'q=ín+n:::ts'o'wqinn::://:::corkscrew. (lit. spiral shaped device for drawing corks from bottles):::n.::::::
 3:::c':::c'w'q::::::3:::c'áw'q‑nt‑s:::ts'a'wqnts:::‡:::nail (He pulled out the...), pulled (He...out the nail).:::n, vt.::::::
 3:::c':::c'w'q::::::4:::hn+c'ow'+c'ow'q=íns‑nt‑n:::hnts'o'wts'o'wqinsntn::::::teeth (his...were extracted).:::n.::::::
-
+3:::c':::c'xʷ:::1:::1:::hn+c'éxʷ+t:::hnts'ekhut:::†:::channel, creek, stream.:::n.:::[xref cxʷ]:::
 3:::c':::c'xʷ:::2:::1:::c'ixʷ:::ts'ikhw:::†:::to prepare chips by peeling and tying.:::::::::
 3:::c':::c'x̣:::1:::1:::c'ax̣:::ts'aqh:::†:::fry.:::stem vt.::::::
 3:::c':::c'x̣:::1:::2:::s+c'ax̣:::sts'aqh::::::meat (fried...), steak.:::n.::::::
@@ -473,7 +473,7 @@
 3:::c':::c'x̣ʷ:::2:::3:::s+t+c'ex̣ʷ+ncut:::stts'eqhwntsut::::::asteroid, stars, self‑illuminating body.:::n.::::::
 3:::c':::c'x̣ʷ:::2:::4:::ul [u+x̣ʷel'+e] s+c'éx̣ʷ+ncut:::ul sts'eqhwntsut or uqhwe'le:::§:::astral. (lit. It is like a star):::adj.::::::
 3:::c':::c'x̣ʷ:::2:::5:::sye+č+súxʷ=eneʔ tel' s+t+c'éx̣ʷ+ncut:::syechsukhwene' te'l stts'eqhwntsut::::::astrologer, one who understands the stars.:::n.::::::
-
+3:::c':::c'x̣ʷ:::2:::6:::č+súxʷ=meʔ+n ha s+t+c'exʷ+ncut:::chsukhwme'n ha stts'ekhwntsut::::::  astrology. (lit. self illuminating body that is a guide):::n.:::[also recorded as c'xʷ]:::
 3:::c':::c'x̣ʷ:::2:::7:::s+t+miy+iy=ipeleʔ+s xʷe s+t+c[']éx̣ʷ+ncut:::stmiyiyipele's khwe sttseqhwntsut::::::astronomy.:::n.::::::
 3:::c':::c'yx̣ʷ::::::1:::hn+c'oy'+cóy'x̣ʷ+m:::Hnts'o'ytso'yqhwm:::†:::Spangle, Washington. (lit. town in Washington:::n.::::::
 3:::c':::c'ʕn::::::1:::c'aʕ'+c'in'=šn':::ts'a')ts'i'nsh'n::://:::character (name of...in a parable).:::n.::::::
@@ -633,14 +633,14 @@
 4:::č:::čgʷ::::::8:::č‿ʔe+čet+čígʷ+iš:::ch'echetchigwish::::::We traverse the plain.:::vt.::::::
 4:::č:::čgʷ::::::9:::kʷp'‿e+čet+čígʷ+iš:::kup'echetchigwish::::::traverse (you (pl.)...the plain).:::vt.::::::
 4:::č:::čgʷ::::::10:::s+čugʷ=áx̣n:::schugwaqhn::://:::arm, limb (body). (lit. that which extends into space from the body):::n.::::::
-
-
+4:::č:::čgʷ::::::11:::ul s+čogʷ=ax̣n:::ul schogwaqhn::::::brachial. (lit. of the arm):::adj.:::[see also čhgʷ]:::
+4:::č:::čhgʷ::::::1:::čet+čihgʷ:::chetchihgw:::†:::area, field, plain.:::n.:::[xref čgʷ]:::
 4:::č:::čl:::1:::1:::čel:::chel:::†:::await (...eagerly, anxiously).:::stem vt.::::::
 4:::č:::čl:::2:::1:::hn+či+člí:::Hnchichli:::†:::little lake near Benewah Lake.:::n.::::::
 4:::č:::člš::::::1:::s+n+čélš=elps:::snchelshelps::://:::hardtack. (lit. hard food) ("story" word)::: n.::::::
 4:::č:::člxʷ::::::1:::čélexʷ:::chelekhw:::†:::muskrat.:::n.::::::
 4:::č:::člxʷ::::::2:::č+čl'ixʷ:::chch'likhw::::::muskrat, small muskrat.:::dim n.::::::
-
+4:::č:::člʔ::::::1:::čeleʔ:::chele':::†:::bark, cradle board.:::n.:::[xref č'l]:::
 4:::č:::čl'::::::1:::čel':::che'l:::†:::cough up.:::stem vi.::::::
 4:::č:::čl'::::::2:::čil':::chi'l::::::nauseated, throw up, vomit.:::v, vt.::::::
 4:::č:::čɫ:::1:::1:::čeɫ:::cheɫ:::†:::divorce, part, separate.:::stem vi, vt.::::::
@@ -839,7 +839,7 @@
 4:::č:::čstq::::::5:::yuqʷ+eʔ+s+čá(=)stq:::yuqwe'schastq:::§:::She pretended (to go) digging roots.:::v.::::::
 4:::č:::čš:::1:::1:::češ:::chesh:::†:::accompany.:::vt.::::::
 4:::č:::čš:::1:::2:::češ+n:::cheshn::::::accompanied (he...).:::vt.::::::
-
+4:::č:::čš:::1:::3:::s+čéš+n:::scheshn::::::concurrence, consent. (lit. going along):::n.:::[see also č'š]:::
 4:::č:::čš:::2:::1:::s+čiš+t:::schisht:::†:::dimension, length.:::n.::::::
 4:::č:::čt::::::1:::čet‑nt‑s:::chetnts:::‡:::leaned (lit. he stood up by a person loose ‑ someone to lean on).:::vi.::::::
 4:::č:::čtm::::::1:::čtim+n:::chtimn:::†:::blame.:::v.::::::
@@ -859,7 +859,7 @@
 4:::č:::čw'::::::2:::kʷu‿n+čáw'=qn:::kuncha'wqn::://:::You (sg.) have a deep voice.:::vt.::::::
 4:::č:::čw'::::::3:::kʷup‿gʷt+n+čáw'=qn:::kupgutncha'wqn::::::You (pl.) have deep voices.:::vt.::::::
 4:::č:::čw'::::::4:::gʷɫ+n+čáw'=qn:::guɫncha'wqn::::::voices (They have deep...).:::n.::::::
-
+4:::č:::čw'::::::5:::čaw'n'+š a·c+ʔax̣al:::cha'w'nsh aats'aqhal:::§:::amen (lit. would that it be so).:::interj.:::[xref č'w']:::
 4:::č:::čy::::::1:::čay:::chay:::†:::enduring, firm, solid. (lit. one is enduring):::adj, vi.::::::
 4:::č:::čy::::::2:::u· čáy:::uuchay::::::firm (It is very...).:::adj.::::::
 4:::č:::čy::::::3:::čay+p:::chay(‑p::::::hard (to be...)::: vi.::::::
@@ -878,7 +878,7 @@
 4:::č:::čʕ::::::4:::č+čaʕ=al'qʷ:::chcha(a'lqw::::::lean, skinny, slender, trim (to be thin).:::ripple. adj, vi.::::::
 4:::č:::čʕ::::::5:::hn+č+čaʕ=iɫc'eʔ:::hnchcha(iɫt'se'::::::tube, narrow. (tube. (lit. It has a very small internal diameter):::adj.::::::
 4:::č:::čʔ:::1:::1:::čiʔ:::chi':::†:::open, uncover, unveil. (lit. to open):::adj.::::::
-
+4:::č:::čʔ:::1:::2:::e+čs+n+číy'=ep:::echsnchi'yep::://::: open. (lit. The door, gate is open):::adj.:::[also recorded as čy']:::
 4:::č:::čʔ:::1:::3:::en+číʔ=us:::enchi'us::::::open (to be...). (referring to window):::adj.::::::
 4:::č:::čʔ:::1:::4:::čet+čeʔ=inʔ‑nt‑s:::chetche'in'nts:::‡:::reveal, disclose, uncover.:::vi.::::::
 4:::č:::čʔ:::1:::5:::e čet+čeʔ=íneʔ‑stu‑s:::echetche'ine'stus::::::uncover, unveil, divulge. (lit. H/s uncovers it):::vt.::::::
@@ -939,7 +939,7 @@
 5:::č':::č'h::::::4:::čn'‿t+č'íh=ečt:::ch'ntch'ihecht::::::(lit. I am right‑handed).:::vt.::::::
 5:::č':::č'hy::::::1:::s+t+č'i·háy=us:::stch'iihayus:::†:::buttercups.:::pl.n.::::::
 5:::č':::č'l::::::1:::č'él+eʔ:::ch'ele':::†:::cradle board.:::n.::::::
-
+5:::č':::č'l::::::2:::č'el+eʔ:::ch'ele'::::::bark (of a tree), cradleboard.:::n.:::[xref člʔ]:::
 5:::č':::č'lxʷ::::::1:::č'elxʷ:::ch'elkhw:::†:::(lit. be receptacle with concave surface down).:::n.::::::
 5:::č':::č'lxʷ::::::2:::e· č'élxʷ:::eech'elkhw::::::concave. (lit. It is laid with the vaulted side down):::adj.::::::
 5:::č':::č'lxʷ::::::3:::hn+č'+č'el'xʷ=ičn':::hnch'ch'e'lkhwichn'::://:::roof (a car...). (lit. concave form as one's back):::n.::::::
@@ -1018,7 +1018,7 @@
 5:::č':::č'n::::::3:::i+č'in+č'in+m+scút:::ich'inch'inmstsut::::::desperate. (lit. He is putting himself in a very dangerous situation):::adj.::::::
 5:::č':::č'n::::::4:::s+č'n+č'n+m+scút:::sch'nch'nmstsut::::::adventure. (lit. endangering oneself):::n.::::::
 5:::č':::č'np'::::::1:::č'enp':::ch'enp':::†:::clasp, encircle.:::vt.::::::
-
+5:::č':::č'np'::::::2:::čynp'=íc'eʔ:::chynp'its'e'::://:::  barrel. (lit. a wooden container held together by hoops):::n.:::[also recorded as čnp']:::
 5:::č':::č'np'::::::3:::č'np'=qín'=čt:::ch'np'qi'ncht::::::annulus, curio.:::n.::::::
 5:::č':::č'np'::::::4:::cen+č'np'=cín=šn:::tsench'np'tsinshn::::::bangle. (lit. anklet):::n.::::::
 5:::č':::č'np'::::::5:::s+č'np'=áx̣n:::sch'np'aqhn::::::armlet, bracelet.:::n.::::::
@@ -1049,7 +1049,7 @@
 5:::č':::č'pxʷ::::::1:::č'epxʷ:::ch'epkhw:::†:::trap, He (mouse) was trapped.  (lit. it was trapped):::vt.::::::
 5:::č':::č'p'::::::1:::č'ip':::ch'ip':::†:::pinch.:::stem vt.::::::
 5:::č':::č'p'::::::2:::č'ip'+č'ep'+t:::ch'ip'ch'ep't::::::dawdles, dilatory. (lit. he is slow):::adj.::::::
-
+5:::č':::č'p'::::::3:::č'ip[']+m+ncut:::ch'ipmntsut::::::dawdles, loiters. (lit. he pinched himself):::adj.:::[xref c'p']:::
 5:::č':::č'p'xʷ::::::1:::č'ép'xʷ:::ch'ep'khw:::†:::click, clip.:::stem vt.::::::
 5:::č':::č'p'xʷ::::::2:::č'p'uxʷ:::ch'p'ukhw!::::::click. (lit. It went click):::n.::::::
 5:::č':::č'p'xʷ::::::3:::č'p'xʷ+mín+n:::ch'p'khuminn::::::clip, pliers, pinchers. (lit. a device for fastening):::n.::::::
@@ -1069,10 +1069,10 @@
 5:::č':::č'r:::2:::4:::niʔč'+č'ar'=ál'qʷ:::Ni'ch'ch'a'ra'lqw:::§:::Sanders, Idaho. (lit. a cut in the woods):::n.::::::
 5:::č':::č'rp'::::::1:::č'ar'p'=qin'=čt:::ch'a'rp'qi'ncht::://:::ring (for the finger).:::n.::::::
 5:::č':::č'rp'::::::2:::s+can+č'arp'=áx̣n:::stsanch'arp'aqhn::::::corona. (lit. ring around the armpits or ring around the planet, star, or moon):::n.::::::
-
+5:::č':::č'rw::::::1:::s+t+č'érw+um:::stch'erwum:::†:::pray, prayer.:::vi, n.:::[xref č'ʕʷ]:::
 5:::č':::č's::::::1:::č'es:::ch'es:::†:::bad (be...).:::stem vi.::::::
 5:::č':::č's::::::2:::č'es+t:::ch'est::::::bad, brutal, contemptuous, cruel, despicable, evil, mean, overbearing, scornful, (lit. He is...).:::adj.::::::
-
+5:::č':::č's::::::3:::[č]'es+t:::q'est::::::bad (it is...).:::vi.:::[see also q's]:::
 5:::č':::č's::::::4:::s+č'es+t:::sch'est::::::brutality, cruelty.:::n.::::::
 5:::č':::č's::::::5:::hn+č'és+n:::hnch'esn::::::depravity, sin, wrongdoing. (condition of being bad, evil:::n.::::::
 5:::č':::č's::::::6:::č[']és+m+ncut:::chesmntsut::::::delinquent. (lit. He made himself a delinquent):::n.::::::
@@ -1116,7 +1116,7 @@
 5:::č':::č's::::::44:::č's+č's+t+men+ɫ le·swíp:::ch'sch'stmenɫ leeswip::::::anti‑Semite.:::n.::::::
 5:::č':::č's::::::45:::lut č'es+t:::lut ch'est::::::amoral. (lit. It is not bad):::adj.::::::
 5:::č':::č's::::::46:::ɫe+č'is+eɫ+cegʷ+t:::ɫech'iseɫtsegwt::::::boor. (lit. one who has bad manners):::n.::::::
-
+5:::č':::č'š::::::1:::č'éš‑nt‑eli‑s:::ch'eshntelis:::‡:::conform. (lit. He went along with us. He conformed his behavior with ours):::vt.:::[see also čš]:::
 5:::č':::č't::::::1:::č'et:::ch'et:::†:::beat, tick.:::nod. stem vt.::::::
 5:::č':::č't::::::2:::u·+č't+č't+č't:::uuch'tch'tch't::::::chuckle. (lit. He laughed quietly by nodding repeatedly):::vi.::::::
 5:::č':::č'tʔ::::::1:::č'íteʔ:::ch'ite':::†:::near (be...).:::stem, vi.::::::
@@ -1126,7 +1126,7 @@
 5:::č':::č't':::1:::2:::hn+č't'=ús‑nt‑m:::hnch't'usntm:::‡:::decapitated. (lit. He was decapitated):::adj.::::::
 5:::č':::č't':::2:::1:::č't[']:::ch't:::†:::brown. (horse:::n.::::::
 5:::č':::č't':::2:::2:::t+č't'=élxʷ:::tch't'elkhw::::::brown. (lit. A horse with brown fur (hide(:::adj.::::::
-
+5:::č':::č't':::3:::1:::čet'+č'et':::chet'ch'et':::†:::blackbird.:::n.:::[see also t'č'1]:::
 5:::č':::č't':::3:::2:::is+č'át'+č'at[']+iš:::isch'at'ch'atish::::::chirrup. (lit. The bird is uttering a series of chirps):::vi.::::::
 5:::č':::č'w:::1:::1:::č'ew:::ch'ew:::†:::nostalgic.:::stem adj.::::::
 5:::č':::č'w:::2:::1:::č'u:::ch'u:::†:::absent, away, gone, missing.:::adj.::::::
@@ -1145,7 +1145,7 @@
 5:::č':::č'w'::::::6:::čn+hn+č'aw'=qn:::chn(h)nch'a'wqn::::::voice (to have a deep voice).:::vi.::::::
 5:::č':::č'w'::::::7:::čn‿n+č'áw'=qn:::chnnch'a'wqn::::::voice (I have a deep...).:::n.::::::
 5:::č':::č'w'::::::8:::čn‿(h)n+č'aw'=qn:::chn(h)nch'a'wqn::::::deep (voice). (lit. I have a deep voice):::vi.adj.::::::
-
+5:::č':::č'w'::::::9:::č‿gʷuɫ+n+č'áw'=qn:::chguɫnch'a'wqn::::::lit. we have deep voices.:::vt.:::[xref čw']:::
 5:::č':::č'xʷ:::1:::1:::č'axʷ:::ch'akhw!:::†:::clack, clang, clop. (lit. sound of hard object striking another):::vi.::::::
 5:::č':::č'xʷ:::1:::2:::u· č'áxʷ:::uuch'akhw::::::clack. (lit. It went "clack"):::vi.::::::
 5:::č':::č'xʷ:::2:::1:::č'ixʷ:::ch'ikhw:::†:::lean against.:::vi.::::::
@@ -1176,13 +1176,13 @@
 5:::č':::č'ʕʷ::::::6:::s+t+č'éʕʷ=peleʔ:::stch'e(wpele'::://:::benediction, benison, blessing, consecration, dedication. (lit. praying for the origin of one):::n.::::::
 5:::č':::č'ʕʷ::::::7:::at+č'éʕʷ=peleʔ:::atch'e(wpele'::::::blessed, consecrated. (lit. Divine favor was invoked upon h/h/i):::vi.adj.::::::
 5:::č':::č'ʕʷ::::::8:::t+č'éʕʷ=pleʔ‑nt‑s:::tch'e(wple'nts:::‡:::dedicate. (lit. He prayed for its special use):::v.::::::
-
+5:::č':::č'ʕʷ::::::9:::t+č[']eʕʷ=peleʔ‑nt‑s:::tche(wpele'nts::::::bless, pray over.:::vt.:::[see also č'rw]:::
 5:::č':::č'ʔ:::1:::1:::s+č'aʔ=qin'=šn':::sch'a'qi'nsh'n::://:::knee cap, knee joint, knee.:::n.::::::
 5:::č':::č'ʔ:::2:::1:::č'eʔ+š:::ch'e'sh:::†:::condescend.:::stem vi.::::::
 5:::č':::č'ʔ:::2:::2:::č'eʔ+č'eʔ=šn+mí‑nt‑se‑xʷ:::ch'e'ch'e'shnmintsekhw:::‡:::condescend. (lit. You (a noble) humbled yourself before a humble person (me)::: vi.::::::
 6:::d:::dk'ʷ::::::1:::dik'ʷ:::dik'w:::†:::turn about in going (cross face).:::vi.::::::
 6:::d:::dk'ʷ::::::2:::e·+dík'ʷ+s+m:::eedik'wsm::::::ebb. (lit. It ebbs):::vi.::::::
-
+6:::d:::dk'ʷ::::::3:::e·+dik'ʷ+s+m:::eedik'wsm::::::go, recede, return, ebbs. (lit. H/s/i recedes/goes back/returns):::vi.:::[xref dxʷ]:::
 6:::d:::dl:::1:::1:::del:::del:::†:::sit (...up like animal).:::stem vi.::::::
 6:::d:::dl:::1:::2:::e·+dél+ut:::eedelut::::::haunches, seated. (lit. The dog is seated):::n, adj.::::::
 6:::d:::dl:::1:::3:::e·+dél+dl+ut:::eedeldlut::::::seated. (lit. The dogs are seated):::adj.::::::
@@ -1193,7 +1193,7 @@
 6:::d:::dlm::::::2:::č+dlam=alqʷ:::chdlamalqw::::::railway, train. (lit. he galloped on the log, rail, etc.):::n.::::::
 6:::d:::dlm::::::3:::č+dl+dlám=alqʷ:::chdldlamalqw::::::trains.:::n.::::::
 6:::d:::dlm::::::4:::hn+dlám=alqs:::hndlamalqs::::::lit. He galloped along the road.:::vt.::::::
-
+6:::d:::dlm::::::5:::dele[m]+l'e+s+čí+čeʔ:::delen'leschiche':::§:::cause. (lit. He caused his horse to gallop):::vt.:::[xref dl']:::
 6:::d:::dlq'ʷ::::::1:::dolq'ʷ:::dolq'w:::†:::person (...is strong).:::stem n.::::::
 6:::d:::dlq'ʷ::::::2:::dól+dolq'ʷ+t:::doldolq'wt::::::almighty, athletic, omnipotent, powerful (he is...), strong, virtuous.:::adj.::::::
 6:::d:::dlq'ʷ::::::3:::s+dól+dolq'ʷ+t:::sdoldolq'wt::::::brawn, power (muscular...), strength, virtue.:::n.::::::
@@ -1205,7 +1205,7 @@
 6:::d:::dl':::1:::1:::e·+del':::eede'l:::†:::bush, plant, shrub, a low branching woody plant.:::n.::::::
 6:::d:::dl':::2:::1:::dul':::du'l:::†:::run (...away).:::vi.::::::
 6:::d:::dl':::2:::2:::č+dul'+m+ncut:::chdu'lmntsut::::::elope, run away. (lit. we ran away):::vi.::::::
-
+6:::d:::dl':::2:::3:::č+dúl'+m+ncut:::chdu'lmntsut::::::elope.:::vi.:::[xref dlm]:::
 6:::d:::dl'p::::::1:::č+del'p+dil'p:::chde'lpdi'lp:::†:::bat (mammal). (vampire::: n.::::::
 6:::d:::dɫ::::::1:::diɫ:::diɫ:::†:::rustle, shake.:::stem vt.::::::
 6:::d:::dɫ::::::2:::duɫ+duɫ+p:::duɫduɫp::::::poplar tree.:::n.::::::
@@ -1242,7 +1242,7 @@
 6:::d:::ds:::1:::1:::des:::des:::†:::camp.:::stem n.::::::
 6:::d:::ds:::1:::2:::des+t:::dest::::::camped (he...), encamp.:::vi.::::::
 6:::d:::ds:::1:::3:::s+des+t:::sdest::::::camp (to...), camping.:::vt, n.::::::
-
+6:::d:::ds:::1:::4:::hn+dés+n:::hndesn::::::camp, campground. (lit. place where people camp):::n.:::[see also sds]:::
 6:::d:::ds:::2:::1:::dis:::dis:::†:::appear.:::stem vi.::::::
 6:::d:::dš::::::1:::déš+š+iʔ:::deshshi':::†:::decreased, diminished, lessened (the number...).:::vi.::::::
 6:::d:::dš::::::2:::deš+š+iʔ:::deshshi'::::::diminish, lessen, smaller (to grow...). (lit. It grew smaller; it diminished):::vi.::::::
@@ -1267,7 +1267,7 @@
 6:::d:::dxʷ:::1:::16:::dexʷ+m‑st‑m:::dekhwmstm:::‡:::cheapen. (lit. it was lowered):::vt.::::::
 6:::d:::dxʷ:::1:::17:::cen+déxʷ+t+m‑stu‑s:::tsendekhwtmstus::::::depreciate. (lit. He lowered the value or rate of it):::vi.::::::
 6:::d:::dxʷ:::1:::18:::cen+déxʷ+xʷ+m‑st‑m:::tsendekhukhwmstm::::::discount. (lit. He dropped from a higher to a lower state):::vt.::::::
-
+6:::d:::dxʷ:::1:::19:::cen+déxʷ+xʷ‑t‑m:::tsendekhukhwtm::::::depreciate. (lit. It became lower (in value):::vt.:::[see also dk'ʷ]:::
 6:::d:::dxʷ:::2:::1:::ec+ʔe+dxʷ=íw'es:::ets'edkhwi'wes::://:::cross, crucifix.:::n.::::::
 6:::d:::dxʷ:::2:::2:::e+dxʷ=iw'es‑nt‑en:::edkhwiw'esnten:::‡:::crisscross.:::adj.::::::
 6:::d:::dxʷ:::2:::3:::e dxʷ=ílgʷes‑nt‑em:::edkhwilgwesntem::::::to be blessed, made holy (lit. A sign of the cross was made over h/h).:::v.::::::
@@ -1347,7 +1347,7 @@
 7:::gʷ:::gʷč::::::27:::neʔ gʷíč+gʷič=us‑nt‑s xʷa s+l'ax̣+t‑s:::ne'tgwichgwichusnts khwa s'laqhts::::::He will see the eyes of one who is his friend.:::v.::::::
 7:::gʷ:::gʷč::::::28:::čn‿xʷuy hiɫ čn‿gʷič e c'iʔ:::chnkhuy hiɫ chngwich e ts'i'::::::lit. I went over there and I saw a deer.:::vt.::::::
 7:::gʷ:::gʷč'::::::1:::gʷič':::gwich':::†:::ignite, kindle, light.:::vt.::::::
-
+7:::gʷ:::gʷč'::::::2:::u+t+gʷč'+gʷéč'=us:::utgwch'gwech'us::://:::eyesight (H/s has clear...).:::n.::::::[for expected gʷč]
 7:::gʷ:::gʷč'::::::3:::gʷíč'+s=kʷp+n:::gwich'skupn:::§:::kindling.:::n.::::::
 7:::gʷ:::gʷč'::::::4:::čeɫ‿gʷíč'+s+kʷup+n:::cheɫgwich'skupn::::::H/s went after kindling.:::vt.::::::
 7:::gʷ:::gʷč'::::::5:::hn‑gʷíč'+s+kʷup+n:::hngwich'skupn::::::It is my kindling.:::vi.::::::
@@ -1372,7 +1372,7 @@
 7:::gʷ:::gʷl:::1:::13:::s+gʷl=íɫxʷ:::sgwliɫkhw::::::arson. (lit. burning a house):::n.::::::
 7:::gʷ:::gʷl:::1:::14:::gʷl=íɫc'eʔ‑nt‑m:::gwliɫt'se'ntm:::‡:::cremate. (lit. His corpse was burn:::vt.::::::
 7:::gʷ:::gʷl:::1:::15:::s+miyes+gʷél+p:::smiyesgwelp:::§:::conflagration. (lit. extraordinary fire):::n.::::::
-
+7:::gʷ:::gʷl:::1:::16:::te[l]' s+gʷel+p:::te' sgwelp::::::igneous.:::adj.:::[xref qʷl']:::
 7:::gʷ:::gʷl:::2:::1:::gʷil:::gwil:::†:::trust.:::stem vt.::::::
 7:::gʷ:::gʷl'::::::1:::gʷel':::gwel':::†:::slant, tilt.:::stem vt.::::::
 7:::gʷ:::gʷl'::::::2:::gwél'+l'+m:::gwe'l'lm::::::It was tilted.:::vi.::::::
@@ -1511,7 +1511,7 @@
 7:::gʷ:::gʷs:::2:::13:::tel' n+gʷis+t:::te'l ngwist::::::above (from...).:::adv.::::::
 7:::gʷ:::gʷs:::2:::14:::teč+n+gʷís+t:::techngwist::::::above, aloft, overhead, upstairs, in heaven, into a high place, toward the sky.:::adv.::::::
 7:::gʷ:::gʷs:::2:::15:::s+č's=cín+m+n ɫe n+gʷís+t:::sch'stsinmn ɫengwist::::::blasphemy. (lit. speaking evil of the One on High):::n.::::::
-
+7:::gʷ:::gʷs:::2:::16:::ylmixʷ+m a+n+gʷís+t:::ylmikhumangwist::::::the chief who dwells on high.:::n.:::[xref gʷš2]:::
 7:::gʷ:::gʷš:::1:::1:::gʷeš:::gwesh:::†:::comb.:::stem vt.::::::
 7:::gʷ:::gʷš:::1:::2:::gʷš=úl'mxʷ:::gwshu'lmkhw::://:::harrowed. (lit. He combed the ground):::vt.::::::
 7:::gʷ:::gʷš:::1:::3:::gʷš=úl'mxʷ+n:::gwshu'lmkhwn::::::harrow. (lit. means of com[b]ing the ground):::vt.::::::
@@ -1617,7 +1617,7 @@
 8:::h:::hy:::3:::4:::ʔekʷú‑stu‑s hoy:::ekustus "huy":::§:::allow (lit. say all right).:::v.::::::
 8:::h:::hy:::4:::1:::háy(=)aqs:::hayaqs:::†:::pearl.:::n.::::::
 8:::h:::hy'::::::1:::huy:::huy:::†:::a cajoling phrase.:::interj.::::::
-
+8:::h:::hy'::::::2:::húy'‑nt‑s:::hu'ynts:::‡:::cajole, coax, wheedle.:::vt.:::[xref ʕʷy]:::
 8:::h:::hʕʷ::::::1:::heʕʷ:::he(w:::†:::growl (...like bear).:::stem vi.::::::
 8:::h:::hʔn'::::::1:::heʔín':::he'i'n:::†:::eight.:::stem n.::::::
 8:::h:::hʔn'::::::2:::heʔín'+m:::he'i'nm::::::eight.:::n.::::::
@@ -1667,7 +1667,7 @@
 9:::ǰ:::ǰy'::::::9:::hn+ǰiy'+ǰiy'=ítkʷeʔ:::hnji'yji'yitkwe'::::::It is bad water.:::vi.::::::
 9:::ǰ:::ǰy'::::::10:::hn+ǰáy'+ǰiy'=qn:::hnja'yji'yqn::::::blatant. (lit. He has an unpleasant voice):::adj.::::::
 9:::ǰ:::ǰy'::::::11:::ǰéy'+ǰey'=us:::je'yji'yus::::::H/S has an ugly face.:::vt.::::::
-
+9:::ǰ:::ǰy'::::::12:::s+ǰiʔ+ǰiʔ+t=il'š:::sji'ji'ti'lsh::::::  corruption, debauchery.:::n.:::[also recorded as ǰʔ]:::
 9:::ǰ:::ǰy'::::::13:::ǰiy'+ǰiy'+t=íl'š:::ji'yji'yti'lsh::::::H/S/I became ugly, bad.:::vi.::::::
 9:::ǰ:::ǰy'::::::14:::ǰiy'+ǰiy'+t=íl'š‑st‑m:::ji'yji'yti'lshstm:::‡:::debauch, disfigure, deflower, defile. (lit. He was corrupted in moral principles):::vt.::::::
 9:::ǰ:::ǰy'::::::15:::ǰiy'+ǰiy'+t+íl'š‑stu‑s:::ji'yji'yti'lshstus::::::deface. (lit. He made it bad, he injured its beauty):::vt.::::::
@@ -1675,9 +1675,9 @@
 9:::ǰ:::ǰy'::::::17:::ǰey'=íčt+m‑nt‑s:::je'yichtmnts::::::He treated it in an ugly manner; he made it wrong.:::vt.::::::
 9:::ǰ:::ǰy'::::::18:::ǰiy'+ǰiy'+áɫ+[q]ixʷ:::ji'yji'yaɫqhikhw:::§:::smells (it...bad).:::vi.::::::
 9:::ǰ:::ǰy'::::::19:::s+nukʷ+ǰéy'+m+ncut:::snukwje'ymntsut::::::correspondent. (lit. fellow evil­doer):::n.::::::
-
+10:::k:::klts::::::1:::káltes pa·láč:::kaltes paaɫach:::§:::bonus (Chinook jargon). (n.)  šáltes pa·lač bonus (Chinook jargon). (shaltes paalach::: n.:::[also written as šlts]:::
 10:::k:::kml::::::1:::ke·mél:::keemel:::†:::camel.:::n.::::::
-
+10:::k:::kp::::::1:::s+n+ká+kap=qn':::snkakapq'n::://:::cap.:::n.:::[xref qp]:::
 10:::k:::kr::::::1:::kri:::Kri:::†:::Christ.:::n.::::::
 10:::k:::kr::::::2:::ul ǰiso· krí:::ul Jisoo Kri:::§:::Christian. (lit. pertaining to Christ):::n.::::::
 10:::k:::kʕ::::::1:::gʷp+ciʔ+ka·+káʕ:::guptsi'kaaka(:::§:::brother (young boy's name of older...).:::n.::::::
@@ -1690,10 +1690,10 @@
 11:::kʷ:::kʷc::::::7:::hn+kʷíc+t:::hnkwitst::::::interior. (lit. far inside):::n.::::::
 11:::kʷ:::kʷc::::::8:::hn+kʷác=qn:::hnkwatsqn::://:::dawn. (lit. time when morning star rises):::n.::::::
 11:::kʷ:::kʷc::::::9:::s+n+kʷec+t+mš=cín:::snkwetstmshtsin::::::breakfast, brunch. (lit. eating very early):::n.::::::
-
+11:::kʷ:::kʷdʔ::::::1:::s+kʷedeʔ=cín+p=eneʔ:::skwede'tsinpene'::://:::chin.:::n.:::[xref? k'ʷd]:::
 11:::kʷ:::kʷgʷ::::::1:::kʷigʷ:::kwigw:::†:::see (faintly).:::stem vt.::::::
 11:::kʷ:::kʷgʷ::::::2:::cu·+kʷigʷ:::tsuukwigw::::::unclear, dim, indistinct.:::stem adj.::::::
-
+11:::kʷ:::kʷkʷ:::1:::1:::is+kʷákʷ+akʷ+iš:::iskwakwakwish:::†:::cluck. (lit. The hen making a cluck­cluck sound), vi.)  i s+k'ʷákʷ+akʷ+iš cluck (lit. The hen is making a cluck‑cluck sound). (isk'wakwakwish::: vi.:::[also written as k'ʷkʷ]:::
 11:::kʷ:::kʷkʷ:::2:::1:::kʷu+kʷúkʷ:::kukukw:::†:::in the other room.:::adv.::::::
 11:::kʷ:::kʷl::::::1:::kʷl:::kwl:::†:::red.:::stem adj.::::::
 11:::kʷ:::kʷl::::::2:::kʷil:::kwil::::::red (to become...).:::stem adj.::::::
@@ -1726,10 +1726,10 @@
 11:::kʷ:::kʷl':::1:::15:::s+t+kʷl'+l'=ic'eʔ:::stkw'l'lits'e'::::::aura, (lit. light on the body).:::n.::::::
 11:::kʷ:::kʷl':::1:::16:::t+kʷl'+l'=íc'eʔ:::Tkw'l'lits'e'::::::aura (a person with a visible...), sunshine (...on the body, name of a Coeur d'Alene).:::n.::::::
 11:::kʷ:::kʷl':::2:::1:::s+t+kʷel'+tem+n=elwís:::stkwe'ltemnelwis::://:::visiting (He is going about...people).:::vt.::::::
-
-
+11:::kʷ:::kʷl':::2:::2:::s+t+kʷel'+čs+xʷy+s+čínt:::stkwe'lchskhuyschint::::::people (He is going about visiting...), gathering (He is going about...people).:::n, vt.:::[xref kʷɫ1]:::
+11:::kʷ:::kʷl':::3:::1:::s+kʷul':::sku'l:::†:::avocation, work.:::n.:::[xref k'ʷl']:::
 11:::kʷ:::kʷɫ:::1:::1:::t+kʷeɫ+tem+n=elwís:::tkweɫtemnelwis:::§:::visiting (He went about...people, treating them sociably), went (He...about visiting people, treating them sociably).:::vt, vi.::::::
-
+11:::kʷ:::kʷɫ:::1:::2:::t+kʷeɫ+xʷy=elwís:::tkweɫkhuyelwis::::::circulate. (lit. He moved around from place to place):::vi.:::[xref kʷl'2]:::
 11:::kʷ:::kʷɫ:::2:::1:::kʷuɫ:::kuɫ:::†:::borrow, lend. (to borrow:::stem. , vt.::::::
 11:::kʷ:::kʷɫ:::2:::2:::kʷuɫ+n:::kuɫn::::::borrow.:::vt.::::::
 11:::kʷ:::kʷɫ:::2:::3:::s+kʷúɫ+n:::skuɫn::::::borrowing, lending.:::vt.::::::
@@ -1761,7 +1761,7 @@
 11:::kʷ:::kʷn:::2:::6:::sya·+kʷán=ax̣n:::syaakwanaqhn::::::captor. (lit. One who takes (another) by the arm):::n.::::::
 11:::kʷ:::kʷn:::2:::7:::kʷin=čt+ncút+n:::kwintshtntsutn::::::exp. depend, someone to depend on (lit. you are my means of taking care of myself).:::vi.::::::
 11:::kʷ:::kʷn:::2:::8:::s+kʷín'+t=ew'eš:::skwi'nte'wesh::::::Taking one another, as a couple in marriage.:::vt.::::::
-
+11:::kʷ:::kʷn:::2:::9:::ec+kʷís+t=us:::etskwistus::::::[recorded once as kʷs]  carry. (He is carrying it):::vi.::::::
 11:::kʷ:::kʷn:::2:::10:::kʷin‑t‑s:::kwints:::‡:::accept, apprehend, capture, catch (apprehend).:::v, vt.::::::
 11:::kʷ:::kʷn:::2:::11:::kʷín‑t‑s:::kwints::::::carry, he carried it, he took it away.:::vt.::::::
 11:::kʷ:::kʷn:::2:::12:::kʷen+en‑nun‑t‑s:::kwenennunts::::::caught. (lit. he succeeded in taking it, he caught it):::vt.::::::
@@ -1785,7 +1785,7 @@
 11:::kʷ:::kʷn:::2:::30:::čn‿kʷán+lq'ʷeʔ=ep:::chnkwanlq'we'ep::::::I took a bark basket(s) along.:::vt.::::::
 11:::kʷ:::kʷn:::2:::31:::s+kʷán+ɫqʷeʔ=ep:::skwanɫqwe'ep::::::Bark basket taken along.:::vi.::::::
 11:::kʷ:::kʷn:::2:::32:::kʷan+ɫ+sc+šár=čt:::kwanɫstsharcht::::::H/S took (along) a valise, lantern, etc.:::vt.::::::
-
+11:::kʷ:::kʷn:::2:::33:::kʷan+ɫ+l'+l'pot:::kwanɫ'l'lpot::::::cup (h/s took a...).:::n.:::[xref kʷn']:::
 11:::kʷ:::kʷnxʷ::::::1:::cen+kʷinxʷ=cn:::tsenkwinkhwtsn::://:::answer, reply, respond.:::v.::::::
 11:::kʷ:::kʷnxʷ::::::2:::cen+kʷínxʷ=cn:::tsenkwinkhwtsn::::::answer. (lit. He received the question of another by replying):::vt.::::::
 11:::kʷ:::kʷnxʷ::::::3:::s+cen+kʷinxʷ=cn:::stsenkwinkhwtsn::::::answer, response.:::n.::::::
@@ -1793,10 +1793,10 @@
 11:::kʷ:::kʷnxʷ::::::5:::cen+kʷínxʷ=cn‑t‑s:::tsenkwinkhwtsnts::::::answered (he...h/h).:::vt.::::::
 11:::kʷ:::kʷnxʷ::::::6:::cen+kʷínxʷ=cn‑t‑se‑s:::tsenkwinkhwtsntses::::::answered (he...me).:::vt.::::::
 11:::kʷ:::kʷnxʷ::::::7:::cen+kʷínxʷ=cn‑t‑si‑s:::tsenkwinkhwtsntsis::::::answered (he...you (sg.(.:::vt.::::::
-
+11:::kʷ:::kʷn'::::::1:::t+kʷen'+kʷen'+m'=íw'es:::Tkwe'nkwe'n'mi'wes::://:::confluence (...of streams, original name of Tekoa, Wash., confluent), confluent (original name of Tekoa, Wash....). (lit. taking one another at the mid‑section):::n.:::[xref kʷn2]:::
 11:::kʷ:::kʷp::::::1:::s+t+kʷúp=šn+mš:::stkupshnmsh::://:::assault, attack. (lit. attacking on foot by many):::vt.::::::
 11:::kʷ:::kʷr::::::1:::kʷar:::kwar:::†:::yellow.:::stem adj.::::::
-
+11:::kʷ:::kʷr::::::2:::kʷar+eq:::kwareq::::::It is yellow. (qwareq:::(vt.)  :::[also recorded as qʷr]  qʷar+éq yellow it is...). vt.:::
 11:::kʷ:::kʷr::::::3:::u kʷar+éq:::ukwareq::::::yellow (It is...).:::adj.::::::
 11:::kʷ:::kʷr::::::4:::u kʷar+kʷar+éq:::ukwarkwareq::::::yellow (They are...).:::adj.::::::
 11:::kʷ:::kʷr::::::5:::kʷ+kʷár'eʔ+t':::kukwa're't'::::::bullion, gold.  (lit. $20.00 in gold):::n.::::::
@@ -1805,8 +1805,8 @@
 11:::kʷ:::kʷr::::::8:::hn+kʷár=kʷeʔ:::hnkwarkwe'::://:::yellow water.:::n.::::::
 11:::kʷ:::kʷr::::::9:::s+kʷar=šn:::skwarshn::::::yellow foot, crane.:::n.::::::
 11:::kʷ:::kʷr::::::10:::hn+kʷar+ar'=ʔós=alpqʷ:::hnkwarar'osalpqw::::::cock, capon, chanticleer, rooster. (lit. He became yellow in the mouth by opening it when crowed):::n.::::::
-
-
+11:::kʷ:::kʷr::::::11:::t+kʷar+kʷar+éq=eʔst:::tkwarkwareqe'st::::::orange. (lit. yellow yellow on the outside), adj.)   t+xʷar+xʷar+éq=eʔst orange (lit. yellow yellow on the outside). (tkhwarkwareqe'st::: adj.:::[also recorded as xʷr]:::
+11:::kʷ:::kʷr::::::12:::*t+kʷar+éq=qn:::tqwareqqn:::::: blonde (lit. one with pale or yellowish hair).:::n.:::[see also qʷr]:::
 11:::kʷ:::kʷr::::::13:::hn+kʷar+ar+ʔóh+m:::hnkwarar'ohm:::§:::crow (to...).:::vi.::::::
 11:::kʷ:::kʷr::::::14:::u+kʷar+éq ha s+máy=qn:::ukwareq ha smayqn::::::clay. (lit. mud that it yellow):::n.::::::
 11:::kʷ:::kʷs:::1:::1:::u· kʷé·s:::uukweees:::†:::weather (mild...). (lit. almost like spring):::n.::::::
@@ -1835,7 +1835,7 @@
 11:::kʷ:::kʷt::::::1:::kʷút=gʷl:::kutgul::://:::eel.:::n.::::::
 11:::kʷ:::kʷt'n'::::::1:::kʷít'en':::kwit'e'n:::†:::mouse, shrew.:::n.::::::
 11:::kʷ:::kʷʕʷ::::::1:::i c+kʷéʕ'ʷ+kʷeʕ'ʷ+ʕ'ʷ:::itskwe'(wkwe'('(w:::†:::demented (lit. He is going crazy).:::adj.::::::
-
+11:::kʷ:::kʷʕʷ::::::2:::s+kʷéʔʕʷ+kʷeʕʷ+ʔʕʷ:::skwe'(wkwe(u'(::::::insanity.:::n.::::::[for expected qʷʕʷ]
 12:::k'ʷ:::k'ʷd::::::1:::hn+k'ʷdeʔ=ús=šn:::hnk'wde'usshn::://:::root.:::n.::::::
 12:::k'ʷ:::k'ʷd::::::2:::s+n+k'ʷdeʔ=ús=šn:::snk'wde'usshn::::::background, derivation. (lit. root):::n.::::::
 12:::k'ʷ:::k'ʷd::::::3:::tel' s+en+k'ʷdeʔ=ú[s]=šn:::te'l senk'wde'ushn::::::derivative. (lit. from the source):::n.::::::
@@ -1942,11 +1942,11 @@
 12:::k'ʷ:::k'ʷnʔ::::::2:::k'ʷnéʔ:::k'wne'::::::future.:::n.::::::
 12:::k'ʷ:::k'ʷnʔ::::::3:::k'ʷnéʔ+čn‿siy+m‑stú‑t:::k'wne'chnsiymstut:::§:::best (I am going to do my...).:::n.::::::
 12:::k'ʷ:::k'ʷnʔ::::::4:::k'ʷnéʔ+čn‿siy+m+scút:::k'wne'chnsiymstsut::::::do (I am going to...my best).:::vt.::::::
-
+12:::k'ʷ:::k'ʷnʔ::::::5:::k'ʷnaʔ+čn‿qʷaʔ+qʷeʔel:::k'wna'chnqwa'qwe'el::::::speak. (lit. I am going to speak):::vi.:::[xref k'ʷn']:::
 12:::k'ʷ:::k'ʷn':::1:::1:::k'ʷ+k'ʷn'=iy'eʔ:::k'uk'w'ni'ye'::://:::by and by, minute (in a...), moment (in a...), soon (very...), in a short while...:::adv.::::::
 12:::k'ʷ:::k'ʷn':::1:::2:::u+k'ʷ+k'ʷn'=íy'e:::uk'uk'w'ni'ye'::::::anon, elapse, soon. (lit. It slipped or glided away in a short time):::vi, adv.::::::
 12:::k'ʷ:::k'ʷn':::1:::3:::e s+k'ʷ+k'ʷn=iy'eʔ:::esk'ukw'ni'ye'::::::a while ago.:::adv.::::::
-
+12:::k'ʷ:::k'ʷn':::1:::4:::úw'e k'ʷ+k'ʷn=iy'eʔ:::u'we k'uk'w'ni'ye':::§:::awhile. (lit. for a short time only):::adv.:::[xref k'ʷnʔ]:::
 12:::k'ʷ:::k'ʷn':::2:::1:::k'ʷin':::k'wi'n:::†:::choose, consider, try.:::stem vt.::::::
 12:::k'ʷ:::k'ʷn':::2:::2:::s+k'ʷin'+m:::sk'wi'nm::::::assay. (lit. testing):::n.::::::
 12:::k'ʷ:::k'ʷn':::2:::3:::s+k'ʷín'+m:::sk'wi'nm::::::examination. (lit. test of knowledge or fitness):::n.::::::
@@ -1958,7 +1958,7 @@
 12:::k'ʷ:::k'ʷn':::2:::9:::hiy+niʔ+k'ʷín':::hiyni'k'wi'n::::::eclectic. (lit. that which is picked out):::adj.::::::
 12:::k'ʷ:::k'ʷn':::2:::10:::k'ʷín'‑n:::k'wi'nn:::‡:::tested, tried (I...it).:::vt.::::::
 12:::k'ʷ:::k'ʷn':::2:::11:::k'ʷín'‑nt‑s:::k'wi'nnts::::::tested (He...it), tried (He...it).:::vt.::::::
-
+12:::k'ʷ:::k'ʷn':::2:::12:::niʔ+k'ʷín‑n:::ni'k'winn:::::: cull. (lit. I picked it out from others):::vt.:::[also recorded as k'ʷn]:::
 12:::k'ʷ:::k'ʷn':::2:::13:::k'ʷín'‑nt‑s:::k'wi'nnts::::::trial. (lit. H/S scrutinized or inves­tigated it carefully):::n.::::::
 12:::k'ʷ:::k'ʷn':::2:::14:::niʔ+k'ʷín'‑nt‑m:::ni'k'wi'nntm::::::elect. (lit. H/s was chosen):::vt.::::::
 12:::k'ʷ:::k'ʷn':::2:::15:::niʔ+k'ʷín'‑nt‑s:::ni'k'wi'nnts::::::appoint, choose, select.  (select (lit. he picked it out after testing it from among):::vt.::::::
@@ -1981,7 +1981,7 @@
 12:::k'ʷ:::k'ʷt'::::::3:::k'ʷit':::k'wit'::::::divest, take off (clothes).:::stem vt.::::::
 12:::k'ʷ:::k'ʷt'::::::4:::k'ʷet':::k'wet'::::::take off (clothesto divest:::.::::::
 12:::k'ʷ:::k'ʷt'::::::5:::ul s+k'ʷét'+t':::ul sk'wet't'::::::chromatic. (lit. pertaining to appearance (color or colors:::adj.::::::
-
+12:::k'ʷ:::k'ʷt'::::::6:::u· k'ʷt+út:::uuk'wtut::::::  clear, vivid, plain (It is...).:::adj.:::[also recorded as k'ʷt]:::
 12:::k'ʷ:::k'ʷt'::::::7:::u k'ʷt'+ú·t:::uuk'wt'uuut::::::apparent (It is...), visible (It is clearly...), bare, chiffon, exposed (...to view), sheer (It (fabric) is...). (lit. It is read­ily seen):::n, adj, vi.::::::
 12:::k'ʷ:::k'ʷt'::::::8:::hn+k'ʷét'+p+ncut:::hnk'wet'pntsut::::::disarray. (lit. He undressed himself):::vt.::::::
 12:::k'ʷ:::k'ʷt'::::::9:::s+k'ʷt'+út+mš:::sk'wt'utmsh::::::clearance. (lit. making clear):::n.::::::
@@ -2011,7 +2011,7 @@
 12:::k'ʷ:::k'ʷy's::::::1:::k'ʷay's=alqʷ:::k'wa'ysalqw::://:::cedar (tree).:::n.::::::
 12:::k'ʷ:::k'ʷy's::::::2:::s+t+k'ʷéy's=ečt:::stk'we'ysecht::::::cedar branch.:::n.::::::
 12:::k'ʷ:::k'ʷʕ::::::1:::k'ʷaʕ:::k'wa(:::†:::skid, slide, slip.:::stem vi.::::::
-
+12:::k'ʷ:::k'ʷʕ::::::2:::k'ʷaʕ+aʕ+p+l=iyeʔ:::k'wa(a(pliye'::://:::coasted (he...).:::vi.:::[xref q'ʷʕ]:::
 12:::k'ʷ:::k'ʷʔ:::1:::1:::k'ʷeʔ+min+n:::k'we'minn:::†:::pipe wrench, wrench (pipe).:::n.::::::
 12:::k'ʷ:::k'ʷʔ:::1:::2:::k'ʷ+k'ʷeʔ+míʔn':::k'uk'we'mi'n'::::::pliers. (lit. little wrench):::n.::::::
 12:::k'ʷ:::k'ʷʔ:::2:::1:::k'ʷiʔ:::k'wi':::†:::bite.:::stem vt.::::::
@@ -2128,17 +2128,17 @@
 13:::l:::lp'::::::1:::s+lip':::slip':::†:::woody.:::stem adj.::::::
 13:::l:::lp'::::::2:::s+lip'+t:::slip't::::::wood.:::n.::::::
 13:::l:::lp'xʷ::::::1:::lup'xʷ=ús=šn:::lup'khusshn::://:::slang for making fun of a person (lit. a hole re­sulted in front of his feet):::vt.::::::
-
+13:::l:::lp'xʷ::::::2:::hn+lép'xʷ=ep:::hnlep'khwep::::::punctured. (lit. it (bucket) was punctured on the bottom):::adj.:::[xref lp'x̣ʷ]:::
 13:::l:::lp'x̣ʷ::::::1:::lep'x̣ʷ:::lep'qhw:::†:::fit into.:::stem vi.::::::
 13:::l:::lp'x̣ʷ::::::2:::lép'x̣ʷ+emn:::lep'qhwemn::::::tack.:::n.::::::
-
+13:::l:::lp'x̣ʷ::::::3:::hn+lp'x̣ʷ=íneʔ:::hnlp'qhwine'::://:::earful. (lit. H/s got an earful):::n.:::[xref lp'xʷ]:::
 13:::l:::lq::::::1:::laq:::laq:::†:::pull (out plants), weed.:::stem vt.::::::
 13:::l:::lq::::::2:::laq=cín+m:::laqtsinm::://:::pluck (one's whiskers), plucked (He...his whiskers with tweezers), tweezers (He plucked his whiskers with...).:::vt, pl.n.::::::
 13:::l:::lq::::::3:::laq=cón+m:::laqtsonm::::::whiskers (He plucked his...with tweezers).:::pl.n.::::::
 13:::l:::lq':::1:::1:::laq':::laq':::†:::search.:::stem vi.::::::
 13:::l:::lq':::1:::2:::i·+laq'=álpqʷ:::iilaq'alpqw::://:::looked, search, food (He looked for...).:::vt, n.::::::
 13:::l:::lq':::1:::3:::láʔq‑nt‑s:::la'qnts:::‡:::He looked for it.:::vt.::::::
-
+13:::l:::lq':::2:::1:::laq':::laq':::†:::pare, peel.:::stem vt.:::[see also ɫq'ʷ]:::
 13:::l:::lq':::3:::1:::leq':::leq':::†:::bury.:::stem vt.::::::
 13:::l:::lq':::3:::2:::leq'+m:::leq'm::::::baked (She...(camas) in the ground).:::vt.::::::
 13:::l:::lq':::3:::3:::hn+léq'+ncut+n:::hnleq'ntsutn::::::sweathouse.:::n.::::::
@@ -2263,7 +2263,7 @@
 13:::l:::lw::::::1:::liw:::liw!:::†:::chime, chink, sound of a bell, a short metallic sound.:::n.::::::
 13:::l:::lw::::::2:::u· lí·w:::uuliiiw::::::chink. (lit. It made a matallic sound):::n.::::::
 13:::l:::lw::::::3:::líw+liw+iš:::liwliwish::::::bell. (lit. that which tolls time and again):::n.::::::
-
+13:::l:::lw::::::4:::líw+m‑st‑m:::liwmstm:::‡:::chime, ding, rung, it (bell) was rung. (bell toll:::vi.:::[xref lʕʷ]:::
 13:::l:::lw'::::::1:::s+le·w'=íneč:::slee'winech::://:::cricket. (locust::: n.::::::
 13:::l:::lxʷ:::1:::1:::lexʷ:::lekhw:::†:::hurt.:::stem vt.::::::
 13:::l:::lxʷ:::1:::2:::s+lexʷ+p:::slekhwp::::::casualty, detriment. (lit. an unfortunate chance or accident, especially one involving bodily injury:::n.::::::
@@ -2283,8 +2283,8 @@
 13:::l:::lxʷ:::2:::10:::luxʷ+il'=kʷeʔ:::lukhwil'kwe'::::::well (to dig a...). (lit. He dug in the ground for water):::n.::::::
 13:::l:::lxʷ:::2:::11:::s+lúxʷ=il'kʷeʔ:::slukhwi'lkwe'::::::artesian well (lit. A hole dug for water).:::n.::::::
 13:::l:::lxʷ:::2:::12:::l'+l'xʷ=íl=uʔs:::'1'lkhwi'lus::::::spring on north side of DeSmet Mission Hill (lit. little hole on the forehead of the hill).:::n.::::::
-
-
+13:::√l:::lxʷ:::2:::13:::léxʷ‑n:::lekhwn:::‡:::bore, drill. (lit. I made a hole in or through it):::vt.:::[xref xʷl][see also ɫxʷ]:::
+13:::l:::lx̣::::::1:::lax̣:::laqh:::†:::lightening.:::stem n.:::[xref l'x̣]:::
 13:::l:::lx̣ʷ::::::1:::lax̣ʷ:::laqhw:::†:::lie (round objects).:::stem vi.::::::
 13:::l:::ly'::::::1:::láy'+m‑st‑m:::la'ymstm:::‡:::clatter, rattle. (clatter (lit. It was caused to make a rattling sound):::vi.::::::
 13:::l:::lʕʷ:::1:::1:::hn+láʕʷ‑nt‑m:::hnla(wntm:::‡:::arraign, cite. (lit. He was arraigned, cited, summoned before a court of law, inserted into a sheath):::vt.::::::
@@ -2293,15 +2293,15 @@
 13:::l:::lʕʷ:::2:::3:::léʕʷ+ʕʷ+m:::le(u(m::::::decompress. (lit. It became loosened):::vt.::::::
 13:::l:::lʕʷ:::2:::4:::s+léʕʷ+m+n:::sle(wmn::::::convenience. (lit. that which increases comfort or makes work easier):::n.::::::
 13:::l:::lʕʷ:::2:::5:::luʕʷ+luʕʷ+útm:::lu(wlu(utm::::::valley, dell.:::n.::::::
-
+13:::l:::lʕʷ:::2:::6:::lʕʷ+lʕʷ+útm:::l(wl(utm::::::dale, valley. (lit. It is a long passage in which something can be inserted):::n.:::[see also lʔ]:::
 13:::l:::lʕʷ:::2:::7:::leʕʷ+m+ncut:::le(wmntsut::::::loose, relax, He relaxed. (lit. he loosened himself).:::vi.::::::
 13:::l:::lʕʷ:::2:::8:::léʕʷ+s+m+ncut:::le(smntsut::::::relaxed.:::vt.::::::
 13:::l:::lʕʷ:::2:::9:::s+leʕʷ+m+ncút:::sle(wmntsut::::::detents, ease,  relaxation, turning oneself loose, vacation.:::n.::::::
 13:::l:::lʕʷ:::2:::10:::s+léʕʷ+m+ncut:::sle(wmntsut::::::ease.:::n.::::::
 13:::l:::lʕʷ:::2:::11:::č+léʕʷ=gʷl+um:::chle(wgulum::://:::humorous way of speaking of relaxing (in general) (lit. h/s relaxed h/h stomach or abdomen).:::vt.::::::
 13:::l:::lʕʷ:::2:::12:::s+č+léʕʷ=gʷl=umš:::schle(wgulumsh::::::loosening (...one's stomach).:::vt.::::::
-
-
+13:::l:::lʕʷ:::2:::13:::kʷan+ɫ+č'+lʕ'ʷ+lʕ'ʷ+p=al'qʷ:::kwanɫch'l'(w'l'(wpa'lqw:::§:::  pocket knife (h/s took a...).:::n.:::[also recorded as lʕ'ʷ]:::
+13:::l:::lʕʷ:::3:::1:::u· léʕʷ:::uule(w:::†:::crash. (lit. It made the loud noise of glass crashing):::vi.:::[xref lw]:::
 13:::l:::lʔ:::1:::1:::hn+leʔ=úl'mxʷ+n:::hnle'u'lmkhwn::://:::dibble. (lit. hole in the ground poker or piercer):::n.::::::
 13:::l:::lʔ:::2:::1:::liʔ+leʔ+t:::li'le't:::†:::soar, fly.:::stem vi.::::::
 13:::l:::lʔ:::2:::2:::li+l'eʔ+t:::li'le't::::::to fly, they soared.:::::::::
@@ -2309,7 +2309,7 @@
 13:::l:::lʔ:::2:::4:::e+l'+l'i+l'eʔ+t:::e'l'li'le't::::::bird (small).:::n.::::::
 13:::l:::lʔ:::2:::5:::e·+l'+l'iʔ+l'eʔ+t:::ee'l'li''le't::::::fly. (lit. flying creatures, dim, e.g., flies, bugs, bees.):::v.::::::
 13:::l:::lʔ:::2:::6:::eč+líʔ+leʔ:::echli'le'::::::lightly, scantily. (lit. He is scantily dressed, e.g. in winter.):::adv.::::::
-
+13:::l:::lʔ:::3:::1:::loʔ+loʔ+ótm:::lo'lo'otm:::†:::valley, especially Spokane Valley. (a Spokane word):::n.:::[see also lʕʷ]:::
 13:::l:::lʔ:::4:::1:::luʔ:::lu'!:::†:::thump (on ground).:::excl.::::::
 13:::l:::lʔ:::4:::2:::u· lúʔ:::uulu'::::::made (it...a thumping sound), sound (it made a thumping...).:::vt, n.::::::
 13:::l:::lʔx̣ʷ::::::1:::láʔx̣ʷ:::la'qhw:::†:::dawned, tomorrow. (It became today::: vi, adv.::::::
@@ -2322,7 +2322,7 @@
 14:::l':::l'q'ʷ::::::1:::l'é+l'q'ʷ+l'+š:::'le'lq'w'lsh::::::ripples.:::n.::::::
 14:::l':::l'w'::::::1:::l'aá+l'ew'eʔ:::'laa'le'we'::::::lout, bumpkin, slouch.:::n.::::::
 14:::l':::l'w'::::::2:::l'a+l'éw'e:::'la'le'we::::::messy (He is...and untidy), untidy (He is messy and...).:::adj.::::::
-
+14:::l':::l'x̣:::1:::1:::lax̣:::laqh::::::[stem recorded as lx̣]  †  friend.:::stem n.::::::
 14:::l':::l'x̣:::1:::2:::s+l'ax̣+t:::s'laqht::::::buddy, comrade, friend.:::n.::::::
 14:::l':::l'x̣:::1:::3:::s+l'ax̣+l'áx̣+t:::s'laqh'laqht::::::friends.:::n.::::::
 14:::l':::l'x̣:::1:::4:::his+tiʔxʷa+s+l'áx̣+t:::histi'khwas'laqht::::::acquantance. (lit. He is one who became a friend):::n.::::::
@@ -2336,7 +2336,7 @@
 14:::l':::l'x̣:::1:::12:::neʔ gʷíč+gʷič=us‑nt‑s xʷa s+l'ax̣+t‑s:::ne'tgwichgwichusnts khwa s'laqhts::::::He will see the eyes of one who is his friend.:::v.::::::
 14:::l':::l'x̣:::2:::1:::l'+l'ax̣:::'l'laqh:::†:::lighten.:::stem vt.::::::
 14:::l':::l'x̣:::2:::2:::s+l'+l'áx̣+m':::s'l'laqh'm::::::electricity, lightening.:::n.::::::
-
+14:::l':::l'x̣:::2:::3:::sye·+k'ʷul' a s+l'+l'áx̣+m':::syeek'u'l a s'l'laqh'm:::§:::electrician. (lit. One who produces (works) with electricity):::n.:::[see also lx̣]:::
 15:::ɫ:::ɫ::::::1:::ɫ:::ɫ:::†:::(a connective) no meaning:::::::::
 15:::ɫ:::ɫ::::::2:::ɫe:::ɫe::::::one who is.:::n.::::::
 15:::ɫ:::ɫc:::1:::1:::ɫac:::ɫats:::†:::a drop falls.:::::::::
@@ -2347,10 +2347,10 @@
 15:::ɫ:::ɫč::::::1:::ɫeʔč:::ɫe'ch:::†:::break (string).:::stem v.::::::
 15:::ɫ:::ɫčp::::::1:::ɫčíp:::ɫchip:::†:::bucket, pail.:::n.::::::
 15:::ɫ:::ɫčp::::::2:::kʷan+ɫ+ɫčíp:::kwanɫɫchip:::§:::H/s took a bucket.:::v.::::::
-
+15:::ɫ:::ɫkʷ:::1:::1:::ɫi+ɫikʷ:::ɫiɫikw:::†:::speckled, spotted.:::stem adj.:::[see also ɫkʷ2]:::
 15:::ɫ:::ɫkʷ:::2:::1:::ɫukʷ:::ɫukw:::†:::bloodstained.:::stem adj.::::::
 15:::ɫ:::ɫkʷ:::2:::2:::ɫuʔkʷ:::ɫu'kw::::::bled.:::vi.::::::
-
+15:::ɫ:::ɫkʷ:::2:::3:::u· ɫúkʷ:::uuɫukw::::::bloody (it is...).:::adj.:::[see also ɫkʷ1]:::
 15:::ɫ:::ɫk'ʷ:::1:::1:::ɫek'ʷ:::ɫek'w:::†:::break (a hairlike object).:::stem vt.::::::
 15:::ɫ:::ɫk'ʷ:::2:::1:::ɫek'ʷ:::ɫek'w:::†:::barb, fork, needle, spike.:::stem n.::::::
 15:::ɫ:::ɫk'ʷ:::2:::2:::ɫek'ʷ+ɫuk'ʷ+t:::ɫekw'ɫukw't::::::cactus, thistle, sticker.:::n.::::::
@@ -2379,7 +2379,7 @@
 15:::ɫ:::ɫn'::::::3:::ɫuw'en:::ɫu'wen::::::[?]  opposed, opposite.:::::::::
 15:::ɫ:::ɫn'::::::4:::hn+ɫen'=ítkʷeʔ:::hnɫe'nitkwe'::://:::Europe, overseas, the Continent. (lit. on the other side of the water):::n.::::::
 15:::ɫ:::ɫn'::::::5:::hn+ɫen'=u·s=iw'es:::hnɫe'nuusi'wes::::::across.:::prep.::::::
-
+15:::ɫ:::ɫp::::::1:::ɫeʔp:::ɫe'p:::†:::stripe, welt (make a...).:::stem vt, n.:::[xref ɫp']:::
 15:::ɫ:::ɫpx̣::::::1:::ɫapx̣:::ɫapqh:::†:::bruise, skin.:::stem vt.::::::
 15:::ɫ:::ɫp':::1:::1:::ɫip':::ɫip':::†:::to stripe.:::::::::
 15:::ɫ:::ɫp':::1:::2:::ɫep':::ɫe'p::::::to strip, mark, make a welt.:::::::::
@@ -2392,7 +2392,7 @@
 15:::ɫ:::ɫp':::1:::9:::ɫp'+úl'mxʷ‑nt‑s:::ɫp'u'lmkhwnts::::::demarcate. (lit. he drew a line on the ground):::vt.::::::
 15:::ɫ:::ɫp':::1:::10:::cen+ɫp'=eɫníw'‑n:::tsenɫp'eɫni'wn::::::define. (lit. I circumscribed it; I fixed its limits):::vt.::::::
 15:::ɫ:::ɫp':::1:::11:::u+n+málq'ʷ=qn he ɫp'+ɫp'+mín'+n':::unmalq'wqn he ɫp'ɫp'mi'n'n:::§:::pen (ball‑point...).:::n.::::::
-
+15:::ɫ:::ɫp':::1:::12:::kʷen+ɫ+ɫp'+ɫp'+m'ín'+n':::kwenɫɫp'ɫp''mi'n'n::::::took (H/s...a pencil, a pen).:::vt.:::[xref ɫp]:::
 15:::ɫ:::ɫp':::2:::1:::ɫep[']:::ɫep:::†:::disappoint, distasteful.:::stem adj.::::::
 15:::ɫ:::ɫp':::2:::2:::ɫép[']+ɫp'+t:::ɫepɫp't::::::disappointing (He is very...).:::adj.::::::
 15:::ɫ:::ɫp'č'::::::1:::ɫáp'č'‑nt‑s:::ɫap'ch'nts:::‡:::bolt, devour, gulp, consume. (bolt, devour, gulp (lit. He ate it hurriedly):::vt.::::::
@@ -2426,7 +2426,7 @@
 15:::ɫ:::ɫq'ʷ::::::6:::čs+ɫóq'ʷ‑nt‑s:::chsɫoq'wnts::::::depilate. (lit. He removed hair from his (dog's) tail):::v.::::::
 15:::ɫ:::ɫq'ʷ::::::7:::kʷan+ɫ+s+ɫáq'ʷ=qn:::kwanɫsɫaq'wqn:::§:::H/s took along a bark basket (lit. that which is pulled off a cedar tree).:::v.::::::
 15:::ɫ:::ɫq'ʷ::::::8:::s+kʷán+ɫqʷeʔ=ep:::skwanɫqwe'ep::::::Bark basket taken along.:::vi.::::::
-
+15:::ɫ:::ɫq'ʷ::::::9:::čn‿kʷán+lq'ʷeʔ=ep:::chnkwanlq'we'ep::::::I took a bark basket(s) along.:::vt.:::[see also lq']:::
 15:::ɫ:::ɫs:::1:::1:::ɫis:::ɫis:::†:::measure, weigh.:::stem vt.::::::
 15:::ɫ:::ɫs:::1:::2:::ɫis+emn:::ɫisemn::::::caliper, measure.:::n.::::::
 15:::ɫ:::ɫs:::1:::3:::ɫs+ɫs+n'cút:::ɫsɫs'ntsut::::::calisthenics (to do...). (lit. He measured himself repeatedly):::n.::::::
@@ -2455,8 +2455,8 @@
 15:::ɫ:::ɫt':::1:::7:::s+ɫét'+ɫt'+p'+m+n'cut:::sɫet'ɫt'p'm'ntsut::::::caper. (lit. leaping or frisking about):::n.::::::
 15:::ɫ:::ɫt':::1:::8:::nukʷ+ɫ+ɫt'+č'=ús+m‑n‑n:::nukwɫɫt'ch'usmnn:::§:::coincide. (lit. We tripped simul­taneously):::vi.:::[?]:::
 15:::ɫ:::ɫt':::2:::1:::ɫit':::ɫit':::†:::sprinkle (ceremonially).:::stem vt.::::::
-
-
+15:::ɫ:::ɫt':::2:::2:::ɫit'‑nt‑s:::ɫit'nts:::‡:::besprinkle, he sprinkled it with water.:::vt.:::[see also ɫt'q'ʷ]:::
+15:::ɫ:::ɫt'q'ʷ:::1:::1:::ɫet'q'ʷ:::ɫet'q'w:::†:::splash.:::stem vi.:::[see also ɫt'2]:::
 15:::ɫ:::ɫt'q'ʷ:::2:::1:::hn+ɫát'+ɫt'q'ʷ=cn:::hnɫat'ɫt'q'wtsn:::†::://  brusque, he is brusque. (lit. He is discourteously blunt):::adj.::::::
 15:::ɫ:::ɫw::::::1:::u+n+ɫ+ɫúʔ+m=us:::unɫɫu'mus::://:::acute. (lit. It is sharp‑pointed):::adj.::::::
 15:::ɫ:::ɫwč'::::::1:::čiʔ‿ɫéwč':::chi'ɫewch':::†:::deteriorate. (lit. I am deteriorating; I am growing worse physically):::vi.::::::
@@ -2476,7 +2476,7 @@
 15:::ɫ:::ɫxʷ::::::13:::ul sye+cuw'+n't-wíš he s+ɫúxʷ=čt:::ul syetsu'w'ntwish he sɫukhwcht::::::glove (boxing...). (lit. glove of a boxer):::n.::::::
 15:::ɫ:::ɫxʷp::::::1:::ɫéxʷ+xʷ+p=us:::ɫekhukhwpus::://:::convict, culprit. (lit. He became lassoed (by guilt(:::vt, n.::::::
 15:::ɫ:::ɫxʷp::::::2:::s+ɫéxʷ+xʷ+p=us:::sɫekhukhwpus::::::conviction. (lit. becoming lassoed (by guilt):::n.::::::
-
+15:::ɫ:::ɫxʷp::::::3:::kʷl=uʔs+ɫuxʷp+ú:::Kwlu'sɫukhwpu:::§:::Red Lasso.:::n.:::[xref ɫx̣ʷp]:::
 15:::ɫ:::ɫx̣::::::1:::s+n+ɫax̣+p=ílgʷes:::snɫaqhpilgwes::://:::calamity. (lit. cause of great dis­tress):::n.::::::
 15:::ɫ:::ɫx̣::::::2:::can+ɫax̣+p=ílgʷes:::tsanɫaqhpilgwes::::::commiserate, sympathized (he...). (lit. he felt sorrow or pity):::vi.::::::
 15:::ɫ:::ɫx̣::::::3:::s+can+ɫax̣+p=ilgʷes:::stsanɫaqhpilgwes::::::concern, distress, tribulation, worry.:::n.::::::
@@ -2484,17 +2484,17 @@
 15:::ɫ:::ɫx̣ʷ:::1:::1:::č+ɫe+ɫx̣ʷ=ál'qʷ:::chɫeɫqhwa'lqw::://:::flute, cembalo, music. (lit. Holes bored on a hollow stick, log, etc.) piano:::n.::::::
 15:::ɫ:::ɫx̣ʷ:::1:::2:::č+ɫ+ɫx̣ʷ=ál'qʷ:::chɫɫqhwa'lqw::::::harpsichord. (lit. Holes bored on a hollow stick, log, etc:::n.::::::
 15:::ɫ:::ɫx̣ʷ:::1:::3:::sya+č+ɫ+ɫx̣ʷ=ál'qʷ:::syachɫɫqhwa'lqw::::::artist, flutist, musician, pianist.:::n.::::::
-
+15:::ɫ:::ɫx̣ʷ:::1:::4:::sya·+q'éy'+n tgʷel' č+ɫ+ɫx̣ʷ=álqʷ:::syaaq'e'yn tgwe'l chɫɫqhwalqw:::§:::composer. (lit. writer for the flute, piano, etc.):::n.:::[see also lxʷ]:::
 15:::ɫ:::ɫx̣ʷ:::2:::1:::ɫáx̣ʷ+ɫx̣ʷ:::ɫaqhwɫqhw:::†:::cherry.:::n.::::::
 15:::ɫ:::ɫx̣ʷ:::2:::2:::ɫáx̣ʷ+ɫux̣ʷ:::ɫaqhwɫuqhw::::::cherry, choke cherry. (wild cherries, chokecherries):::n.::::::
-
+15:::ɫ:::ɫx̣ʷ:::2:::3:::láx̣ʷ+lux̣ʷ:::laqhwluqhw::::::  wild cherries, wild cherry. (cherry, choke cherry:::n, pl n.:::[also recorded as lx̣ʷ]:::
 15:::ɫ:::ɫx̣ʷ:::2:::4:::ɫax̣ʷ+ɫux̣ʷ:::ɫaqhwɫuqhw::::::chokecherries. (wild cherries, pl. form):::n.::::::
 15:::ɫ:::ɫx̣ʷp::::::1:::ɫax̣ʷ:::ɫaqhw:::†:::(?) momentum.:::stem n.::::::
 15:::ɫ:::ɫx̣ʷp::::::2:::ɫáx̣ʷ+p:::ɫaqhwp::::::escape, escaped (He...),  away (to get...).:::vi.::::::
 15:::ɫ:::ɫx̣ʷp::::::3:::cen+ɫ+ɫuxʷp+m'=ín'č:::Tsenɫɫukhwp'mi'nch::://:::crossed (He...the mountain pass), mountain pass (He crossed the...). (lit. name of a pass in the Clear Water Mountains):::vt, n.::::::
-
+15:::√ɫ:::ɫx̣ʷp::::::4:::ɫáx̣ʷp tel' hn+lč'+mín+n:::ɫaqhwp te'l hnlch'minn:::§:::prison (He escaped from...).:::n.:::[xref ɫxʷp, ɫx̣ʷp']:::
 15:::ɫ:::ɫx̣ʷp'::::::1:::ɫax̣ʷp':::ɫaqhwp':::†:::rush (to...out).:::stem vi.::::::
-
+15:::ɫ:::ɫx̣ʷp'::::::2:::hn+ɫáx̣ʷp'+m:::hnɫaqhop'm::::::rush, dart, dash. (lit. He rushed in):::vt.:::[xref ɫx̣ʷp]:::
 15:::ɫ:::ɫx̣ʷq'::::::1:::ɫax̣ʷq':::ɫaqhwq':::†:::slip.:::stem vt.::::::
 15:::ɫ:::ɫy::::::1:::ɫay:::ɫay:::†:::marks (to make dirty...), scribble.:::stem v.::::::
 15:::ɫ:::ɫy::::::2:::u· ɫáy:::uuɫay::::::dingy, streaks (it has dirty...).:::adj.::::::
@@ -2528,7 +2528,7 @@
 15:::ɫ:::ɫʔ:::2:::2:::ɫuʔ:::ɫu'::::::that which is over there (away from us).:::adv.::::::
 15:::ɫ:::ɫʔ:::2:::3:::e+n+ɫuʔ:::enɫu::::::attend. (lit. He was present there):::v.::::::
 15:::ɫ:::ɫʔ:::2:::4:::e n+ɫúʔ:::enɫu'::::::it is there (at a distance).:::vi.::::::
-
+15:::ɫ:::ɫʔ:::2:::5:::teč+ɫuw':::techɫu'w::::::  there (over there).:::adv.:::[also recorded as ɫw']:::
 15:::ɫ:::ɫʔ:::2:::6:::ɫuʔ+w'e:::ɫu'we:::§:::that near third person or remote.:::n.::::::
 15:::ɫ:::ɫʔ:::2:::7:::ɫuʔ+w'en ɫuʔ x̣es+t:::ɫu'wenɫu'qhest::::::that one is a good man, besides.:::vi.::::::
 15:::ɫ:::ɫʔ:::3:::1:::ɫuʔ+uʔ+um+n=us=us:::ɫu'u'umnusus::://:::fell (he...forward).:::vi.:::[?]:::
@@ -2538,7 +2538,7 @@
 16:::m:::mcq::::::1:::macq:::matsq:::†:::asunder (fall) as a house, etc., shattered. (lit. it fell to pieces).:::vt.::::::
 16:::m:::mcq::::::2:::hn+mácq:::hnmatsq::::::caved (it...in), cave‑in.:::vi, n.::::::
 16:::m:::mc'::::::1:::mc'=ús+en:::mts'usen::://:::balm, oil, face cream. (lit. a means of oiling one's face):::n.::::::
-
+16:::m:::mc'::::::2:::mc'=us+n:::mt'susn::::::balm. (lit. means of oiling one's face):::n.:::[xref mʔc]:::
 16:::m:::mc'ɫt::::::1:::mác'uɫt:::mats'uɫt:::†:::pus.:::n.::::::
 16:::m:::mc'ɫt::::::2:::s+mc'c'áɫt+m:::smts'ts'aɫtm::::::infection.:::n.::::::
 16:::m:::mc'ɫt::::::3:::s+mc'c'oɫt+m:::smts'ts'oɫtm::::::abscess.:::n.::::::
@@ -2551,7 +2551,7 @@
 16:::m:::mkʷʔ::::::1:::s+múkʷeʔ=šn:::smukwe'shn::://:::sunflower.:::n.::::::
 16:::m:::mk'ʷ::::::1:::mik'ʷ:::mik'w:::†:::snow.:::stem n.::::::
 16:::m:::mk'ʷ::::::2:::s+mik'ʷ+n:::smik'wn::::::January. (lit. month of snows):::n.::::::
-
+16:::m:::mk'ʷ::::::3:::s+mik'ʷ+t:::smik'wt::::::snow.:::n.:::[xref mx̣ʷ]:::
 16:::m:::ml:::1:::1:::mul:::mul:::†:::dip.:::stem vt.::::::
 16:::m:::ml:::1:::2:::cen+múl+emn:::tsenmulemn::::::dipper.:::n.::::::
 16:::m:::ml:::1:::3:::hn+múl+m:::hnmulm::::::fetched (He...water).:::vt.::::::
@@ -2577,12 +2577,12 @@
 16:::m:::mlk'ʷ:::1:::2:::ec+mélk'ʷ:::etsmelk'w::::::absolute, aggregate, whole.:::adj.::::::
 16:::m:::mlk'ʷ:::1:::3:::ec+mélk'ʷ+m:::etsmelk'um::::::all‑encompassing, comprehensive, entire. (lit. It is totally inclusive):::vi.::::::
 16:::m:::mlk'ʷ:::1:::4:::ec+mlk'ʷ+m=úl'mxʷ:::etsmlk'umu'lmkhw::://:::cosmos, universe, world. (lit. Everywhere on Earth):::n.::::::
-
+16:::m:::mlk'ʷ:::1:::5:::ul ec+mlk'ʷ+m=úl'mxʷ:::ul etsmlk'umu'lmkhw::::::cosmopolitan, ecumenical. (lit. common to the whole world):::adj.:::[xref mlq'ʷ]:::
 16:::m:::mlk'ʷ:::2:::1:::mél·k'ʷ:::mellk'w:::†:::coagulate. (lit. It thickened completely):::vi.::::::
 16:::m:::mlk'ʷ:::2:::2:::melk'ʷ:::melk'w::::::curdle.:::stem v.::::::
 16:::m:::mlk'ʷ:::2:::3:::mállk'ʷ+x̣ʷ:::mallk'qhw::::::coagulate (lit. It  thickened completely).:::vi.::::::
 16:::m:::mlk'ʷ:::2:::4:::s+n+mél·k'ʷ:::snmellk'w::::::clabber, curd, crud. (clabber, curd. (lit. coagulated part of milk):::n, vi.::::::
-
+16:::m:::mlk'ʷ:::2:::5:::hn+mél·k'ʷ:::hnmellk'w::::::curdle. (lit. it became curdled):::vi.:::[xref mlq'ʷ]:::
 16:::m:::mlq::::::1:::s+malq+n:::smalqn:::†:::moss (cooked).:::n.::::::
 16:::m:::mlq'ʷ::::::1:::malq'ʷ:::malq'w:::†:::rounded, spherical.:::stem adj.::::::
 16:::m:::mlq'ʷ::::::2:::u· malq'ʷ:::uumalq'w::::::bulbous. (lit. It is bulb shaped):::adj.::::::
@@ -2598,7 +2598,7 @@
 16:::m:::mlq'ʷ::::::12:::s+can+ml'q[']ʷ=áp=qn':::stsanm'lqwapq'n::::::chignon. (lit. A lump (of hair) at the back of the head):::n.::::::
 16:::m:::mlq'ʷ::::::13:::málq'ʷ+m‑s‑n:::malq'umsn:::‡:::conglomerate. (lit. I gathered it (them) into a round mass):::vt.::::::
 16:::m:::mlq'ʷ::::::14:::málq'ʷ+m‑stu‑s:::malq'umstus::::::agglomerate. (lit. He formed it into a rounded mass):::vi.::::::
-
+16:::m:::mlq'ʷ::::::15:::u+n+málq'ʷ=qn he ɫp'+ɫp'+mín'+n':::unmalq'wqn he ɫp'ɫp'mi'n'n:::§:::pen (ball‑point...).:::n.:::[xref mlk'ʷ]:::
 16:::m:::mlš::::::1:::mulš:::mulsh:::†:::cottonwood.:::n.::::::
 16:::m:::mlš::::::2:::hn+múlš=enč:::Hnmulshench::://:::beaver, Rockford, Washington. (lit. concave wall with concave facing the beholder):::n.::::::
 16:::m:::mlš::::::3:::čn‿tel'+hn+mulš=enč.:::chntel'(h)nmulshench::::::Similar constr (with tl fused to the stem) occurs in Ok Rock ford, Washington (lit. I am from Rockford, Washington).:::v.::::::
@@ -2639,7 +2639,7 @@
 16:::m:::ml':::4:::13:::s+mel'+c'uqʷún+m:::sme'lts'uqunm::::::connotation. (lit. mentioning (or inferring) something with what is said):::n.::::::
 16:::m:::ml':::4:::14:::mal'+t+pér'+per'qʷ=alqʷ‑nt‑m:::ma'ltpe'rpe'rqwalqwntm::::::crucified (to be...), crucify. (lit. He was put to death by being nailed to crossed poles):::vi, vt.::::::
 16:::m:::ml':::4:::15:::s+mal'+t+pér'+per'qʷ=alqʷ:::sma'ltpe'rpe'rqwalqw::::::crucifixion.:::n.::::::
-
+16:::m:::ml':::4:::16:::mel'+čen'‑nt‑s:::me'lche'nnts::::::comprise.:::vt.:::[Reichard identifies ml' as a prefix, see §408]:::
 16:::m:::ml'xʷ::::::1:::mil'xʷ:::mi'lkhw:::†:::tobacco.:::stem n.::::::
 16:::m:::ml'xʷ::::::2:::s+mil'xʷ:::smi'lkhw::::::tobacco.:::n.::::::
 16:::m:::ml'xʷ::::::3:::s+n+míl'xʷ+n:::snmi'lkhwn::::::pipe.:::n.::::::
@@ -2771,7 +2771,7 @@
 16:::m:::mx̣ʷ:::1:::5:::s+max̣ʷ+x̣ʷ:::smaqhuqh::::::snowing.:::vi.::::::
 16:::m:::mx̣ʷ:::1:::6:::máx̣ʷ‑nt‑m‑lš:::maqhwntmlsh:::‡:::snowed upon (They were...).:::vi.::::::
 16:::m:::mx̣ʷ:::1:::7:::nok'ʷ+oʔ=qín ha s+máx̣ʷ+x̣ʷ+s:::nok'o'qin ha smaqhuqhws:::§:::centennial. (lit. one hundred snowings):::n.::::::
-
+16:::m:::mx̣ʷ:::1:::8:::ʔax̣ál+ɫ a+ʔsál'=qn' ha s+máx̣ʷ+x̣ʷ+s:::aqhalɫ a'sa'lq'n ha smaqhuqhws::::::bicentennial. (adj. (lit. at every two hundred heads that it snows):::n.:::[xref mk'ʷ]:::
 16:::m:::mx̣ʷ:::2:::1:::mex̣ʷ:::meqhw:::†:::agony, anguish, travail.:::stem n.::::::
 16:::m:::mx̣ʷy'l::::::1:::mox̣ʷʔy'al:::Moqhw'y'al:::†:::Plone (Mrs. Louie..., a tribal elder).:::n.::::::
 16:::m:::my:::1:::1:::may:::may:::†:::muddy.:::stem adj.::::::
@@ -2785,7 +2785,7 @@
 16:::m:::my:::1:::9:::u+kʷar+éq ha s+máy=qn:::ukwareq ha smayqn:::§:::clay. (lit. mud that it yellow):::n.::::::
 16:::m:::my:::2:::1:::may:::may:::†:::foresee, foretell, predict.:::stem vt.::::::
 16:::m:::my:::2:::2:::t+máy=qn:::tmayqn::://:::clairvoyance. (lit. knowing head):::n.::::::
-
+16:::√m:::my:::2:::3:::a+t+máy=qn:::atmayqn::::::clairvoyant, seer, prophet. (lit. He has a knowing head; he sees the future):::n.:::[xref my3,4, m'y']:::
 16:::m:::my:::3:::1:::mey:::mey:::†:::apparent, evident.:::stem adj.::::::
 16:::m:::my:::3:::2:::mi·:::mii::::::to be evident that not.:::::::::
 16:::m:::my:::3:::3:::u· méy:::uumey::::::clarity, definitive, plain (it is...), understandable (it is...), suppose (I...it is so).:::n, n, adj, adj. vt.::::::
@@ -2807,7 +2807,7 @@
 16:::m:::my:::3:::19:::te·+méy+m‑stu‑s:::teemeymstus::::::destine. (lit. He resolved it beforehand):::v.::::::
 16:::m:::my:::3:::20:::čs+may'=qn'‑t‑s:::chsma'yq'nts::::::h/s proved it, h/s made it evident, h/s evidenced it.:::vt.::::::
 16:::m:::my:::3:::21:::lut hey'+c+méy+s:::lut he'ytsmeys:::§:::casual, unsorted. (lit. It is uncertain, without design or premeditation):::adj.::::::
-
+16:::√m:::√my:::3:::22:::x̣e+ec+méy+st+m:::qhe etsmeystm::::::celebrated, famous, well‑known, celebrity, star.:::adj, n.:::[xref my2,4  , mys, m'y']:::
 16:::m:::my:::4:::1:::miy:::mii:::†:::discover, learn.:::stem vt.::::::
 16:::m:::my:::4:::2:::s+miy+scút:::smiystsut::::::awareness, consciousness, self‑knowledge.:::n.::::::
 16:::m:::my:::4:::3:::ec+miy+scút:::etsmiystsut::::::aware, conscious. (lit. He knows him­self):::vt.adj.::::::
@@ -2822,7 +2822,7 @@
 16:::m:::my:::4:::12:::s+ti+miy+y=ípeleʔ+s:::stimiyyipele's::::::anthropology. (lit. exposition of the nature of man (human beings(:::n.::::::
 16:::m:::my:::4:::13:::t+miy+p=úl'mxʷ+n:::tmiypu'lmkhwn::::::compass. (lit. means of getting to known land):::n.::::::
 16:::m:::my:::4:::14:::t+miy=ílmxʷ+n:::tmiyilmkhwn::::::cairn, landmark, milestone. (lit. a mound of stones erected as a landmark or memorial):::n.::::::
-
+16:::m:::my:::4:::15:::s+t+miʔ=s+m:::stmi'sm::::::  attention (paying...).:::n.:::[also recorded as mʔ]:::
 16:::m:::my:::4:::16:::s+t+miʔ=s+mn:::stmi'smn::::::concentration.:::n.::::::
 16:::m:::my:::4:::17:::hn+miy=cín+t‑s:::hnmiytsints:::‡:::construe, decode, cite, interpret. (lit. He translated his words, he quoted him as an authority or example):::vt.::::::
 16:::m:::my:::4:::18:::hn+miy+cín‑n:::hnmiytsinn::::::clarified. (lit. I made plain his words or statements, I interpreted his words):::vt.::::::
@@ -2842,8 +2842,8 @@
 16:::m:::my:::4:::32:::s+t+miy+y=ipeleʔ+s ɫe tmíxʷ=l'umxʷ:::stmiyyipele's ɫe tmikhw'lumkhw::::::earth (description of...), description (...of earth).:::n.::::::
 16:::m:::my:::4:::33:::s+t+miy+y=ipeleʔ‑s xʷe tmixʷ=l'umxʷ:::stmiyyipele's khwe tmikhw'lumkhw::::::description of earth, geology, geography.:::n.::::::
 16:::m:::my:::4:::34:::s+t+my+y=ípeleʔ+s xʷe n+xʷel+xʷl+n:::stmyyipele's khwe nkhwelkhwln::::::biology. (lit.exposition of the origin of what is the means of life).:::n.::::::
-
-
+16:::m:::my:::4:::35:::s+qil=tč he s+t+miy+iy=ípeleʔ+s:::sqiltch he stmiyiyipele's::::::anatomy. (lit. science of the body):::n.:::[xref my2,3]:::
+16:::m:::my:::5:::1:::miy:::miy:::†:::dignified.:::stem adj.:::[xref mys]:::
 16:::m:::myɫ::::::1:::miyéɫ:::miyeɫ:::†:::blatant, much (too...). (lit. he is too loud) :::stem adj.::::::
 16:::m:::myɫ::::::2:::miyeɫ+lút:::miyeɫlut:::§:::extravagant, unreasonable.:::adj.::::::
 16:::m:::myɫ::::::3:::miyeɫ+lút:::miyeɫlut::::::degenerate, person of low morals.:::n.::::::
@@ -2870,7 +2870,7 @@
 16:::m:::mys::::::12:::ic+miyes+qʷ+qʷáʔ+qʷa·l':::itsmiyesquqwa'qwaa'l::::::commune. (lit. They are con­versing intimately):::vi.::::::
 16:::m:::mys::::::13:::s+miyas+qʷ+qʷáʔ+qʷeʔel:::smiyasquqwa'qwe'el::::::commune. (lit. speaking at length):::n.::::::
 16:::m:::mys::::::14:::s+miyes+gʷél+p:::smiyesgwelp::::::conflagration. (lit. extraordinary fire):::n.::::::
-
+16:::m:::mys::::::15:::s+myes+taq+aq+n=us+čínt:::smyestaqaqnuschint::::::coup, deception (extraordinary...).:::n.:::[xref my3,5]:::
 16:::m:::myw::::::1:::s+miyíw:::smiyiw:::†:::coyote.:::n.::::::
 16:::m:::my'::::::1:::hn+máy'+ay'=qn:::hnma'ya'yqn::://:::noon. (lit. time when sun is directly overhead):::n.::::::
 16:::m:::my'::::::2:::s+n+máy'+ay'=qn+m:::snma'ya'yqnm::::::lunch, dinner. (midday meal:::n.::::::
@@ -2950,7 +2950,7 @@
 16:::m:::mʔ:::2:::1:::meʔ+eʔ:::me'e':::†:::send away.:::stem v.::::::
 16:::m:::mʔ:::2:::2:::meʔ+eʔ+mí‑nt‑m:::me'e'mintm:::‡:::averted, dismissed, banish, he was sent away.:::vt.::::::
 16:::m:::mʔ:::2:::3:::meʔ+eʔ+mí‑nt‑s:::me'e'mints::::::discharge. (lit. He/she sent him/her away):::vi.::::::
-
+16:::m:::mʔc::::::1:::meʔc:::me'ts:::†:::grease.:::stem n.:::[xref mc']:::
 16:::m:::mʔč::::::1:::meʔč:::me'ch:::†:::well‑shaped (as work horse).:::stem v.::::::
 16:::m:::mʔm::::::1:::s+mí+mʔeʔem:::smi'me'em:::†:::women.:::n.::::::
 16:::m:::mʔm::::::2:::s+mʔ+meʔíʔm:::sm'me'i'm::::::woman (little...).:::n.::::::
@@ -2961,7 +2961,7 @@
 16:::m:::mʔm::::::7:::s+méʔm=ulumxʷ:::sme'mulumkhw::::::man's younger sister.:::n.::::::
 16:::m:::mʔm::::::8:::s+t'+t'ík'ʷ+s+m'eʔeʔm:::st't'ik'us'me'e'm:::§:::crone, beldam, old maid.:::n.::::::
 16:::m:::mʔm::::::9:::cétxʷ+s xʷa maʔ+maʔám=al'qs:::tsetkhws khwa ma'ma'ama'lqs::::::convent. (lit. their house those who wear women's clothes (nuns(:::n.::::::
-
+16:::m:::mʔm::::::10:::ec+meʔm+ɫ+cégʷ+t:::etsme'mɫtsegwt::::::effeminate. (lit. He is delicate or unmanly):::adj:::[xref mʔym]:::
 16:::m:::mʔt::::::1:::miʔt:::mi't:::†:::centered, middle (in the...).:::stem adj, n.::::::
 16:::m:::mʔt::::::2:::míʔt=ew'es:::mi'te'wes::://:::dichotomy. (lit. division into two equal parts):::n.::::::
 16:::m:::mʔt::::::3:::niʔ+míʔt=ew'es:::ni'mi'te'wes::::::among, between.:::prep.::::::
@@ -2981,7 +2981,7 @@
 16:::m:::mʔym::::::9:::uw'+em'n'=ús he s+míʔyem:::u'we'm'nus he smi'yem::::::worthless (a woman who is...), woman (a...who is worthless).:::adj, n.::::::
 16:::m:::mʔym::::::10:::ye·+míʔyem:::yeemi'yem::::::He won a wife.:::vt.::::::
 16:::m:::mʔym::::::11:::tíʔxʷe s+míʔyem:::ti'khwe smi'yem::::::succeeded (He...in getting a wife).:::vi.::::::
-
+16:::m:::mʔym::::::12:::s+míʔyem ha sya·+q'ʷey'+m+ncut:::smi'yem ha syaaq'we'ymntsut::::::ballerina. (lit. wom­an who dances):::n.:::[xref mʔm]:::
 17:::m':::m'c::::::1:::s+m'u+m'úc=šn' ha n+qʷo+q[']ʷos+m'i:::sm'u'mutssh'n hanqoqos'mi:::§:::bitch. (lit. a female dog):::n.::::::
 17:::m':::m'n::::::1:::s+m'e·+m'ín=ep:::s'mee'minep::://:::toad.:::n.::::::
 17:::m':::m'n::::::2:::s+m'e·+m'ín'=ep:::s'mee'mi'nep::::::toad.:::n.::::::
@@ -2999,7 +2999,7 @@
 17:::m':::m'y'::::::10:::s+m'iy'+miy'‑šít=ew'eš:::s'mi'ymi'yshite'wesh::::::conversation. (lit. telling one another stories (information):::n.::::::
 17:::m':::m'y'::::::11:::m'ey'+m'iy'‑nt‑m:::'me'ymi'yntm::::::delate.:::vt.::::::
 17:::m':::m'y'::::::12:::m'iy'+m'iy'‑šit‑s:::'mi'y'mi'yshits::::::informed (he...him).:::v.::::::
-
+17:::m':::m'y'::::::13:::čs+m'áy'=qi‑ɫt‑s:::chs'ma'yqiɫts::::::inform, apprize. (lit. He caused him to know it for certain):::vt.:::[xref my2,3]:::
 17:::m':::m'ʔ::::::1:::hn+m'á+m'aʔ+m=cn:::hn'ma'ma'mtsn::://:::Canada goose.:::n.::::::
 18:::n:::nc::::::1:::noc:::nots:::†:::pliable, soft (as meat, rubber), tender.:::stem adj.::::::
 18:::n:::nc::::::2:::u n'+n'ó·c:::u'n'nooots::::::weak‑willed. (lit. He is very soft, He yields easily to pressure):::adj.::::::
@@ -3072,7 +3072,7 @@
 18:::n:::nkʷ::::::37:::nukʷ+ʕíp=cn+m‑nt‑s:::nukw(iptsnmnts::::::confide. (lit. He put a secret into his trust)gossip::: vi.::::::
 18:::n:::nkʷ::::::38:::s+nukʷ+q'ey'‑šít=ew'eš:::snukwq'e'yshite'wesh::::::correspondent. (lit. One with whom one corresponds):::n.::::::
 18:::n:::nkʷ::::::39:::s+nukʷ+gʷáx̣+t=elt:::snukwgwaqhtelt::::::one of the same young age.:::n.::::::
-
+18:::n:::nkʷ::::::40:::s+nukʷ+s+kʷís+t:::snukwskwist::::::a name two persons have in common.:::n.:::[xref nk'ʷ]:::
 18:::n:::nk'ʷ::::::1:::nek'ʷ:::nek'w:::†:::one, unit.:::stem n.::::::
 18:::n:::nk'ʷ::::::2:::nik'ʷ:::nik'w::::::tribe (of the same...), tribesman.:::stem n.::::::
 18:::n:::nk'ʷ::::::3:::nék'ʷeʔ:::nek'we'::::::one, dollar. (colloq.:::n.::::::
@@ -3130,7 +3130,7 @@
 18:::n:::nk'ʷ::::::55:::s+nuk'ʷ+e+ʔɫiy+c+púʔ[s]:::snuk'we'ɫiytspu'.::::::concordance. (lit. having one heart):::n,::::::
 18:::n:::nk'ʷ::::::56:::tč+ʔséɫ s+nuk'ʷ+k'ʷl'+l':::tch'seɫ snukk'u'lu'l::::::bigamy.:::n.::::::
 18:::n:::nk'ʷ::::::57:::hn+nák'ʷaʔ=alqs ha s+gʷárp+m:::hnnak'wa'alqs ha sgwarpm::::::daffodil.:::n.::::::
-
+18:::n:::nk'ʷ::::::58:::x̣al+hn+nak'ʷáʔ=al·'qs ha s+gʷárp+m:::qhalhnnak'wa'al'lqs ha sgwarpm::::::daisy.:::n.:::[xref nkʷ]:::
 18:::n:::nɫmq::::::1:::h+nɫámqeʔ:::hnɫamqe':::†:::bear, bruin.:::n.::::::
 18:::n:::nɫmq::::::2:::ya+nɫámqeʔ:::yanɫamqe'::::::bear (He killed the...), He succeeded in his bear hunt. He got a bear.:::n, vt.::::::
 18:::n:::nɫmq::::::3:::ya+nɫámqeʔ‑m:::yanɫamqe'm::::::He killed the bear.:::v.::::::
@@ -3262,7 +3262,7 @@
 20:::p:::pl(t)::::::13:::s+nukʷ+púl=uɫc'eʔ:::snukwpuluɫts'e'::::::accomplice. (lit. helper in killing):::n.::::::
 20:::p:::pl(t)::::::14:::pul+uɫ+šemen':::puluɫsheme'n::::::enemy (he killed his...), killed (he...his enemy).:::n, vt.::::::
 20:::p:::pl(t)::::::15:::pulut+l'+s+čí+čeʔ:::pulut'lschiche'::::::He slaughtered livestock.:::vt.::::::
-
+20:::p:::pɫč::::::1:::káltes pa·ɫáč:::kaltes paaɫach:::§:::bonus (Chinook jargon). (n.)  šáltes pa·lač bonus (Chinook jargon). (shaltes paalach::: n.:::[also written as šlts]:::
 20:::p:::plm::::::1:::s+pálm=alqs:::Spalmalqs::://:::highest mountain between Plummer and Worley, Idaho.:::n.::::::
 20:::p:::plm'::::::1:::s+plím'=cn:::spli'mtsn::://:::lips.:::n.::::::
 20:::p:::plms::::::1:::plams:::plams:::†:::plums.:::n.::::::
@@ -3271,7 +3271,7 @@
 20:::p:::ply:::2:::1:::pul'ye:::pu'lye:::†:::mole, gopher.:::n.::::::
 20:::p:::ply:::2:::2:::pul'ya·+hál':::pu'lyaaha'l::::::witch, coyote's wife. (mole:::n.::::::
 20:::p:::ply:::2:::3:::pulya·+hál':::pulyaaha'l::::::mole.:::n.::::::
-
+20:::p:::pl':::1:::1:::s+pál'=aqɫ:::aspa'laqɫ::://:::yesterday.:::adv.:::[see also pn]:::
 20:::p:::pl':::2:::1:::u p+pl':::upp'l:::†:::whisky. (lit. little flat thing (refers to bottle(:::n.::::::
 20:::p:::pɫ:::1:::1:::peɫ:::peɫ:::†:::thick‑layered.:::stem adj.::::::
 20:::p:::pɫ:::1:::2:::péɫ+ɫ+t:::peɫɫt::::::thick (It (shingle, board) is...).:::adj.::::::
@@ -3283,7 +3283,7 @@
 20:::p:::pɫ:::2:::1:::piɫ:::piɫ:::†:::scattered, strewn.:::stem vt, vi.::::::
 20:::p:::pɫ:::2:::2:::ec+píɫ+m:::etspiɫm::::::it is scattered, scattered (to be...).:::vi.::::::
 20:::p:::pɫ:::2:::3:::s+píɫ+m+šeš:::spiɫmshesh::::::diffusion. (lit. spreading):::n.::::::
-
+20:::p:::pɫ:::2:::4:::s+píɫ=elgʷes:::spiɫelgwes::://:::belongings (scattering one's...), scattering (...one's belongings).:::n, v.:::[see also pt]:::
 20:::p:::pɫ:::3:::1:::puɫ:::puɫ:::†:::foam.:::stem n.::::::
 20:::p:::pɫ:::3:::2:::pu·ɫ:::puuuɫ::::::It went splash!:::excl.::::::
 20:::p:::pɫ:::3:::3:::is+puɫ+puɫ+iš:::ispuɫpuɫish::::::splashing (He made the noise of...).:::n.::::::
@@ -3310,7 +3310,7 @@
 20:::p:::pn::::::15:::ʔax̣el+ɫ ʔese+s+pin=tč:::aqhelɫ esespintch::::::biennial, biyearly. (lit. happening every two years):::adv.::::::
 20:::p:::pn::::::16:::ʔupen+čs+pín=tč:::upenchspintch::::::decade. (lit. ten consecutive years):::n.::::::
 20:::p:::pn::::::17:::ul+n+púteʔ+n he s+pin=tč+s:::ulnpute'n he spintchs::::::anno‑Domini. (lit. belong­ing to the Lord's year):::adv.::::::
-
+20:::p:::pn::::::18:::k'ʷu‿s+k'ʷin+š+es+pín=tč:::k'usk'winshespintch?::::::How old are you?:::vi.:::[see also pl'1]:::
 20:::p:::pnʔ::::::1:::s+póneʔ:::spone':::†:::disadvantage. (lit. state of being taken advantage of):::n.::::::
 20:::p:::pnʔ::::::2:::sya·+pón'eʔ:::syaapo'ne'::::::bully. (lit. One who takes advantage of weaker people):::n.::::::
 20:::p:::pnʔ::::::3:::pon'éʔ+m'‑nt'‑m:::po'ne'm'nt'm:::‡:::browbeat. (lit. He was bullied):::vi.::::::
@@ -3341,7 +3341,7 @@
 20:::p:::pq::::::13:::péq=a[s]gʷel:::peqsagwel::::::halibut.:::n.::::::
 20:::p:::pq::::::14:::u· péq he čis:::uupeq he chis:::§:::cottage cheese. (lit. white cheese):::n.::::::
 20:::p:::pq::::::15:::elu+s+páʔq:::eluspa'q::::::unbleachable. (lit. It does not whiten e.g. by exposure to the sun):::vi.::::::
-
+20:::√p:::pq::::::16:::ul paq ha ʔúseʔ:::ul Paq ha use'::::::egg (Easter...). (lit. an egg that belongs to Easter (Pasch):::n.:::[see also p'q and p'k]:::
 20:::p:::pqʷ::::::1:::puqʷ+ilš:::puqwilsh:::†:::spy.:::stem vi.::::::
 20:::p:::pqʷ::::::2:::s+puqʷ+ílš+n:::spuqwilshn::::::scouting.:::n.::::::
 20:::p:::pqʷ::::::3:::ul+s+puqʷ+ílš+n:::ulspuqwilshn::::::pertaining to scouting.:::n.::::::
@@ -3355,10 +3355,10 @@
 20:::p:::pr'kʷ::::::2:::pér'kʷ=eɫxʷ+n:::pe'rkweɫkhwn::://:::brad, nail. (lit. means of piercing house):::n.::::::
 20:::p:::pr'kʷ::::::3:::pár'kʷ‑nt‑s:::pa'rkwnts:::‡:::pierced (He...it).:::vt.::::::
 20:::p:::pr'kʷ::::::4:::t+pér'kʷ‑nt‑s:::tpe'rkwnts::::::nailed (He...it on something).:::vt.::::::
-
+20:::p:::pr'kʷ::::::5:::t+pér'kʷ‑n:::tpe'rkwn::::::annex. (lit. I nailed it to something else):::vt.:::[xref pr'qʷ]:::
 20:::p:::pr'qʷ::::::1:::t+pár'qʷ‑nt‑s:::tpa'rqwnts:::‡:::clinch. (lit. He fastened it securely with a nail):::vt.::::::
 20:::p:::pr'qʷ::::::2:::mal'+t+pér'+per'qʷ=alqʷ‑nt‑m:::ma'ltpe'rpe'rqwalqwntm:::§:::crucified (to be...), crucify. (lit. He was put to death by being nailed to crossed poles):::vi, vt.::::::
-
+20:::p:::pr'qʷ::::::3:::s+mal'+t+pér'+per'qʷ=alqʷ:::sma'ltpe'rpe'rqwalqw::::::crucifixion.:::n.:::[xref pr'kʷ]:::
 20:::p:::prsn::::::1:::parsón:::parson:::†:::person, one person of the Blessed Trinity.:::n.::::::
 20:::p:::prsn::::::2:::t+číʔɫes parsón:::Tchi'ɫes Parson:::§:::Blessed Trinity. (lit. three persons):::n.::::::
 20:::p:::ps:::1:::1:::pas:::pas:::†:::amazed, astonished, bewildered.:::stem adj.::::::
@@ -3387,7 +3387,7 @@
 20:::p:::ps:::3:::3:::p+pús:::ppus::::::kitten.:::n.::::::
 20:::p:::ps:::3:::4:::pús+pus:::puspus::::::cats.:::n.::::::
 20:::p:::ps:::3:::5:::ul pus ha s+táx̣=anč+s:::ul pus ha staqhanchs:::§:::catgut. (lit. of cat his gut):::n.::::::
-
+20:::p:::ps:::4:::1:::puxʷs:::pus:::†:::digest.:::stem vt.::::::
 20:::p:::ps:::5:::1:::pus:::pus:::†:::nuisance, pest.:::stem n.::::::
 20:::p:::ps:::5:::2:::pús+pus+t:::puspust::::::He is a gadabout.:::adj.::::::
 20:::p:::ps:::5:::3:::gʷɫ pús+pus+t:::guɫ puspust::::::They play and play, never work, to the point of being a nuisance.:::vi.::::::
@@ -3421,7 +3421,7 @@
 20:::p:::pš::::::2:::púša:::pusha::::::paternal grandfather.:::n.::::::
 20:::p:::pt::::::1:::pit+m:::pitm:::†:::He moved residence or position.:::vt.::::::
 20:::p:::pt::::::2:::pet+pet+m'+ul':::petpet'mu'l::::::moves (He habitually...around).:::v.::::::
-
+20:::p:::pt::::::3:::pít+m‑st‑m:::pitmstm:::‡:::diffuse. (lit. It was moved, spread (out)::: adj.:::[possibly pɫ]:::
 20:::p:::ptp::::::1:::s+pétep:::spetep:::†:::gopher.:::n.::::::
 20:::p:::ptq::::::1:::pa·táq:::paataq:::†:::potato.:::n.::::::
 20:::p:::ptq::::::2:::hn+pa·táq+n:::hnpaataqn::::::cellar. (lit. storage room for potatoes):::n.::::::
@@ -3432,7 +3432,7 @@
 20:::p:::ptqʷ::::::5:::sya·+pétqʷ+m:::syaapetqwm::::::jockey, racer. (lit. one whose function is to race):::n.::::::
 20:::p:::ptr::::::1:::a·+potar:::aapotar:::†:::apostle.:::n.::::::
 20:::p:::ptwnxʷ::::::1:::s+ptwínxʷ:::sptwinkhw:::†:::hog (mother...).:::n.::::::
-
+20:::p:::ptx̣ʷ::::::1:::patx̣ʷ:::patqhw:::†:::burst (ref. to oil, water, pus).:::stem, vi.) ::: paɫx̣ʷ to burst forth (as oil, water, pus). paɫqhw :::[written as pɫx̣ʷ in volume 1]
 20:::p:::ptx̣ʷ::::::2:::s+patx̣ʷ:::spatqhw::::::oozing, as a well after being dug.:::n.::::::
 20:::p:::ptx̣ʷ::::::3:::čic+pátx̣ʷ:::chitspatqhw::::::It (i.e. oil, water, blood) burst forth hither.:::vt.::::::
 20:::p:::pty'::::::1:::p+pty'ú:::ppt'yu:::†:::little one, dime.:::n.::::::
@@ -3453,7 +3453,7 @@
 20:::p:::pw::::::2:::pew:::pew::::::drum (on a drum).:::stem vi.::::::
 20:::p:::pw::::::3:::p+péw'+m':::ppe'w'm::::::drummed (he...softly), softly (he drummed...).:::v, adv.::::::
 20:::p:::pw::::::4:::pu·w+mín+n:::puuwminn::::::drum.:::n.::::::
-
+20:::p:::pw::::::5:::puw+min+n:::puwminn::::::cymbal. (lit. a drum), n.)  puh+mín+n cymbal (lit. a drum). (puhminn::: n.:::[also written as ph]:::
 20:::p:::pw::::::6:::sye·+péw+m:::syeepewm::::::drummer. (lit. one whose function is to drum):::n.::::::
 20:::p:::pw::::::7:::i s+péw+puw+iš:::ispewpuwis::::::He is in the act of sounding a drum.:::::::::
 20:::p:::pw::::::8:::s+pow=ál'q+n:::spowa'lqn::://:::woodpecker.:::n.::::::
@@ -3475,7 +3475,7 @@
 20:::p:::pwy::::::1:::píwye:::piwye:::†:::camas from Nez Perce country.:::n.::::::
 20:::p:::pxʷ:::1:::1:::pexʷ:::pekhw:::†:::wind‑blown.:::stem adj.::::::
 20:::p:::pxʷ:::1:::2:::s+pexʷ+n:::spekhwn::::::chaff. (grain husks separated from):::n.::::::
-
+20:::p:::pxʷ:::1:::3:::péxʷ+t+n':::pekhwt'n::::::snow drift.:::n.:::[xref pxʷ2]:::
 20:::p:::pxʷ:::2:::1:::e n+péxʷ:::enpekhw:::†:::to be contained (lit. Spherical objects are contained in something).:::vi.::::::
 20:::p:::pxʷ:::3:::1:::puxʷ:::pukhw:::†:::blow (with mouth).:::stem vt.::::::
 20:::p:::pxʷ:::3:::2:::puxʷ+m:::pukhum::::::blow.:::vt.::::::
@@ -3488,7 +3488,7 @@
 20:::p:::pxʷ:::3:::9:::púxʷ‑nt‑m:::pukhwntm:::‡:::blown (It was...).:::vi.::::::
 20:::p:::pxʷ:::3:::10:::púxʷ‑nt‑m:::pukhwntm::::::medicine man (h/s was treated by a...), treated (h/s was...by a medicine man). (lit. h/s was blown on as a technique of healing):::n, v.::::::
 20:::p:::pxʷ:::3:::11:::hn+púxʷ‑n:::hnpukhwn::::::blow‑up (to...). (lit. I filled it with air):::vt.::::::
-
+20:::p:::pxʷ:::3:::12:::t+púxʷ‑n:::tpukhwn::::::blow‑out. (lit. I blew out), vt.)  t+póxʷ=qn‑t‑m was (H/h head...blown on). (tpokhwqntm (ref. to curing technique):::vi.:::[xref pxʷ1]:::
 20:::p:::px̣::::::1:::pax̣:::paqh:::†:::thoughtful, wise.:::stem. to rub on surface as striking a match)  adj.::::::
 20:::p:::px̣::::::2:::pax̣:::paqh::::::rub (on a surface).:::stem v.::::::
 20:::p:::px̣::::::3:::u· páx̣:::uupaqh::::::canny, crafty, cunning, prudent, shrewd (he is...).:::adj.::::::
@@ -3527,7 +3527,7 @@
 20:::p:::px̣ʷ::::::12:::s+pox̣ʷ+m+eɫ+q'ey'+mínn:::spoqhmeɫq'e'yminn:::§:::circular, bulletin.:::n.::::::
 20:::p:::px̣ʷ:::2:::1:::hn+t+péx̣ʷ+n:::hntpeqhwn:::†:::cuspidor, spittoon.:::n.::::::
 20:::p:::px̣ʷ:::2:::2:::čat+péx̣[ʷ]+m:::chatpeqhm::::::H/S spat on floor.:::vi.::::::
-
+20:::p:::px̣ʷ:::2:::3:::*čat+péx̣ʷ+pex̣ʷ+m':::chatpeqhwpeqh'm::::::H/S spat on this and that, or here and there).:::vi.::::::[for expected pxʷ]
 20:::p:::py::::::1:::piy:::piy:::†:::happy, joyful.:::stem adj.::::::
 20:::p:::py::::::2:::péy+piy+t:::peypiyt::::::delightful, enjoyable.:::stem adj.::::::
 20:::p:::py::::::3:::péy+py+t:::peypyt::::::thrilling (of the heart or soul) must be pure, real, moral as a beautiful song, ecstatic.:::vt.::::::
@@ -3637,7 +3637,7 @@
 20:::p:::py::::::107:::s+myes+n+piy+iy=ílgʷes:::smyesnpiyyilgwes::::::trance (a kind of...), ecstasy, joy (excessive...). (lit. more than ordinary thrilling of the heart):::n.::::::
 20:::p:::pyl::::::1:::s+pa·yól=mš:::Spaayolmsh::://:::Spanish, Castilian, Mexican.:::n.::::::
 20:::p:::pyl::::::2:::an+pa·yól=mš=cn:::anpaayolmshtsn::::::Spanish (to speak...).:::n.::::::
-
+20:::p:::py':::1:::1:::piy':::pi'y:::†:::squeeze.:::stem vt.:::[xref p'y']:::
 20:::p:::py':::2:::1:::t+puʔ+púy'=us:::tpu'pu'yus::://:::humor (His eyes came to show prankish...), eyes (His...came to show prankish humor).:::n.::::::
 20:::p:::py':::2:::2:::t+puy'+púy=us:::tpuy'puyus::::::came (His eyes...to show prankish humor).:::vi.::::::
 20:::p:::py':::2:::3:::uʔ+t+púʔ+puy'=us:::u'tpu'pu'yus::::::humor (His eyes customarily show prankish...).:::n.::::::
@@ -3685,7 +3685,7 @@
 20:::p:::pʔ(s)::::::25:::hn+č'n'+n'+meɫi·+t+s+púʔs:::hnch''n'nmeɫiitspu's::::::come. (lit. his heart came to its own position).:::vt.::::::
 20:::p:::pʔ(s)::::::26:::miyes+puʔs+min‑n:::miyespu'sminn::::::comtemplate, meditate, ponder. (lit. I considered it more than ordinary):::vt.::::::
 20:::p:::pʔ(s)::::::27:::uw'e+n+púʔs+n:::u'wenpu'sn::::::abstract. (lit. only in imagination):::n.::::::
-
+21:::p':::p'c::::::1:::p'oc':::p'ots'::::::  †  smash.:::stem vi.:::[also recorded as p'c']:::
 21:::p':::p'c::::::2:::s+p'oc+m:::sp'otsm::::::damage (with heavy blows), pound (with heavy blows). (flatten:::vt.::::::
 21:::p':::p'c::::::3:::s+p'+p'óc+t:::sp'p'otst::::::dent. (lit. slight depression caused by a blow or pressure):::n.::::::
 21:::p':::p'c::::::4:::a n+p'oc=qn:::anp'otsqn::://:::H/s is wearing a squashed hat.:::vt.::::::
@@ -3712,7 +3712,7 @@
 21:::p':::p'gʷ::::::1:::p'ugʷ=ílmxʷ:::p'ugwilmkhw::://:::echo. (lit. sound on the earth):::n.::::::
 21:::p':::p'gʷ::::::2:::lut hey'p+s+p'ugʷ=ílumxʷ+s:::lut he'ypsp'ugwilumkhws:::§:::anechoic. (lit. It has no echoes):::adj.::::::
 21:::p':::p'gʷn::::::1:::p'ígʷne:::p'igwne:::†:::barbarian, gentile, pagan.:::n.::::::
-
+21:::p':::p'k::::::1:::t+p'ók=qn:::tp'okqn::://:::blonde. (lit. one with grayish hair):::n.:::[xref pq]:::
 21:::p':::p'kʷlʔ::::::1:::p'ekʷleʔ:::p'ekwle':::†:::ball, baseball, basketball.:::n.::::::
 21:::p':::p'kʷlʔ::::::2:::s+p'ekʷleʔ:::sp'ekwle'::::::baseball, playing ball.:::n.::::::
 21:::p':::p'kʷlʔ::::::3:::sye·+p'ékʷleʔ:::syeep'ekwle'::::::baseball player.:::n.::::::
@@ -3766,7 +3766,7 @@
 21:::p':::p'n'x̣::::::2:::s+p'an'x̣:::sp'a'nqh::::::bag, sack.:::n.::::::
 21:::p':::p'n'x̣::::::3:::kʷan+ɫ+s+p'án'x̣:::kwanɫsp'a'nqh:::§:::bag (she took a...), took (she...a bag).:::n, vt.::::::
 21:::p':::p'n'x̣::::::4:::s+kʷan+s+p'án'+p'an'x̣:::skwansp'a'np'a'nqh::::::baggage. (lit. bags carried while travelling):::n.::::::
-
+21:::p':::p'q::::::1:::u+t+p'óq=qn:::utp'oqqn:::†:::hair (He has sandy...).:::n.:::[xref pq]:::
 21:::p':::p'q'::::::1:::is+p'áq'+p'aq'+iš:::isp'aq'p'aq'ish:::†:::crackle. (lit. It going crackle, crackle):::vi.::::::
 21:::p':::p'qʷ::::::1:::p'eqʷ:::p'eqw:::†:::henpeck, nag, pick on.:::stem vt.::::::
 21:::p':::p'q'ʷ:::1:::1:::p'aq'ʷ:::p'aq'w:::†:::powder.:::stem n.::::::
@@ -3789,17 +3789,17 @@
 21:::p':::p'r::::::8:::p'ér‑nt‑n:::p'erntn:::‡:::awash. (lit. It was flooded):::vi.::::::
 21:::p':::p'rk'ʷ::::::1:::s+p'árk'ʷ=alqs:::sp'ark'walqs::://:::turtle. (apparel turned inside out::: n.::::::
 21:::p':::p'rk'ʷ::::::2:::s+p'+p'ar'k'ʷ=al'qs:::sp'p'a'rk'wa'lqs::::::capstan. (lit. a small turtle):::n.::::::
-
+21:::p':::p'rk'ʷ::::::3:::t+č'lxʷ=íc'eʔ+is xʷa s+p'árk'ʷ=alqs:::tch'lkhwits'e'is khwa sp'ark'walqs:::§:::crust. (lit. covering (crust of turtle:::n.:::[xref p'rq']:::
 21:::p':::p'rq'::::::1:::p'arq':::p'arq':::†:::curved (upwards), warped.:::stem adj.::::::
 21:::p':::p'rq'::::::2:::s+n+p'árq'=qn:::snp'arq'qn::://:::Dolly Varden. (lit. large twisted hat). (large hat for women with one side bent down and trimmed with numerous flowers):::n.::::::
 21:::p':::p'rq'::::::3:::hn+p'árq'=qn:::hnp'arq'qn::::::hat (turned‑up...). (lit. old‑time lady's hat.):::n.::::::
-
+21:::p':::p'rq'::::::4:::hn+p'ar+arq'=ús+m:::hnp'ararq'usm::::::inside out (to turn...). (lit. It e.g. the jacket was turned inside out):::v.:::[xref p'rk'ʷ]:::
 21:::p':::p'sq'ʷ::::::1:::p'asq'ʷ:::p'asq'w:::†:::collapse, crumble.:::stem vi.::::::
 21:::p':::p'sq'ʷ::::::2:::p'esaq'ʷ:::p'esaq'w::::::bone‑breaking, sound of bone­breaking.:::stem adj.::::::
 21:::p':::p'sq'ʷ::::::3:::p'sa·q'ʷ:::p'saaaq'w!::::::crack (as a bone breaking).:::excl.::::::
 21:::p':::p'st::::::1:::p'ésta:::p'esta:::†:::magpie, nighthawk.:::n.::::::
 21:::p':::p't::::::1:::p'et:::p'et:::†:::fall (to ground of own weight as grain).:::stem vi.::::::
-
+21:::p':::p't::::::2:::p'it:::p'it::::::(Xr p'ɫ) to sit (e.g. persons):::::::::
 21:::p':::p't::::::3:::s+p'ét+t+m:::sp'ettm::::::ripening (the falling of wheat to the ground on its own weight).:::v.::::::
 21:::p':::p't::::::4:::p'ít‑liš:::p'itlish:::‡:::sat (They...down).:::vi.::::::
 21:::p':::p't':::1:::1:::p'at':::p'at':::†:::dream, [mushy stuff (see below)].:::stem vi.::::::
@@ -3827,7 +3827,7 @@
 21:::p':::p't':::3:::2:::č ‿p'út'+m:::chp'ut'm::::::finished, We came to an end, we finished.:::vi.::::::
 21:::p':::p't':::3:::3:::čet+p'út'+m=kʷeʔ:::chetp'ut'mkwe'::://:::beach, coast. (lit. end of water):::n.::::::
 21:::p':::p't':::3:::4:::lut hey's+p'út'+m+s:::lut he'ysp'ut'ms:::§:::abyss. (lit. It has no bottom, it has no end.):::n.::::::
-
+21:::√p':::p't':::4:::1:::p'uʔt:::p'u't::::::  †  greasy (It got...).:::vi.:::[also recorded as p't and pt']:::
 21:::p':::p't':::4:::2:::puʔt':::pu't'::::::greasy, oily.:::stem adj.::::::
 21:::p':::p't':::4:::3:::p'ut'+p'ut'+t:::p'ut'p'ut't::::::greasy, oily, it gives greasiness.:::adj.::::::
 21:::p':::p't':::4:::4:::s+p'uʔt':::sp'u't'::::::becoming greasy.:::vt.::::::
@@ -3889,17 +3889,17 @@
 21:::p':::p'y'::::::6:::sye+cen+p'ey'+p'iy'+m:::syetsenp'e'yp'i'ym::::::One whose function is to milk.:::n.::::::
 21:::p':::p'y'::::::7:::p'éy'‑n:::p'e'yn:::‡:::pressed (I...it).:::vt.::::::
 21:::p':::p'y'::::::8:::p'éy'+p'iy'‑nt‑s:::p'e'yp'i'ynts::::::pressed (h/s...it here and there or again and again).:::v.::::::
-
+21:::p':::p'y'::::::9:::t+p'iy'=álqʷ‑nt‑s:::tp'i'yalqwnts::::::squeezed (H/s...h/h throat), throat (H/s squeezed h/h...).:::vt, n.:::[see also py']:::
 21:::p':::p'ʕʷ::::::1:::s+p'aʕʷ:::sp'a(w:::†:::apathy.:::n.::::::
 21:::p':::p'ʕʷ::::::2:::p'áʕʷ+p'aʕʷ+t:::p'a(wp'a(wt::::::banal, commonplace, dull, uninteresting. (lit. It is completely ordinary):::adj.::::::
 21:::p':::p'ʕʷ::::::3:::s+p'áʕʷ+p'aʕʷ+t:::sp'a(wp'a(wt::::::dullness.:::n.::::::
 21:::p':::p'ʔ::::::1:::p'eʔ:::p'e':::†:::To squeeze in orgasm.:::::::::
-
+22:::q:::qc::::::1:::qec:::qets:::†:::dwindle, shrink (in quantity).:::stem, vi.) ::: qeɫs dwindle, shrink (in quantity).  qeɫs:::[written as qɫs in volume 1]
 22:::q:::qcč::::::1:::qicč:::qitsch:::†:::brother (a man's older...).:::n.::::::
 22:::q:::qgʷ::::::1:::s+qígʷ+t+s:::sqigwts:::†:::water potatoes.:::n.::::::
 22:::q:::qgʷ::::::2:::qegʷ+gʷ+n+útm:::qegugwnutm::::::smellable. (lit. It was capable of being smelled):::adj.::::::
 22:::q:::qgʷ::::::3:::i c+qígʷ+nun+m‑s:::itsqigwnunms::::::He is smelling it.:::vt.::::::
-
+22:::q:::qgʷ::::::4:::qígʷ‑nu‑nt‑s:::qigwnunts:::‡:::He smelled it.:::vt.:::[xref qxʷ1]:::
 22:::q:::qh::::::1:::s+qéh+qeh:::sqehqeh:::†:::hawk.:::n.::::::
 22:::q:::qh::::::2:::qeh+qeh+iš:::qehqehish::::::cackle (lit. it cackled).:::vi.::::::
 22:::q:::qh::::::3:::is+qéh+qeh+iš:::isqehqehish::::::caw. (lit. The crow is cawing):::vi.::::::
@@ -3960,7 +3960,7 @@
 22:::q:::qp::::::3:::hn+qep=íčn'+n:::hnqepich'nn::::::saddle blanket, saddle pad.:::n.::::::
 22:::q:::qp::::::4:::hn+qap=qín=ups+n:::hnqapqinupsn::::::saddle, seat cushion.:::n.::::::
 22:::q:::qp::::::5:::qép‑nt‑s:::qepnts:::‡:::cushioned (he...it).:::vt.::::::
-
+22:::q:::qp::::::6:::s+n+c[']aw'+ɫ+qap=íɫc'eʔ:::sntsa'w'ɫqapiɫts'e':::§:::dish washing.:::n.:::[see also kp]:::
 22:::q:::qpl'::::::1:::qap+qapl'=y'úy'eʔ:::qapqap'l'yu'ye'::://:::butterfly.:::n.::::::
 22:::q:::qpl'::::::2:::č'iy+c+qap+qap'l=y'uy'eʔ:::ch'iytsqapqap'l'yu'ye'::::::chrysalis. (lit. the pupa of a butterfly enclosed in a firm case or cocoon):::n.::::::
 22:::q:::qpl'::::::3:::u+x̣ʷal'+á qap+qapl'=y'úy'eʔ:::uqhwa'la qapqap'l'yu'ye':::§:::desultory. (lit. He is like a butterfly; he is aimless, unsettled):::adj.::::::
@@ -3985,12 +3985,12 @@
 22:::q:::qxʷ:::1:::7:::seʔ+šáɫ+qixʷ:::se'shaɫqikhw::::::deodorize. (lit. it became deprived of odor):::vt.::::::
 22:::q:::qxʷ:::1:::8:::x̣as+aɫ+qixʷ:::qhasaɫqikhw::::::aroma, scent, fragrance. (lit. good odor):::n.::::::
 22:::q:::qxʷ:::1:::9:::t'ax̣+aɫ+qi·xʷ=íl'š:::t'aqhaɫqiikhwi'lsh::::::wind (The...became strong), strong (The wind became...).:::n, adj.::::::
-
+22:::q:::qxʷ:::1:::10:::ǰiy'+ǰiy'+áɫ+[q]ixʷ:::ji'yji'yaɫqhikhw::::::smells (it...bad).:::vi.:::[see also qgʷ]:::
 22:::q:::qxʷ:::2:::1:::qixʷ:::qikhw:::†:::forbid, prevent, prohibit.:::stem vt.::::::
 22:::q:::qx̣::::::1:::qax̣:::qaqh:::†:::to make the "qh" sound.:::::::::
 22:::q:::qx̣::::::2:::qax̣+n:::qaqhn:::‡:::cleared (he...his throat).:::vt.::::::
 22:::q:::qx̣::::::3:::qax̣‑nt‑s:::qaqhnts::::::He cleared his throat.:::vt.::::::
-
+22:::q:::qyp::::::1:::s+qayp=áqn:::sqaypaqn::://:::wild rose bush. (n.) [written as xʷyp in volume 1] s+xʷá·yap=aʔqn wild rose bush. (skhwaayapa'qn::: n.::::::
 22:::q:::qyp::::::2:::s+qáyapq':::sqayapq'::::::rose hip.:::n.::::::
 22:::q:::qʔs::::::1:::qiʔs:::qi's:::†:::He had a dream, nightmare, vision.:::n.::::::
 22:::q:::qʔs::::::2:::s+qiʔs:::sqi's::::::apocalypse, revelation (prophetic), vision guest, vision.:::n.::::::
@@ -4062,7 +4062,7 @@
 23:::q':::q's:::1:::7:::k'ʷay'+q'és+p:::k'wa'yq'esp:::§:::long‑ago, past.:::adj.::::::
 23:::q':::q's:::1:::8:::ul k'ʷay+q'és+p:::ul k'wayq'esp::::::archaic, antique. (lit. belonging to ancient time):::adj.::::::
 23:::q':::q's:::1:::9:::s+t+miy+y=ipeleʔ+s xʷe s+q'es+p=ilgʷeʔs:::stmiyyipele's khwe sq'espilgwe's::::::archeology, (lit. exposition of ancient property).:::n.::::::
-
+23:::q':::q's:::2:::1:::q'es+t:::q'est:::†:::bad (it is...).:::vi.::::::[for expected č's]
 23:::q':::q't':::1:::1:::q'et'+p:::q'et'p:::†:::climb (a hill), to reach the top of a hill.:::stem vt.::::::
 23:::q':::q't':::1:::2:::q'et'+iš:::q'et'ish::::::mountain (He climbed the...), climbed (He...the mountain).:::n, vt.::::::
 23:::q':::q't':::1:::3:::q'a+q'ét'+p:::q'aq'et'p::::::He finished climbing (a hill).:::vt.::::::
@@ -4077,7 +4077,7 @@
 23:::q':::q'w'::::::1:::q'ew':::q'e'w:::†:::break, shatter, smash. (to break, shatter:::stem. , vt.::::::
 23:::q':::q'w'::::::2:::q'áw'+p:::q'a'wp::::::broke, cracked (it...).:::vi.::::::
 23:::q':::q'w'::::::3:::q'éw'+p:::q'e'wp::::::it cracked, it broke.:::::::::
-
+23:::q':::q'x::::::1:::q'ex:::q'ekh:::†:::treasure, wealth.:::stem n.:::[xref q'x̣]:::
 23:::q':::q'xʷ::::::1:::q'exʷ:::q'ekhw:::†:::covetous, desire, longing, proud.:::stem n, adj.::::::
 23:::q':::q'xʷ::::::2:::u· q'éxʷ:::uuq'ekhw::::::classy. (lit. He is sort of particular):::adj.::::::
 23:::q':::q'xʷ::::::3:::q'éxʷ+xʷ:::q'ekhukhw::::::captivate. (lit. He was fascinated by special charm or beauty):::vi.::::::
@@ -4137,7 +4137,7 @@
 23:::q':::q'xʷ::::::57:::kʷup‿ʔi‿c+q'exʷ+xʷ+mín+m‑s‑lš:::kup'itsq'ekhukhwminmslsh::::::They are desiring to have you (pl).:::vi.::::::
 23:::q':::q'xʷ::::::58:::čeɫ‿kʷup‿s+q'exʷ+xʷ+mín+m‑s‑lš:::cheɫkupsq'ekhukhwminmslsh::::::(lit. they will desire to have you (pl(.:::vt.::::::
 23:::q':::q'xʷʔ::::::1:::q'+q'í[x]ʷeʔ:::q'q'ikwe':::†:::few.:::adj.::::::
-
+23:::q':::q'x̣::::::1:::s+q'éx̣+q'ex̣+t he n+ʔukʷún+n:::sq'eqhq'eqht he 'nukunn:::§:::dictionary. (lit. sayings that are a treasure):::n.:::[xref q'x]:::
 23:::q':::q'y:::1:::1:::q'ey=úʔs‑nt‑m:::q'eyu'snt:::‡:::disbelieved (he was...), possibly Spokane word.:::vi.::::::
 23:::q':::q'y:::1:::2:::s+q'eyuʔ+ɫ+xʷc'+út:::Sq'eyu'ɫkhwts'ut:::§:::Lawrence Nicodemus (Indian name of). (lit. Disbelieved Rocky Mountain):::n.::::::
 23:::q':::q'y:::2:::1:::q'iy':::q'i'y:::†:::cleft, split.:::stem adj.::::::
@@ -4491,7 +4491,7 @@
 24:::qʷ:::qʷl:::3:::2:::u+x̣ʷel'+é s+n+qʷúl=enč he s+t'+t'ús:::uqhe'le snqulench he st't'us:::§:::cotton candy. (lit. candy that resembles cotton):::n.::::::
 24:::qʷ:::qʷl':::1:::1:::qʷel':::qwe'l:::†:::kindle, light.:::stem vt.::::::
 24:::qʷ:::qʷl':::1:::2:::qʷil':::qwi'l::::::start a fire, kindle.:::::::::
-
+24:::qʷ:::qʷl':::1:::3:::hn+t+qʷíl'=kʷp+n:::hntqwi'lkupn::://:::oven, stove. (lit. place for kindling):::n.:::[xref gʷl]:::
 24:::qʷ:::qʷl':::2:::1:::qʷel':::qwe'l:::†:::angry, enraged, livid. (black and blue wound:::stem. , adj.::::::
 24:::qʷ:::qʷl':::2:::2:::u· qʷél':::uuqwe'l::::::black and blue, dark, purple.:::adj.::::::
 24:::qʷ:::qʷl':::2:::3:::un+qʷél'=us:::unqwe'lus::://:::black‑eye. (lit. He was discolored as to the eye):::n.::::::
@@ -4505,7 +4505,7 @@
 24:::qʷ:::qʷlm'::::::2:::qʷ+qʷíl'em'‑et:::quqwi'le'met::::::ditty. (lit. It is our little song):::n.::::::
 24:::qʷ:::qʷlm'::::::3:::hn+pést+eʔ=us ha qʷilem':::hnpeste'us ha qwile'm:::§:::anti‑phone. (lit. It is on the other side of a song, it is a responsive song):::n.::::::
 24:::qʷ:::qʷlw::::::1:::qʷlíw+l'š:::qwliw'lsh:::†:::bulb, wild onion, onion.:::n.::::::
-
+24:::qʷ:::qʷɫ:::1:::1:::qʷéɫ+qʷeɫ+t:::qweɫqweɫt:::†:::stamina, endurance.:::vi.:::[xref q'ʷɫ]:::
 24:::qʷ:::qʷɫ:::2:::1:::qʷuɫ:::quɫ:::†:::dusty.:::stem adj.::::::
 24:::qʷ:::qʷɫ:::2:::2:::s+qʷuʔɫ:::squ'ɫ::::::dirt, dust. (dirt::: n.::::::
 24:::qʷ:::qʷm::::::1:::qʷam:::qwam:::†:::attractive, pleasant, pleasing.:::stem adj.::::::
@@ -4541,7 +4541,7 @@
 24:::qʷ:::qʷn::::::10:::ut+qʷn=sq'it:::utqwnsq'it::::::cerulean. (lit. The sky is blue, It is azure):::adj.::::::
 24:::qʷ:::qʷn::::::11:::u· qʷn‑lš:::uuqwnlsh:::‡:::green (They are...).:::adj.::::::
 24:::qʷ:::qʷr::::::1:::qʷ+qʷár'eʔ+t:::qoqwa're't:::†:::gold.:::n.::::::
-
+24:::qʷ:::qʷr::::::2:::t+qʷar+éq=qn:::tqwareqqn::://:::blonde. (lit. one with pale or yellowish hair):::n.::::::[for expected kʷr]
 24:::qʷ:::qʷs:::1:::1:::qʷes:::qwes:::†:::blurred, confused.:::stem adj.::::::
 24:::qʷ:::qʷs:::1:::2:::qʷés+s:::qwess::::::dim. (lit. It became indistinct):::vt.::::::
 24:::qʷ:::qʷs:::1:::3:::u· qʷés:::uuqwes::::::blurred (it is...), blurred (mentally), callow, childish, dense, dim, immature, inexperienced. (He is...:::adj.::::::
@@ -4552,7 +4552,7 @@
 24:::qʷ:::qʷs:::1:::8:::qʷás=qn':::qwasq'n::://:::blue jay. (lit. blurred head):::n.::::::
 24:::qʷ:::qʷs:::1:::9:::qʷás+s=qn':::qwassq'n::::::crazy, entranced, possessed. (lit. He is crazy):::adj.::::::
 24:::qʷ:::qʷs:::1:::10:::t+qʷás+qʷs+s=us:::tqwasqwssus::::::blear. (lit. He became blurred as to the eyes):::adj.::::::
-
+24:::qʷ:::qʷs:::1:::11:::s+t+qʷás+qʷas+s=us:::stqwasqwassus::::::visual indistinctness.:::n.:::[xref ʔsqʷ]:::
 24:::qʷ:::qʷs:::2:::1:::hn+qʷs+t=íl'š‑stu‑s:::hnqwsti'lshstus:::‡:::deepen. (lit. He deepened the well, etc.):::vt.::::::
 24:::qʷ:::qʷy:::1:::1:::qʷay:::qway:::†:::joke.:::stem. lit. to talk backwards) vi.::::::
 24:::qʷ:::qʷy:::2:::1:::s+qʷá·y=apaʔ:::sqwaayapa'::://:::rose hip.:::n.::::::
@@ -4560,8 +4560,8 @@
 24:::qʷ:::qʷy:::3:::2:::u· qʷíy:::uuqwiy::::::abundant. (lit. He has abundance):::n.::::::
 24:::qʷ:::qʷy:::3:::3:::qʷe·y=úl'mxʷ:::qweeyu'lmkhw::://:::capitalist. (lit. He has plenty of land):::n.::::::
 24:::qʷ:::qʷy:::3:::4:::qʷe·y=úl'umxʷ:::qweeyu'lumkhw::::::rich. (lit. He is well‑to‑do as to land):::vi.::::::
-
-
+24:::qʷ:::qʷy:::3:::5:::l+qʷe·y=úl'mxʷ+n:::lqweeyu'lmkhwn::::::bonanza. (lit. means of becoming wealthy):::vi.:::[see also qʷh]:::
+24:::qʷ:::qʷy:::4:::1:::qʷiy=ós:::qwiyos::://:::Negro.:::n.:::[xref q'ʷh]:::
 24:::qʷ:::qʷy':::1:::1:::qʷay':::qwa'y:::†:::impoverished, pitiable, poor.:::stem adj.::::::
 24:::qʷ:::qʷy':::1:::2:::qʷiy':::qwi'y::::::to pity.:::stem vt.::::::
 24:::qʷ:::qʷy':::1:::3:::qʷáy'+qʷiʔ+t:::qwa'yqwi't::::::He is indigent, pitiful, poor.:::adj.::::::
@@ -4591,7 +4591,7 @@
 24:::qʷ:::qʷʕʷ::::::6:::hn+qʷéʕʷ+ʕʷ+n:::hnqwe(w(wn::::::alcohol, intoxication. (lit. means of getting silly):::n.::::::
 24:::qʷ:::qʷʕʷ::::::7:::hn+qʷéʕ'ʷ+qʷéʕ'ʷ+ʕ'ʷ+n:::hnqwe'(wqwe'(w'(w'n::::::asylum (lit. place for mentally ill).:::n.::::::
 24:::qʷ:::qʷʕʷ::::::8:::ic+qʷeʔʕʷ+qʷeʔʕʷ+ʔʕʷ:::itsqwe'(wqwe'(w'(w::::::crazy. (lit. He is insane):::adj.::::::
-
+24:::qʷ:::qʷʕʷ::::::9:::ic+kʷeʔʕʷ+kʷeʔʕʷ+ʔʕʷ:::itskwe'(wkwe'('(w:::::: demented. (lit. He is going crazy):::adj.:::[also recorded as kʷʕʷ]:::
 24:::qʷ:::qʷʕʷ::::::10:::s+kʷéʔʕʷ+kʷeʕʷ+ʔʕʷ:::skwe'(wkwe(u'(::::::insanity.:::n.::::::
 24:::qʷ:::qʷʕʷ::::::11:::s+qʷéʕʷ+qʷeʕʷ+ʕʷ:::sqwe(wqwe(u(w::::::carousal. (lit. people becoming intoxicated):::n.::::::
 24:::qʷ:::qʷʕʷ::::::12:::ic+qʷéʕʷ+ʕʷ:::itsqwe(w(w::::::drunk (he is being...).:::vi.::::::
@@ -4637,7 +4637,7 @@
 25:::q'ʷ:::q'ʷd::::::14:::q'ʷéd+p+m‑stu‑s:::q'wedpmstus:::‡:::to blacken it.:::vt.::::::
 25:::q'ʷ:::q'ʷd::::::15:::u· q'ʷéd he šét'+ut:::uuq'wed he shet'ut:::§:::basalt. (lit. rock that is black):::n.::::::
 25:::q'ʷ:::q'ʷh::::::1:::q'ʷih:::q'wih:::†:::black (ref. to a person).:::stem adj.::::::
-
+25:::q'ʷ:::q'ʷh::::::2:::s+t+q'ʷíh=šn=mš:::Stq'wihshnmsh::://:::Blackfoot. (lit. one of the Blackfoot Tribe):::n.:::[xref qʷy4]:::
 25:::q'ʷ:::q'ʷl:::1:::1:::q'ʷal:::q'wal:::†:::char, singe.:::stem vt.::::::
 25:::q'ʷ:::q'ʷl:::1:::2:::q'ʷel':::q'we'l::::::burn, cook.:::stem vt.::::::
 25:::q'ʷ:::q'ʷl:::1:::3:::s+q'ʷel+t:::sq'welt::::::burn, cooked (being).:::n, vt.::::::
@@ -4656,9 +4656,9 @@
 25:::q'ʷ:::q'ʷlpš::::::1:::q'ʷelpš:::q'welpsh!:::†:::Good for him! It serves him right!:::interj.::::::
 25:::q'ʷ:::q'ʷls::::::1:::q'ʷóls=alqʷ:::q'olsalqw::://:::pussy willow (used for baskets).:::n.::::::
 25:::q'ʷ:::q'ʷlw'::::::1:::q'ʷelíw':::q'weli'w:::†:::bear eats berries.:::::::::
-
+25:::q'ʷ:::q'ʷl'::::::1:::q'ʷul':::q'u'l:::†:::produce.:::stem vt.:::[xref? k'ʷl']:::
 25:::q'ʷ:::q'ʷɫ::::::1:::q'ʷeɫ:::q'weɫ:::†:::endurance (to have...).:::stem v.::::::
-
+25:::q'ʷ:::q'ʷɫ::::::2:::q'ʷiɫ:::q'wiɫ::::::enduring, persevering.:::stem adj, vi.:::[xref qʷɫ]:::
 25:::q'ʷ:::q'ʷm::::::1:::q'ʷem+p:::q'wemp:::†:::cramp, spasm (to have a muscle...).:::stem v.::::::
 25:::q'ʷ:::q'ʷm::::::2:::s+c+an+q'ʷém+p=cn:::stsanq'wemptsn::://:::crick. (lit. cramp in the neck, note: similarity between q'wamp and cramp):::n.::::::
 25:::q'ʷ:::q'ʷm::::::3:::s+n+q'ʷém+p=šn:::snq'wempshn::::::charley horse, cramp (getting a...). (lit. cramp of the leg):::n, vt.::::::
@@ -4681,12 +4681,12 @@
 25:::q'ʷ:::q'ʷs::::::7:::sya+čeɫ+n+q'ʷ+q'ʷos+m=íčn=šn':::syacheɫnq'oq'osmich'nsh'n::::::dog catcher. (lit. One who goes after dogs):::n.::::::
 25:::q'ʷ:::q'ʷs::::::8:::u+x̣ʷal'+a+n+q'ʷ+q'ʷs+m'í:::uqhwa'lanq'oq'os'mi:::§:::canine. (lit. It is doglike):::n.::::::
 25:::q'ʷ:::q'ʷs::::::9:::s+m'u+m'úc=šn' ha n+qʷo+q[']ʷos+m'i:::sm'u'mutssh'n hanqoqos'mi::::::bitch. (lit. a female dog):::n.::::::
-
+25:::q'ʷ:::q'ʷt::::::1:::hn+q'ʷt+út=mš=kʷeʔ:::Hnq'wtutmshkwe'::://:::Coeur d'Alene River.:::n.:::[xref q'ʷt'2]:::
 25:::q'ʷ:::q'ʷt':::1:::1:::q'ʷut':::q'ut':::†:::knitted, woven (to be...).:::stem vt.::::::
 25:::q'ʷ:::q'ʷt':::1:::2:::hn+q'ʷt'=šn:::hnq'ut'shn::://:::sock(s), stockings.:::n.::::::
 25:::q'ʷ:::q'ʷt':::1:::3:::hn+q'ʷ+q'ʷút'=šn':::hnq'uq'ut'sh'n::::::bootie. (lit. little sock):::n.::::::
 25:::q'ʷ:::q'ʷt':::2:::1:::aɫ+q'ʷét'+ut:::Aɫq'wet'ut:::†:::Plummer Butte, Plummer.:::n.::::::
-
+25:::q'ʷ:::q'ʷt':::2:::2:::s+q'ʷt'ú:::Sq'wt'u::::::Cataldo, Idaho, Old Mission, Old Sacred Heart Mission.:::n.:::[xref q'ʷt]:::
 25:::q'ʷ:::q'ʷy':::1:::1:::q'ʷey':::q'we'y:::†:::dance, bounce.:::stem vi.::::::
 25:::q'ʷ:::q'ʷy':::1:::2:::s+q'ʷéy'+m+ncut:::sq'we'ymntsut::::::cotillion, ballet. (lit. squeezing oneself):::n.::::::
 25:::q'ʷ:::q'ʷy':::1:::3:::č'at+s+q'ʷey'+m+ncut:::ch'atsq'we'ymntsut::::::dance.:::vi.::::::
@@ -4729,8 +4729,8 @@
 25:::q'ʷ:::q'ʷy':::2:::5:::t+q'ʷey'=álpqʷ‑nt‑s:::tq'we'yalpqwnts::::::to choke.:::vi.::::::
 25:::q'ʷ:::q'ʷyʔ::::::1:::q'ʷúyeʔ:::q'uye':::†:::name of coyote's powers.:::n.::::::
 25:::q'ʷ:::q'ʷʕ::::::1:::q'ʷeʕ+p:::q'we(p:::†:::slid (it...), he slid involuntarily.::::::[v].:::
-
-
+25:::q'ʷ:::q'ʷʕ::::::2:::s+q'ʷaʕ+eʕ+p=líyeʔ:::sq'wa(e(pliye'::://:::sledding, coasting. (lit. sliding down an inclined slope on a sled):::vi.:::[xref k'ʷʕ]:::
+25:::q'ʷ:::q'ʷʔ::::::1:::an+qʷaʔ+qʷaʔ=ep=eʔs+t:::anqwa'qwa'epe'st::://:::[one entry recorded as qʷʔ]  castrate, geld. (lit. He, e.g. bull, is castrated):::vt, n.::::::
 25:::q'ʷ:::q'ʷʔ::::::2:::hn+q'ʷaʔ+q'ʷeʔ=ép=eʔst:::hnq'wa'q'we'epe'st::::::castrated.:::vi.::::::
 25:::q'ʷ:::q'ʷʔ::::::3:::hn+q'ʷaʔ+q'ʷeʔ=ép=eʔs‑nt‑s:::hnq'wa'q'we'epe'snts:::‡:::castrated. (lit. he castrated the bull):::vt.::::::
 25:::q'ʷ:::q'ʷʔɫ::::::1:::q'ʷiʔɫ:::q'wi'ɫ:::†:::camp (to move...), decamp, migrate. (decamp::: vt, vi.::::::
@@ -4740,7 +4740,7 @@
 26:::s:::sc'::::::1:::sic':::si'ts:::†:::blanket, blanketed.:::stem n, adj.::::::
 26:::s:::sc'::::::2:::sic'+m:::sits'm::::::blanket, cover.:::n.::::::
 26:::s:::sc'::::::3:::sic'+síc'+m:::sits'sits'm::::::bedding. (lit. blankets):::n.::::::
-
+26:::s:::sč:::1:::1:::sič:::sich:::†:::squirrel.:::n.::::::[v. 1 has sč']
 26:::s:::sč:::2:::1:::si+sč:::sisch:::†:::onion (species of wild...).:::n.::::::
 26:::s:::sč':::1:::1:::séč'=ečt:::sech'echt::://:::moss on a tree.:::n.::::::
 26:::s:::sč':::2:::1:::hn+séč'+ntis:::hnsech'ntis:::†:::channel, river.:::n.::::::
@@ -4749,7 +4749,7 @@
 26:::s:::sds::::::1:::sídis+t:::sidist:::†:::during (...the night).:::adv.::::::
 26:::s:::sds::::::2:::sidis+t:::sidist::::::overnight (to...).:::stem vi.::::::
 26:::s:::sds::::::3:::et+sids+t:::etsidst::::::night.:::n.::::::
-
+26:::s:::sds::::::4:::sds+tíɫ+mš:::sdstiɫmsh::::::travelled (He...by night).:::v.:::[see also ds]:::
 26:::s:::sgʷ::::::1:::sigʷ:::sigw:::†:::ask for, inquire, question (to...), request.:::stem vi, vt.::::::
 26:::s:::sgʷ::::::2:::sigʷ+n:::sigwn::::::ask, question.:::vt.::::::
 26:::s:::sgʷ::::::3:::s+sígʷ+n:::ssigwn::::::ask, inquiry, question.:::vt, n.::::::
@@ -4768,9 +4768,9 @@
 26:::s:::skʷ:::2:::6:::s+n+s(=)íkʷeʔ=mš:::snsikwe'msh::::::aquanaut, dipper. (lit. aquatic animal or water tribesman):::n.::::::
 26:::s:::skʷ:::2:::7:::ʔepɫ n+s(=) íkʷeʔ+n:::epɫ n sikwe'n::::::barkeeper, bartender. (lit. One who has a liquor place):::n.::::::
 26:::s:::skʷ:::2:::8:::s+s(=)ákʷaʔ=q'n:::ssakwa'q'n::::::lost lake. (lit. water on the head (mountain):::n.::::::
-
+26:::s:::skʷ:::2:::9:::s+s(=)áqʷaʔ=qn:::ssaqwa'qn:::::: lake (little crater...). (lit. water on the head (mountain):::n.:::[also recorded as sqʷ]:::
 26:::s:::skʷ:::2:::10:::elu+ɫ+s(=)íkʷeʔ:::eluɫsikwe':::§:::waterless, parched, anhydrous.  (lit. It has no water):::adj.::::::
-
+26:::s:::skʷ:::2:::11:::ul s(=)ikʷeʔ ha sóltes:::ul sikwe'ha soltes::::::blue‑jacket. (lit. soldier of the sea):::n.:::[xref sxʷ1]:::
 26:::s:::sk'ʷ::::::1:::suk'ʷ:::suk'w:::†:::float (...with current).:::stem vi.::::::
 26:::s:::sk'ʷ::::::2:::súk'ʷ‑nt‑m:::suk'wntm:::‡:::afloat. (lit. He was set adrift):::adj.::::::
 26:::s:::sl:::1:::1:::sel:::sel:::†:::turn (to...), rotate.:::stem vi.::::::
@@ -4893,7 +4893,7 @@
 26:::s:::sxʷ:::1:::5:::č+síxʷ+ɫ+p‑nt‑s:::chsikhwɫpnts::::::decant. (lit. He poured (the water) out of doors outside; he poured it forth):::vt.::::::
 26:::s:::sxʷ:::1:::6:::s+síxʷ+m xʷe mít'č'=edeʔ:::ssikhum khwe mit'ch'ede':::§:::bloodbath, bloodshed. (lit. spilling that w/c is blood):::n.::::::
 26:::s:::sxʷ:::1:::7:::s+nukʷ+síxʷ+sixʷ+xʷ:::snukwsikhwsikhukhw::::::brethren, fellow‑bloods :::n.::::::
-
+26:::s:::sxʷ:::1:::8:::s+nukʷ+síxʷ+xʷ:::snukwsikhukhw::::::blood‑brother, concourse. (lit. fellow in issue of blood/a flowing or moving together):::n.:::[xref skʷ2]:::
 26:::s:::sxʷ:::2:::1:::sexʷ:::sekhw:::†:::carry (on back).:::stem vt.::::::
 26:::s:::sxʷ:::2:::2:::sexʷ+m:::sekhwm::::::bear, carry. (lit. Carry on the back):::vt.::::::
 26:::s:::sxʷ:::2:::3:::sye·+séxʷ+m:::syeesekhum::::::carrier. (lit. One who carries or conveys):::n.::::::
@@ -4989,13 +4989,13 @@
 27:::š:::šc':::1:::6:::šc'+šc'+t=íl'š‑st‑n:::shts'shts'ti'lshstn:::‡:::corroborate. (lit. It was strengthened, it was made sturdy):::vi.::::::
 27:::š:::šc':::1:::7:::šét'+s+šic'=eʔst:::shet'sshits'e'st:::§:::diamond. (lit. hard stone):::n.::::::
 27:::š:::šc':::2:::1:::šec':::shets':::†:::wait.:::stem vi.::::::
-
+27:::š:::šc':::2:::2:::cen+šéc'‑n:::tsenshets'n:::‡:::waited (I...for him).:::vi.:::[xref šč']:::
 27:::š:::ščt::::::1:::š(=)ečt:::shecht:::†:::thumb, any finger.:::n.::::::[move to appendix B]
 27:::š:::šč':::1:::1:::a+šč'=qín+m:::ashch'qinm::://:::eavesdrop, overhear. (lit. H/s customarily listens):::vi.::::::
 27:::š:::šč':::1:::2:::hn+šč'=qín+emn:::hnshch'qinemn::::::auditorium. (lit. a place for listening):::n.::::::
 27:::š:::šč':::1:::3:::šč'+mí‑nt‑s:::shch'mints:::‡:::heard (He...it).:::vt.::::::
 27:::š:::šč':::2:::1:::šeč':::shech':::†:::wait.:::stem vi.:::[?]:::
-
+27:::š:::šč':::2:::2:::cen+šétč'‑n:::tsenshetch'n::::::cf. (from Eng) I waited for him.:::vi.:::[xref šc']:::
 27:::š:::šč':::3:::1:::šič':::shi'ch:::†:::miss (the target).:::stem vt.::::::
 27:::š:::šč':::3:::2:::šíč'=eʔst:::shich'e'st::://:::missed (he...the target), target (he missed the...).:::vt, n.::::::
 27:::š:::šč':::3:::3:::t+šéč'=alqʷ:::tshech'alqw::::::derail. (lit. It (train) ran off the rails):::vt.::::::
@@ -5015,10 +5015,10 @@
 27:::š:::šl::::::5:::s+šl=ítkʷp:::sshlitkup::::::block. (lit. wood split into pieces):::n.::::::
 27:::š:::šl::::::6:::š+šl'=ús:::shsh'lus::::::battle‑axe, enemy, hostile, hostility, tomahawk. (lit. chop face):::n, adj.::::::
 27:::š:::šl::::::7:::šél‑nt‑s:::shelnts:::‡:::chop. (lit. He cut it by striking with a heavy sharp tool):::vt.::::::
-
+27:::š:::šlč::::::1:::šelč':::shelch'::::::  †  circle.:::stem vt.:::[also recorded as šlč']:::
 27:::š:::šlč::::::2:::šelč:::shelch::::::circled (h/i...). (lit. He went around, in a circle):::vi.::::::
 27:::š:::šlč::::::3:::s+šélč+m+ncut:::sshelchmntsut::::::cortege. (lit. making a circle in ceremonial procession):::n.::::::
-
+27:::š:::šlč::::::4:::šl'+šl'c'+m+n'cút:::sh'lsh'lts'm'ntsut::::::[recorded once as šl'c']  turning (...and...in a war dance).:::vi.::::::
 27:::š:::šlč::::::5:::s+šél'+šl'č+m'+n'cut:::sshe'lsh'lch'mntsut::::::carrousel, merry‑go‑round. (lit. going round and round):::n.::::::
 27:::š:::šlč::::::6:::s+t+šelč:::stshelch::::::detour. (lit. going a roundabout way):::n.::::::
 27:::š:::šlč::::::7:::t+šélč‑n:::tshelchn:::‡:::compass. (lit. I circled it; I went around it):::vt.::::::
@@ -5163,7 +5163,7 @@
 27:::š:::šr:::1:::5:::hn+šár+n:::hnsharn::::::indolence, laziness.:::n.::::::
 27:::š:::šr:::1:::6:::u čn‿šár:::uchnshar::::::lazy (I feel...).:::vt, adj.::::::
 27:::š:::šr:::1:::7:::hn+šár+šar=cn:::hnsharshartsn::://:::bull‑headed, headstrong, lit. great difficulty is felt by parents whose disobedient children fail to respond to verbal discipline. (lit. he is steep (difficult) for the mouth (of the speaker(:::adj.::::::
-
+27:::š:::šr:::1:::8:::šar=čt+m‑nt‑se‑s:::sharchtmntses:::‡:::He caused me to feel lazy by his detaining me.:::vt.:::[see also šrč]:::
 27:::š:::šr:::2:::1:::šar:::shar:::†:::hang (to...a person).:::stem vt.::::::
 27:::š:::šr:::2:::2:::a+t+šár:::atshar::::::addition, appendage. (lit. It is appended):::vi.::::::
 27:::š:::šr:::2:::3:::a+n+šár=enč:::ansharench::://:::hang (on the wall).:::vi, vi.::::::
@@ -5176,7 +5176,7 @@
 27:::š:::šr:::2:::10:::niʔ+šar=usiʔ+útm:::ni'sharusi'utm::::::squash.:::n.::::::
 27:::š:::šr:::2:::11:::kʷan+ɫ+sc+šár=čt:::kwanɫstsharcht:::§:::H/S took (along) a valise, lantern, etc.:::vt.::::::
 27:::š:::šr:::3:::1:::šar:::Shar:::†:::Charles.:::n.::::::
-
+27:::š:::šrč::::::1:::šarč:::sharch:::†:::troublesome.:::stem adj.:::[see also šr]:::
 27:::š:::šrš::::::1:::s+n+šáriš:::snsharish:::†:::going upstream, downstream.:::n.::::::
 27:::š:::šrš::::::2:::an+šari·š+íɫ:::anshariishiɫ::://:::upstream.:::adv.:::[?]:::
 27:::š:::šr'::::::1:::hn+šar'+ar'=ípm:::hnsha'ra'ripm:::†:::He fell to his knees.:::vt.::::::
@@ -5307,11 +5307,11 @@
 28:::t:::tkʷ:::2:::2:::u· túkʷ+tukʷ+tukʷ:::uutukwtukwtukw::::::chug. (lit. It (engine) chugged on):::vi.::::::
 28:::t:::tkʷʔ::::::1:::tikʷeʔ:::tikwe':::†:::paternal aunt (if father is living).:::n.::::::
 28:::t:::tk'ʷ:::1:::1:::tek'ʷ:::tek'w:::†:::choke, smother.:::stem vt.::::::
-
+28:::t:::tk'ʷ:::1:::2:::niʔ+tékʷ:::ni'tekw:::::: brake, brushwood, thicket. (lit. a woods whose interior is suffocating:::n.:::[also written as tkʷ]:::
 28:::t:::tk'ʷ:::1:::3:::niʔ+tákʷ:::ni'takw::::::brushy. (lit. It is brushy):::adj.::::::
 28:::t:::tk'ʷ:::1:::4:::s+tékʷ+tukʷ+p+t:::stekwtukwpt::::::angina, asthma. (angina (lit. becoming suffocated periodically, impairing the respiration again and again):::n.::::::
 28:::t:::tk'ʷ:::2:::1:::tíʔk'ʷ+t:::ti'k'ut:::†:::Tekoa.:::n.::::::
-
+28:::t:::tk'ʷ:::2:::2:::s+tikʷ=mš:::Stikwmsh::://:::  Tekoa people.:::n.:::[also recorded as tkʷ]:::
 28:::t:::tl::::::1:::tel:::tel:::†:::break off (ref. to a soft object).:::stem vi.::::::
 28:::t:::tl::::::2:::tel+p:::telp::::::break‑up, crumble (ref. to a single object).:::stem vi.::::::
 28:::t:::tl::::::3:::til+til+p:::tiltilp::::::break‑up, disintegrate.:::stem vi.::::::
@@ -5372,12 +5372,12 @@
 28:::t:::tm:::2:::25:::s+t+kʷel'+tem+n=elwís:::stkwe'ltemnelwis::::::visiting (He is going about...people).:::vt.::::::
 28:::t:::tm:::2:::26:::t+kʷeɫ+tem+n=elwís:::tkweɫtemnelwis::::::visiting (He went about...people, treating them sociably).:::vt, vi.::::::
 28:::t:::tm:::2:::27:::nuk'ʷ+ɫ+túm':::nuk'wɫtu'm::::::bevy, covey, brood, group, class.:::n.::::::
-
+28:::t:::tm:::2:::28:::nuk'ʷ+ɫ+tum' ha sóltes:::nuk'wɫtu'm ha soltes::::::battalion. (lit. a unit of soldiers):::n.:::[xref tmn2,3]:::
 28:::t:::tm:::3:::1:::eč+tm=ílxʷ:::echtmilkhw::://:::bare (to be...).:::vi.::::::
 28:::t:::tm:::3:::2:::č+tm=elxʷ+ncút:::chtmelkhwntsut::::::divest. (lit. H/S make h/h self bare):::vt.::::::
 28:::t:::tm:::4:::1:::en+tém+tm=ens:::entemtmens::://:::cavity (teeth), decayed. (lit. To have decayed teeth):::vt.n, adj.::::::
 28:::t:::tm:::4:::2:::s+n+tém+p=ens:::sntempens::::::caries. (lit. decaying of a tooth):::n.::::::
-
+28:::t:::tm:::5:::1:::tum:::tum:::†:::pump, suck (e.g. through a tube).:::stem vt.:::[xref t'm'3]:::
 28:::t:::tm:::6:::1:::u n+tó·m:::untooom:::†:::dirty (It is...), unclean (The water is...).:::adj.::::::
 28:::t:::tm:::6:::2:::u n+tó·m:::untooom::::::water (The...is unclean).:::n.::::::
 28:::t:::tmds::::::1:::tmídus:::tmidus:::†:::tomato.:::n.::::::
@@ -5391,9 +5391,9 @@
 28:::t:::tmn:::2:::2:::tímn‑t‑m:::timntm:::‡:::amused (He was...).:::vi.::::::
 28:::t:::tmn:::2:::3:::e+temn+es=čínt:::etemneschint:::§:::convivial, kind. (lit. He treats others sociably):::vt.adj.::::::
 28:::t:::tmn:::2:::4:::s+temn+es+čint:::stemneschint::::::entertain, host.:::vt.::::::
-
+28:::t:::tmn:::2:::5:::elu+s+temn+es+čínt:::elustemneschint::::::cantankerous, perverse (disposition), unfriendly, unsociable. (lit. One who is not sociable):::adj.:::[xref tm2]:::
 28:::t:::tmn:::3:::1:::tímn+n:::timnn:::†:::chattel, commodity, utility. (lit. a useful thing):::n.::::::
-
+28:::t:::tmn:::3:::2:::č+tímn+n:::chtimnn::::::caliber, quality, usefulness, worth.:::adj, n.:::[xref tm2]:::
 28:::t:::tmrs::::::1:::tmer'us:::tme'rus:::†:::ketchup. (l.w. from Engl. tomatoes):::n.::::::
 28:::t:::tmrs::::::2:::tmérus:::tmerus::::::catsup, ketchup. (lit. tomatoes. Note the sound of the word):::n.::::::
 28:::t:::tmš::::::1:::u tmíš:::utmish:::†:::only, but.:::adv.::::::[move to appendix]
@@ -5436,7 +5436,7 @@
 28:::t:::tm':::3:::8:::s+ta·m'+ɫ+p'áx̣:::staaa'mɫp'aqh::::::healed (The wound was finally...), wound (The...was finally healed).:::vt, n.::::::
 28:::t:::tm':::3:::9:::tgʷel'+s+tím':::tgwe'lsti'm::::::Why?, why.:::qu, adv.::::::
 28:::t:::tm':::3:::10:::tgʷel' s+tim'+ɫ kʷ‿čic+xʷy?:::tgwe'l sti'mɫ ku chitskhuy?::::::come (Why did you...?).:::vi.::::::
-
+28:::t:::tm':::3:::11:::s+tiʔm xʷe s+kʷes+t=ílumxʷ‑s:::sti'm khwe skwestilumkhws?::::::What is the name of the place?:::qu.).:::[xref tʔ]:::
 28:::t:::tn::::::1:::ten:::ten:::†:::pull (rope), tight.:::stem vt, adj.::::::
 28:::t:::tn::::::2:::ten+tn+t:::tentnt::::::fit tightly (clothes).:::stem vi.::::::
 28:::t:::tnš::::::1:::tunš:::tunsh:::†:::nephew.:::n.::::::
@@ -5475,7 +5475,7 @@
 28:::t:::tq:::2:::1:::[t]a+tq:::ɫatq:::†:::hang (strips of smoked fat).:::stem vt.::::::
 28:::t:::tq:::3:::1:::taq=il'p‑nt‑m:::taqi'lpntm::://:::clog. (lit. It (stream) was clogged (dammed up):::v.::::::
 28:::t:::tq:::4:::1:::čat+teq=egʷeɫ:::chatteqegweɫ:::†::://  bluebird.:::n.::::::
-
+28:::t:::tqw'::::::1:::taqáw':::taqa'w:::†:::deaf‑mute, dumb (He is a...(mute) person).:::n, adj.:::[see also tq]:::
 28:::t:::tq'::::::1:::taq'+taq'+mí:::Taq'taq'm:::†:::Chilco Mountain.:::n.::::::
 28:::t:::tq'::::::2:::taq'+taq'+n+mí:::Taq'taq'nmi'::::::Chilco Mountain.:::n.::::::
 28:::t:::tqʷ::::::1:::an+tuqʷ=úlm'xʷ:::antuqul'mkhw::://:::crypt. (lit. Hole in the ground):::n.::::::
@@ -5483,7 +5483,7 @@
 28:::t:::tqʷ::::::3:::s+n+tuqʷ+qʷ=úl'mxʷ:::sntuququ'lmkhw::::::crater. (lit. a depression in the ground caused by a volcano, meteor, etc.):::n.::::::
 28:::t:::tq'ʷsm'::::::1:::s+tuq'ʷsúm':::stuq'wsu'm:::†:::weasel.:::n.::::::
 28:::t:::tr:::1:::1:::tar:::tar:::†:::loosen, stretch out, extend, untie.:::stem vt.::::::
-
+28:::t:::tr:::1:::2:::s+tár+m:::starm::::::absolve, compurgation. (lit. untying):::n.:::[xref tr']:::
 28:::t:::tr:::2:::1:::tor:::tor:::†:::tough (as meat, leather).:::stem adj.::::::
 28:::t:::tr:::3:::1:::tor=s:::tor...s::://:::beckon (with the eye).:::stem vt.::::::
 28:::t:::trq::::::1:::s+taréq=šn:::stareqshn::://:::mud hen.:::n.::::::
@@ -5491,7 +5491,7 @@
 28:::t:::tr'::::::2:::tar'=ítkʷeʔ:::ta'ritkwe'::://:::canalize. (lit. He provided an outlet for water):::vi.::::::
 28:::t:::tr'::::::3:::s+tar'=ítkʷeʔ:::sta'ritkwe'::::::canal, ditch. (canal (lit. a man‑made stream):::n.::::::
 28:::t:::tr'::::::4:::s+niʔ+tar'=íɫxʷ:::sni'ta'riɫkhw::::::avenue, boulevard. (lit. road among houses):::n.::::::
-
+28:::t:::tr'::::::5:::s+niʔ+ta+tar'=íɫxʷ:::sni'tata'riɫkhw::::::alley.:::n.:::[xref tr1]:::
 28:::t:::ts::::::1:::tes:::tes:::†:::bulge.:::stem vi.::::::
 28:::t:::ts::::::2:::tes+p:::tesp::::::bloat. (lit. It became swollen):::vi.::::::
 28:::t:::ts::::::3:::s+niʔ+tés+ts+p=enč:::sni'testspench::://:::bulkage. (lit. swellings among the intestines, any substance that stimulates peristal­sis by increasing the bulk of material in the intestines):::n.::::::
@@ -5510,13 +5510,13 @@
 28:::t:::twš::::::8:::tuwš+ačl+ʔúpen:::tuwshach'lupen::::::sixty, six times ten.:::n.::::::
 28:::t:::twš::::::9:::tuwš+ačl+ʔúpen:::tuwshach'lupen::::::sixty.:::n.::::::
 28:::t:::twʔ::::::1:::tiweʔ:::tiwe':::†:::indulge.:::stem vi.::::::
-
+28:::t:::twʔ::::::2:::tíweʔ‑nt‑s:::tiwe'nts:::‡:::coddle. (lit. She babied h/h):::v.:::[xref tw't]:::
 28:::t:::tw'::::::1:::tuw':::tu'w:::†:::crowd, stuff, swarm.:::stem vi, vt.::::::
 28:::t:::tw'::::::2:::hn+túw'‑nt‑m:::hntu'wntm:::‡:::cram. (lit. It was stuffed):::vi.::::::
 28:::t:::tw't::::::1:::t+tw'ít:::tt'wit:::†:::adolescent boy, young man.:::n.::::::
 28:::t:::tw't::::::2:::peɫ+t+tuw'it:::peɫttu'wit::::::adolescents.:::n.::::::
 28:::t:::tw't::::::3:::s+t+tw'i·t=íl'š:::stt'wiiti'lsh::://:::adolescence. (lit. becoming youth):::n.::::::
-
+28:::t:::tw't::::::4:::t+tw'ít ha s+l'ax̣+t:::tt'wit ha sl'aqht:::§:::boyfriend.:::n.:::[xref twʔ]:::
 28:::t:::txʷ::::::1:::tíxʷ+m:::tikhum:::†:::obtain (He looked to...necessities).:::vi, n, vt.::::::
 28:::t:::txʷ::::::2:::s+č+téxʷ+m:::schtekhum::::::addiction.:::n.::::::
 28:::t:::txʷ::::::3:::s+č+téxʷ+xʷ:::schtekhukhw::::::accretion, addition.:::n.::::::
@@ -5541,7 +5541,7 @@
 28:::t:::tx̣:::1:::3:::tax̣+táx̣:::taqhtaqh::::::pepper, spice. (lit. bitter bitter):::n.::::::
 28:::t:::tx̣:::1:::4:::hn+tax̣+táx̣+n:::hntaqhtaqhn::::::pepper shaker.:::n.::::::
 28:::t:::tx̣:::1:::5:::x+tax̣+tax̣+n:::khtaqhtaqhn::::::pepper shaker.:::n.:::[?]:::
-
+28:::t:::tx̣:::1:::6:::tax̣+t‑š:::taqht...sh::::::unbearable.:::stem, adj.) ::: t'ax̣+t‑š unbearable. t'aqht...sh :::[written as t'x̣ in volume 1]
 28:::t:::tx̣:::1:::7:::tax̣+tax̣=iɫp:::taqhtaqhiɫp::://:::birch (black...).:::n.::::::
 28:::t:::tx̣:::1:::8:::tax̣+tax̣+q=iɫp:::taqhtaqhqiɫp::::::black birch.:::n.::::::
 28:::t:::tx̣:::1:::9:::in+taʔx̣=ílgʷes:::inta'qhilgwes::::::anxious. (lit. H/s felt a sting of pain in h/h heart):::adj.::::::
@@ -5552,7 +5552,7 @@
 28:::t:::tx̣:::1:::14:::u+x̣ʷal'+á tax̣+táx̣:::uqhwa'la taqhtaqh::::::all‑spice. (lit. It is like pepper):::n.::::::
 28:::t:::tx̣:::2:::1:::s+táx̣=enč:::staqhench::://:::bowel, colon, intestine.:::n.::::::
 28:::t:::tx̣:::2:::2:::niʔ+s+táx̣+tax̣=enč:::ni'staqhtaqhench::::::intestines.:::pl.n.::::::
-
+28:::t:::tx̣:::2:::3:::ul pus ha s+táx̣=anč+s:::ul pus ha staqhanchs:::§:::catgut. (lit. of cat his gut):::n.:::[probably the same as tx̣1]:::
 28:::t:::tx̣:::3:::1:::s+tax̣+tex̣=él'č:::staqhteqhe'lch:::†:::doll.:::n.::::::
 28:::t:::tx̣:::3:::2:::s+t+tax̣+téx̣=el'č:::sttaqhteqhe'lch::::::doll.:::n.::::::
 28:::t:::tx̣:::3:::3:::s+t+ta+téx̣=el'č:::sttateqhe'lch::::::[d]olly. (lit. a little doll):::n.::::::
@@ -5601,14 +5601,14 @@
 28:::t:::tʔ:::1:::9:::sye+teʔ+eɫ+wl+wlím:::syete'eɫwlwlim::::::blacksmith, coppersmith. (lit. One who shapes metals by hammering):::n.::::::
 28:::t:::tʔ:::2:::1:::s+tiʔ:::sti':::†:::article, belonging, possession (personal).:::n.::::::
 28:::t:::tʔ:::2:::2:::hi+s+tíʔ:::histi'::::::mine (It is...).:::vi.::::::
-
+28:::t:::tʔ:::2:::3:::stiʔ‑s:::sti's::::::It is his.:::vi.:::[xref tm']:::
 28:::t:::tʔ:::3:::1:::e n+túʔ:::entu':::†:::there (at a distance).:::vi.::::::
 28:::t:::tʔ:::4:::1:::e+n+t+tuʔ+tuʔ:::enttu'tu':::†:::bologna, lunch meat. (lit. stuffed stuffed)hot dogs, weiners::: n.::::::
 28:::t:::tʔɫ::::::1:::tiʔ[ɫ]:::ti'l:::†:::fly.:::stem vi.::::::
 28:::t:::tʔɫ::::::2:::tiʔɫ:::ti'ɫ,::::::to fly.:::::::::
 28:::t:::tʔɫ::::::3:::s+tiʔɫ:::sti'ɫ::::::aviation, flying.:::n.::::::
 28:::t:::tʔɫ::::::4:::e·+tiʔ+teʔɫ:::eeti'te'ɫ::::::airplane. (flying machine:::n.::::::
-
+28:::t:::tʔɫ::::::5:::e·+ti+teɫ:::eetiteɫ::::::  machine. (flying machine, airplane:::n.:::[also recorded as tɫ]:::
 28:::t:::tʔɫ::::::6:::teʔ+teʔɫi·ʔ+útm:::te'te'ɫii'utm::::::airplane. (lit. that which flies by itself):::n.::::::
 29:::t':::t'c':::1:::1:::t'ic':::t'its':::†:::smooth (by rubbing).:::stem vt.::::::
 29:::t':::t'c':::1:::2:::s+t'ic'+m:::st'its'm::::::to stroke, caress, iron (clothes).:::v.::::::
@@ -5623,13 +5623,13 @@
 29:::t':::t'č::::::2:::t'íʔč=cn+m:::t'i'chtsnm::://:::stuck (He...his tongue out), tongue (He stuck his...out).:::vt, n.::::::
 29:::t':::t'č':::1:::1:::če+t'č'+et':::chet'ch'et':::†:::blackbird.:::n.::::::
 29:::t':::t'č':::1:::2:::t'eč'+t'č':::t'ech't'ch'::::::blackbird.:::n.::::::
-
+29:::t':::t'č':::1:::3:::t'éʔč'+tč:::t'e'ch'tch::::::blackbird.:::n.:::[see also č't'3]:::
 29:::t':::t'č':::2:::1:::t'ič':::t'ich':::†:::provide (food for travel), stock up (as food for travel).:::stem vt, vi.::::::
-
+29:::t':::t'č':::2:::2:::t'ič'+t+m:::t'ich'tm::::::took (He...along provisions).:::vt.:::[xref t'č'l]:::
 29:::t':::t'č':::3:::1:::sye·+t'íč'+t:::syeet'ich't:::†:::boatman, bowman. (lit. One who rows a boat or paddles a canoe):::n.::::::
 29:::t':::t'č':::3:::2:::x̣es+es+t'íč+t:::qhesest'icht:::§:::He rowed without trouble or difficulty.:::v.::::::
 29:::t':::t'č'l::::::1:::s+t'íč'l:::st'ich'l:::†:::provisions (travelling...).:::pl.n.::::::
-
+29:::t':::t'č'l::::::2:::t'ič'l+m:::t'ich'lm::::::provisions (He took along...).:::n.:::[xref t'č'2]:::
 29:::t':::t'd:::1:::1:::t'édeʔ:::t'ede':::†:::ship, canoe.:::n.::::::
 29:::t':::t'd:::1:::2:::x̣áy'+x̣iʔ+t he t'éde:::qhay'qhi't he t'ede:::§:::argosy. (lit. a big canoe):::n.::::::
 29:::t':::t'd:::2:::1:::t'éʔ+td+t:::t'e'tdt:::†:::difficult (It is...).:::adj.::::::
@@ -5654,11 +5654,11 @@
 29:::t':::t'kʷ:::1:::1:::t'ekʷ:::t'ekw:::†:::cry out, whinny.:::stem vi.::::::
 29:::t':::t'kʷ:::1:::2:::t'+t'ékʷ+t'ukʷ:::t't'ekwt'ukw::::::colt, foal.:::n.::::::
 29:::t':::t'kʷ:::2:::1:::t'ekʷ:::t'ekw:::†:::watertight.:::stem adj.::::::
-
+29:::t':::t'kʷ:::2:::2:::tekʷ:::tekw::::::[written as tkʷ in volume 1] watertight.:::::::::
 29:::t':::t'kʷ:::2:::3:::t'ekʷ+s:::t'ekws::::::burst.:::stem vi.::::::
 29:::t':::t'kʷ:::2:::4:::s+t'íkʷs=us:::st'ikwsus::://:::sap of a tree used as an eye medicine.:::n.::::::
 29:::t':::t'kʷ:::2:::5:::hn+t'ukʷ+s=ús‑nt‑s:::hnt'ukwsusnts:::‡:::He burst his eye.:::vt.::::::
-
+29:::t':::t'kʷ:::3:::1:::t'ikʷ:::t'ikw:::†:::old.:::stem adj.::::::[for expected t'k'ʷ3]
 29:::t':::t'kʷ:::4:::1:::s+t'okʷ=alpqʷ:::st'okwalpqw::://:::bow tie.:::n.::::::
 29:::t':::t'kʷ:::5:::1:::s+n+t'ukʷ=u·s=íw'es:::snt'ukuusi'wes::://:::argument. (lit. crossing a statement):::n.::::::
 29:::t':::t'kʷ:::5:::2:::ul+s+n+t'ukʷ=u·s=íw'es:::ulsnt'ukuusi'wes::::::argumentative. (lit. pertaining to argument):::adj.::::::
@@ -5749,12 +5749,12 @@
 29:::t':::t'ɫ:::1:::3:::s+t'+t'ɫ=úl'eʔxʷ:::st't'ɫu'le'khw::://:::brick, earthenware. (ceramic, china:::n.::::::
 29:::t':::t'ɫ:::1:::4:::s+t'+t'ɫ=úl'exʷ:::st't'ɫu'lekhw::::::ceramic, china. (earthenware, brick::: n.::::::
 29:::t':::t'ɫ:::1:::5:::t'eɫ‑nt‑s:::t'eɫnts:::‡:::daub. (lit. He smeared it):::v.::::::
-
+29:::t':::t'ɫ:::1:::6:::t'eɫ‑nt‑m:::t'eɫntm::::::besmirch.:::v.:::[xref t'ɫ2]:::
 29:::t':::t'ɫ:::2:::1:::t'oɫ:::t'oɫ:::†:::lumpy, sticky.:::stem adj.::::::
 29:::t':::t'ɫ:::2:::2:::can+t'óɫ=šn+n:::tsant'oɫshnn::://:::cement. (lit. An adhesive put under the feet):::n.::::::
 29:::t':::t'ɫ:::2:::3:::t'óɫ‑nt‑s:::t'oɫnts:::‡:::bedaub.:::vt.::::::
-
-
+29:::t':::t'ɫ:::2:::4:::č+t'óɫ=c'eʔ‑nt‑m:::cht'oɫts'e'ntm::::::besmeared (it was body...).:::vi.:::[xref t'ɫ1]:::
+29:::t':::t'm:::1:::1:::t'em:::t'em:::†:::scissors (to cut with...).:::stem, v) ::: ' to cut with scissors. t'e'm :::[written as t'm' in volume 1]
 29:::t':::t'm:::2:::1:::t'em:::t'em:::†:::damp.:::stem adj.::::::
 29:::t':::t'm:::2:::2:::t'am':::t'a'm::::::damp.:::stem adj.::::::
 29:::t':::t'm:::2:::3:::t'em+p:::t'emp::::::damp. (lit. It became moistened):::adj.::::::
@@ -5796,7 +5796,7 @@
 29:::t':::t'm':::1:::8:::t'ám'‑nt‑s:::t'a'mnts::::::licked (I...it).:::vt.::::::
 29:::t':::t'm':::2:::1:::hn+t'í+t'm'=el'ps:::hnt'it''me'lps::://:::gooseberry.:::n.::::::
 29:::t':::t'm':::3:::1:::t'um':::t'u'm:::†:::pipelike, tubelike.:::stem adj.::::::
-
+29:::t':::t'm':::3:::2:::t'úm'+pn:::t'u'mpn::::::chimney, conduit, pipe, tube. (lit. stovepipe):::n.:::[xref tm]:::
 29:::t':::t'n:::1:::1:::s+t'én+t'en=ax̣n:::st'ent'enaqhn::://:::name of arm ornaments in form of fringes (lit. wing dress).:::n.::::::
 29:::t':::t'n:::2:::1:::s+t'ún=ɫc'eʔ:::st'unɫts'e'::://:::ass, mule deer.:::n.::::::
 29:::t':::t'n:::2:::2:::s+t'+t'ún'=ɫc'eʔ:::st't'u'nɫts'e'::::::burro. (lit. a small donkey):::n.::::::
@@ -5829,13 +5829,13 @@
 29:::t':::t'q:::1:::1:::t'aq:::t'aq:::†:::lie (bushy objects).:::stem vi.::::::
 29:::t':::t'q:::1:::2:::t'aq+ap=w'as=qn:::t'aqap'wasqn::://:::beard.:::n.::::::
 29:::t':::t'q:::1:::3:::s+t'aq+áp=w'as=qn:::st'aqap'wasqn::::::beard. (bushy:::n.::::::
-
+29:::t':::t'q:::2:::1:::t'aq+t:::t'aqt:::†:::return (birds from migration), migrate.:::stem. (lit. The birds have come back from the south), vi.)  taq+t Bird returns in the spring. taqt  v.:::[also written as tq in volume 1]:::
 29:::t':::t'q:::2:::2:::t'aq+t=íčn':::t'aqtich'n::://:::to succeed in killing game, hunt (successfully), killed (He...game).:::vi, vt, n.::::::
 29:::t':::t'q:::2:::3:::čn‿t'aq+t=íčn':::chnt'aqtich'n::::::hunt (I was successful in my...), successful (I was...in my hunt).:::n, adj.::::::
 29:::t':::t'q:::3:::1:::t'a[q+p]:::t'apq:::†:::puncture, perforate.:::stem vt.::::::
 29:::t':::t'q:::4:::1:::t'áq=ney':::t'aqne'y::://:::cyst. (lit. a sack):::n.::::::
 29:::t':::t'q:::4:::2:::s+w'iʔ+p+ɫ+t'áq=ney':::s'wi'pɫt'aqne'y::::::flour sack.:::n.::::::
-
+29:::t':::t'q:::5:::1:::s+t'eq=ʔɫn':::st'eq'ɫ'n::://:::huckleberries (a species of...found in the woods). (n.) [written as tq in volume 1] s+teq=ɫn (a species of) huckleberries (found in the woods). (steqɫn::: n.::::::
 29:::t':::t'q'::::::1:::hn+t'áq'+n:::hnt'aq'n:::†:::Hayden Lake.:::n.::::::
 29:::t':::t'q'::::::2:::ʔapɫ t'+t'áq'+n:::Apɫ t't'aq'n::::::Worley, saddle‑shaped mountain S.E. of Worley.:::n.::::::
 29:::t':::t'qʷ:::1:::1:::t'aqʷ:::t'aqw:::†:::slap.:::stem vt.::::::
@@ -5846,7 +5846,7 @@
 29:::t':::t'qʷ:::1:::6:::t'aqʷ‑nt‑s:::t'aqwnts:::‡:::cuff, he slapped him.:::v.::::::
 29:::t':::t'qʷ:::1:::7:::t'+t'áqʷ+t'uqʷ‑nt‑s:::t't'aqwt'uqwnts::::::dab. (lit. He struck or hit him lightly repeatedly with the palms of the hands):::v.::::::
 29:::t':::t'qʷ:::1:::8:::t'uqʷ=uʔs=ús‑nt‑s:::t'uqu'susnts::::::slapped. (He...him in the face):::v.::::::
-
+29:::t':::t'qʷ:::2:::1:::t'eqʷ:::t'eqw:::†:::explode, burst.:::stem., vi.:::[xref t'q'ʷ]:::
 29:::t':::t'qʷ:::3:::1:::t'oqʷ:::t'oqw:::†:::to have power, succeed in everything.:::::::::
 29:::t':::t'qʷ:::4:::1:::t'u·qʷ:::t'uuqw:::†:::partners (make...with), marry, team up.:::stem n, vi.::::::
 29:::t':::t'qʷ:::4:::2:::t'oqʷ:::t'oqw::::::marry.:::stem vt.::::::
@@ -5855,10 +5855,10 @@
 29:::t':::t'qʷ:::4:::5:::s+n+t'oqʷ+m=íw'es:::snt'oqmi'wes::::::contraction, drawing together.:::n.::::::
 29:::t':::t'qʷ:::4:::6:::hn+t'oqʷ+m=íw'es‑nt‑m:::hnt'oqwmi'wesntm:::‡:::combine, merge. (lit. It was merged):::vi.::::::
 29:::t':::t'qʷ:::4:::7:::hn+t'oqʷ+m=íw'es+m‑st‑m‑lš:::hnt'oqmi'wesmstmlsh::::::contract. (lit. They were drawn together):::vi.::::::
-
+29:::t':::t'qʷ:::5:::1:::s+n+t'uqʷ+úmn:::snt'uqumn::::::sheath (for arrows), quiver.:::n.::::::[v. 1 has t'gʷ, analysis unclear]
 29:::t':::t'q'ʷ::::::1:::t'u·q'ʷ:::t'uuq'w:::†:::extinguish, put out (e.g. light).:::stem vt.::::::
 29:::t':::t'q'ʷ::::::2:::t'aq'ʷ=s:::t'aq'w...s::://:::burst (ref. to egg or eye).:::stem vi.::::::
-
+29:::t':::t'q'ʷ::::::3:::ɫ+t'q'ʷ=cin+m:::ɫt'q'wtsinm.::::::blurt, (lit. he uttered impulsively).:::vt.:::[xref t'qʷ]:::
 29:::t':::t'rk'ʷ::::::1:::s+t'ark'ʷ:::st'ark'w:::†:::flee, fleeing.:::vi, n.::::::
 29:::t':::t'rm'::::::1:::s+t'ar+t'arím':::st'art'ari'm:::†:::thunder.:::n.::::::
 29:::t':::t's:::1:::1:::t'as:::t'as:::†:::skinny, thin.:::stem adj.::::::
@@ -5911,7 +5911,7 @@
 29:::t':::t'xʷp::::::2:::t'uxʷ+úp:::t'ukhup::::::to attain, earn. (lit. He gained or accomplished):::v, vt.::::::
 29:::t':::t'xʷp::::::3:::s+t'uxʷ+úp:::st'ukhup::::::attainment, breakthrough, compendium, convert. (lit. winning):::n.::::::
 29:::t':::t'xʷp::::::4:::kʷʔ‿t'uxʷúp:::ku't'ukhup::::::earn. (lit. You (sg.) gain a just pay for your labor, services, etc.)::: vt.::::::
-
+29:::t':::t'x̣::::::1:::tax̣:::taqh:::†::: swift.:::stem adj.:::[also recorded as tx̣]:::
 29:::t':::t'x̣::::::2:::s+t'áx̣+m:::st'aqhm::::::accelerate. (lit. speeding a thing up):::vt.::::::
 29:::t':::t'x̣::::::3:::t'ax̣+t:::t'aqht::::::fast (It is..., He is a...runner).:::adj, n.::::::
 29:::t':::t'x̣::::::4:::s+t'ax̣+t:::st'aqht::::::alacrity, celerity, speed, swiftness.:::n.::::::
@@ -6048,11 +6048,11 @@
 30:::w:::wt:::2:::2:::s+wt=cn+mé+ncut:::swttsnmentsut::::::complaint, fretting.:::n.::::::
 30:::w:::wt'č::::::1:::s+wít'č=alqʷ:::swit'chalqw::://:::type of pine on top of Mt. Grizzly, has edible cones once every seven years.:::n.::::::
 30:::w:::ww::::::1:::u+wí·w:::uwiiiw!:::†:::chatterbox, mumble, prattle (He made a continuous mumble or...). (He is a chatterbox:::n.::::::
-
+30:::w:::wxʷ::::::1:::wuxʷ:::wukhw:::†:::draft.:::stem n.:::[xref wx̣ʷ]:::
 30:::w:::wx̣:::1:::1:::wax̣:::waqh:::†:::murm[u]r (e.g. a brook).:::stem v.::::::
 30:::w:::wx̣:::1:::2:::wáx̣=iʔɫp:::waqhi'ɫp::://:::dog‑wood, wild maple.:::n.::::::
-
-
+30:::w:::wx̣:::2:::1:::wex̣:::weqh:::†:::chapped.:::stem adj.:::[see also wʔx̣]:::
+30:::w:::wx̣ʷ::::::1:::wu·x̣ʷ:::wuuqhw:::†:::draft, wind.:::stem n.:::[xref wxʷ]:::
 30:::w:::wy::::::1:::wa·y:::waaay!:::†:::babel. (lit. a confused sound of voices):::n.::::::
 30:::w:::wy::::::2:::way·:::wayyy !::::::(onom?) babel (lit. a confused sound of voices).:::n.::::::
 30:::w:::wy::::::3:::u· wá·y:::uuwaaay!::::::babel. (lit. They made a confused sound of voices):::excl.::::::
@@ -6225,9 +6225,9 @@
 30:::w:::wʔ::::::155:::t'iʔ+wíʔ‑nt‑si‑s‑lš:::t'i'wi'ntsislsh::::::They have called you (pl) aloud.:::v.::::::
 30:::w:::wʔ::::::156:::čeɫ‿kʷup‿s+wíʔ+m‑s‑lš:::cheɫkupswi'mslsh::::::(lit. they will call you (pl.) aloud).:::vt.::::::
 30:::w:::wʔ::::::157:::k'ʷ neʔ wíʔ‑nt‑ulmi‑s‑lš:::k'wne'wi'ntulmislsh::::::They are going to call you (pl.) aloud.:::vi.::::::
-
+30:::w:::wʔp::::::1:::s+w'iʔp+ɫ+t'áq=ney':::s'wi'pɫt'aqne'y:::§:::flour sack.:::n.:::[possibly related to wyp]:::
 30:::w:::wʔt'::::::1:::s+weʔít'+n:::swe'it'n:::†:::spring, well.:::n.::::::
-
+30:::w:::wʔx̣::::::1:::waʔx̣:::wa'qh:::†:::sting, smart (to...).:::stem vi.:::[probable inchoative of wx̣2]:::
 31:::w':::w'::::::1:::uw'eʔ+n+t:::u'we'nt:::†:::low (to be very...).:::stem v.::::::
 31:::w':::w'::::::2:::uw'e+m'n'=ús:::u'we'm'nus::://:::coistrel, knave, bogus, rascal. (lit. He is good for nothing):::n.::::::
 31:::w':::w'::::::3:::ɫuʔ+w'e:::ɫu'we:::§:::that near third person or remote.:::n.::::::
@@ -6247,10 +6247,10 @@
 32:::xʷ:::xʷc:::2:::2:::xʷ+xʷíc+eʔ:::khukhwitse'::::::concise, brief, curt, short, terse. (lit. It goes only here, not there):::adj.::::::
 32:::xʷ:::xʷc:::2:::3:::čs+xʷ+xʷíc+eʔ:::chskhukhwitse'::::::bob‑tail. (lit. a short tail):::n.::::::
 32:::xʷ:::xʷc:::2:::4:::xʷ+xʷéc=al'qʷ:::khukhwetsa'lqw::://:::short (He is...).:::adj.::::::
-
+32:::xʷ:::xʷc:::2:::5:::s+can+[x]ʷ+xʷic=cn':::stsanqhukhwitsts'n::::::bob. (a short haircut on a woman or child):::n.:::[xref x̣ʷc2]:::
 32:::xʷ:::xʷc':::1:::1:::xʷc'+út:::Khwts'ut:::†:::crag, Rocky Mountains, Clear Water Mountains (in Idaho). (lit. rocky mountain):::n.::::::
 32:::xʷ:::xʷc':::1:::2:::s+q'eyuʔ+ɫ+xʷc'+út:::Sq'eyu'ɫkhwts'ut:::§:::Lawrence Nicodemus (Indian name of). (lit. Disbelieved Rocky Mountain):::n.::::::
-
+32:::xʷ:::xʷc':::2:::1:::xʷic':::khwits':::†:::amuse, befriend, companion (be a...to), entertain.:::stem. whistle, vt, n.) ::: xʷic to entertain, amuse. khwits :::[written as xʷc in volume 1]
 32:::xʷ:::xʷc':::2:::2:::xʷíc'+eʔ-nt‑s:::khwits'e'nts:::‡:::consort. (lit. He kept him company):::vt.::::::
 32:::xʷ:::xʷc':::3:::1:::xʷic':::khwit's:::†:::indicate, point out.:::stem vt.::::::
 32:::xʷ:::xʷd::::::1:::xʷed:::khwed:::†:::to itch.:::stem vi.::::::
@@ -6258,7 +6258,7 @@
 32:::xʷ:::xʷd::::::3:::xʷád=alqʷ:::khwadalqw::://:::grub worm, wood worm. (grub (lit. tickling of pole):::n.::::::
 32:::xʷ:::xʷd::::::4:::s+t+xʷd+p=íc'eʔ:::stkhwdpits'e'::::::eczema. (lit. intense itching of the skin):::n.::::::
 32:::xʷ:::xʷdnt::::::1:::s+xʷúdent:::skhudent:::†:::ice cream, ice.:::n.::::::
-
+32:::xʷ:::xʷdnt::::::2:::xʷdent=íl'š:::khudenti'lsh::://:::congeal, freeze. (conceal (lit. It (water) was turned into ice by cold):::vt.:::[xref x̣ʷdnt]:::
 32:::xʷ:::xʷk'ʷ:::1:::1:::xʷek'ʷ:::khwek'w:::†:::clean, sweep.:::stem vt.::::::
 32:::xʷ:::xʷk'ʷ:::1:::2:::u· xʷék'ʷ:::uukhwek'w::::::candid, chaste, clean, decent, pure, sincere (it is...).:::adj.::::::
 32:::xʷ:::xʷk'ʷ:::1:::3:::u· xʷúk'ʷ+xʷk'ʷ:::uukhuk'wkhuk'w::::::cleans (she...habitually).:::vi.::::::
@@ -6272,7 +6272,7 @@
 32:::xʷ:::xʷk'ʷ:::1:::11:::sye+xʷk'ʷ=íɫxʷ:::syekhuk'wiɫkhw::::::charwoman. (lit. One who cleans house(s(::: n.::::::
 32:::xʷ:::xʷk'ʷ:::1:::12:::xʷk'ʷ=ílup+n:::khuk'wilupn::::::broom. (lit. instrument for cleaning floors, mattress, etc.):::n.::::::
 32:::xʷ:::xʷk'ʷ:::1:::13:::*s+xʷuk'ʷ=ílup:::sqhuk'wilup::::::to sweep.:::vt.::::::
-
+32:::xʷ:::xʷk'ʷ:::1:::14:::t+xʷék'ʷ‑nt‑s:::tkhwek'wnts:::‡:::efface, delete. (lit. He cleaned it off, he erased it):::v.:::[xref x̣ʷk'ʷ]:::
 32:::xʷ:::xʷk'ʷ:::2:::1:::s+xʷík'ʷ+t:::skhwik'wt:::†:::frost.:::n.::::::
 32:::xʷ:::xʷk'ʷ:::2:::2:::t+xʷ+xʷík'ʷ+xʷak'ʷ=ečen'=us:::tkhukhwik'wkhwak'weche'nus::://:::frosty eyebrows.:::n.::::::
 32:::xʷ:::xʷl:::1:::1:::xʷel:::khwel:::†:::alive, live.:::stem adj.::::::
@@ -6294,18 +6294,18 @@
 32:::xʷ:::xʷl:::4:::1:::xʷul:::khul:::†:::bore (a hole).:::stem vt.::::::
 32:::xʷ:::xʷl:::4:::2:::xʷúl+emn:::khulemn::::::auger, bit. (lit. means of drilling a hole):::n.::::::
 32:::xʷ:::xʷl:::4:::3:::l'+l'+xʷil'=us:::L'l'khwil'us::://:::DeSmet, Idaho. (lit. a little hole in the forehead, referring to a spring on the north side of DeSmet hill):::n.::::::
-
+32:::xʷ:::xʷl:::4:::4:::en+xʷúl=ul'mxʷ:::enkhulu'lmkhw::::::burrow, cave. (lit. a hold dug in the ground):::n.:::[xref lxʷ]:::
 32:::xʷ:::xʷlʔ::::::1:::xʷéleʔ:::khwele':::†:::lark, meadowlark.:::n.::::::
 32:::xʷ:::xʷl'::::::1:::xʷel':::khwe'l:::†:::spin (as a top).:::stem vt.::::::
 32:::xʷ:::xʷlkʷ::::::1:::s+xʷlíkʷ:::skhwlikw:::†:::cyclone, whirlwind.:::n.::::::
 32:::xʷ:::xʷɫ:::1:::1:::xʷuɫ:::khuɫ:::†:::proceed. (as far as:::stem. , vi.::::::
-
+32:::xʷ:::xʷɫ:::2:::1:::s+xʷuʔɫ:::skhu'ɫ:::†:::mist. (smog:::stem. , n.:::[xref x̣ʷɫ]:::
 32:::xʷ:::xʷm::::::1:::xʷam:::khwam:::†:::roan‑colored.:::stem adj.::::::
 32:::xʷ:::xʷm::::::2:::xʷám=qn:::khwamqn::://:::roan horse.:::n.::::::
 32:::xʷ:::xʷm::::::3:::xʷém=ečt:::khwemecht::::::woodpecker.:::n.::::::
 32:::xʷ:::xʷm':::1:::1:::xʷum':::khu'm:::†:::homesick, lonely.:::stem adj.::::::
 32:::xʷ:::xʷm':::2:::1:::xʷum'+út:::khu'mut:::†:::of course.:::adv.::::::
-
+32:::xʷ:::xʷny'::::::1:::s+xʷú+xʷney':::skhukhwne'y:::†:::ant, rice (from resemblance of a swarm of ants).:::n.:::[xref x̣ʷny']:::
 32:::xʷ:::xʷn'::::::1:::an+xʷan'=áx̣n:::ankhwa'naqhn::://:::point (at this...), now. (from now on::: adv.::::::
 32:::xʷ:::xʷn'::::::2:::xʷa tal' an+xʷan'=áx̣n:::khwa ta'l ankhwa'naqhn::::::anymore. (from now on (lit. from this arm over):::adv.::::::
 32:::xʷ:::xʷn'::::::3:::č[i]+n+xʷen'=ítkʷeʔ:::chnkhwe'nitkwe'::::::America(n). (lit. on this side of the water):::n.::::::
@@ -6315,7 +6315,7 @@
 32:::xʷ:::xʷp:::2:::1:::xʷu·p:::khuup:::†:::show‑off, ostentatious. (intentional or vain display of wealth:::stem. , adj.::::::
 32:::xʷ:::xʷps::::::1:::xʷ(=)ups:::khups:::†:::to slap (with tail).:::stem vt.::::::
 32:::xʷ:::xʷq'ʷ::::::1:::t+xʷéq'ʷ=ečn':::tkhweq'wech'n::://:::calliope, cello. (lit. An organlike musical instrument):::n.::::::
-
+32:::xʷ:::xʷq'ʷ::::::2:::x̣áy'+x̣iʔ+t ha t+xʷéq'ʷ=ečn':::qha'yqhi't ha tkhweq'wech'n:::§:::bass viol (lit. It is big big what is a viol (means of pulverizing(.:::n.:::[see also x̣ʷq'ʷ]:::
 32:::xʷ:::xʷr:::1:::1:::xʷar:::khwar:::†:::time (a very long...).:::stem n.::::::
 32:::xʷ:::xʷr:::2:::1:::xʷar:::khwar:::†:::to quiver, tremble.:::stem vi.::::::
 32:::xʷ:::xʷr:::2:::2:::xʷar+p:::khwarp::::::convulse, quake, trembled.:::vi.::::::
@@ -6356,7 +6356,7 @@
 32:::xʷ:::xʷt:::1:::6:::ac+xʷt=áx̣n:::ats khwtaqhn::://:::amputee. (lit. He is amputated as to the arm):::n.::::::
 32:::xʷ:::xʷt:::1:::7:::hn+xʷt=ús:::Hnkhwtus::::::Cree, Dakota, Sioux.:::n.::::::
 32:::xʷ:::xʷt:::1:::8:::s+n+xʷát+p=alqs:::snkhwatpalqs::::::climax. (lit. the road, story coming to an end):::n.::::::
-
+32:::√xʷ:::xʷt:::1:::9:::ul+s+n+xʷát+p=alqs:::ulsnkhwatpalqs::::::climatic. (lit. pertaining to the end of a story):::adj.:::[xref xʷt'2 and x̣ʷt]:::
 32:::xʷ:::xʷt:::2:::1:::i+c+xʷít:::itskhwit:::†:::whistling (he is...).:::vi.::::::
 32:::xʷ:::xʷt:::2:::2:::s+xʷe·+xʷít:::skhweekhwit::::::bobwhite (lit. whistle whistle).:::n.::::::
 32:::xʷ:::xʷt':::1:::1:::s+xʷét'=ečt:::skhwet'echt::://:::shoulder blade.:::n.::::::
@@ -6364,14 +6364,14 @@
 32:::xʷ:::xʷt':::2:::1:::xʷet'+p:::khwet'p:::†:::He ran off, away.:::vi.::::::
 32:::xʷ:::xʷt':::2:::2:::s+teč+s+xʷét'+p+n:::stechskhwet'pn::::::counterattack. (lit. counterattack by running):::n.::::::
 32:::xʷ:::xʷt':::2:::3:::xʷét'+p+m‑stu‑s:::khwet'pmstus:::‡:::[run] cause. (lit. He caused it to run, as a car):::vt.::::::
-
+32:::√xʷ:::xʷt':::2:::4:::čs+xʷét'+p‑nt‑s:::chskhwet'pnts::::::dash. (lit. He ran against (towards) him)::: vi.:::[xref xʷt1 and x̣ʷt]:::
 32:::xʷ:::xʷtk'ʷ::::::1:::xʷéʔtk'ʷ:::khwe'tk'w:::†:::rise (suddenly) (like hair).:::stem vi.::::::
 32:::xʷ:::xʷy::::::1:::xʷuy:::khuy:::†:::go (over there), over there (He went...).:::vi, adv.::::::
 32:::xʷ:::xʷy::::::2:::s+xʷuy:::skhuy::::::journey.:::n.::::::
 32:::xʷ:::xʷy::::::3:::uɫ+xʷúy:::uɫkhuy::::::went (He...over there again).:::vi.::::::
 32:::xʷ:::xʷy::::::4:::uln'+xʷúy+iy+m:::ul'nkhuyiym::::::dilatory. (lit. He often becomes be­hind in work):::adj.::::::
 32:::xʷ:::xʷy::::::5:::hn+xʷúy+n:::hnkhuyn::::::passageway. (lit. means of passage):::n.::::::
-
+32:::xʷ:::xʷy::::::6:::sye·+x̣ʷúy:::syeeqhuy::::::  ambassador, consul. (lit. One who goes to a place for another or others):::n.:::[also recorded as x̣ʷy]:::
 32:::xʷ:::xʷy::::::7:::sye·+xʷúy:::syeekhuy::::::delegate. (lit. One who goes to a place for another or others):::n.::::::
 32:::xʷ:::xʷy::::::8:::čn‿xʷúy:::chnkhuy::::::I went over there.:::vt.::::::
 32:::xʷ:::xʷy::::::9:::k'ʷneʔ+čn‿xʷúy:::k'wne'chnkhuy::::::over there (I am going...).:::adv.::::::
@@ -6413,7 +6413,7 @@
 32:::xʷ:::xʷʔ::::::3:::e+n+t+xʷíʔ:::entkhwi'::::::here (it is...).:::vi.::::::
 32:::xʷ:::xʷʔ::::::4:::e+mel'+xʷíʔ:::eme'lkhwi':::§:::here (It is right...).:::adv.::::::
 32:::xʷ:::xʷʔ::::::5:::ul xʷiʔ+ye+tmíxʷ=l'mxʷ:::ul khwi'yetmikhw'lmkhw::::::American, earthly. (lit. belonging to this land (country/world:::adj.::::::
-
+32:::xʷ:::xʷʔs::::::1:::xʷuʔs:::khu's:::†:::awake (He became wide...), awake (wide...).:::stem, adj.) ::: phuʔs He became wide awake. phu's  vi.:::[written in volume 1 as phʔs]
 32:::xʷ:::xʷʔt:::1:::1:::xʷeʔ+t:::khwe't:::†:::run away.:::::::::
 32:::xʷ:::xʷʔt:::2:::1:::xʷiʔt:::khwi't:::†:::abuse, attack, berate.:::stem. abuse with words or acts) vt.::::::
 33:::x̣:::x̣c:::1:::1:::x̣ac:::qhats:::†:::to bet.:::stem vi.::::::
@@ -6765,7 +6765,7 @@
 33:::x̣:::x̣t':::1:::2:::s+x̣ét'+m:::sqhet'm::::::corrosion, rot. (lit. gnawing):::n.::::::
 33:::x̣:::x̣t':::1:::3:::x̣at'=úl'mxʷ:::qhat'u'lmkhw::://:::He grazed. (lit. He munched on the ground):::vi.::::::
 33:::x̣:::x̣t':::1:::4:::ic+x̣et'=úl'umxʷ:::itsqhet'u'lumkhw::::::browse. (lit. It (horse) is grazing):::vi.::::::
-
+33:::x̣:::x̣t':::2:::1:::x̣it:::qhit::::::  †  corrugated. (marked:::stem. , adj.:::[also recorded as x̣t]:::
 33:::x̣:::x̣t':::2:::2:::x̣it':::qhit'::::::marked. (corrugated:::stem. , adj.::::::
 33:::x̣:::x̣t':::2:::3:::s+x̣it'+m=šn:::sqhit'mshn::://:::breeches, chinos, corduroy, pants, trousers.:::n.::::::
 33:::x̣:::x̣w::::::1:::x̣iw:::qhiw:::†:::ashamed, embarrassed, shy, timid.:::stem adj.::::::
@@ -6829,7 +6829,7 @@
 34:::x̣ʷ:::x̣ʷc:::1:::2:::t+x̣ʷéc+t:::tqhwetst::::::past.:::n.::::::
 34:::x̣ʷ:::x̣ʷc:::1:::3:::t+x̣ʷéc‑nt‑s:::tqhwetsnts:::‡:::beyond (He went...him), bypassed (He...it).:::adv.::::::
 34:::x̣ʷ:::x̣ʷc:::2:::1:::s+x̣ʷ+x̣ʷic+eʔ:::sqhuqhwitse':::†:::brevity, concision, shortness.:::n.::::::
-
+34:::x̣ʷ:::x̣ʷc:::2:::2:::*s+can+x̣ʷ+x̣ʷic=cn':::stsanqhukhwitsts'n::://:::bob, a short haircut on a woman or child.:::n.:::[xref xʷc]:::
 34:::x̣ʷ:::x̣ʷd::::::1:::x̣ʷad:::qhwad:::†:::comical, funny, humorous.:::stem adj.::::::
 34:::x̣ʷ:::x̣ʷd::::::2:::x̣ʷád+x̣ʷad+t:::qhwadqhwadt::::::He is comical, funny, humorous.:::adj.::::::
 34:::x̣ʷ:::x̣ʷd::::::3:::s+x̣ʷad+x̣ʷad+m'+scút:::sqhwadqhwad'mstsut::::::comedy, to be humorous, funny.:::adj.::::::
@@ -6837,9 +6837,9 @@
 34:::x̣ʷ:::x̣ʷd::::::5:::sya+x̣ʷa+x̣ʷad+m'+scút:::syaqhwaqhwad'mstsut::::::comedian. (lit. one whose pro­fession is to make himself comical):::n.::::::
 34:::x̣ʷ:::x̣ʷd::::::6:::hn+x̣ʷád+x̣ʷad=cn:::hnqhwadqhwadtsn::://:::He is funny as to the mouth.:::vi.::::::
 34:::x̣ʷ:::x̣ʷd::::::7:::s+x̣ʷa+x̣ʷad=cn'+m'i+n'cut:::sqhwaqhwadts'n'mi'ntsut::::::funny, humorous, comical. (lit. continual­ly telling jokes):::adj.::::::
-
-
-
+34:::x̣ʷ:::x̣ʷdnt::::::1:::s+x̣ʷdent:::sqhudent:::†:::ice cream, ice.:::n.:::[xref xʷdnt]:::
+34:::x̣ʷ:::x̣ʷk'ʷ::::::1:::s+x̣ʷk'ʷ=ilup:::sqhuk'wilup:::†:::sweep.:::vt.:::[xref xʷk'ʷ]:::
+34:::x̣ʷ:::x̣ʷl::::::1:::s+x̣ʷúʔul:::sqhu'ul:::†:::awl, bodkin.:::n.::::::[for expected xʷl]
 34:::x̣ʷ:::x̣ʷl'::::::1:::u+x̣ʷel'+e:::uqhwe'le:::†:::resembling.:::n.::::::
 34:::x̣ʷ:::x̣ʷl'::::::2:::ux̣ʷel'+é s+n+qʷúl=enč he s+t'+t'ús:::uqhe'le snqulench he st't'us:::§:::cotton candy. (lit. candy that resembles cotton):::n.::::::
 34:::x̣ʷ:::x̣ʷl'::::::3:::ux̣ʷel'é č+tuxʷ+mín+n:::uqhwe'le chtukhwminn::::::complementary. (lit. like an addition):::n.::::::
@@ -6868,9 +6868,9 @@
 34:::x̣ʷ:::x̣ʷɫ:::1:::1:::x̣ʷaɫ:::qhwaɫ:::†:::dart.:::stem n.::::::
 34:::x̣ʷ:::x̣ʷɫ:::1:::2:::x̣ʷiɫ:::qhwiɫ::::::dart.:::::::::
 34:::x̣ʷ:::x̣ʷɫ:::1:::3:::x̣ʷiɫ:::qhwiɫ::::::to hurry (at something).:::stem vi.::::::
-
+34:::x̣ʷ:::x̣ʷɫ:::1:::4:::x̣ʷɫ+x̣ʷáɫ:::qhwɫqhwaɫ::::::  billy goat.:::n.:::[see also x̣ʷt']:::
 34:::x̣ʷ:::x̣ʷɫ:::1:::5:::x̣ʷíɫ=cn:::qhwiɫtsn::://:::cursory, meal (he had a quick...). (lit. He made a hasty reading (talk):::n.::::::
-
+34:::x̣ʷ:::x̣ʷɫ:::2:::1:::s+x̣ʷuʔɫ:::sqhu'ɫ:::†:::mist, smog.:::n.:::[xref xʷɫ]:::
 34:::x̣ʷ:::x̣ʷn::::::1:::x̣ʷen':::qhwe'n:::†:::to hurry.:::stem vi.::::::
 34:::x̣ʷ:::x̣ʷn::::::2:::x̣ʷén+t‑š:::qhwentsh::::::Hurry up!.:::(excl.::::::
 34:::x̣ʷ:::x̣ʷn::::::3:::čn‿x̣ʷen+t:::chnqhwent::::::hurried (I...).:::vi.::::::
@@ -6878,7 +6878,7 @@
 34:::x̣ʷ:::x̣ʷn::::::5:::s+x̣ʷe+x̣ʷn'=itkʷeʔ:::sqhweqhw'nitkwe'::::::small brook, streamlet. (n.:::(dim.::::::
 34:::x̣ʷ:::x̣ʷn::::::6:::s+x̣ʷ+x̣ʷn'=ítkʷeʔ:::sqhuqhw'nitkwe'::::::brook (lit. little fresh water stream).:::n.::::::
 34:::x̣ʷ:::x̣ʷn::::::7:::s+can+x̣ʷen=ítkʷeʔ:::stsanqhwenitkwe'::::::aqueduct. (lit. underground stream):::n.::::::
-
+34:::x̣ʷ:::x̣ʷny'::::::1:::s+x̣ʷ+x̣ʷeney':::sqhuqhwene'y:::†:::rice.:::n.:::[xref xʷny']:::
 34:::x̣ʷ:::x̣ʷn'::::::1:::s+x̣ʷún'=ič:::sqhu'nich::://:::thornberry.:::n.::::::
 34:::x̣ʷ:::x̣ʷn'::::::2:::s+x̣ʷún'=eč:::sqhu'nech::::::thornberry.:::n.::::::
 34:::x̣ʷ:::x̣ʷn'::::::3:::s+x̣ʷʔ+x̣ʷn'=íč=eɫp:::sqhu'qhu'nicheɫp::::::thornberry bush.:::n.::::::
@@ -6905,12 +6905,12 @@
 34:::x̣ʷ:::x̣ʷs::::::6:::tax̣+t ha n+x̣ʷús=kʷeʔ:::taqht hanqhuskwe':::§:::ale. (lit. (more) bitter beer):::n.::::::
 34:::x̣ʷ:::x̣ʷt:::1:::1:::x̣ʷat:::qhwat:::†:::to cut (in two).:::stem vt.::::::
 34:::x̣ʷ:::x̣ʷt:::1:::2:::c+an+x̣ʷét‑nt‑s:::tsanqhwetnts:::‡:::curtail. (lit. He cut it off; he cut it short):::vt.::::::
-
+34:::x̣ʷ:::x̣ʷt:::1:::3:::hn+x̣ʷt=ús‑nt‑m:::hnqhwtusntm::::::behead. (lit. He was beheaded):::vi.:::[xref xʷt'2 and xʷt1]:::
 34:::x̣ʷ:::x̣ʷt:::2:::1:::x̣ʷát+x̣ʷat:::qhwatqhwat:::†:::duck. (lit. quack quack):::n.::::::
 34:::x̣ʷ:::x̣ʷt'::::::1:::s+[x̣]ʷt'iʔ:::sqwt'i':::†:::billy goat.:::n.::::::
 34:::x̣ʷ:::x̣ʷt'::::::2:::ul s+x̣ʷt'+íʔ he č'ím'‑is:::ul sqhwt'i'he ch'i'mis:::§:::Capricornus. (lit. a horn that belongs to the goat):::n.::::::
 34:::x̣ʷ:::x̣ʷt'::::::3:::t+gʷép=elxʷ ha s+x̣ʷet'+iʔ:::tgwepelkhw ha sqhwet'i'::::::Angora. (lit. He (the goat) has long hair):::n.::::::
-
+34:::√x̣ʷ:::x̣ʷy:::1:::1:::t+x̣ʷáy=ap:::tqhwayap::://::: cape, promontory. (lit. A point or head of land projecting into a sea or other body of water):::n.:::[also recorded as xʷy and x̣y]:::
 34:::x̣ʷ:::x̣ʷy:::1:::2:::t+x̣áya+p:::tqhayap::::::cape, promontory (lit. A point or head of land projecting into a sea or other body of water).:::n.::::::
 34:::x̣ʷ:::x̣ʷy:::1:::3:::t+xʷéy=ep:::tkhweyep::::::peninsula.:::n.::::::
 34:::x̣ʷ:::x̣ʷy:::1:::4:::t+x̣éw+yep:::tqhewyep::::::peninsula.:::n.::::::
@@ -6936,7 +6936,7 @@
 35:::y:::yc':::1:::16:::yác'+m‑s‑n:::yats'msn:::‡:::belay, secured (I...it).:::vt.::::::
 35:::y:::yc':::2:::1:::yec'+p:::yets'p:::†:::wore (it (metal)...out).:::vi.::::::
 35:::y:::yc':::2:::2:::s+yéc'+p:::syets'p::::::attrition, detrition, abrasion. (lit. what is worn out):::n.::::::
-
+35:::y:::yc':::3:::1:::yuc':::yuts':::†:::cosmetics (Indian...).:::stem, n.)  yuc Indian cosmetics. yuts :::[also written as yc in volume 1]:::
 35:::y:::yc'p::::::1:::yic'p+yíc'p:::Yits'pyits'p:::†:::Cheney.:::n.::::::
 35:::y:::yc'p::::::2:::t'uʔ+yic'p+iyícp:::t'u'yits'piyitsp::::::Cheney (Well, it's...).:::n.::::::
 35:::y:::yh::::::1:::yih:::yih:::†:::calm, quiet.:::stem adj.::::::
@@ -6983,7 +6983,7 @@
 35:::y:::yl'xʷ::::::13:::s+cen+y'+y'l'[x]ʷ=íl'gʷes:::stsen'y'y'lkwi'lgwes::::::bib, bibs.:::n.::::::
 35:::y:::yl'xʷ::::::14:::s+če+yl'xʷ=ílup:::schey'lkhwilup::::::bedspread, rug. (lit. oversheet):::n.::::::
 35:::y:::yl'xʷ::::::15:::hn+y'lxʷ=ínč+n:::hny'lkhwinchn::::::a wall hanging.:::n.::::::
-
+35:::y:::yl'xʷ::::::16:::yl'xʷ=ílup+n:::y'lkhwilupn::::::carpet, rug.:::n.:::[see also ʕl'xʷ]:::
 35:::y:::ym::::::1:::yem:::yem::::::silent, speechless.:::stem adj.::::::
 35:::y:::ym::::::2:::y'am'+s:::'ya'ms::::::close‑mouthed, reticent. (close‑mouthed/reticent person:::adj.::::::
 35:::y:::ym::::::3:::yem‑š:::yemsh!::::::shut up!.:::excl.::::::
@@ -7033,8 +7033,8 @@
 35:::y:::yr:::1:::2:::u· yár:::uuyar::::::circle, circular (it is...).:::n, adj.::::::
 35:::y:::yr:::1:::3:::yár+ncut:::yarntsut::::::moon (full...). (lit. It made itself round):::n.::::::
 35:::y:::yr:::1:::4:::s+yar+ncut:::syarntsut::::::full moon.:::n.::::::
-
-
+35:::√y:::yr:::1:::5:::y'i+y'ér+y'ey+s:::'yi'yer'yeys::::::wagon (small). (cart:::n.:::[see also yrp, yrp']:::
+35:::y:::yr:::2:::1:::ul a·yár ha y+ne+ʔkʷún+am‑is:::ulaayar hayne' kunamis:::§:::will (it is the...of all).:::n.:::[xref yʕ1]:::
 35:::y:::yrk'ʷ::::::1:::yark'ʷ:::yark'w:::†:::crooked, curved.:::stem adj.::::::
 35:::y:::yrk'ʷ::::::2:::a·+yárk'ʷ:::aayark'w::::::crook, curve, deviator, shyster. (lit. that which (he who) deviates from straightness in a continuous fashion):::n.::::::
 35:::y:::yrk'ʷ::::::3:::s+yárk'ʷ+m:::syark'um::::::curving.:::adj.::::::
@@ -7051,7 +7051,7 @@
 35:::y:::yrp::::::4:::č+yárp+n:::chyarpn::::::axis, axle. (lit. something on which something turns (wheels(:::n.::::::
 35:::y:::yrp::::::5:::ul č+yárp+n:::ul chyarpn::::::axial.:::n.::::::
 35:::y:::yrp::::::6:::i· yárp:::iiyarp::::::travelling (He is in the act of...in a wagon), wagon (He is in the act of travelling in a...).:::vi, n.::::::
-
+35:::√y:::yrp::::::7:::č+yarp=šn:::chyarpshn::://:::cartwheel.:::n.:::[see also yr, yrp']:::
 35:::y:::yrp'::::::1:::yarp':::yarp':::†:::hoop. (circle:::n.::::::
 35:::y:::yrp'::::::2:::yarp':::yarp'::::::to lie (e.g. a hoop).:::stem vi.::::::
 35:::y:::yrp'::::::3:::a· yárp':::aayarp'::::::tire, arc, arch, hoop. (lying on the ground):::n.::::::
@@ -7060,7 +7060,7 @@
 35:::y:::yrp'::::::6:::yarp'=qin+m:::yarp'qinm::://:::coronation. (lit. putting a crown on the head):::n.::::::
 35:::y:::yrp'::::::7:::si+yarp'=qín+m:::siyarp'qinm::::::coronation (lit. putting a crown on the head).:::n.::::::
 35:::y:::yrp'::::::8:::can+yarp'=áx̣n:::tsanyarp'aqhn::::::cirro‑stratus. (lit. It (the moon) has a circle around its armpits):::n.::::::
-
+35:::√y:::yrp'::::::9:::yarp'=qín-t-m:::yarp'qintm:::‡:::crown, he was crowned.:::n. and vt.:::[see also yr, yrp]:::
 35:::y:::ytkʷ::::::1:::yetkʷ:::yetkw:::†:::decay, decompose, putrify, rot.:::stem vt, vi.::::::
 35:::y:::ytkʷ::::::2:::s+yétkʷ:::syetkw::::::decadence, growing rotten.:::n.::::::
 35:::y:::ytkʷ::::::3:::i·+yétkʷ:::iiyetkw::::::decadent. (lit. It is decaying):::adj.::::::
@@ -7069,7 +7069,7 @@
 35:::y:::yw::::::1:::s+yéw+n:::syewn:::†:::compliment. (lit. praising, admiration):::n.::::::
 35:::y:::yw::::::2:::i·+yew=ɫ[]c'eʔ:::iiyewɫwts'e'::://:::complimentary. (lit. He is praising):::adj.::::::
 35:::y:::yxʷm::::::1:::yuxʷm=ús:::yukhumus::://:::cold, freezing, frigid (It is very...).:::adj.::::::
-
+35:::y:::yxʷm::::::2:::s+yukʷkʷm=ús+m=ul'mxʷ:::syukkwmusmu'lmkhw::::::  Aleut. (lit. One who lives in a cold country):::n.:::[also recorded as ykʷm]:::
 35:::y:::yxʷm::::::3:::s+yuxʷm=ús+m=ul'umxʷ:::syukhwmusmu'lumkhw::::::North, cold land (Alaska).:::n.::::::
 35:::y:::yxʷm::::::4:::ul s+yuxʷm=ús+m=ul'mxʷ:::ul syukhwmusmu'lmkhw::::::boreal. (lit. pertaining to a cold country):::adj.::::::
 35:::y:::yxʷm::::::5:::hn+ɫáp=alqs he s+yuxʷm=ús+m=ul'umxʷ:::hnɫapalqs he syukhwmusmu'lumkhw:::§:::North Pole, arctic. (lit. the most cold land):::n.::::::
@@ -7099,7 +7099,7 @@
 35:::y:::yʕ:::1:::20:::miyaɫ+yaʕ+p=qin':::miyaɫya(pqi'n::::::congest, crowded (lit. there are too many heads).:::vt.::::::
 35:::y:::yʕ:::1:::21:::ul a+yáʕ gʷɫ páx̣+pax̣+t:::Ul aya( Guɫ paqhpaqht::::::All Saints Day. (lit. be­longing to all the wise):::n.::::::
 35:::y:::yʕ:::1:::22:::a·+yaʕ čic+xʷúy:::aaya) chitskhuy::::::came (they all...). (lit. They all came):::vi.::::::
-
+35:::y:::yʕ:::1:::23:::a·+yaʕ'+ec+k'ʷl'‑stu‑s:::aaya')etsk'u'lstus::::::almighty, omnipotent. (lit. one who makes all things):::adj.:::[see also yr2]:::
 35:::y:::yʕ:::2:::1:::yaʕ:::ya(:::†:::hesitant, shy, timid, uncertain.:::stem adj.::::::
 35:::y:::yʕ:::2:::2:::yaʕ:::ya(::::::lack, need.:::stem vt.::::::
 35:::y:::yʕ:::2:::3:::s+yaʕ+t:::sya(t::::::deficiency, necessity, need.:::n.::::::
@@ -7114,7 +7114,7 @@
 35:::y:::yʔqmʔ::::::1:::yaʔáqmeʔ:::Ya'aqme':::†:::Yakima.:::n.::::::
 35:::y:::yšp::::::1:::eyšíp:::Eyzhip:::†:::Egypt.:::n.::::::
 36:::y':::y'd::::::1:::y'id=čt:::'yidcht::://:::to avenge.:::vt.::::::
-
+36:::y':::y'd::::::2:::y'id=cn:::'yidtsn::::::antonym, comeback, retort. (antonym, comeback (lit. presenting a counter‑argument, using words of a sense opposite to that of other words):::n.:::[xref ʔd]:::
 36:::y':::y'kʷʔ::::::1:::y'ukʷeʔ:::'yukwe':::†:::sister (a woman's older...).:::n.::::::
 36:::y':::y'kʷʔ::::::2:::č'+y'úkʷeʔ:::ch''yukwe'::::::brother. (lit. a woman's younger brother):::n.::::::
 36:::y':::y'l::::::1:::y'al=stq:::'yalstq::://:::summer.:::n.::::::
@@ -7149,7 +7149,7 @@
 37:::ʕ:::ʕd::::::1:::ʕid:::(id:::†:::glowing, redhot.:::stem adj.::::::
 37:::ʕ:::ʕgʷ::::::1:::ʕigʷ:::(igw:::†:::to throw (...many objects).:::stem vt.::::::
 37:::ʕ:::ʕgʷ::::::2:::ʕígʷ‑nt‑s:::(igwnts:::‡:::bestrew. (lit. He threw them about):::vt.::::::
-
+37:::ʕ:::ʕhm::::::1:::t+ʕehím:::t(ehim:::†:::to give a warhoop, yell.:::stem vi.:::[see also ʕʷh]:::
 37:::ʕ:::ʕhn::::::1:::s+ʕíhn+t:::s(ihnt:::†:::goose.:::n.::::::
 37:::ʕ:::ʕl::::::1:::s+ʕel+p:::s(elp:::†:::demerit. (lit. loss (of merit(:::n.::::::
 37:::ʕ:::ʕl::::::2:::ʕel+p+mí‑nt‑s:::(elpmints:::‡:::confiscate. (lit. He forfeited it (to public use(::: vt.::::::
@@ -7188,7 +7188,7 @@
 37:::ʕ:::ʕl'::::::33:::čs+n+ʕel'=íp‑nt‑m:::chsn(e'lipntm::::::contain. (lit. It was shut up, it was contained):::vi.::::::
 37:::ʕ:::ʕl'::::::34:::čs+n+ʕel'=íp‑nt‑s:::chsn(e'lipnts::::::He closed it (the door).:::st.::::::
 37:::ʕ:::ʕl'::::::35:::x̣eɫ+s+čs+n+ʕél'+l'=ep:::qheɫschsn(e'l'lep:::§:::claustrophobia. (lit. fear of being confined):::n.::::::
-
+37:::ʕ:::ʕl'xʷ::::::1:::ʕal'xʷ=alqs+n:::(a'lkhwalqsn::://:::coverall. (lit. a covering for clothes):::n.:::[xref yl'xʷ]:::
 37:::ʕ:::ʕɫs::::::1:::ʕeɫs:::(eɫs:::†:::tie.:::stem vt.::::::
 37:::ʕ:::ʕm:::1:::1:::ʕem:::(em:::†:::dissolve, melt, waste away.:::stem vi.::::::
 37:::ʕ:::ʕm:::1:::2:::ʕem+t:::(emt::::::melt (...away). (lit. It melted away):::vi.::::::
@@ -7243,7 +7243,7 @@
 38:::ʕʷ:::ʕʷc'::::::1:::aɫ+ʕʷéc':::aɫ(wets':::†:::magpie.:::n.::::::
 38:::ʕʷ:::ʕʷc'::::::2:::hn+ʕʷéc'+ʕʷec'=cn:::hn(wets'(wets'tsn::://:::boisterous. (lit. He is noisy as to the mouth)shrill::: adj.::::::
 38:::ʕʷ:::ʕʷh::::::1:::t+ʕʷeh+ím:::t(wehim:::†:::shout. (lit. He uttered a loud and sudden cry):::vi.::::::
-
+38:::ʕʷ:::ʕʷh::::::2:::s+t+ʕʷeh+ím:::st(wehim::::::clamor. (lit. shouting):::n.:::[see also ʕhm]:::
 38:::ʕʷ:::ʕʷl::::::1:::hn+ʕʷéleʔ+n:::hn(wele'n:::†:::beach, shore.:::n.::::::
 38:::ʕʷ:::ʕʷl::::::2:::ʕʷél=eʔel:::(wele'el::://:::shore.:::n.::::::
 38:::ʕʷ:::ʕʷl::::::3:::tač+s+ʕʷél=eʔel:::tachs(wele'el:::§:::coastward, toward seashore.:::adv.::::::
@@ -7262,16 +7262,16 @@
 38:::ʕʷ:::ʕʷx̣ʷ::::::1:::ʕʷux̣ʷ+mín+n:::(wuqhwminn:::†:::barbed wire. (barb:::n.::::::
 38:::ʕʷ:::ʕʷx̣ʷ::::::2:::hn+ʕʷ+ʕʷox̣ʷ=íčn':::hn(wo(woqhwich'n::://:::streetcar. (lit. reins on the back):::n.::::::
 38:::ʕʷ:::ʕʷy::::::1:::ʕʷuy:::(uy:::†:::to cajole, coax, urge, waste.:::stem vt.::::::
-
+38:::ʕʷ:::ʕʷy::::::2:::ʕʷuy=čt:::(uycht::://:::to mistreat (the old or helpless).:::stem vt.:::[xref hy']:::
 38:::ʕʷ:::ʕʷʔ::::::1:::s+t+ʕʷeʔ=ɫc'eʔ=íp:::st(we'ɫts'e'ip:::†:::hip pocket.:::n.::::::
-
+38:::ʕʷ:::ʕʷʔ::::::2:::s+t+ʕ'ʷeʔ=ɫc'eʔ=ip:::st'(we'ɫts'e'ip:::::: pocket (hip).:::n.:::[also recorded as ʕ'ʷʔ]:::
 39:::ʔ:::ʔcč::::::1:::ʔicč:::itsch:::†:::play.:::stem vi.::::::
 39:::ʔ:::ʔcč::::::2:::n+ʔícč+n+n:::'nitschnn::::::playground. (lit. means of playing, place for playing):::n.::::::
 39:::ʔ:::ʔcč::::::3:::si+yícč+n:::siyitschn::::::play.:::n.::::::
 39:::ʔ:::ʔcč::::::4:::s+y+ʔícč+n:::s'yitschn::::::drama.:::n.::::::
 39:::ʔ:::ʔcč::::::5:::s+y+ʔicč+nn:::s'yitschnn::::::drama, play.:::n.::::::
 39:::ʔ:::ʔcč::::::6:::y+ʔícč+n:::'yitschn::::::antic, gambol, playing.:::vi, n.::::::
-
+39:::ʔ:::ʔcč::::::7:::y+ʔíc'eč+č+n:::'yits'echchn::::::  diversion, pastime, recreation. (lit. playing of several people):::n.:::[also recorded as ʔc'č]:::
 39:::ʔ:::ʔcč::::::8:::či‿ʔcícč+n:::chi'tsitschn::::::playing (I am...).:::vi.::::::
 39:::ʔ:::ʔcč::::::9:::i n+ʔecč+númt:::i'netschnumt::::::H/s wants to play.:::vi.::::::
 39:::ʔ:::ʔcč::::::10:::n+ʔícč+n+m‑nt‑s:::'nitschnmnts:::‡:::used (H/s...it for a playground, with reference to place or thing not intended for play).:::vt.::::::
@@ -7320,7 +7320,7 @@
 39:::ʔ:::ʔd::::::11:::e+lus+ce·n+ʔíd+ed:::elustsee'nided:::§:::enduring, lasting.:::adj.::::::
 39:::ʔ:::ʔd::::::12:::e+lus+ce·n+ʔíd+et:::elustsee'nidet::::::to be changeless, durable, enduring, lasting.:::adj.::::::
 39:::ʔ:::ʔd::::::13:::n+ʔed+xʷu·s=íw'es:::'nedkhuusi'wes::::::alternate. (lit. It alternated, It changed places, that which occurs in successive turns):::vi.::::::
-
+39:::ʔ:::ʔd::::::14:::n+ʔed=us=el'+s+čÍ+čeʔ:::'neduse'lschiche'::::::H/S traded horses with another person (sg.).:::vt.:::[see also y'd]:::
 39:::ʔ:::ʔgʷ::::::1:::*ʔigʷ‑:::igw‑:::†:::set out for.:::::::::
 39:::ʔ:::ʔh::::::1:::ʔih+ʔi:::ih'i:::†:::turtledove.:::n.::::::
 39:::ʔ:::ʔh::::::2:::is+ʔúh+ʔuh+iš:::is'uh'uhish::::::coo. (lit. It (pigeon) uttered its murmuring sound):::vi.::::::
@@ -7332,7 +7332,7 @@
 39:::ʔ:::ʔkʷ:::1:::2:::ec+ʔe+ʔúkʷ+t:::ets'e'ukwt::::::children, insect. (lit. Little creature that crawls about):::n.::::::
 39:::ʔ:::ʔkʷ:::1:::3:::e·c+ʔúkʷ+kʷ+t:::eets'uk'ukwt::::::creepers, crawlers. (lit. That which creeps or crawls about):::n.::::::
 39:::ʔ:::ʔkʷ:::1:::4:::ec+ʔe+ʔúkʷ+ʔukʷ+t:::ets'e'uk'ukwt::::::arthropod, bug, insect. (lit. Little creature that crawls about):::n.::::::
-
+39:::ʔ:::ʔkʷ:::1:::5:::ec+ʔe+ʔúk'ʷ+ukʷ+t:::ets'e'uk'ukwt:::::: bug. (lit. Little creature that crawls about):::n.:::[also recorded as ʔk'ʷ]:::
 39:::ʔ:::ʔkʷ:::1:::6:::t'iʔ+ec+ʔe+ʔúkʷ+kʷ+t:::t'i'ets'e'uk'ukwt::::::crawls (The baby already...).:::vi.::::::
 39:::ʔ:::ʔkʷ:::1:::7:::n+ʔúkʷ+t=enč:::'nukwtench::://:::crawled (It...on the inside of the wall).:::vi.::::::
 39:::ʔ:::ʔkʷ:::1:::8:::ʔúkʷ+t=ul'umxʷ:::ukwtu'lumkhw::::::H/s crawled on the ground.:::vi.::::::
@@ -7367,7 +7367,7 @@
 39:::ʔ:::ʔkʷn::::::17:::cen+ʔukʷ+ʔukʷún'‑t‑s:::tse'nuk'uku'nts:::‡:::allure, entice, tempt. (lit. He allured h/h):::vt.::::::
 39:::ʔ:::ʔkʷn::::::18:::s+n+ʔukʷún=cn+is xʷe s+t'ún=ɫc'eʔ:::s'nukuntsnis khwe st'unɫts'e':::§:::bray. (lit. the cry of a donkey):::n.::::::
 39:::ʔ:::ʔkʷn::::::19:::s+q'éx̣+q'ex̣+t he n+ʔukʷún+n:::sq'eqhq'eqht he 'nukunn::::::dictionary. (lit. sayings that are a treasure):::n.::::::
-
+39:::√ʔ:::ʔkʷn::::::20:::ul a·yár ha y+ne+ʔkʷún+am‑is:::ulaayar hayne' kunamis::::::will (it is the...of all).:::n.:::[possibly related to ʔk'ʷn, see also ʔkʷs]:::
 39:::ʔ:::ʔkʷs::::::1:::ʔekʷus:::ekus:::†:::tell.:::vt.::::::
 39:::ʔ:::ʔkʷs::::::2:::ʔakʷós=tq:::akostq::://:::tell (to tell someone). (lit. He told someone):::vt.::::::
 39:::ʔ:::ʔkʷs::::::3:::ʔakʷos=tq:::akostq::::::accost. (lit. He spoke to a person first):::vt.::::::
@@ -7382,10 +7382,10 @@
 39:::ʔ:::ʔkʷs::::::12:::ʔekʷús-t‑al‑is:::ekustalis::::::He told us.:::vt.::::::
 39:::ʔ:::ʔkʷs::::::13:::ʔekʷus-t‑me‑lp:::ekustmelp::::::You (pl.) told me.:::vt.::::::
 39:::ʔ:::ʔkʷs::::::14:::ʔekʷús-t+me‑t:::ekustmet::::::We told him.:::vi.::::::
-
+39:::ʔ:::ʔkʷs::::::15:::ʔekʷus+t=us huy:::ekustus "huy":::§:::allow, permit. (lit. say all right):::v.:::[see also ʔkʷn]:::
 39:::ʔ:::ʔk'ʷl::::::1:::ʔík'ʷl:::ik'wl:::†:::salmon eggs.:::n.::::::
 39:::ʔ:::ʔk'ʷn::::::1:::cen+ʔuk'ʷ+kʷún'+em'n':::tse'nuk'uku'ne'm'n:::†:::temptation. (lit. undermining verbally):::n.::::::
-
+39:::ʔ:::ʔk'ʷn::::::2:::cen+ʔuk'ʷ+k'ʷún‑t‑s:::tse'nuk'uku'nts:::‡:::tempt. (lit. He allured h/h):::vt.:::[possibly related to ʔkʷn]:::
 39:::ʔ:::ʔl::::::1:::ʔél+m+ncut:::elmntsut:::†:::automobile, betake (to...). (lit. H/s/i caused h/h/i to move):::n, v.::::::
 39:::ʔ:::ʔl::::::2:::ʔé·l+mncut:::eeelmntsut::::::H/s finally stirred.:::vi.::::::
 39:::ʔ:::ʔl::::::3:::y+ʔél+m+ncut:::'yelmntsut::::::action, kinema, self motion. (Move oneself:::n.::::::
@@ -7458,7 +7458,7 @@
 39:::ʔ:::ʔm:::2:::6:::n+ʔm+íš=kʷeʔ:::'nmishkwe'::::::sat (h/s...in shallow water).:::v.::::::
 39:::ʔ:::ʔm:::2:::7:::sye+t+č+ʔm+íš=ew'es:::syetch'mishe'wes::::::chevalier. (lit. One who rides (horseback):::n.::::::
 39:::ʔ:::ʔm:::2:::8:::ce·n+ʔím‑nt‑s:::tsee'nimnts:::‡:::await (to...). (lit. He waited for him):::vi.::::::
-
+39:::ʔ:::ʔm:::2:::9:::n+ʔm+iš ʔe·l=úp‑nt‑s:::'nmisheelupnts:::§:::commute. (lit. He sat in his (anoth­er's) place):::vi.:::[xref ʔmt]:::
 39:::ʔ:::ʔmč::::::1:::ʔimč:::imch:::†:::to pick up.:::stem vt.::::::
 39:::ʔ:::ʔmč::::::2:::ʔímč+t+m:::imchtm::::::H/s picked up a handful of small objects (peanuts, berries, etc.).:::vt.::::::
 39:::ʔ:::ʔmt::::::1:::e·c+ʔémut:::eets'emut:::†:::at home, seated. (lit. H/s is seated or home):::adj, adv.::::::
@@ -7469,7 +7469,7 @@
 39:::ʔ:::ʔmt::::::6:::ʔamót=qn:::amotqn::://:::president, chairman, executive, head (lit. one who sits at the head).:::n.::::::
 39:::ʔ:::ʔmt::::::7:::t+č+ʔmút=ew'es:::tch'mute'wes::::::horseback (on...).:::adv.::::::
 39:::ʔ:::ʔmt::::::8:::s+t+č+ʔumút=ew'es+n:::stch'umute'wesn::::::cow pony, saddle pony.:::n.::::::
-
+39:::ʔ:::ʔmt::::::9:::t+č+ʔmút+p=kʷeʔ:::Tch'mutpkwe'::::::Mt. Baldy (in Idaho, near the St. Joe River). (lit. one who sits by the water):::n.:::[xref ʔm]:::
 39:::ʔ:::ʔngʷt::::::1:::ʔingʷet:::‑ingwet:::†:::what say, be who.:::::::::
 39:::ʔ:::ʔngʷt::::::2:::čn‿[ʔ]íngʷe[t]:::chningwe::::::say. (lit. What did I say?):::vt.::::::
 39:::ʔ:::ʔngʷt::::::3:::č‿y'c+ʔíngʷet:::chi'ts'ingwet::::::What am I saying?:::qu.::::::
@@ -7599,7 +7599,7 @@
 39:::ʔ:::ʔsqʷ::::::3:::i·n+ʔásqʷ:::ii'nasqw::::::son (He is your...).:::n.::::::
 39:::ʔ:::ʔsqʷ::::::4:::s+k'ʷl'+ɫ ʔasqʷ:::sk'u'lɫ asqw:::§:::to adopt. (lit. making one a son):::vt.::::::
 39:::ʔ:::ʔsqʷ::::::5:::p+[ʔ]asqʷ+qʷéseʔ:::pasquqwese'::::::small boys.:::n.::::::
-
+39:::ʔ:::ʔsqʷ::::::6:::*ʔasqʷ+qʷ=éseʔ:::asqqwese'::::::small boy, chiquito, boy (lit. Little blurred son).:::n.:::[xref qʷs]:::
 39:::ʔ:::ʔsʔ::::::1:::ʔúseʔ:::use':::†:::eggs.:::n.::::::
 39:::ʔ:::ʔsʔ::::::2:::n+ʔúseʔ+n:::'nuse'n::::::bird's nest.:::n.::::::
 39:::ʔ:::ʔsʔ::::::3:::us+ʔuseʔ+m+úl:::us'use'mul:::§:::is laying (The hen habitually...eggs).:::vt.::::::
@@ -7620,7 +7620,7 @@
 39:::ʔ:::ʔtš::::::12:::n+ʔíɫn+n ɫ n+ʔítš+n:::'niɫnn ɫ 'nitshn::::::boarding house. (lit. place for eating and sleeping):::n.::::::
 39:::ʔ:::ʔtš::::::13:::hn+cun'+cún'm'eʔ+n ɫ n+ʔítš+n:::hntsu'ntsu'n'me'n ɫ 'nitshn::::::boarding school. (lit. place for teaching and sleeping):::n.::::::
 39:::ʔ:::ʔtx̣ʷ::::::1:::ʔétx̣ʷeʔ:::etqhwe':::†:::camas (baked...).:::n.::::::
-
+39:::ʔ:::ʔtx̣ʷ::::::2:::ʔapɫ+ʔétxʷeʔ:::apɫ'etkhwe'::::::  to have baked camas (a sweet, edible bulb).:::n.:::[also recorded as ʔtxʷ]:::
 39:::ʔ:::ʔtx̣ʷ::::::3:::s+x̣aw'+lu+tx̣ʷeʔ:::sqha'wlutqhwe':::§:::camas (raw...).:::n.::::::
 39:::ʔ:::ʔw::::::1:::ʔew:::ew..:::†:::adverse (to be...to), confront, contravene, oppose.:::stem vt.::::::
 39:::ʔ:::ʔw::::::2:::ʔew+t=ús:::ewtus::://:::antagonism, competition, opposition, rivalry.:::stem n.::::::
@@ -7661,7 +7661,7 @@
 39:::ʔ:::ʔx̣l::::::22:::ʔax̣el+tč+nékʷeʔ:::aqheltchnekwe'::::::each, every (lit. every person of a number).:::n.::::::
 39:::ʔ:::ʔx̣l::::::23:::ʔáx̣al+s+pin=tč:::aqhalspintch::::::yearly. (lit. every year):::adv.::::::
 39:::ʔ:::ʔx̣l::::::24:::hi+s+nukʷ+ʔa·c+ʔáx̣l:::hisnukw'aats'aqhl::::::contemporaneous. (lit. He is my like (equal):::adj.::::::
-
+39:::ʔ:::ʔx̣l::::::25:::s+nukʷ+ʔa·c+ʔáx̣l:::snukw'aats'aqhl::::::counterpart, colleague. (lit. fellow worker of one's kind):::n.:::[xref ʔx̣ɫ]:::
 39:::ʔ:::ʔx̣l'::::::1:::aʔx̣i·l'=il'š:::a'qhii'li'lsh:::†:::codger. (lit. an old man):::n.::::::
 39:::ʔ:::ʔx̣ɫ::::::1:::na+ʔx̣íɫ:::na'qhiɫ:::†:::maybe, possibly.:::adv.::::::
 39:::ʔ:::ʔx̣ɫ::::::2:::naʔx̣íɫ šiɫ:::na'qhiɫ shiɫ:::§:::circa, about, Maybe or just about. (used before approximate dates or figures):::prep.::::::
@@ -7673,7 +7673,7 @@
 39:::ʔ:::ʔx̣ɫ::::::8:::na+ʔx̣íɫ čn'‿in+x̣em=ínč:::na'qhiɫ chn'inqheminch::::::love (You (sg.) maybe...me).:::vt.::::::
 39:::ʔ:::ʔx̣ɫ::::::9:::na+ʔx̣íɫ čn‿x̣em=ínč+mp:::na qhiɫ chnqheminchmp::::::You (pl.) maybe love me.:::v.::::::
 39:::ʔ:::ʔx̣ɫ::::::10:::uc+ʔax̣iɫ s+tɫ+t=cín+m:::uts'aqhiɫ stɫttsinm::::::catachresis. (lit. for no reason directing one's speech or discourse):::n.::::::
-
+39:::ʔ:::ʔx̣ɫ::::::11:::u+c+ʔax̣íɫ e+tɫ+t=cín+m:::uts'aqhiɫ etɫttsinm::::::blabber. (lit. For nothing he talks straight. He talks rapidly, incessantly and inanely):::vi.:::[xref ʔx̣l]:::
 39:::ʔ:::ʔx̣ʷ::::::1:::n+ʔax̣ʷ:::'naqhw:::†:::downstream.:::stem adv.::::::
 39:::ʔ:::ʔx̣ʷ::::::2:::in+ʔax̣[ʷ]+tíɫ:::i'naqhtiɫ::::::catadromous. (lit. The fish is going back to the sea to spawn):::adj.::::::
 39:::ʔ:::ʔynɫ::::::1:::e+ʔyníɫ:::e'yniɫ:::†:::because.:::conj.::::::
