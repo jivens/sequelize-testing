@@ -1,71 +1,3 @@
-const audiorelations = [
-  { "id": 1,
-    "audiosetId": "1",
-    "audiofileId": "1"
-  },
-  { "id": 2,
-    "audiosetId": "1",
-    "audiofileId": "2"
-  },
-  { "id": 3,
-    "audiosetId": "2",
-    "audiofileId": "3"
-  },
-  { "id": 4,
-    "audiosetId": "2",
-    "audiofileId": "4"
-  },
-  { "id": 5,
-    "audiosetId": "3",
-    "audiofileId": "5"
-  },
-  { "id": 6,
-    "audiosetId": "3",
-    "audiofileId": "6"
-  },
-]
-const elicitationrelations = [
-  { "id": 1,
-    "elicitationsetId": "1",
-    "elicitationfileId": "1"
-  },
-  { "id": 2,
-    "elicitationsetId": "2",
-    "elicitationfileId": "2"
-  },
-  { "id": 3,
-    "elicitationsetId": "3",
-    "elicitationfileId": "3"
-  },
-  { "id": 4,
-    "elicitationsetId": "4",
-    "elicitationfileId": "4"
-  },
-  { "id": 5,
-    "elicitationsetId": "5",
-    "elicitationfileId": "5"
-  },
-  { "id": 6,
-    "elicitationsetId": "6",
-    "elicitationfileId": "6"
-  },
-  { "id": 7,
-    "elicitationsetId": "7",
-    "elicitationfileId": "7"
-  },
-  { "id": 8,
-    "elicitationsetId": "8",
-    "elicitationfileId": "8"
-  },
-  { "id": 9,
-    "elicitationsetId": "9",
-    "elicitationfileId": "9"
-  },
-  { "id": 10,
-    "elicitationsetId": "10",
-    "elicitationfileId": "10"
-  },
-]
  const texts = [
     {
       "id": 1,
@@ -283,43 +215,63 @@ const textimages = [
  const elicitationsets = [
     {
       "id": 1,
-      "title": "He is clubbing him on the neck - English"
+      "title": "He is clubbing him on the neck",
+      "language": "English",
+      "speaker": "Clarence Sloat"
     },
     {
       "id": 2,
-      "title": "He is clubbing him on the neck - Couer d'Alene"
+      "title": "He is clubbing him on the neck",
+      "language": "Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus"
     },
     {
       "id": 3,
-      "title": "He is being clubbed on the neck - English"
+      "title": "He is being clubbed on the neck",
+      "language": "English",
+      "speaker": "Clarence Sloat"      
     },
     {
       "id": 4,
-      "title": "He is being clubbed on the neck - Couer d'Alene"
+      "title": "He is being clubbed on the neck",
+      "language": "Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus"
     },
     {
       "id": 5,
-      "title": "I am clubbing him on the neck - English"
+      "title": "I am clubbing him on the neck",
+      "language": "English",
+      "speaker": "Clarence Sloat"
     },
     {
       "id": 6,
-      "title": "I am clubbing him on the neck - Couer d'Alene"
+      "title": "I am clubbing him on the neck",
+      "language": "Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus"
     },
     {
       "id": 7,
-      "title": "I am being clubbed on the neck - English"
+      "title": "I am being clubbed on the neck",
+      "language": "English",
+      "speaker": "Clarence Sloat"
     },
     {
       "id": 8,
-      "title": "I am being clubbed on the neck - Couer d'Alene"
+      "title": "I am being clubbed on the neck",
+      "language": "Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus"
     },
     {
       "id": 9,
-      "title": "You are being clubbed on the neck - English"
+      "title": "You are being clubbed on the neck",
+      "language": "English",
+      "speaker": "Clarence Sloat"
     },
     {
       "id": 10,
-      "title": "You are being clubbed on the neck - Couer d'Alene"
+      "title": "You are being clubbed on the neck",
+      "language": "Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus"
     }
   ]
  const audiosets = [
@@ -346,6 +298,7 @@ const elicitationfiles = [
     {
       "id": 1,
       "src": "1835_027_CoeurdAlene_2_bNoiseReduced_8.wav",
+      "title": "He is clubbing him on the neck - English",
       "type": "audio/wav",
       "direct": "yes",
       "elicitationId": 1
@@ -931,7 +884,7 @@ const elicitationfiles = [
       "id": 57,
       "author": "Nicodemus, Lawrence",
       "year": "1973",
-      "title": "The Couer d'Alene language project",
+      "title": "The Coeur d'Alene language project",
       "reference": "ICSL 8. Eugene, Oregon.",
       "link": ""
     },
@@ -1012,7 +965,7 @@ const elicitationfiles = [
       "id": 67,
       "author": "Palmer, Gary B.",
       "year": "1990",
-      "title": " 'Where are the muskrats?' The semantic structure of Couer d'Alene place names",
+      "title": " 'Where are the muskrats?' The semantic structure of Coeur d'Alene place names",
       "reference": "AL 32:263-294",
       "link": ""
     },
@@ -1258,7 +1211,7 @@ const elicitationfiles = [
       "id": 97,
       "author": "Teit, J.",
       "year": "1917",
-      "title": "Couer d'Alene Tales",
+      "title": "Coeur d'Alene Tales",
       "reference": "In F. Boas, ed. Folk-Tales of Salishan and Sahaptin Tribes 119-128. New York: American Folk-Lore Society.",
       "link": "http://archive.org/stream/folktalesofsalis00boas#page/119/mode/1up",
       "linktext": "here"
@@ -2377,6 +2330,41 @@ const elicitationfiles = [
     }
   ]
 
+  const users = [
+    {
+      first: "Original",
+      last: "Data",
+      username: "original",
+      email: 'colrc@gmail.com',
+      password: 'colrc@gmail.com',
+      roles: "admin"
+    },
+    {
+      first: "Update",
+      last: "Data",
+      username: "update",
+      email: 'update@gmail.com',
+      password: 'update@gmail.com',
+      roles: "update"
+    },
+    {
+      first: "Owner",
+      last: "Data",
+      username: "owner",
+      email: 'owner@gmail.com',
+      password: 'owner@gmail.com',
+      roles: "owner"
+    },
+    {
+      first: "View",
+      last: "Data",
+      username: "view",
+      email: 'view@gmail.com',
+      password: 'view@gmail.com',
+      roles: "view"
+    },
+  ]
+
 module.exports = {
   spelling: spelling,
   bibliography: bibliography,
@@ -2387,8 +2375,7 @@ module.exports = {
   textimages: textimages,
   audiosets: audiosets,
   audiofiles: audiofiles,
-  audiorelations: audiorelations,
   elicitationsets: elicitationsets,
   elicitationfiles: elicitationfiles,
-  elicitationrelations: elicitationrelations
+  users: users
 };
