@@ -80,9 +80,15 @@ const User = sequelize.define('user', {
 const Root = sequelize.define('root', {
   root: { type: Sequelize.STRING },
   number: { type: Sequelize.INTEGER },
+  sense: {type: Sequelize.STRING},
   salish: { type: Sequelize.STRING },
   nicodemus: { type: Sequelize.STRING },
+  symbol: {type: Sequelize.STRING},
   english: { type: Sequelize.STRING },
+  grammar: { type: Sequelize.STRING},
+  crossref: { type: Sequelize.STRING},
+  variant: { type: Sequelize.STRING},
+  cognate: { type: Sequelize.STRING},
   editnote: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
@@ -433,7 +439,7 @@ async function makeUsersTable(){
 async function makeRootTable(){
   await Root.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\entries.txt', 'utf8');
+  var contents = fs. readFileSync('data\\fixed_entries_trim.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.replace(/(\r)/gm, "");
@@ -442,10 +448,16 @@ async function makeRootTable(){
       await Root.create({
         root: columns[2],
         number: parseInt(columns[3]),
-        salish: columns[4],
-        nicodemus: columns[5],
-        english: columns[6],
-        editnote: Sequelize.NULL,
+        sense: columns[4],
+        salish: columns[5],
+        nicodemus: columns[6],
+        symbol: columns[7],
+        english: columns[8],
+        grammar: columns[9],
+        crossref: columns[10],
+        variant: columns[11],
+        cognate: columns[12],
+        editnote: columns[13],
         active: 'Y',
         prevId: Sequelize.NULL,
         userId: "1"
@@ -487,7 +499,7 @@ async function makeStemTable(){
   var contents = fs. readFileSync('data\\stems_both_lists.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
-    row = row.replace(/(\r)/gm, "");  
+    row = row.replace(/(\r)/gm, "");
     columns = row.split(":::");
     if (columns[5]) {
       await Stem.create({
