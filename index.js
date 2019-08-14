@@ -764,8 +764,8 @@ async function makeTables(){
 }
 
 // below call the build function(s) you want.
-
-makeAffixTable();
+makeRootTable()
+//makeAffixTable();
 //makeTables();
 //makeAudiofileTable();
 
