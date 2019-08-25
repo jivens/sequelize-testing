@@ -267,6 +267,8 @@ const Elicitationset = sequelize.define('elicitationset', {
   title: { type: Sequelize.STRING },
   language: { type: Sequelize.STRING },
   speaker: { type: Sequelize.STRING },
+  transcription: { type: Sequelize.STRING },
+  editnote: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   userId: { type: Sequelize.STRING },
   prevID: { type: Sequelize.INTEGER }
@@ -708,6 +710,8 @@ async function makeElicitationsetTable(){
       title: row.title,
       language: row.language,
       speaker: row.speaker,
+      transcription: row.transcription,
+      editnote: Sequelize.NULL,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: '1'
@@ -764,9 +768,11 @@ async function makeTables(){
 }
 
 // below call the build function(s) you want.
+//makeRootTable()
+//makeAffixTable();
 
-makeAffixTable();
-//makeTables();
+makeTables();
+
 //makeAudiofileTable();
 
 //makeElicitationfileTable();

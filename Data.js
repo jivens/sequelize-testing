@@ -4,21 +4,53 @@
       "title": "Cricket Rides Coyote",
       "speaker": "Dorthy Nicodemus or Tom Miyal (unconfirmed)",
       "cycle": "Coyote Cycle"
+      "rnumber": "20",
+      "tnumber": "16"
     },
     {
       "id": 2,
       "title": "Calling One's Kind",
       "speaker": "Dorthy Nicodemus",
-      "cycle": "Coyote Cycle"
+      "cycle": "Coyote Cycle",
+      "rnumber": "17",
+      "tnumber": "9"
     },
     {
       "id": 3,
       "title": "Calling One's Kind",
       "speaker": "Tom Miyal",
-      "cycle": "Coyote Cycle"
+      "cycle": "Coyote Cycle",
+      "rnumber": "17",
+      "tnumber": "9"
+    }
+    {
+      "id": 4,
+      "title": "Chief Child of the Root (Transformer)",
+      "speaker": "Dorthy Nicodemus",
+      "cycle": "Chief Child of the Root (Transformer)",
+      "rnumber": "1",
+      "tnumber": "1"
     }
   ]
  const textfiles = [
+    {
+      "id": 8,
+      "subdir": "ChiefChildOfTheRoot",
+      "src": "ChiefChildOfTheRoot_Typed.pdf",
+      "resType": "Typed Fieldnotes",
+      "msType": "Typed",
+      "fileType": "pdf",
+      "textId": 4
+    },
+    {
+      "id": 9,
+      "subdir": "ChiefChildOfTheRoot",
+      "src": "ChiefChildOfTheRoot_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf",
+      "textId": 4
+    },
     {
       "id": 1,
       "subdir": "CricketRidesCoyote",
@@ -85,6 +117,12 @@
   ]
 
 const textimages = [
+   {
+      "id": 22,
+      "textfileId": 8,
+      "subdir": "ChiefChildoftheRoot_Typed_Images",
+      "src": "ChiefChildoftheRoot_Typed64.png"
+    },
     {
       "id": 1,
       "textfileId": 7,
@@ -223,7 +261,8 @@ const textimages = [
       "id": 2,
       "title": "He is clubbing him on the neck",
       "language": "Coeur d'Alene",
-      "speaker": "Lawrence Nicodemus"
+      "speaker": "Lawrence Nicodemus",
+      "transcription": "'itsanqhttsinms"
     },
     {
       "id": 3,
@@ -235,7 +274,8 @@ const textimages = [
       "id": 4,
       "title": "He is being clubbed on the neck",
       "language": "Coeur d'Alene",
-      "speaker": "Lawrence Nicodemus"
+      "speaker": "Lawrence Nicodemus",
+      "transcription": ""
     },
     {
       "id": 5,
@@ -247,7 +287,8 @@ const textimages = [
       "id": 6,
       "title": "I am clubbing him on the neck",
       "language": "Coeur d'Alene",
-      "speaker": "Lawrence Nicodemus"
+      "speaker": "Lawrence Nicodemus",
+      "transcription": "hi'tsanqhttsinm"
     },
     {
       "id": 7,
@@ -259,7 +300,8 @@ const textimages = [
       "id": 8,
       "title": "I am being clubbed on the neck",
       "language": "Coeur d'Alene",
-      "speaker": "Lawrence Nicodemus"
+      "speaker": "Lawrence Nicodemus",
+      "transcription": "chi'tsanqhttsinm"
     },
     {
       "id": 9,
@@ -271,7 +313,8 @@ const textimages = [
       "id": 10,
       "title": "You are being clubbed on the neck",
       "language": "Coeur d'Alene",
-      "speaker": "Lawrence Nicodemus"
+      "speaker": "Lawrence Nicodemus",
+      "transcription": "ku'ytsanqhttsinm"
     }
   ]
  const audiosets = [
@@ -291,6 +334,12 @@ const textimages = [
       "id": 3,
       "title": "When Deer Kills Children - song, in Coeur d'Alene",
       "speaker": "Unknown",
+      "textId": ''
+    }
+    {
+      "id": 4,
+      "title": "Little Mosquito - Part 1, in Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus (unconfirmed)",
       "textId": ''
     }
   ]
