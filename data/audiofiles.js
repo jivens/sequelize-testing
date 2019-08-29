@@ -128,3 +128,6 @@
       "audiosetId": 8
     },
   ]
+module.exports = {
+  audiofiles: audiofiles
+};

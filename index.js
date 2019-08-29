@@ -201,6 +201,8 @@ const Text = sequelize.define('text', {
   title: { type: Sequelize.STRING },
   speaker: { type: Sequelize.STRING },
   cycle: { type: Sequelize.STRING },
+  rnumber: { type: Sequelize.STRING },
+  tnumber: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.STRING }
@@ -237,6 +239,7 @@ const Textimage = sequelize.define('textimage', {
   charset: 'utf8mb4',
   collate: 'utf8mb4_unicode_ci'
 });
+
 
 const Audioset = sequelize.define('audioset', {
   title: { type: Sequelize.STRING },
@@ -612,6 +615,8 @@ async function makeTextTable(){
       title: row.title,
       speaker: row.speaker,
       cycle: row.cycle,
+      rnumber: row.rnumber,
+      tnumber: row.tnumber,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: '1'
@@ -770,11 +775,8 @@ async function makeTables(){
 // below call the build function(s) you want.
 //makeRootTable()
 //makeAffixTable();
-
-makeTables();
-
+//makeTables();
 //makeAudiofileTable();
-
 //makeElicitationfileTable();
-
-// makeMedia();
+makeMedia();
+//makeUsersTable()

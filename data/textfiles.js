@@ -1250,3 +1250,6 @@ const textfiles = [
       "fileType": "pdf"
     }
   ]
+module.exports = {
+  textfiles: textfiles
+};
