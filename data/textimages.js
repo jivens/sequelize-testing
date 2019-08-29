@@ -2844,7 +2844,7 @@ const textimages = [
     "textfileId": 59, 
     "subdir": "DogGoesForFire_Engl_Images",
     "src": "DogGoesForFire_Engl_Images1.png"
-    "src": "
+  },
   {  
     "textfileId": 60, 
     "subdir": "DogGoesForFire_Hand_Images",
@@ -2854,7 +2854,7 @@ const textimages = [
     "textfileId": 60, 
     "subdir": "DogGoesForFire_Hand_Images",
     "src": "DogGoesForFire_Hand_Images1.png"
-    "src": "
+  },
   {  
     "textfileId": 61, 
     "subdir": "DogGoesForFire_Typed_Images",
@@ -6068,3 +6068,4 @@ const textimages = [
     "src:" "WomanSavedByLooseSaddleCinch_Typed_Images5.png"
   }
 ]
+

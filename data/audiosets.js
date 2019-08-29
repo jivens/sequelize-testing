@@ -47,4 +47,6 @@
     }
   }
 ]                          
-                         
+module.exports = {
+  audiosets: audiosets
+};                         

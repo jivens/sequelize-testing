@@ -1,4 +1,4 @@
-const metadata =[
+const metadata = [
   {
     "textFileId": 15,
     "originalTitle": "Chief Child of the Root (Transformer) (typed manuscript)",
@@ -2198,3 +2198,6 @@ const metadata =[
     "langBoth": "Language: Coeur d'Alene with English gloss"
   } 
 ] 
+module.exports = {
+  metadata: metadata
+};

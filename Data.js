@@ -1,255 +1,7720 @@
  const texts = [
+    { 
+      "id": 1,                                         
+      "title": "Boy Takes Food",
+      "speaker": "Julia Antelope Nicodemus",
+      "cycle": "Tales with Historical Elements",
+      "rnumber": "46",
+      "tnumber": "47"
+    }, 
     {
-      "id": 1,
-      "title": "Cricket Rides Coyote",
-      "speaker": "Dorthy Nicodemus or Tom Miyal (unconfirmed)",
-      "cycle": "Coyote Cycle"
-      "rnumber": "20",
-      "tnumber": "16"
-    },
-    {
-      "id": 2,
+      "id": 2,    
       "title": "Calling One's Kind",
-      "speaker": "Dorthy Nicodemus",
+      "speaker": "Dorothy Nicodemus",   
       "cycle": "Coyote Cycle",
       "rnumber": "17",
-      "tnumber": "9"
-    },
+      "tnumber": "9" 
+    }, 
     {
-      "id": 3,
+      "id": 3,    
       "title": "Calling One's Kind",
-      "speaker": "Tom Miyal",
+      "speaker": "Tom Miyal",   
       "cycle": "Coyote Cycle",
       "rnumber": "17",
-      "tnumber": "9"
-    }
+      "tnumber": "9" 
+    }, 
     {
-      "id": 4,
+      "id": 4,    
+      "title": "Calling the Deer", 
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Coyote Cycle",
+      "rnumber": "16",
+      "tnumber": "5" 
+    }, 
+    {
+      "id": 5,    
+      "title": "Catbird",
+      "speaker": "Dorothy Nicodemus",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "22",
+      "tnumber": "23" 
+    }, 
+    {
+      "id": 6,    
       "title": "Chief Child of the Root (Transformer)",
-      "speaker": "Dorthy Nicodemus",
+      "speaker": "Dorothy Nicodemus",
       "cycle": "Chief Child of the Root (Transformer)",
       "rnumber": "1",
-      "tnumber": "1"
+      "tnumber": "1" 
+    }, 
+    {
+      "id": 7,    
+      "title": "Chipmunk and Snake (Contest for Winter and Spring)",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "32",
+      "tnumber": "33" 
+    }, 
+    {
+      "id": 8,    
+      "title": "Contest Between Cold and Heat",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "34",
+      "tnumber": "35" 
+    }, 
+    {
+      "id": 9,    
+      "title": "Coyote and Badger",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Coyote Cycle",
+      "rnumber": "15",
+      "tnumber": "17" 
+    }, 
+    {
+      "id": 10,    
+      "title": "Coyote and Fox Gamble with Fish",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Coyote Cycle",
+      "rnumber": "12",
+      "tnumber": "12" 
+    }, 
+    {
+      "id": 11,    
+      "title": "Coyote and Nighthawk Change Coats",
+      "speaker": "Dorothy Nicodemus",
+      "cycle": "Coyote Cycle",
+      "rnumber": "19",
+      "tnumber": "11" 
+    }, 
+    {
+      "id": 12,    
+      "title": "Coyote devours his own Children",
+      "speaker": "Dorothy Nicodemus",
+      "cycle": "Coyote Cycle",
+      "rnumber": "6",
+      "tnumber": "7" 
+    }, 
+    {
+      "id": 13,    
+      "title": "Coyote hunts with Crane and releases Salmon",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Coyote Cycle",
+      "rnumber": "8",
+      "tnumber": "19" 
+    }, 
+    { 
+      "id": 14,     
+      "title": "Coyote imitates Magpie (Bungling Host)",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Coyote Cycle",
+      "rnumber": "14",
+      "tnumber": "14" 
+    }, 
+    { 
+      "id": 15,     
+      "title": "Coyote kills Cricket with elk fat",
+      "speaker": "Dorothy Nicodemus",
+      "cycle": "Coyote Cycle",
+      "rnumber": "18",
+      "tnumber": "15" 
+    }, 
+    {
+      "id": 16,    
+      "title": "Coyote loses his Eyes (Eye Juggling)",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Coyote Cycle",
+      "rnumber": "7",
+      "tnumber": "8" 
+    }, 
+    {
+      "id": 17,    
+      "title": "Coyote marries Squirrel, sister of Goose",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed) ",
+      "cycle": "Coyote Cycle",
+      "rnumber": "13",
+      "tnumber": "13" 
+    }, 
+    { 
+      "id": 18,     
+      "title": "Coyote overpowers Sun", 
+      "speaker": "Dorothy Nicodemus",
+      "cycle": "Coyote Cycle",
+      "rnumber": "3",
+      "tnumber": "3" 
+    }, 
+    {
+      "id": 19,    
+      "title": "Coyote snares the Wind",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Coyote Cycle",
+      "rnumber": "12",
+      "tnumber": "18" 
+    }, 
+    { 
+      "id": 20,     
+      "title": "Coyote steals his daughter-in-law",
+      "speaker": "Dorothy Nicodemus",
+      "cycle": "Coyote Cycle",
+      "rnumber": "4",
+      "tnumber": "4" 
+    }, 
+    {
+      "id": 21,        
+      "title": "Cricket rides Coyote",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Coyote Cycle",
+      "rnumber": "20",
+      "tnumber": "16" 
+    }, 
+    {
+      "id": 22,    
+      "title": "Dog goes for Fire", 
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "36",
+      "tnumber": "36" 
+    }, 
+    {
+      "id": 23, 
+      "title": "Dog husband",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Coyote Cycle",
+      "rnumber": "11",
+      "tnumber": "25" 
+    }, 
+    {
+      "id": 24, 
+      "title": "Elk and Snowshoe", 
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "33",
+      "tnumber": "34" 
+    }, 
+    { 
+      "id": 25,  
+      "title": "Flathead Chief sends his daughter to Chief Waxane",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Tales with Historical Elements",
+      "rnumber": "41",
+      "tnumber": "42" 
+    }, 
+    { 
+      "id": 26, 
+      "title": "Grizzly and his brothers-in-law",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "29",
+      "tnumber": "31" 
+    }, 
+    { 
+      "id": 27,  
+      "title": "Little Beaver", 
+      "speaker": "Dorothy Nicodemus",
+      "cycle": "Coyote Cycle",
+      "rnumber": "5",
+      "tnumber": "6" 
+    }, 
+    { 
+      "id": 28, 
+      "title": "Little Mosquito", 
+      "speaker": "Dorothy Nicodemus",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "28",
+      "tnumber": "30" 
+    }, 
+    {
+      "id": 29,   
+      "title": "Man caught in fire corral", 
+      "speaker": "Dorothy Nicodemus",
+      "cycle": "Tales with historical elements",
+      "rnumber": "40",
+      "tnumber": "41" 
+    }, 
+    {
+      "id": 30, 
+      "title": "Muskrat trespasses", 
+      "speaker": "Dorothy Nicodemus or Tom Miyal",
+      "cycle": "Texts not in Coyote cycle",
+      "rnumber": "30",
+      "tnumber": "" 
+    }, 
+    {
+      "id": 31, 
+      "title": "Origin of Indian Tribes (from Parts of Monster)",  
+      "speaker": "Dorothy Nicodemus or Tom Miyal (uncomfirmed)",
+      "cycle": "Coyote Cycle",
+      "rnumber": "2",
+      "tnumber": "2" 
+    }, 
+    {
+      "id": 32, 
+      "title": "Rabbit and Jack Rabbit", 
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "35",
+      "tnumber": "37" 
+    }, 
+    {
+      "id": 33, 
+      "title": "Skunk and Fisher", 
+      "speaker": "Dorothy Nicodemus or Tom Miyal (uncomfirmed)",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "23",
+      "tnumber": "22" 
+    }, 
+    {
+      "id": 34, 
+      "title": "Story of Lynx", 
+      "speaker": "Tom Miyal",
+      "cycle": "Coyote Cycle",
+      "rnumber": "9a",
+      "tnumber": "20" 
+    }, 
+    {
+      "id": 35, 
+      "title": "Story of Lynx", 
+      "speaker": "Dorothy Nicodemus",
+      "cycle": "Coyote Cycle",
+      "rnumber": "9b",
+      "tnumber": "21" 
+    }, 
+    {
+      "id": 36, 
+      "title": "The Coeur d'Alene attacked", 
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Tales with historical elements",
+      "rnumber": "45",
+      "tnumber": "46" 
+    }, 
+    { 
+      "id": 37,  
+      "title": "The Couer d'Alene fight the Kutenai",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Tales with historical elements",
+      "rnumber": "45",
+      "tnumber": "46" 
+    }, 
+    { 
+      "id": 38,  
+      "title": "The dwarf",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Tales with historical elements",
+      "rnumber": "39",
+      "tnumber": "49" 
+    }, 
+    {
+      "id": 39, 
+      "title": "The girls who stole dentalia (Kidnapping)",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (uncomfirmed)",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "24",
+      "tnumber": "24" 
+    }, 
+    {
+      "id": 40, 
+      "title": "The practical joker",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Tales with historical elements",
+      "rnumber": "47",
+      "tnumber": "49" 
+    }, 
+    {  
+      "id": 41, 
+      "title": "Thunder",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "25",
+      "tnumber": "26" 
+    }, 
+    {
+      "id": 42, 
+      "title": "Toad saves children",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "31",
+      "tnumber": "22" 
+    }, 
+    {
+      "id": 43, 
+      "title": "Turtle's war party",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Tales with historical elements",
+      "rnumber": "37",
+      "tnumber": "38" 
+    }, 
+    {
+      "id": 44, 
+      "title": "Two-headed snakes",
+      "speaker": "Dorothy Nicodemus",
+      "cycle": "Tales with historical elements",
+      "rnumber": "38",
+      "tnumber": "39" 
+    }, 
+    {
+      "id": 45, 
+      "title": "Two women overcome Nez Perce man",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Tales with historical elements",
+      "rnumber": "43",
+      "tnumber": "44" 
+    }, 
+    {
+      "id": 46, 
+      "title": "War between Blackfoot and the Coeur d'Alene", 
+      "speaker": "Dorothy Nicodemus or Tom Miyal",
+      "cycle": "Tales with historical elements",
+      "rnumber": "48",
+      "tnumber": "43" 
+    }, 
+    {
+      "id": 47, 
+      "title": "War between Land and Water People",
+      "speaker": "Tom Miyal",
+      "cycle": "Coyote Cycle",
+      "rnumber": "10",
+      "tnumber": "29",  
+    }, 
+    {
+      "id": 48, 
+      "title": "Waterbird contests for women (Gift Test)", 
+      "speaker": "Tom Miyal",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "26",
+      "tnumber": "27" 
+    }, 
+    {  
+      "id": 49, 
+      "title": "Water Monster Woman",
+      "speaker": "Dorothy Nicodemus or Tom Miyal (unconfirmed)",
+      "cycle": "Myths not in the Coyote cycle",
+      "rnumber": "27",
+      "tnumber": "28" 
+    }, 
+    {
+      "id": 50, 
+      "title": "Woman saved by loose saddle cinch",
+      "speaker": "Julia Antelope Nicodemus",
+      "cycle": "Tales with historical elements",
+      "rnumber": "44",
+      "tnumber": "45" 
     }
-  ]
+    ]                  
  const textfiles = [
     {
-      "id": 8,
-      "subdir": "ChiefChildOfTheRoot",
-      "src": "ChiefChildOfTheRoot_Typed.pdf",
-      "resType": "Typed Fieldnotes",
-      "msType": "Typed",
-      "fileType": "pdf",
-      "textId": 4
-    },
-    {
-      "id": 9,
-      "subdir": "ChiefChildOfTheRoot",
-      "src": "ChiefChildOfTheRoot_Engl.pdf",
+      "id": 1,
+      "textId": 1,
+      "subdir": "BoyTakesFood",
+      "src": "BoyTakesFood_Engl.pdf",
       "resType": "English Translation",
       "msType": "English",
-      "fileType": "pdf",
-      "textId": 4
-    },
-    {
-      "id": 1,
-      "subdir": "CricketRidesCoyote",
-      "src": "CricketRidesCoyote_Hand.pdf",
-      "resType": "Handwritten Fieldnotes",
-      "msType": "Handwritten",
-      "fileType": "pdf",
-      "textId": 1
+      "fileType": "pdf"
     },
     {
       "id": 2,
-      "subdir": "CricketRidesCoyote",
-      "src": "CricketRidesCoyote_Typed.pdf",
-      "resType": "Typed Manuscript",
-      "msType": "Typed",
-      "fileType": "pdf",
-      "textId": 1
+      "textId": 1,
+      "subdir": "BoyTakesFood",
+      "src": "BoyTakesFood_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
     },
     {
       "id": 3,
-      "subdir": "CricketRidesCoyote",
-      "src": "CricketRidesCoyote_Engl.pdf",
-      "resType": "English Translation",
-      "msType": "English",
-      "fileType": "pdf",
-      "textId": 1
+      "textId": 1,
+      "subdir": "BoyTakesFood",
+      "src": "BoyTakesFood_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
     },
     {
       "id": 4,
-      "subdir": "CallingOnesKind",
-      "src": "CallingOnesKind__Dorthy_Engl.pdf",
-      "resType": "English Translation",
-      "msType": "English",
-      "fileType": "pdf",
-      "textId": 2
-    },
-    {
-      "id": 5,
+      "textId": 2,
       "subdir": "CallingOnesKind",
       "src": "CallingOnesKind__Dorthy_Typed.pdf",
       "resType": "Typed Manuscript",
       "msType": "Typed",
-      "fileType": "pdf",
-      "textId": 2
+      "fileType": "pdf"
+    },
+    {
+      "id": 5,
+      "textId": 2,
+      "subdir": "CallingOnesKind",
+      "src": "CallingOnesKind__Dorthy_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
     },
     {
       "id": 6,
+      "textId": 3,
       "subdir": "CallingOnesKind",
       "src": "CallingOnesKind__Tom_Engl.pdf",
       "resType": "English Translation",
       "msType": "English",
-      "fileType": "pdf",
-      "textId": 3
+      "fileType": "pdf"
     },
     {
       "id": 7,
+      "textId": 3,
       "subdir": "CallingOnesKind",
       "src": "CallingOnesKind__Tom_Typed.pdf",
       "resType": "Typed Manuscript",
       "msType": "Typed",
-      "fileType": "pdf",
-      "textId": 3
-    }
-  ]
-
-const textimages = [
-   {
-      "id": 22,
-      "textfileId": 8,
-      "subdir": "ChiefChildoftheRoot_Typed_Images",
-      "src": "ChiefChildoftheRoot_Typed64.png"
-    },
-    {
-      "id": 1,
-      "textfileId": 7,
-      "subdir": "CallingOnesKind/CallingOnesKind__Tom_Typed_Images",
-      "src": "CallingOnesKind__Tom_Typed1.png"
-    },
-    {
-      "id": 2,
-      "textfileId": 7,
-      "subdir": "CallingOnesKind/CallingOnesKind__Tom_Typed_Images",
-      "src": "CallingOnesKind__Tom_Typed2.png"
-    },
-    {
-      "id": 3,
-      "textfileId": 7,
-      "subdir": "CallingOnesKind/CallingOnesKind__Tom_Typed_Images",
-      "src": "CallingOnesKind__Tom_Typed3.png"
-    },
-    {
-      "id": 4,
-      "textfileId": 7,
-      "subdir": "CallingOnesKind/CallingOnesKind__Tom_Typed_Images",
-      "src": "CallingOnesKind__Tom_Typed4.png"
-    },
-    {
-      "id": 5,
-      "textfileId": 6,
-      "subdir": "CallingOnesKind/CallingOnesKind__Tom_Engl_Images",
-      "src": "CallingOnesKind__Tom_Engl.png"
-    },
-    {
-      "id": 6,
-      "textfileId": 4,
-      "subdir": "CallingOnesKind/CallingOnesKind__Dorthy_Engl_Images",
-      "src": "CallingOnesKind__Dorthy_Engl.png"
-    },
-    {
-      "id": 7,
-      "textfileId": 5,
-      "subdir": "CallingOnesKind/CallingOnesKind__Dorthy_Typed_Images",
-      "src": "CallingOnesKind__Dorthy_Typed1.png"
+      "fileType": "pdf"
     },
     {
       "id": 8,
-      "textfileId": 5,
-      "subdir": "CallingOnesKind/CallingOnesKind__Dorthy_Typed_Images",
-      "src": "CallingOnesKind__Dorthy_Typed2.png"
+      "textId": 4,
+      "subdir": "CallingTheDeer",
+      "src": "CallingTheDeer_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
     },
     {
       "id": 9,
-      "textfileId": 5,
-      "subdir": "CallingOnesKind/CallingOnesKind__Dorthy_Typed_Images",
-      "src": "CallingOnesKind__Dorthy_Typed3.png"
+      "textId": 4,
+      "subdir": "CallingTheDeer",
+      "src": "CallingTheDeer_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
     },
     {
       "id": 10,
-      "textfileId": 5,
-      "subdir": "CallingOnesKind/CallingOnesKind__Dorthy_Typed_Images",
-      "src": "CallingOnesKind__Dorthy_Typed4.png"
+      "textId": 4,
+      "subdir": "CallingTheDeer",
+      "src": "CallingTheDeer_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
     },
     {
       "id": 11,
-      "textfileId": 5,
-      "subdir": "CallingOnesKind/CallingOnesKind__Dorthy_Typed_Images",
-      "src": "CallingOnesKind__Dorthy_Typed5.png"
+      "textId": 5,
+      "subdir": "Catbird",
+      "src": "Catbird_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
     },
     {
       "id": 12,
-      "textfileId": 3,
-      "subdir": "CricketRidesCoyote/CricketRidesCoyote_Engl_Images",
-      "src": "CricketRidesCoyote_Engl.png"
+      "textId": 5,
+      "subdir": "Catbird",
+      "src": "Catbird_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
     },
     {
       "id": 13,
-      "textfileId": 1,
-      "subdir": "CricketRidesCoyote/CricketRidesCoyote_Hand_Images",
-      "src": "CricketRidesCoyote_Hand1.png"
+      "textId": 5,
+      "subdir": "Catbird",
+      "src": "Catbird_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
     },
     {
       "id": 14,
-      "textfileId": 1,
-      "subdir": "CricketRidesCoyote/CricketRidesCoyote_Hand_Images",
-      "src": "CricketRidesCoyote_Hand2.png"
+      "textId": 6,
+      "subdir": "ChiefChildOfTheRoot",
+      "src": "ChiefChildOfTheRoot_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
     },
     {
       "id": 15,
-      "textfileId": 1,
-      "subdir": "CricketRidesCoyote/CricketRidesCoyote_Hand_Images",
-      "src": "CricketRidesCoyote_Hand3.png"
+      "textId": 6,
+      "subdir": "ChiefChildOfTheRoot",
+      "src": "ChiefChildOfTheRoot_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
     },
     {
       "id": 16,
-      "textfileId": 1,
-      "subdir": "CricketRidesCoyote/CricketRidesCoyote_Hand_Images",
-      "src": "CricketRidesCoyote_Hand4.png"
-    },
+      "textId": 7,
+      "subdir": "ChipmunkAndSnake",
+      "src": "ChipmunkAndSnake_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    }, 
     {
       "id": 17,
-      "textfileId": 1,
-      "subdir": "CricketRidesCoyote/CricketRidesCoyote_Hand_Images",
-      "src": "CricketRidesCoyote_Hand5.png"
-    },
+      "textId": 7,
+      "subdir": "ChipmunkAndSnake",
+      "src": "ChipmunkAndSnake_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    }, 
     {
       "id": 18,
-      "textfileId": 1,
-      "subdir": "CricketRidesCoyote/CricketRidesCoyote_Hand_Images",
-      "src": "CricketRidesCoyote_Hand6.png"
-    },
+      "textId": 7,
+      "subdir": "ChipmunkAndSnake",
+      "src": "ChipmunkAndSnake_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    }, 
     {
       "id": 19,
-      "textfileId": 2,
-      "subdir": "CricketRidesCoyote/CricketRidesCoyote_Typed_Images",
-      "src": "CricketRidesCoyote_Typed1.png"
-    },
+      "textId": 8,
+      "subdir": "ContestBetweenColdAndHeat",
+      "src": "ContestBetweenColdAndHeat_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    }, 
     {
       "id": 20,
-      "textfileId": 2,
-      "subdir": "CricketRidesCoyote/CricketRidesCoyote_Typed_Images",
-      "src": "CricketRidesCoyote_Typed2.png"
-    },
+      "textId": 8,
+      "subdir": "ContestBetweenColdAndHeat",
+      "src": "ContestBetweenColdAndHeat_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    }, 
     {
       "id": 21,
-      "textfileId": 2,
-      "subdir": "CricketRidesCoyote/CricketRidesCoyote_Typed_Images",
-      "src": "CricketRidesCoyote_Typed3.png"
+      "textId": 8,
+      "subdir": "ContestBetweenColdAndHeat",
+      "src": "ContestBetweenColdAndHeat_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    }, 
+    {
+      "id": 22,
+      "textId": 9,
+      "subdir": "CoyoteAndBadger",
+      "src": "CoyoteAndBadger_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 23,
+      "textId": 9,
+      "subdir": "CoyoteAndBadger",
+      "src": "CoyoteAndBadger_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 24,
+      "textId": 9,
+      "subdir": "CoyoteAndBadger",
+      "src": "CoyoteAndBadger_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 25,
+      "textId": 10,
+      "subdir": "CoyoteAndFoxGambleWithFish",
+      "src": "CoyoteAndFoxGambleWithFish_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 26,
+      "textId": 10,
+      "subdir": "CoyoteAndFoxGambleWithFish",
+      "src": "CoyoteAndFoxGambleWithFish_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 27,
+      "textId": 11,
+      "subdir": "CoyoteAndNighthawkChangeCoats",
+      "src": "CoyoteAndNighthawkChangeCoats_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 28,
+      "textId": 11,
+      "subdir": "CoyoteAndNighthawkChangeCoats",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 29,
+      "textId": 11,
+      "subdir": "CoyoteAndNighthawkChangeCoats",
+      "src": "CoyoteAndNighthawkChangeCoats_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 30,
+      "textId": 12,
+      "subdir": "CoyoteDevoursHisOwnChildren",
+      "src": "CoyoteDevoursHisOwnChildren_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 31,
+      "textId": 12,
+      "subdir": "CoyoteDevoursHisOwnChildren",
+      "src": "CoyoteDevoursHisOwnChildren_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 32,
+      "textId": 12,
+      "subdir": "CoyoteDevoursHisOwnChildren",
+      "src": "CoyoteDevoursHisOwnChildren_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {  
+      "id": 33,
+      "textId": 13,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 34,
+      "textId": 13,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 35,
+      "textId": 13,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 36,
+      "textId": 14,
+      "subdir": "CoyoteImitatesMagpie",
+      "src": "CoyoteImitatesMagpie_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 37,
+      "textId": 14,
+      "subdir": "CoyoteImitatesMagpie",
+      "src": "CoyoteImitatesMagpie_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 38,
+      "textId": 14,
+      "subdir": "CoyoteImitatesMagpie",
+      "src": "CoyoteImitatesMagpie_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    { 
+      "id": 39,
+      "textId": 15,
+      "subdir": "CoyoteKillsCricketWithElkFat",
+      "src": "CoyoteKillsCricketWithElkFat_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 40,
+      "textId": 15,
+      "subdir": "CoyoteKillsCricketWithElkFat",
+      "src": "CoyoteKillsCricketWithElkFat_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 41,
+      "textId": 15,
+      "subdir": "CoyoteKillsCricketWithElkFat",
+      "src": "CoyoteKillsCricketWithElkFat_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {   
+      "id": 42,
+      "textId": 16,
+      "subdir": "CoyoteLosesHisEyes",
+      "src": "CoyoteLosesHisEyes_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 43,
+      "textId": 16,
+      "subdir": "CoyoteLosesHisEyes",
+      "src": "CoyoteLosesHisEyes_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 44,
+      "textId": 17,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 45,
+      "textId": 17,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 46,
+      "textId": 17,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 47,
+      "textId": 18,
+      "subdir": "CoyoteOverpowersSun",
+      "src": "CoyoteOverpowersSun_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 48,
+      "textId": 18,
+      "subdir": "CoyoteOverpowersSun",
+      "src": "CoyoteOverpowersSun_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 49,
+      "textId": 18,
+      "subdir": "CoyoteOverpowersSun",
+      "src": "CoyoteOverpowersSun_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 50,
+      "textId": 19,
+      "subdir": "CoyoteSnaresTheWind",
+      "src": "CoyoteSnaresTheWind_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 51,
+      "textId": 19,
+      "subdir": "CoyoteSnaresTheWind",
+      "src": "CoyoteSnaresTheWind_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 52,
+      "textId": 19,
+      "subdir": "CoyoteSnaresTheWind",
+      "src": "CoyoteSnaresTheWind_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {  
+      "id": 53,
+      "textId": 20,
+      "subdir": "CoyoteStealsHisDaughterInLaw",
+      "src": "CoyoteStealsHisDaughterInLaw_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 54,
+      "textId": 20,
+      "subdir": "CoyoteStealsHisDaughterInLaw",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 55,
+      "textId": 20,
+      "subdir": "CoyoteStealsHisDaughterInLaw",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 56,
+      "textId": 21,
+      "subdir": "CricketRidesCoyote",
+      "src": "CricketRidesCoyote_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 57,
+      "textId": 21,
+      "subdir": "CricketRidesCoyote",
+      "src": "CricketRidesCoyote_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 58,
+      "textId": 21,
+      "subdir": "CricketRidesCoyote",
+      "src": "CricketRidesCoyote_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 59,
+      "textId": 22,
+      "subdir": "DogGoesForFire",
+      "src": "DogGoesForFire_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 60,
+      "textId": 22,
+      "subdir": "DogGoesForFire",
+      "src": "DogGoesForFire_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 61,
+      "textId": 22,
+      "subdir": "DogGoesForFire",
+      "src": "DogGoesForFire_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 62,
+      "textId": 23,
+      "subdir": "DogHusband",
+      "src": "DogHusband_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 63,
+      "textId": 23,
+      "subdir": "DogHusband",
+      "src": "DogHusband_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {  
+      "id": 64,
+      "textId": 24,
+      "subdir": "ElkAndSnowshoe",
+      "src": "ElkAndSnowshoe_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 65,
+      "textId": 24,
+      "subdir": "ElkAndSnowshoe",
+      "src": "ElkAndSnowshoe_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 66,
+      "textId": 24,
+      "subdir": "ElkAndSnowshoe",
+      "src": "ElkAndSnowshoe_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 67,
+      "textId": 25,
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane",
+      "src": "FlatheadChiefSendsHisDaugherToChiefWaxane_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 68,
+      "textId": 25,
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane",
+      "src": "FlatheadChiefSendsHisDaugherToChiefWaxane_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 69,
+      "textId": 25,
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 70,
+      "textId": 26,
+      "subdir": "GrizzlyAndHisBrothersInLaw",
+      "src": "GrizzlyAndHisBrothersInLaw_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 71,
+      "textId": 26,
+      "src": "GrizzlyAndHisBrothersInLaw_Hand.pdf",
+      "subdir": "GrizzlyAndHisBrothersInLaw",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 72,
+      "textId": 26,
+      "subdir": "GrizzlyAndHisBrothersInLaw",
+      "src": "GrizzlyAndHisBrothersInLaw_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 73,
+      "textId": 27,
+      "subdir": "LittleBeaver",
+      "src": "LittleBeaver_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 74,
+      "textId": 27,
+      "subdir": "LittleBeaver",
+      "src": "LittleBeaver_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 75,
+      "textId": 27,
+      "subdir": "LittleBeaver",
+      "src": "LittleBeaver_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 76,
+      "textId": 28,
+      "subdir": "LittleMosquito",
+      "src": "LittleMosquito_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 77,
+      "textId": 28,
+      "subdir": "LittleMosquito",
+      "src": "LittleMosquito_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 78,
+      "textId": 28,
+      "subdir": "LittleMosquito",
+      "src": "LittleMosquito_Typed.pdf ",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 79,
+      "textId": 29,
+      "subdir": "ManCaughtInFireCorral",
+      "src": "ManCaughtInFireCorral_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 80,
+      "textId": 29,
+      "subdir": "ManCaughtInFireCorral",
+      "src": "ManCaughtInFireCorral_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 81,
+      "textId": 29,
+      "subdir": "ManCaughtInFireCorral",
+      "src": "ManCaughtInFireCorral_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 82,
+      "textId": 30,
+      "subdir": "MuskratTrespasses",
+      "src": "MuskratTrespasses_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 83,
+      "textId": 30,
+      "subdir": "MuskratTrespasses",
+      "src": "MuskratTrespasses_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 84,
+      "textId": 31,
+      "subdir": "OriginOfIndianTribes",
+      "src": "OriginOfIndianTribes_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 85,
+      "textId": 31,
+      "subdir": "OriginOfIndianTribes",
+      "src": "OriginOfIndianTribes_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 86,
+      "textId": 31,
+      "subdir": "OriginOfIndianTribes",
+      "src": "OriginOfIndianTribes_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 87,
+      "textId": 32,
+      "subdir": "RabbitAndJackRabbit",
+      "src": "RabbitAndJackRabbit_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 88,
+      "textId": 32,
+      "subdir": "RabbitAndJackRabbit",
+      "src": "RabbitAndJackRabbit_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 89,
+      "textId": 32,
+      "subdir": "RabbitAndJackRabbit",
+      "src": "RabbitAndJackRabbit_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 90,
+      "textId": 33,
+      "subdir": "SkunkAndFisher",
+      "src": "SkunkAndFisher_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 91,
+      "textId": 33,
+      "subdir": "SkunkAndFisher",
+      "src": "SkunkAndFisher_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 92,
+      "textId": 33,
+      "subdir": "SkunkAndFisher",
+      "src": "SkunkAndFisher_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {  
+      "id": 93,
+      "textId": 35,
+      "subdir": "StoryOfLynx",
+      "src": "StoryOfLynx__Dorthy_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 94,
+      "textId": 35,
+      "subdir": "StoryOfLynx",
+      "src": "StoryOfLynx__Dorthy_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 95,
+      "textId": 35,
+      "subdir": "StoryOfLynx",
+      "src": "StoryOfLynx__Dorthy_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 96,
+      "textId": 34,
+      "subdir": "StoryOfLynx",
+      "src": "StoryOfLynx__Tom_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 97,
+      "textId": 34,
+      "subdir": "StoryOfLynx",
+      "src": "StoryOfLynx__Tom_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 98,
+      "textId": 34,
+      "subdir": "StoryOfLynx",
+      "src": "StoryOfLynx__Tom_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {        
+      "id": 99,
+      "textId": 36,
+      "subdir": "TheCoeurDAleneAttacked",
+      "src": "TheCoeurDAleneAttacked_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 100,
+      "textId": 36,
+      "subdir": "TheCoeurDAleneAttacked",
+      "src": "TheCoeurDAleneAttacked_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 101,
+      "textId": 36,
+      "subdir": "TheCoeurDAleneAttacked",
+      "src": "TheCoeurDAleneAttacked_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 102,
+      "textId": 37,
+      "subdir": "TheCouerDAleneFightTheKutenai",
+      "src": "TheCoeurDAleneFightTheKutenai_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 103,
+      "textId": 37,
+      "subdir": "TheCouerDAleneFightTheKutenai",
+      "src": "TheCoeurDAleneFightTheKutenai_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 104,
+      "textId": 37,
+      "subdir": "TheCouerDAleneFightTheKutenai",
+      "src": "TheCoeurDAleneFightTheKutenai_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 105,
+      "textId": 38,
+      "subdir": "TheDwarf",
+      "src": "TheDwarf_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 106,
+      "textId": 38,
+      "subdir": "TheDwarf",
+      "src": "TheDwarf_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 107,
+      "textId": 39,
+      "subdir": "TheGirlsWhoStoleDentalia",
+      "src": "TheGirlsWhoStoleDentalia_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 108,
+      "textId": 39,
+      "subdir": "TheGirlsWhoStoleDentalia",
+      "src": "TheGirlsWhoStoleDentalia_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 109,
+      "textId": 39,
+      "subdir": "TheGirlsWhoStoleDentalia",
+      "src": "TheGirlsWhoStoleDentalia_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 110,
+      "textId": 40,
+      "subdir": "ThePracticalJoker",
+      "src": "ThePracticalJoker_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 111,
+      "textId": 40,
+      "subdir": "ThePracticalJoker",
+      "src": "ThePracticalJoker_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 112,
+      "textId": 40,
+      "subdir": "ThePracticalJoker",
+      "src": "ThePracticalJoker_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 113,
+      "textId": 41,
+      "subdir": "Thunder",
+      "src": "Thunder_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 114,
+      "textId": 41,
+      "subdir": "Thunder",
+      "src": "Thunder_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 115,
+      "textId": 41,
+      "subdir": "Thunder",
+      "src": "Thunder_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {        
+      "id": 116,
+      "textId": 42,
+      "subdir": "ToadSavesChildren",
+      "src": "ToadSavesChildren_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 117,
+      "textId": 42,
+      "subdir": "ToadSavesChildren",
+      "src": "ToadSavesChildren_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 118,
+      "textId": 42,
+      "subdir": "ToadSavesChildren",
+      "src": "ToadSavesChildren_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 119,
+      "textId": 43,
+      "subdir": "TurtlesWarParty",
+      "src": "TurtlesWarParty_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 120,
+      "textId": 43,
+      "subdir": "TurtlesWarParty",
+      "src": "TurtlesWarParty_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 121,
+      "textId": 43,
+      "subdir": "TurtlesWarParty",
+      "src": "TurtlesWarParty_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 122,
+      "textId": 44,
+      "subdir": "TwoHeadedSnakes",
+      "src": "TwoHeadedSnakes_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 123,
+      "textId": 44,
+      "subdir": "TwoHeadedSnakes",
+      "src": "TwoHeadedSnakes_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 124,
+      "textId": 44,
+      "subdir": "TwoHeadedSnakes",
+      "src": "TwoHeadedSnakes_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {           
+      "id": 125,
+      "textId": 45,
+      "subdir": "TwoWomenOvercomeNezPerceMan",
+      "src": "TwoWomenOvercomeNezPerceMan_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 126,
+      "textId": 45,
+      "subdir": "TwoWomenOvercomeNezPerceMan",
+      "src": "TwoWomenOvercomeNezPerceMan_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 127,
+      "textId": 45,
+      "subdir": "TwoWomenOvercomeNezPerceMan",
+      "src": "TwoWomenOvercomeNezPerceMan_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 128,
+      "textId": 46,
+      "subdir": "WarBetweenBlackfootAndTheCoeurDAlene",
+      "src": "WarBetweenBlackfootAndTheCoeurDAlene_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 129,
+      "textId": 46,
+      "subdir": "WarBetweenBlackfootAndTheCoeurDAlene",
+      "src": "WarBetweenBlackfootAndTheCoeurDAlene_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {       
+      "id": 130,
+      "textId": 47,
+      "subdir": "WarBetweenLandAndWaterPeople",
+      "src": "WarBetweenLandAndWaterPeople_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 131,
+      "textId": 47,
+      "subdir": "WarBetweenLandAndWaterPeople",
+      "src": "WarBetweenLandAndWaterPeople_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 132,
+      "textId": 47,
+      "subdir": "WarBetweenLandAndWaterPeople",
+      "src": "WarBetweenLandAndWater_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 133,
+      "textId": 48,
+      "subdir": "WaterbirdContestsForWomen",
+      "src": "WaterbirdContestsForWomen_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 134,
+      "textId": 48,
+      "subdir": "WaterbirdContestsForWomen",
+      "src": "WaterbirdContestsForWomen_Hand.pdf",
+      "resType": "Handwritten Fieldnotes",
+      "msType": "Handwritten",
+      "fileType": "pdf"
+    },
+    {
+      "id": 135,
+      "textId": 48,
+      "subdir": "WaterbirdContestsForWomen",
+      "src": "WaterbirdContestsForWomen_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 136,
+      "textId": 49,
+      "subdir": "WaterMonsterWoman",
+      "src": "WaterMonsterWoman_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 137,
+      "textId": 49,
+      "subdir": "WaterMonsterWoman",
+      "src": "WaterMonsterWoman_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
+    },
+    {
+      "id": 138,
+      "textId": 50,
+      "subdir": "WomanSavedByLooseSaddleCinch",
+      "src": "WomanSavedByLooseSaddleCinch_Engl.pdf",
+      "resType": "English Translation",
+      "msType": "English",
+      "fileType": "pdf"
+    },
+    {
+      "id": 139,
+      "textId": 50,
+      "subdir": "WomanSavedByLooseSaddleCinch",
+      "src": "WomanSavedByLooseSaddleCinch_Typed.pdf",
+      "resType": "Typed Manuscript",
+      "msType": "Typed",
+      "fileType": "pdf"
     }
   ]
+
+  const textimages = [
+    {
+      "textfileId": 1,
+      "subdir": "BoyTakesFood_Engl_Images",
+      "src": "BoyTakesFood_Engl_Images1.png"
+    },
+    {
+      "textfileId": 1,
+      "subdir": "BoyTakesFood_Engl_Images",
+      "src": "BoyTakesFood_Engl_Images2.png"
+    },
+    {
+      "textfileId": 2,
+      "subdir": "BoyTakesFood_Hand_Images",
+      "src": "BoyTakesFood_Hand_Images1.png"
+    },
+    {
+      "textfileId": 2,
+      "subdir": "BoyTakesFood_Hand_Images",
+      "src": "BoyTakesFood_Hand_Images2.png"
+    },
+    {
+      "textfileId": 2,
+      "subdir": "BoyTakesFood_Hand_Images",
+      "src": "BoyTakesFood_Hand_Images3.png"
+    },
+    {
+      "textfileId": 2,
+      "subdir": "BoyTakesFood_Hand_Images",
+      "src": "BoyTakesFood_Hand_Images4.png"
+    },
+    {
+      "textfileId": 2,
+      "subdir": "BoyTakesFood_Hand_Images",
+      "src": "BoyTakesFood_Hand_Images5.png"
+    },
+    {
+      "textfileId": 2,
+      "subdir": "BoyTakesFood_Hand_Images",
+      "src": "BoyTakesFood_Hand_Images6.png"
+    },
+    {
+      "textfileId": 2,
+      "subdir": "BoyTakesFood_Hand_Images",
+      "src": "BoyTakesFood_Hand_Images7.png"
+    },
+    {
+      "textfileId": 3,
+      "subdir": "BoyTakesFood_Typed_Images",
+      "src": "BoyTakesFood_Typed_Images1.png"
+    },
+    {
+      "textfileId": 3,
+      "subdir": "BoyTakesFood_Typed_Images",
+      "src": "BoyTakesFood_Typed_Images2.png"
+    },
+    {
+      "textfileId": 3,
+      "subdir": "BoyTakesFood_Typed_Images",
+      "src": "BoyTakesFood_Typed_Images3.png"
+    },
+    {
+      "textfileId": 3,
+      "subdir": "BoyTakesFood_Typed_Images",
+      "src": "BoyTakesFood_Typed_Images4.png"
+    },
+    {  
+      "textfileId": 4,
+      "subdir": "CallingOnesKind__Dorthy_Engl_Images",
+      "src": "CallingOnesKind__Dorthy_Engl_Images.png"  
+    },  
+    {  
+      "textfileId": 5,
+      "subdir": "CallingOnesKind__Dorthy_Typed_Images",
+      "src": "CallingOnesKind__Dorthy_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 5,
+      "subdir": "CallingOnesKind__Dorthy_Typed_Images",  
+      "src": "CallingOnesKind__Dorthy_Typed_Images2.png"
+    },
+    {  
+      "textfileId": 5,
+      "subdir": "CallingOnesKind__Dorthy_Typed_Images",
+      "src": "CallingOnesKind__Dorthy_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 5,
+      "subdir": "CallingOnesKind__Dorthy_Typed_Images",
+      "src": "CallingOnesKind__Dorthy_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 5,
+      "subdir": "CallingOnesKind__Dorthy_Typed_Images",
+      "src": "CallingOnesKind__Dorthy_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 6,
+      "subdir": "CallingOnesKind__Tom_Engl_Images",
+      "src": "CallingOnesKind__Tom_Engl_Images.png"  
+    },  
+    {  
+      "textfileId": 7,
+      "subdir": "CallingOnesKind__Tom_Typed_Images",
+      "src": "CallingOnesKind__Tom_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 7,
+      "subdir": "CallingOnesKind__Tom_Typed_Images",
+      "src": "CallingOnesKind__Tom_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 7,
+      "subdir": "CallingOnesKind__Tom_Typed_Images",
+      "src": "CallingOnesKind__Tom_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 7,
+      "subdir": "CallingOnesKind__Tom_Typed_Images",
+      "src": "CallingOnesKind__Tom_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 8,
+      "subdir": "CallingTheDeer_Engl_Images",
+      "src": "CallingTheDeer_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 8,
+      "subdir": "CallingTheDeer_Engl_Images",
+      "src": "CallingTheDeer_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 8,
+      "subdir": "CallingTheDeer_Engl_Images",
+      "src": "CallingTheDeer_Engl_Images3.png"  
+    },  
+    {  
+      "textfileId": 9,
+      "subdir": "CallingTheDeer_Hand_Images",
+      "src": "CallingTheDeer_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 9,
+      "subdir": "CallingTheDeer_Hand_Images",
+      "src": "CallingTheDeer_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 9,
+      "subdir": "CallingTheDeer_Hand_Images",
+      "src": "CallingTheDeer_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 9,
+      "subdir": "CallingTheDeer_Hand_Images",
+      "src": "CallingTheDeer_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 9,
+      "subdir": "CallingTheDeer_Hand_Images",
+      "src": "CallingTheDeer_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 9,
+      "subdir": "CallingTheDeer_Hand_Images",
+      "src": "CallingTheDeer_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 9,
+      "subdir": "CallingTheDeer_Hand_Images",
+      "src": "CallingTheDeer_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 9,
+      "subdir": "CallingTheDeer_Hand_Images",
+      "src": "CallingTheDeer_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 9,
+      "subdir": "CallingTheDeer_Hand_Images",
+      "src": "CallingTheDeer_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 10, 
+      "subdir": "CallingTheDeer_Typed_Images",
+      "src": "CallingTheDeer_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 10, 
+      "subdir": "CallingTheDeer_Typed_Images",
+      "src": "CallingTheDeer_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 10, 
+      "subdir": "CallingTheDeer_Typed_Images",
+      "src": "CallingTheDeer_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 10, 
+      "subdir": "CallingTheDeer_Typed_Images",
+      "src": "CallingTheDeer_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 10, 
+      "subdir": "CallingTheDeer_Typed_Images",
+      "src": "CallingTheDeer_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 10, 
+      "subdir": "CallingTheDeer_Typed_Images",
+      "src": "CallingTheDeer_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 10, 
+      "subdir": "CallingTheDeer_Typed_Images",
+      "src": "CallingTheDeer_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 10, 
+      "subdir": "CallingTheDeer_Typed_Images",
+      "src": "CallingTheDeer_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 10, 
+      "subdir": "CallingTheDeer_Typed_Images",
+      "src": "CallingTheDeer_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 10, 
+      "subdir": "CallingTheDeer_Typed_Images",
+      "src": "CallingTheDeer_Typed_Images9.png"  
+    },  
+    {  
+      "textfileId": 12,
+      "subdir": "Catbird_Engl_Images",
+      "src": "Catbird_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 12,
+      "subdir": "Catbird_Engl_Images",
+      "src": "Catbird_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 12,
+      "subdir": "Catbird_Engl_Images",
+      "src": "Catbird_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 12,
+      "subdir": "Catbird_Engl_Images",
+      "src": "Catbird_Engl_Images3.png"  
+    },  
+    {  
+      "textfileId": 12,
+      "subdir": "Catbird_Engl_Images",
+      "src": "Catbird_Engl_Images4.png"  
+    },  
+    {  
+      "textfileId": 12,
+      "subdir": "Catbird_Engl_Images",
+      "src": "Catbird_Engl_Images5.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images18.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images19.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images20.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images21.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images22.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images23.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images24.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images25.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images26.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images27.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images28.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images29.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images30.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images31.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images32.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images33.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 13,
+      "subdir": "Catbird_Hand_Images",
+      "src": "Catbird_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images39.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images40.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images41.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images42.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images43.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images44.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images45.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images46.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images47.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images48.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images49.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images50.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images51.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images52.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images53.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images54.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images55.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images56.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images57.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images58.png"  
+    },  
+    {  
+      "textfileId": 11,
+      "subdir" :"Catbird_Typed_Images",
+      "src": "Catbird_Typed_Images59.png"
+    },  
+
+    {  
+      "textfileId": 14,
+      "subdir": "ChiefChildOfTheRoot_Engl_Images",
+      "src": "ChiefChildOfTheRoot_Engl_Images60.png"  
+    },  
+    {  
+      "textfileId": 14,
+      "subdir": "ChiefChildOfTheRoot_Engl_Images",
+      "src": "ChiefChildOfTheRoot_Engl_Images61.png"  
+    },  
+    {  
+      "textfileId": 14,
+      "subdir": "ChiefChildOfTheRoot_Engl_Images",
+      "src": "ChiefChildOfTheRoot_Engl_Images62.png"  
+    },  
+    {  
+      "textfileId": 14,
+      "subdir": "ChiefChildOfTheRoot_Engl_Images",
+      "src": "ChiefChildOfTheRoot_Engl_Images63.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images64.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images65.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images66.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images67.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images68.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images69.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images70.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images71.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images72.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images73.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images74.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images75.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images76.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images77.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images78.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images79.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images80.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images81.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images82.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images83.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images84.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images85.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images86.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images87.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images88.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images89.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images90.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images91.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images92.png"  
+    },  
+    {  
+      "textfileId": 15,
+      "subdir": "ChiefChildOfTheRoot_Typed_Images",
+      "src": "ChiefChildOfTheRoot_Typed_Images93.png"
+    },
+    {  
+      "textfileId": 17,
+      "subdir": "ChipmunkAndSnake_Engl_Images",
+      "src": "ChipmunkAndSnake_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 17,
+      "subdir": "ChipmunkAndSnake_Engl_Images",
+      "src": "ChipmunkAndSnake_Engl_Images1.png"
+    },
+    {  
+      "textfileId": 18, 
+      "subdir": "ChipmunkAndSnake_Hand_Images",
+      "src": "ChipmunkAndSnake_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 18, 
+      "subdir": "ChipmunkAndSnake_Hand_Images",
+      "src": "ChipmunkAndSnake_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 18, 
+      "subdir": "ChipmunkAndSnake_Hand_Images",
+      "src": "ChipmunkAndSnake_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 16, 
+      "subdir": "ChipmunkAndSnake_Typed_Images",
+      "src": "ChipmunkAndSnake_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 16, 
+      "subdir": "ChipmunkAndSnake_Typed_Images",
+      "src": "ChipmunkAndSnake_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 16, 
+      "subdir": "ChipmunkAndSnake_Typed_Images",
+      "src": "ChipmunkAndSnake_Typed_Images2.png"
+    },  
+    {
+      "textfileId": 20,
+      "subdir": "ContestBetweenColdAndHeat_Engl_Images",
+      "src": "ContestBetweenColdAndHeat_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 20,
+      "subdir": "ContestBetweenColdAndHeat_Engl_Images",
+      "src": "ContestBetweenColdAndHeat_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 19,
+      "subdir": "ContestBetweenColdAndHeat_Hand_Images",
+      "src": "ContestBetweenColdAndHeat_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 19,
+      "subdir": "ContestBetweenColdAndHeat_Hand_Images",
+      "src": "ContestBetweenColdAndHeat_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 19,
+      "subdir": "ContestBetweenColdAndHeat_Hand_Images",
+      "src": "ContestBetweenColdAndHeat_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 19,
+      "subdir": "ContestBetweenColdAndHeat_Hand_Images",
+      "src": "ContestBetweenColdAndHeat_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 21,
+      "subdir": "ContestBetweenColdAndHeat_Typed_Images",
+      "src": "ContestBetweenColdAndHeat_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 21,
+      "subdir": "ContestBetweenColdAndHeat_Typed_Images",
+      "src": "ContestBetweenColdAndHeat_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 21,
+      "subdir": "ContestBetweenColdAndHeat_Typed_Images",
+      "src": "ContestBetweenColdAndHeat_Typed_Images2.png"
+    },  
+    {
+      "textfileId": 22,
+      "subdir": "CoyoteAndBadger_Engl_Images",
+      "src": "CoyoteAndBadger_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 23,
+      "subdir": "CoyoteAndBadger_Hand_Images",
+      "src": "CoyoteAndBadger_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 23,
+      "subdir": "CoyoteAndBadger_Hand_Images",
+      "src": "CoyoteAndBadger_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 23,
+      "subdir": "CoyoteAndBadger_Hand_Images",
+      "src": "CoyoteAndBadger_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 23,
+      "subdir": "CoyoteAndBadger_Hand_Images",
+      "src": "CoyoteAndBadger_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 23,
+      "subdir": "CoyoteAndBadger_Hand_Images",
+      "src": "CoyoteAndBadger_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 23,
+      "subdir": "CoyoteAndBadger_Hand_Images",
+      "src": "CoyoteAndBadger_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 23,
+      "subdir": "CoyoteAndBadger_Hand_Images",
+      "src": "CoyoteAndBadger_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 24,
+      "subdir": "CoyoteAndBadger_Typed_Images",
+      "src": "CoyoteAndBadger_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 24,
+      "subdir": "CoyoteAndBadger_Typed_Images",
+      "src": "CoyoteAndBadger_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 24,
+      "subdir": "CoyoteAndBadger_Typed_Images",
+      "src": "CoyoteAndBadger_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 24,
+      "subdir": "CoyoteAndBadger_Typed_Images",
+      "src": "CoyoteAndBadger_Typed_Images3.png"
+    },   
+    {  
+      "textfileId": 25,
+      "subdir": "CoyoteAndFoxGambleWithFish_Engl_Images",
+      "src": "CoyoteAndFoxGambleWithFish_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 26,
+      "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
+      "src": "CoyoteAndFoxGambleWithFish_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 26,
+      "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
+      "src": "CoyoteAndFoxGambleWithFish_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 26,
+      "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
+      "src": "CoyoteAndFoxGambleWithFish_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 26,
+      "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
+      "src": "CoyoteAndFoxGambleWithFish_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 26,
+      "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
+      "src": "CoyoteAndFoxGambleWithFish_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 26,
+      "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
+      "src": "CoyoteAndFoxGambleWithFish_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 26,
+      "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
+      "src": "CoyoteAndFoxGambleWithFish_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 27,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Engl_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 27,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Engl_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images18.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images19.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images20.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 28,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Hand_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 29,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Typed_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 29,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Typed_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 29,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Typed_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 29,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Typed_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 29,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Typed_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 29,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Typed_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 29,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Typed_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 29,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Typed_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 29,
+      "subdir": "CoyoteAndNighthawkChangeCoats_Typed_Images",
+      "src": "CoyoteAndNighthawkChangeCoats_Typed_Images9.png"  
+    },  
+    {  
+      "textfileId": 30,
+      "subdir": "CoyoteDevoursHisOwnChildren_Engl_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 30,
+      "subdir": "CoyoteDevoursHisOwnChildren_Engl_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images18.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images19.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images20.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images21.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 31,
+      "subdir": "CoyoteDevoursHisOwnChildren_Hand_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images11.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images12.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 32,
+      "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
+      "src": "CoyoteDevoursHisOwnChildren_Typed_Images9.png"
+    },  
+    {  
+      "textfileId": 33,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 33,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 33,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 33,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images3.png"  
+    },  
+    {  
+      "textfileId": 33,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images4.png"  
+    },  
+    {  
+      "textfileId": 33,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images5.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images18.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images19.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images20.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images21.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images22.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images23.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images24.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images25.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images26.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images27.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images28.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images29.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images30.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images31.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images32.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images33.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images34.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images35.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images36.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images37.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images38.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images39.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images40.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images41.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images42.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images43.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images44.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images45.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images46.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images47.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images48.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images49.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images50.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 34,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images11.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images12.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images13.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images14.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images15.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images16.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images17.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images18.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images19.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images20.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images21.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 35,
+      "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
+      "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images9.png"  
+    },  
+    {  
+      "textfileId": 36,
+      "subdir": "CoyoteImitatesMagpie_Engl_Images",
+      "src": "CoyoteImitatesMagpie_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 36,
+      "subdir": "CoyoteImitatesMagpie_Engl_Images",
+      "src": "CoyoteImitatesMagpie_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 37,
+      "subdir": "CoyoteImitatesMagpie_Hand_Images",
+      "src": "CoyoteImitatesMagpie_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 37,
+      "subdir": "CoyoteImitatesMagpie_Hand_Images",
+      "src": "CoyoteImitatesMagpie_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 37,
+      "subdir": "CoyoteImitatesMagpie_Hand_Images",
+      "src": "CoyoteImitatesMagpie_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 37,
+      "subdir": "CoyoteImitatesMagpie_Hand_Images",
+      "src": "CoyoteImitatesMagpie_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 37,
+      "subdir": "CoyoteImitatesMagpie_Hand_Images",
+      "src": "CoyoteImitatesMagpie_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 37,
+      "subdir": "CoyoteImitatesMagpie_Hand_Images",
+      "src": "CoyoteImitatesMagpie_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 37,
+      "subdir": "CoyoteImitatesMagpie_Hand_Images",
+      "src": "CoyoteImitatesMagpie_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 37,
+      "subdir": "CoyoteImitatesMagpie_Hand_Images",
+      "src": "CoyoteImitatesMagpie_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 38,
+      "subdir": "CoyoteImitatesMagpie_Typed_Images",
+      "src": "CoyoteImitatesMagpie_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 38,
+      "subdir": "CoyoteImitatesMagpie_Typed_Images",
+      "src": "CoyoteImitatesMagpie_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 38,
+      "subdir": "CoyoteImitatesMagpie_Typed_Images",
+      "src": "CoyoteImitatesMagpie_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 38,
+      "subdir": "CoyoteImitatesMagpie_Typed_Images",
+      "src": "CoyoteImitatesMagpie_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 38,
+      "subdir": "CoyoteImitatesMagpie_Typed_Images",
+      "src": "CoyoteImitatesMagpie_Typed_Images4.png"
+    },
+    {  
+      "textfileId": 39,
+      "subdir": "CoyoteKillsCricketWithElkFat_Engl_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 39,
+      "subdir": "CoyoteKillsCricketWithElkFat_Engl_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images18.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images19.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images20.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images21.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 40,
+      "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Hand_Images9.png"
+    },
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images11.png"  
+    },  
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 41,
+      "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
+      "src": "CoyoteKillsCricketWithElkFat_Typed_Images9.png"
+    },
+    {  
+      "textfileId": 42,
+      "subdir": "CoyoteLosesHisEyes_Engl_Images",
+      "src": "CoyoteLosesHisEyes_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 42,
+      "subdir": "CoyoteLosesHisEyes_Engl_Images",
+      "src": "CoyoteLosesHisEyes_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 42,
+      "subdir": "CoyoteLosesHisEyes_Engl_Images",
+      "src": "CoyoteLosesHisEyes_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 42,
+      "subdir": "CoyoteLosesHisEyes_Engl_Images",
+      "src": "CoyoteLosesHisEyes_Engl_Images3.png"
+    },
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images11.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images12.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images13.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images14.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images15.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images16.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images17.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images18.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images19.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images20.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images21.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images22.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images23.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images24.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images25.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 43,
+      "subdir": "CoyoteLosesHisEyes_Typed_Images",
+      "src": "CoyoteLosesHisEyes_Typed_Images9.png"
+    },  
+    {  
+      "textfileId": 44,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Engl_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 44,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Engl_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 45,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 46,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 46,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 46,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 46,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 46,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 46,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 46,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 46,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 46,
+      "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
+      "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 47,
+      "subdir": "CoyoteOverpowersSun_Engl_Images",
+      "src": "CoyoteOverpowersSun_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 47,
+      "subdir": "CoyoteOverpowersSun_Engl_Images",
+      "src": "CoyoteOverpowersSun_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 47,
+      "subdir": "CoyoteOverpowersSun_Engl_Images",
+      "src": "CoyoteOverpowersSun_Engl_Images2.png"
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images18.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images19.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images20.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images21.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images22.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images23.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images24.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images25.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images26.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images27.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images28.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images29.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images30.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images31.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images32.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images33.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images34.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images35.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images36.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images37.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images38.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images39.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images40.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images41.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 48,
+      "subdir": "CoyoteOverpowersSun_Hand_Images",
+      "src": "CoyoteOverpowersSun_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images11.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images12.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images13.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images14.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 49,
+      "subdir": "CoyoteOverpowersSun_Typed_Images",
+      "src": "CoyoteOverpowersSun_Typed_Images9.png"
+    },
+    {  
+      "textfileId": 50,
+      "subdir": "CoyoteSnaresTheWind_Engl_Images",
+      "src": "CoyoteSnaresTheWind_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 51, 
+      "subdir": "CoyoteSnaresTheWind_Hand_Images",
+      "src": "CoyoteSnaresTheWind_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 51, 
+      "subdir": "CoyoteSnaresTheWind_Hand_Images",
+      "src": "CoyoteSnaresTheWind_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 51, 
+      "subdir": "CoyoteSnaresTheWind_Hand_Images",
+      "src": "CoyoteSnaresTheWind_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 51, 
+      "subdir": "CoyoteSnaresTheWind_Hand_Images",
+      "src": "CoyoteSnaresTheWind_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 51, 
+      "subdir": "CoyoteSnaresTheWind_Hand_Images",
+      "src": "CoyoteSnaresTheWind_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 51, 
+      "subdir": "CoyoteSnaresTheWind_Hand_Images",
+      "src": "CoyoteSnaresTheWind_Hand_Images5.png"
+    },
+    {  
+      "textfileId": 52, 
+      "subdir": "CoyoteSnaresTheWind_Typed_Images",
+      "src": "CoyoteSnaresTheWind_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 52, 
+      "subdir": "CoyoteSnaresTheWind_Typed_Images",
+      "src": "CoyoteSnaresTheWind_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 52, 
+      "subdir": "CoyoteSnaresTheWind_Typed_Images",
+      "src": "CoyoteSnaresTheWind_Typed_Images2.png"
+    },  
+    {
+      "textfileId": 53, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Engl_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 53, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Engl_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 53, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Engl_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 53, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Engl_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Engl_Images3.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images18.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images19.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images20.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images21.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images22.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images23.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images24.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images25.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images26.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images27.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images28.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images29.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images30.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images31.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images32.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images33.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images34.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images35.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 54, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Hand_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images11.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images12.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 55, 
+      "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
+      "src": "CoyoteStealsHisDaughterInLaw_Typed_Images9.png"
+    },  
+    {
+      "textfileId": 56, 
+      "subdir": "CricketRidesCoyote_Engl_Images",
+      "src": "CricketRidesCoyote_Engl_Images.png"  
+    },  
+    {  
+      "textfileId": 57, 
+      "subdir": "CricketRidesCoyote_Hand_Images",
+      "src": "CricketRidesCoyote_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 57, 
+      "subdir": "CricketRidesCoyote_Hand_Images",
+      "src": "CricketRidesCoyote_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 57, 
+      "subdir": "CricketRidesCoyote_Hand_Images",
+      "src": "CricketRidesCoyote_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 57, 
+      "subdir": "CricketRidesCoyote_Hand_Images",
+      "src": "CricketRidesCoyote_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 57, 
+      "subdir": "CricketRidesCoyote_Hand_Images",
+      "src": "CricketRidesCoyote_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 57, 
+      "subdir": "CricketRidesCoyote_Hand_Images",
+      "src": "CricketRidesCoyote_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 58, 
+      "subdir": "CricketRidesCoyote_Typed_Images",
+      "src": "CricketRidesCoyote_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 58, 
+      "subdir": "CricketRidesCoyote_Typed_Images",
+      "src": "CricketRidesCoyote_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 58, 
+      "subdir": "CricketRidesCoyote_Typed_Images",
+      "src": "CricketRidesCoyote_Typed_Images3.png"
+    },  
+    {
+      "textfileId": 59, 
+      "subdir": "DogGoesForFire_Engl_Images",
+      "src": "DogGoesForFire_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 59, 
+      "subdir": "DogGoesForFire_Engl_Images",
+      "src": "DogGoesForFire_Engl_Images1.png"
+    },
+    {  
+      "textfileId": 60, 
+      "subdir": "DogGoesForFire_Hand_Images",
+      "src": "DogGoesForFire_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 60, 
+      "subdir": "DogGoesForFire_Hand_Images",
+      "src": "DogGoesForFire_Hand_Images1.png"
+    },
+    {  
+      "textfileId": 61, 
+      "subdir": "DogGoesForFire_Typed_Images",
+      "src": "DogGoesForFire_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 61, 
+      "subdir": "DogGoesForFire_Typed_Images",
+      "src": "DogGoesForFire_Typed_Images1.png"
+    },  
+   
+    {  
+      "textfileId": 62, 
+      "subdir": "DogHusband_Engl_Images",
+      "src": "DogHusband_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 62, 
+      "subdir": "DogHusband_Engl_Images",
+      "src": "DogHusband_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 62, 
+      "subdir": "DogHusband_Engl_Images",
+      "src": "DogHusband_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 62, 
+      "subdir": "DogHusband_Engl_Images",
+      "src": "DogHusband_Engl_Images3.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images11.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 63, 
+      "subdir" :"DogHusband_Typed_Images",
+      "src": "DogHusband_Typed_Images9.png"
+    },  
+    {  
+      "textfileId": 64, 
+      "subdir": "ElkAndSnowshoe_Engl_Images",
+      "src": "ElkAndSnowshoe_Engl_Images0.png"
+    },  
+    {  
+      "textfileId": 65, 
+      "subdir": "ElkAndSnowshoe_Hand_Images",
+      "src": "ElkAndSnowshoe_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 65, 
+      "subdir": "ElkAndSnowshoe_Hand_Images",
+      "src": "ElkAndSnowshoe_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 65, 
+      "subdir": "ElkAndSnowshoe_Hand_Images",
+      "src": "ElkAndSnowshoe_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 65, 
+      "subdir": "ElkAndSnowshoe_Hand_Images",
+      "src": "ElkAndSnowshoe_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 65, 
+      "subdir": "ElkAndSnowshoe_Hand_Images",
+      "src": "ElkAndSnowshoe_Hand_Images4.png"
+    },  
+    {   
+      "textfileId": 66, 
+      "subdir" :"ElkAndSnowshoe_Typed_Images",
+      "src": "ElkAndSnowshoe_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 66, 
+      "subdir" :"ElkAndSnowshoe_Typed_Images",
+      "src": "ElkAndSnowshoe_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 66, 
+      "subdir" :"ElkAndSnowshoe_Typed_Images",
+      "src": "ElkAndSnowshoe_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 66, 
+      "subdir" :"ElkAndSnowshoe_Typed_Images",
+      "src": "ElkAndSnowshoe_Typed_Images3.png"
+    },  
+    {  
+      "textfileId": 69, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Engl_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 69, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Engl_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 67, 
+      "subdir": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 68, 
+      "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 68, 
+      "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 68, 
+      "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 68, 
+      "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 68, 
+      "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 68, 
+      "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 68, 
+      "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 68, 
+      "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
+      "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 70, 
+      "subdir": "GrizzlyAndHisBrothersInLaw_Engl_Images",
+      "src": "GrizzlyAndHisBrothersInLaw_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 71, 
+      "subdir": "GrizzlyAndHisBrothersInLaw_Hand_Images",
+      "src": "GrizzlyAndHisBrothersInLaw_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 71, 
+      "subdir": "GrizzlyAndHisBrothersInLaw_Hand_Images",
+      "src": "GrizzlyAndHisBrothersInLaw_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 71, 
+      "subdir": "GrizzlyAndHisBrothersInLaw_Hand_Images",
+      "src": "GrizzlyAndHisBrothersInLaw_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 71, 
+      "subdir": "GrizzlyAndHisBrothersInLaw_Hand_Images",
+      "src": "GrizzlyAndHisBrothersInLaw_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 71, 
+      "subdir": "GrizzlyAndHisBrothersInLaw_Hand_Images",
+      "src": "GrizzlyAndHisBrothersInLaw_Hand_Images4.png"
+    },  
+    {   
+      "textfileId": 72, 
+      "subdir" :"GrizzlyAndHisBrothersInLaw_Typed_Images",
+      "src": "GrizzlyAndHisBrothersInLaw_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 72, 
+      "subdir" :"GrizzlyAndHisBrothersInLaw_Typed_Images",
+      "src": "GrizzlyAndHisBrothersInLaw_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 72, 
+      "subdir" :"GrizzlyAndHisBrothersInLaw_Typed_Images",
+      "src": "GrizzlyAndHisBrothersInLaw_Typed_Images2.png"
+    },  
+    {
+      "textfileId": 73, 
+      "subdir": "LittleBeaver_Engl_Images",
+      "src": "LittleBeaver_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 73, 
+      "subdir": "LittleBeaver_Engl_Images",
+      "src": "LittleBeaver_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 73, 
+      "subdir": "LittleBeaver_Engl_Images",
+      "src": "LittleBeaver_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images18.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images19.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images20.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images21.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images22.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images23.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images24.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images25.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images26.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images27.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 74, 
+      "subdir": "LittleBeaver_Hand_Images",
+      "src": "LittleBeaver_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image0.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image1.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image10.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image11.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image12.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image13.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image2.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image3.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image4.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image5.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image6.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image7.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image8.png"  
+    },  
+    {  
+      "textfileId": 75, 
+      "subdir" :"LittleBeaver_Typed_Images",
+      "src": "LittleBeaver_Typed_Image9.png"  
+    },  
+    {  
+      "textfileId": 76, 
+      "subdir": "LittleMosquito_Engl_Images",
+      "src": "LittleMosquito_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 76, 
+      "subdir": "LittleMosquito_Engl_Images",
+      "src": "LittleMosquito_Engl_Images2.png"
+    },
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 77, 
+      "subdir": "LittleMosquito_Hand_Images",
+      "src": "LittleMosquito_Hand_Images9.png"
+    },
+    {  
+      "textfileId": 78, 
+      "subdir" :"LittleMosquito_Typed_Images",
+      "src": "LittleMosquito_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 78, 
+      "subdir" :"LittleMosquito_Typed_Images",
+      "src": "LittleMosquito_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 78, 
+      "subdir" :"LittleMosquito_Typed_Images",
+      "src": "LittleMosquito_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 78, 
+      "subdir" :"LittleMosquito_Typed_Images",
+      "src": "LittleMosquito_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 78, 
+      "subdir" :"LittleMosquito_Typed_Images",
+      "src": "LittleMosquito_Typed_Images5.png"
+    },  
+    {  
+      "textfileId": 79, 
+      "subdir": "ManCaughtInFireCorral_Engl_Images",
+      "src": "ManCaughtInFireCorral_Engl_Images0.png"
+    },  
+    {  
+      "textfileId": 79, 
+      "subdir": "ManCaughtInFireCorral_Engl_Images",
+      "src": "ManCaughtInFireCorral_Engl_Images1.png"
+    },  
+    {  
+      "textfileId": 80, 
+      "subdir": "ManCaughtInFireCorral_Hand_Images",
+      "src": "ManCaughtInFireCorral_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 80, 
+      "subdir": "ManCaughtInFireCorral_Hand_Images",
+      "src": "ManCaughtInFireCorral_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 80, 
+      "subdir": "ManCaughtInFireCorral_Hand_Images",
+      "src": "ManCaughtInFireCorral_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 80, 
+      "subdir": "ManCaughtInFireCorral_Hand_Images",
+      "src": "ManCaughtInFireCorral_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 80, 
+      "subdir": "ManCaughtInFireCorral_Hand_Images",
+      "src": "ManCaughtInFireCorral_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 80, 
+      "subdir": "ManCaughtInFireCorral_Hand_Images",
+      "src": "ManCaughtInFireCorral_Hand_Images5.png"
+    },
+    {  
+      "textfileId": 81, 
+      "subdir" :"ManCaughtInFireCorral_Typed_Images",
+      "src": "ManCaughtInFireCorral_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 81, 
+      "subdir" :"ManCaughtInFireCorral_Typed_Images",
+      "src": "ManCaughtInFireCorral_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 81, 
+      "subdir" :"ManCaughtInFireCorral_Typed_Images",
+      "src": "ManCaughtInFireCorral_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 81, 
+      "subdir" :"ManCaughtInFireCorral_Typed_Images",
+      "src": "ManCaughtInFireCorral_Typed_Images3.png"
+    },  
+    {  
+      "textfileId": 82, 
+      "subdir": "MuskratTrespasses_Engl_Images",
+      "src": "MuskratTrespasses_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 82, 
+      "subdir": "MuskratTrespasses_Engl_Images",
+      "src": "MuskratTrespasses_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 83, 
+      "subdir" :"MuskratTrespasses_Hand_Images",
+      "src": "MuskratTrespasses_Hand_Images9.png"
+    },
+    {  
+      "textfileId": 84, 
+      "subdir": "OriginOfIndianTribes_Engl_Images",
+      "src": "OriginOfIndianTribes_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 84, 
+      "subdir": "OriginOfIndianTribes_Engl_Images",
+      "src": "OriginOfIndianTribes_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 84, 
+      "subdir": "OriginOfIndianTribes_Engl_Images",
+      "src": "OriginOfIndianTribes_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images18.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images19.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images20.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images21.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images22.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images23.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images24.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images25.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images26.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images27.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images28.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images29.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 85, 
+      "subdir": "OriginOfIndianTribes_Hand_Images",
+      "src": "OriginOfIndianTribes_Hand_Images9.png"
+    },
+    {  
+      "textfileId": 86, 
+      "subdir" :"OriginOfIndianTribes_Typed_Images",
+      "src": "OriginOfIndianTribes_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 86, 
+      "subdir" :"OriginOfIndianTribes_Typed_Images",
+      "src": "OriginOfIndianTribes_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 86, 
+      "subdir" :"OriginOfIndianTribes_Typed_Images",
+      "src": "OriginOfIndianTribes_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 86, 
+      "subdir" :"OriginOfIndianTribes_Typed_Images",
+      "src": "OriginOfIndianTribes_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 86, 
+      "subdir" :"OriginOfIndianTribes_Typed_Images",
+      "src": "OriginOfIndianTribes_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 86, 
+      "subdir" :"OriginOfIndianTribes_Typed_Images",
+      "src": "OriginOfIndianTribes_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 86, 
+      "subdir" :"OriginOfIndianTribes_Typed_Images",
+      "src": "OriginOfIndianTribes_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 86, 
+      "subdir" :"OriginOfIndianTribes_Typed_Images",
+      "src": "OriginOfIndianTribes_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 86, 
+      "subdir" :"OriginOfIndianTribes_Typed_Images",
+      "src": "OriginOfIndianTribes_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 86, 
+      "subdir" :"OriginOfIndianTribes_Typed_Images",
+      "src": "OriginOfIndianTribes_Typed_Images9.png"
+    },  
+    {  
+      "textfileId": 87,
+      "subdir": "RabbitAndJackRabbit_Engl_Images",
+      "src": "RabbitAndJackRabbit_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 88,
+      "subdir": "RabbitAndJackRabbit_Hand_Images",
+      "src": "RabbitAndJackRabbit_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 88,
+      "subdir": "RabbitAndJackRabbit_Hand_Images",
+      "src": "RabbitAndJackRabbit_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 88,
+      "subdir": "RabbitAndJackRabbit_Hand_Images",
+      "src": "RabbitAndJackRabbit_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 88,
+      "subdir": "RabbitAndJackRabbit_Hand_Images",
+      "src": "RabbitAndJackRabbit_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 88,
+      "subdir": "RabbitAndJackRabbit_Hand_Images",
+      "src": "RabbitAndJackRabbit_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 88,
+      "subdir": "RabbitAndJackRabbit_Hand_Images",
+      "src": "RabbitAndJackRabbit_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 88,
+      "subdir": "RabbitAndJackRabbit_Hand_Images",
+      "src": "RabbitAndJackRabbit_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 88,
+      "subdir": "RabbitAndJackRabbit_Hand_Images",
+      "src": "RabbitAndJackRabbit_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 89,
+      "subdir" :"RabbitAndJackRabbit_Typed_Images",
+      "src": "RabbitAndJackRabbit_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 89,
+      "subdir" :"RabbitAndJackRabbit_Typed_Images",
+      "src": "RabbitAndJackRabbit_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 89,
+      "subdir" :"RabbitAndJackRabbit_Typed_Images",
+      "src": "RabbitAndJackRabbit_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 89,
+      "subdir" :"RabbitAndJackRabbit_Typed_Images",
+      "src": "RabbitAndJackRabbit_Typed_Images3.png"
+    },  
+    {  
+      "textfileId": 90,
+      "subdir": "SkunkAndFisher_Engl_Images",
+      "src": "SkunkAndFisher_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 90,
+      "subdir": "SkunkAndFisher_Engl_Images",
+      "src": "SkunkAndFisher_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 90,
+      "subdir": "SkunkAndFisher_Engl_Images",
+      "src": "SkunkAndFisher_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 90,
+      "subdir": "SkunkAndFisher_Engl_Images",
+      "src": "SkunkAndFisher_Engl_Images3.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images100.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images101.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images102.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images103.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images104.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images105.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images106.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images107.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images108.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images109.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images110.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images111.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images112.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images113.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images114.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images115.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images116.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images117.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images118.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images119.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images120.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images121.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images122.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images123.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images124.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images125.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images126.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images127.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images128.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images129.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images130.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images131.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images132.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images133.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images134.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images135.png"  
+    },  
+    {  
+      "textfileId": 91,
+      "subdir": "SkunkAndFisher_Hand_Images",
+      "src": "SkunkAndFisher_Hand_Images136.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images11.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images12.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images13.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images14.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images15.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images16.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images17.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images18.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images19.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images20.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 92,
+      "subdir" :"SkunkAndFisher_Typed_Images",
+      "src": "SkunkAndFisher_Typed_Images9.png"
+    },  
+    {  
+      "textfileId": 93,
+      "subdir": "StoryOfLynx__Dorthy_Engl_Images",
+      "src": "StoryOfLynx__Dorthy_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 93,
+      "subdir": "StoryOfLynx__Dorthy_Engl_Images",
+      "src": "StoryOfLynx__Dorthy_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 93,
+      "subdir": "StoryOfLynx__Dorthy_Engl_Images",
+      "src": "StoryOfLynx__Dorthy_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 93,
+      "subdir": "StoryOfLynx__Dorthy_Engl_Images",
+      "src": "StoryOfLynx__Dorthy_Engl_Images3.png"
+    },
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 94,
+      "subdir": "StoryOfLynx__Dorthy_Hand_Images",
+      "src": "StoryOfLynx__Dorthy_Hand_Images9.png"
+    },
+    {  
+      "textfileId": 95,
+      "subdir": "StoryOfLynx__Dorthy_Typed_Images",
+      "src": "StoryOfLynx__Dorthy_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 95,
+      "subdir": "StoryOfLynx__Dorthy_Typed_Images",
+      "src": "StoryOfLynx__Dorthy_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 95,
+      "subdir": "StoryOfLynx__Dorthy_Typed_Images",
+      "src": "StoryOfLynx__Dorthy_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 95,
+      "subdir": "StoryOfLynx__Dorthy_Typed_Images",
+      "src": "StoryOfLynx__Dorthy_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 95,
+      "subdir": "StoryOfLynx__Dorthy_Typed_Images",
+      "src": "StoryOfLynx__Dorthy_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 95,
+      "subdir": "StoryOfLynx__Dorthy_Typed_Images",
+      "src": "StoryOfLynx__Dorthy_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 95,
+      "subdir": "StoryOfLynx__Dorthy_Typed_Images",
+      "src": "StoryOfLynx__Dorthy_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 95,
+      "subdir": "StoryOfLynx__Dorthy_Typed_Images",
+      "src": "StoryOfLynx__Dorthy_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 96,
+      "subdir": "StoryOfLynx__Tom_Engl_Images",
+      "src": "StoryOfLynx__Tom_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 96,
+      "subdir": "StoryOfLynx__Tom_Engl_Images",
+      "src": "StoryOfLynx__Tom_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 96,
+      "subdir": "StoryOfLynx__Tom_Engl_Images",
+      "src": "StoryOfLynx__Tom_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images18.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images19.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images20.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images21.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images22.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images23.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images24.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images25.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images26.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images27.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images28.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images29.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images30.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images31.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images32.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 97,
+      "subdir": "StoryOfLynx__Tom_Hand_Images",
+      "src": "StoryOfLynx__Tom_Hand_Images9.png"
+    },
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images11.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images12.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images13.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images14.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images15.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images16.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 98,
+      "subdir" :"StoryOfLynx__Tom_Typed_Images",
+      "src": "StoryOfLynx__Tom_Typed_Images9.png"
+    },  
+    {  
+      "textfileId": 99,
+      "subdir": "TheCoeurDAleneAttacked_Engl_Images",
+      "src": "TheCoeurDAleneAttacked_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 99,
+      "subdir": "TheCoeurDAleneAttacked_Engl_Images",
+      "src": "TheCoeurDAleneAttacked_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 99,
+      "subdir": "TheCoeurDAleneAttacked_Engl_Images",
+      "src": "TheCoeurDAleneAttacked_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images11.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images12.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 101,
+      "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
+      "src": "TheCoeurDAleneAttacked_Typed_Images9.png"
+    }, 
+    {  
+      "textfileId": 102,
+      "subdir": "TheCoeurDAleneFightTheKutenai_Engl_Images",
+      "src": "TheCoeurDAleneFightTheKutenai_Engl_Images0.png"
+    },
+    {  
+      "textfileId": 103,
+      "subdir": "TheCoeurDAleneFightTheKutenai_Hand_Images",
+      "src": "TheCoeurDAleneFightTheKutenai_Hand_Imagess0.png"  
+    },  
+    {  
+      "textfileId": 103,
+      "subdir": "TheCoeurDAleneFightTheKutenai_Hand_Images",
+      "src": "TheCoeurDAleneFightTheKutenai_Hand_Imagess1.png"  
+    },  
+    {  
+      "textfileId": 103,
+      "subdir": "TheCoeurDAleneFightTheKutenai_Hand_Images",
+      "src": "TheCoeurDAleneFightTheKutenai_Hand_Imagess2.png"  
+    },  
+    {  
+      "textfileId": 103,
+      "subdir": "TheCoeurDAleneFightTheKutenai_Hand_Images",
+      "src": "TheCoeurDAleneFightTheKutenai_Hand_Imagess3.png"
+    },
+    {  
+      "textfileId": 104,
+      "subdir" :"TheCoeurDAleneFightTheKutenai_Typed_Images",
+      "src": "TheCoeurDAleneFightTheKutenai_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 104,
+      "subdir" :"TheCoeurDAleneFightTheKutenai_Typed_Images",
+      "src": "TheCoeurDAleneFightTheKutenai_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 104,
+      "subdir" :"TheCoeurDAleneFightTheKutenai_Typed_Images",
+      "src": "TheCoeurDAleneFightTheKutenai_Typed_Images2.png"
+    },  
+    {
+      "textfileId": 105,
+      "subdir": "TheDwarf_Engl_Images",
+      "src": "TheDwarf_Engl_Images0.png"
+    },
+    {  
+      "textfileId": 106,
+      "subdir" :"TheDwarf_Typed_Images",
+      "src": "TheDwarf_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 106,
+      "subdir" :"TheDwarf_Typed_Images",
+      "src": "TheDwarf_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 106,
+      "subdir" :"TheDwarf_Typed_Images",
+      "src": "TheDwarf_Typed_Images2.png"
+    },
+    {  
+      "textfileId": 107,
+      "subdir": "TheGirlsWhoStoleDentalia_Engl_Images",
+      "src": "TheGirlsWhoStoleDentalia_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 107,
+      "subdir": "TheGirlsWhoStoleDentalia_Engl_Images",
+      "src": "TheGirlsWhoStoleDentalia_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 107,
+      "subdir": "TheGirlsWhoStoleDentalia_Engl_Images",
+      "src": "TheGirlsWhoStoleDentalia_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 107,
+      "subdir": "TheGirlsWhoStoleDentalia_Engl_Images",
+      "src": "TheGirlsWhoStoleDentalia_Engl_Images3.png"
+    },
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images100.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images101.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images102.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images103.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images104.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images105.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images106.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images107.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images108.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images109.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images110.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images111.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images112.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images113.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images114.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images115.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images116.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images117.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images118.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images119.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images120.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images121.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images122.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images123.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images124.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images125.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images126.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images127.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images128.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images129.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images130.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images131.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images132.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images133.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images134.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images135.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images136.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images137.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images138.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images139.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images140.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images141.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images142.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images143.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images144.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images145.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images146.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images147.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images148.png"  
+    },  
+    {  
+      "textfileId": 108,
+      "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+      "src": "TheGirlsWhoStoleDentalia_Hand_Images149.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images11.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images12.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images13.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images14.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images15.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images16.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images17.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images18.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images19.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images20.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images21.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images22.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images23.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 109,
+      "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
+      "src": "TheGirlsWhoStoleDentalia_Typed_Images9.png"
+    },  
+
+    {  
+      "textfileId": 110,
+      "subdir": "ThePracticalJoker_Engl_Images",
+      "src": "ThePracticalJoker_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 111,
+      "subdir": "ThePracticalJoker_Hand_Images",
+      "src": "ThePracticalJoker_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 111,
+      "subdir": "ThePracticalJoker_Hand_Images",
+      "src": "ThePracticalJoker_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 111,
+      "subdir": "ThePracticalJoker_Hand_Images",
+      "src": "ThePracticalJoker_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 111,
+      "subdir": "ThePracticalJoker_Hand_Images",
+      "src": "ThePracticalJoker_Hand_Images3.png"
+    }, 
+    {  
+      "textfileId": 112,
+      "subdir" :"ThePracticalJoker_Typed_Images",
+      "src": "ThePracticalJoker_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 112,
+      "subdir" :"ThePracticalJoker_Typed_Images",
+      "src": "ThePracticalJoker_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 112,
+      "subdir" :"ThePracticalJoker_Typed_Images",
+      "src": "ThePracticalJoker_Typed_Images2.png"
+    },  
+    {  
+      "textfileId": 113,
+      "subdir": "Thunder_Engl_Images",
+      "src": "Thunder_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 113,
+      "subdir": "Thunder_Engl_Images",
+      "src": "Thunder_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 113,
+      "subdir": "Thunder_Engl_Images",
+      "src": "Thunder_Engl_Images2.png"
+    },
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 114,
+      "subdir": "Thunder_Hand_Images",
+      "src": "Thunder_Hand_Images9.png"
+    },
+    {  
+      "textfileId": 115,
+      "subdir" :"Thunder_Typed_Images",
+      "src": "Thunder_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 115,
+      "subdir" :"Thunder_Typed_Images",
+      "src": "Thunder_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 115,
+      "subdir" :"Thunder_Typed_Images",
+      "src": "Thunder_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 115,
+      "subdir" :"Thunder_Typed_Images",
+      "src": "Thunder_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 115,
+      "subdir" :"Thunder_Typed_Images",
+      "src": "Thunder_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 115,
+      "subdir" :"Thunder_Typed_Images",
+      "src": "Thunder_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 115,
+      "subdir" :"Thunder_Typed_Images",
+      "src": "Thunder_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 115,
+      "subdir" :"Thunder_Typed_Images",
+      "src": "Thunder_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 115,
+      "subdir" :"Thunder_Typed_Images",
+      "src": "Thunder_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 115,
+      "subdir" :"Thunder_Typed_Images",
+      "src": "Thunder_Typed_Images9.png"
+    },  
+    {
+      "textfileId": 116,
+      "subdir": "ToadSavesChildren_Engl_Images",
+      "src": "ToadSavesChildren_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 116,
+      "subdir": "ToadSavesChildren_Engl_Images",
+      "src": "ToadSavesChildren_Engl_Images1.png"
+    },
+    {  
+      "textfileId": 117,
+      "subdir": "ToadSavesChildren_Hand_Images",
+      "src": "ToadSavesChildren_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 117,
+      "subdir": "ToadSavesChildren_Hand_Images",
+      "src": "ToadSavesChildren_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 117,
+      "subdir": "ToadSavesChildren_Hand_Images",
+      "src": "ToadSavesChildren_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 117,
+      "subdir": "ToadSavesChildren_Hand_Images",
+      "src": "ToadSavesChildren_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 117,
+      "subdir": "ToadSavesChildren_Hand_Images",
+      "src": "ToadSavesChildren_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 117,
+      "subdir": "ToadSavesChildren_Hand_Images",
+      "src": "ToadSavesChildren_Hand_Images5.png"
+    },
+    {  
+      "textfileId": 118,
+      "subdir" :"ToadSavesChildren_Typed_Images",
+      "src": "ToadSavesChildren_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 118,
+      "subdir" :"ToadSavesChildren_Typed_Images",
+      "src": "ToadSavesChildren_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 118,
+      "subdir" :"ToadSavesChildren_Typed_Images",
+      "src": "ToadSavesChildren_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 118,
+      "subdir" :"ToadSavesChildren_Typed_Images",
+      "src": "ToadSavesChildren_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 118,
+      "subdir" :"ToadSavesChildren_Typed_Images",
+      "src": "ToadSavesChildren_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 118,
+      "subdir" :"ToadSavesChildren_Typed_Images",
+      "src": "ToadSavesChildren_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 118,
+      "subdir" :"ToadSavesChildren_Typed_Images",
+      "src": "ToadSavesChildren_Typed_Images6.png"
+    },  
+    {  
+      "textfileId": 119,
+      "subdir": "TurtlesWarParty_Engl_Images",
+      "src": "TurtlesWarParty_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 119,
+      "subdir": "TurtlesWarParty_Engl_Images",
+      "src": "TurtlesWarParty_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 119,
+      "subdir": "TurtlesWarParty_Engl_Images",
+      "src": "TurtlesWarParty_Engl_Images2.png"
+    },
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images18.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images19.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images20.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 120,
+      "subdir": "TurtlesWarParty_Hand_Images",
+      "src": "TurtlesWarParty_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 121,
+      "subdir" :"TurtlesWarParty_Typed_Images",
+      "src": "TurtlesWarParty_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 121,
+      "subdir" :"TurtlesWarParty_Typed_Images",
+      "src": "TurtlesWarParty_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 121,
+      "subdir" :"TurtlesWarParty_Typed_Images",
+      "src": "TurtlesWarParty_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 121,
+      "subdir" :"TurtlesWarParty_Typed_Images",
+      "src": "TurtlesWarParty_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 121,
+      "subdir" :"TurtlesWarParty_Typed_Images",
+      "src": "TurtlesWarParty_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 121,
+      "subdir" :"TurtlesWarParty_Typed_Images",
+      "src": "TurtlesWarParty_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 121,
+      "subdir" :"TurtlesWarParty_Typed_Images",
+      "src": "TurtlesWarParty_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 121,
+      "subdir" :"TurtlesWarParty_Typed_Images",
+      "src": "TurtlesWarParty_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 121,
+      "subdir" :"TurtlesWarParty_Typed_Images",
+      "src": "TurtlesWarParty_Typed_Images8.png"
+    },  
+    {
+      "textfileId": 122,
+      "subdir": "TwoHeadedSnakes_Engl_Images",
+      "src": "TwoHeadedSnakes_Engl_Images0.png"
+    },
+    {  
+      "textfileId": 123,
+      "subdir": "TwoHeadedSnakes_Hand_Images",
+      "src": "TwoHeadedSnakes_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 123,
+      "subdir": "TwoHeadedSnakes_Hand_Images",
+      "src": "TwoHeadedSnakes_Hand_Images1.png"
+    },
+    {  
+      "textfileId": 124,
+      "subdir" :"TwoHeadedSnakes_Typed_Images",
+      "src": "TwoHeadedSnakes_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 124,
+      "subdir" :"TwoHeadedSnakes_Typed_Images",
+      "src": "TwoHeadedSnakes_Typed_Images1.png"
+    },  
+    {  
+      "textfileId": 125,
+      "subdir": "TwoWomenOvercomeNezPerceMan_Engl_Images",
+      "src": "TwoWomenOvercomeNezPerceMan_Engl_Images0.png"
+    },
+    {  
+      "textfileId": 126,
+      "subdir": "TwoWomenOvercomeNezPerceMan_Hand_Images",
+      "src": "TwoWomenOvercomeNezPerceMan_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 126,
+      "subdir": "TwoWomenOvercomeNezPerceMan_Hand_Images",
+      "src": "TwoWomenOvercomeNezPerceMan_Hand_Images1.png"
+    },
+    {  
+      "textfileId": 127,
+      "subdir" :"TwoWomenOvercomeNezPerceMan_Typed_Images",
+      "src": "TwoWomenOvercomeNezPerceMan_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 127,
+      "subdir" :"TwoWomenOvercomeNezPerceMan_Typed_Images",
+      "src": "TwoWomenOvercomeNezPerceMan_Typed_Images1.png"
+    },  
+    {
+      "textfileId": 128,
+      "subdir": "WarBetweenBlackfootAndTheCoeurDAlene_Engl_Images",
+      "src": "WarBetweenBlackfootAndTheCoeurDAlene_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 128,
+      "subdir": "WarBetweenBlackfootAndTheCoeurDAlene_Engl_Images",
+      "src": "WarBetweenBlackfootAndTheCoeurDAlene_Engl_Images1.png"
+    },
+    {  
+      "textfileId": 129,
+      "subdir" :"WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images",
+      "src": "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 129,
+      "subdir" :"WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images",
+      "src": "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 129,
+      "subdir" :"WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images",
+      "src": "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 129,
+      "subdir" :"WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images",
+      "src": "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images3.png"
+    },  
+    {  
+      "textfileId": 130,
+      "subdir": "WarBetweenLandAndWaterPeople_Engl_Images",
+      "src": "WarBetweenLandAndWaterPeople_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 130,
+      "subdir": "WarBetweenLandAndWaterPeople_Engl_Images",
+      "src": "WarBetweenLandAndWaterPeople_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 130,
+      "subdir": "WarBetweenLandAndWaterPeople_Engl_Images",
+      "src": "WarBetweenLandAndWaterPeople_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images15.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images16.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images17.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 131,
+      "subdir": "WarBetweenLandAndWaterPeople_Hand_Images",
+      "src": "WarBetweenLandAndWaterPeople_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 132,
+      "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
+      "src": "WarBetweenLandAndWaterPeople_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 132,
+      "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
+      "src": "WarBetweenLandAndWaterPeople_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 132,
+      "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
+      "src": "WarBetweenLandAndWaterPeople_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 132,
+      "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
+      "src": "WarBetweenLandAndWaterPeople_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 132,
+      "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
+      "src": "WarBetweenLandAndWaterPeople_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 132,
+      "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
+      "src": "WarBetweenLandAndWaterPeople_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 132,
+      "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
+      "src": "WarBetweenLandAndWaterPeople_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 132,
+      "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
+      "src": "WarBetweenLandAndWaterPeople_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 132,
+      "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
+      "src": "WarBetweenLandAndWaterPeople_Typed_Images8.png"
+    },  
+    {  
+      "textfileId": 133,
+      "subdir": "WaterbirdContestsForWomen_Engl_Images",
+      "src": "WaterbirdContestsForWomen_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 133,
+      "subdir": "WaterbirdContestsForWomen_Engl_Images",
+      "src": "WaterbirdContestsForWomen_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images0.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images1.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images10.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images11.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images12.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images13.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images14.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images2.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images3.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images4.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images5.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images6.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images7.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images8.png"  
+    },  
+    {  
+      "textfileId": 134,
+      "subdir": "WaterbirdContestsForWomen_Hand_Images",
+      "src": "WaterbirdContestsForWomen_Hand_Images9.png"  
+    },  
+    {  
+      "textfileId": 135,
+      "subdir" :"WaterbirdContestsForWomen_Typed_Images",
+      "src": "WaterbirdContestsForWomen_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 135,
+      "subdir" :"WaterbirdContestsForWomen_Typed_Images",
+      "src": "WaterbirdContestsForWomen_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 135,
+      "subdir" :"WaterbirdContestsForWomen_Typed_Images",
+      "src": "WaterbirdContestsForWomen_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 135,
+      "subdir" :"WaterbirdContestsForWomen_Typed_Images",
+      "src": "WaterbirdContestsForWomen_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 135,
+      "subdir" :"WaterbirdContestsForWomen_Typed_Images",
+      "src": "WaterbirdContestsForWomen_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 135,
+      "subdir" :"WaterbirdContestsForWomen_Typed_Images",
+      "src": "WaterbirdContestsForWomen_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 135,
+      "subdir" :"WaterbirdContestsForWomen_Typed_Images",
+      "src": "WaterbirdContestsForWomen_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 135,
+      "subdir" :"WaterbirdContestsForWomen_Typed_Images",
+      "src": "WaterbirdContestsForWomen_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 135,
+      "subdir" :"WaterbirdContestsForWomen_Typed_Images",
+      "src": "WaterbirdContestsForWomen_Typed_Images8.png"
+    },  
+    {  
+      "textfileId": 136,
+      "subdir": "WaterMonsterWoman_Engl_Images",
+      "src": "WaterMonsterWoman_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 136,
+      "subdir": "WaterMonsterWoman_Engl_Images",
+      "src": "WaterMonsterWoman_Engl_Images1.png"  
+    },  
+    {  
+      "textfileId": 136,
+      "subdir": "WaterMonsterWoman_Engl_Images",
+      "src": "WaterMonsterWoman_Engl_Images2.png"  
+    },  
+    {  
+      "textfileId": 137,
+      "subdir" :"WaterMonsterWoman_Typed_Images",
+      "src": "WaterMonsterWoman_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 137,
+      "subdir" :"WaterMonsterWoman_Typed_Images",
+      "src": "WaterMonsterWoman_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 137,
+      "subdir" :"WaterMonsterWoman_Typed_Images",
+      "src": "WaterMonsterWoman_Typed_Images10.png"  
+    },  
+    {  
+      "textfileId": 137,
+      "subdir" :"WaterMonsterWoman_Typed_Images",
+      "src": "WaterMonsterWoman_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 137,
+      "subdir" :"WaterMonsterWoman_Typed_Images",
+      "src": "WaterMonsterWoman_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 137,
+      "subdir" :"WaterMonsterWoman_Typed_Images",
+      "src": "WaterMonsterWoman_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 137,
+      "subdir" :"WaterMonsterWoman_Typed_Images",
+      "src": "WaterMonsterWoman_Typed_Images5.png"  
+    },  
+    {  
+      "textfileId": 137,
+      "subdir" :"WaterMonsterWoman_Typed_Images",
+      "src": "WaterMonsterWoman_Typed_Images6.png"  
+    },  
+    {  
+      "textfileId": 137,
+      "subdir" :"WaterMonsterWoman_Typed_Images",
+      "src": "WaterMonsterWoman_Typed_Images7.png"  
+    },  
+    {  
+      "textfileId": 137,
+      "subdir" :"WaterMonsterWoman_Typed_Images",
+      "src": "WaterMonsterWoman_Typed_Images8.png"  
+    },  
+    {  
+      "textfileId": 137,
+      "subdir" :"WaterMonsterWoman_Typed_Images",
+      "src": "WaterMonsterWoman_Typed_Images9.png"
+    },  
+    {  
+      "textfileId": 138, 
+      "subdir": "WomanSavedByLooseSaddleCinch_Engl_Images",
+      "src": "WomanSavedByLooseSaddleCinch_Engl_Images0.png"  
+    },  
+    {  
+      "textfileId": 138, 
+      "subdir": "WomanSavedByLooseSaddleCinch_Engl_Images",
+      "src": "WomanSavedByLooseSaddleCinch_Engl_Images1.png"
+    },
+    {  
+      "textfileId": 139, 
+      "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
+      "src": "WomanSavedByLooseSaddleCinch_Typed_Images0.png"  
+    },  
+    {  
+      "textfileId": 139, 
+      "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
+      "src": "WomanSavedByLooseSaddleCinch_Typed_Images1.png"  
+    },  
+    {  
+      "textfileId": 139, 
+      "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
+      "src": "WomanSavedByLooseSaddleCinch_Typed_Images2.png"  
+    },  
+    {  
+      "textfileId": 139, 
+      "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
+      "src": "WomanSavedByLooseSaddleCinch_Typed_Images3.png"  
+    },  
+    {  
+      "textfileId": 139, 
+      "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
+      "src": "WomanSavedByLooseSaddleCinch_Typed_Images4.png"  
+    },  
+    {  
+      "textfileId": 139, 
+      "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
+      "src": "WomanSavedByLooseSaddleCinch_Typed_Images5.png"
+    }
+  ]
+
  const elicitationsets = [
     {
       "id": 1,
@@ -317,32 +7782,56 @@ const textimages = [
       "transcription": "ku'ytsanqhttsinm"
     }
   ]
- const audiosets = [
+  const audiosets = [
     {
       "id": 1,
       "title": "Cricket Rides Coyote - Coeur d'Alene",
       "speaker": "Lawrence Nicodemus",
-      "textId": 1
-    },
+      "textId": 21
+    },  
     {
       "id": 2,
       "title": "Cricket Rides Coyote - English",
       "speaker": "Lawrence Nicodemus",
-      "textId": 1
-    },
+      "textId": 21
+    },             
     {
       "id": 3,
-      "title": "When Deer Kills Children - song, in Coeur d'Alene",
-      "speaker": "Unknown",
-      "textId": ''
-    }
+      "title": "Little Mosquito - English",
+      "speaker": "Lawrence Nicodemus (unconfirmed)",
+      "textId": 28
+    },             
     {
       "id": 4,
-      "title": "Little Mosquito - Part 1, in Coeur d'Alene",
+      "title": "Little Mosquito - Coeur d'Alene",
       "speaker": "Lawrence Nicodemus (unconfirmed)",
-      "textId": ''
+      "textId": 28
+    }, 
+    {
+      "id": 5,
+      "title": "Rabbit and Jackrabbit - Coeur d'Alene",
+      "speaker": "Lawrence Nicodemus",
+      "textId": 32
+    }, 
+    {
+      "id": 6,
+      "title": "Rabbit and Jackrabbit - English",
+      "speaker": "Lawrence Nicodemus",
+      "textId": 32
+    }, 
+    {
+      "id": 7,
+      "title": "When Deer Kills Children (Song, in Coeur d'Alene",
+      "speaker": "Unconfirmed",
+      "textId": ""
+    },   
+    {
+      "id": 8,
+      "title": "Lord's Prayer, Angel's Salutation (in Coeur d'Alene)",
+      "speaker": "Unconfirmed",
+      "textId": ""
     }
-  ]
+  ]  
 const elicitationfiles = [
     {
       "id": 1,
@@ -416,17 +7905,9 @@ const elicitationfiles = [
       "elicitationId": 10
     }
   ]
- const audiofiles = [
+  const audiofiles = [
     {
-      "id": 11,
-      "subdir": "CricketRidesCoyote",
-      "src": "CricketRidesCoyote_Crd.wav",
-      "type": "audio/wav",
-      "direct": "yes",
-      "audiosetId": 1
-    },
-    {
-      "id": 12,
+      "id": 1,
       "subdir": "CricketRidesCoyote",
       "src": "CricketRidesCoyote_Crd.mp3",
       "type": "audio/mp3",
@@ -434,7 +7915,15 @@ const elicitationfiles = [
       "audiosetId": 1
     },
     {
-      "id": 13,
+      "id": 2,
+      "subdir": "CricketRidesCoyote",
+      "src": "CricketRidesCoyote_Crd.wav",
+      "type": "audio/wav",
+      "direct": "yes",
+      "audiosetId": 1
+    },
+    {
+      "id": 3,
       "subdir": "CricketRidesCoyote",
       "src": "CricketRidesCoyote_Engl.mp3",
       "type": "audio/mp3",
@@ -442,7 +7931,7 @@ const elicitationfiles = [
       "audiosetId": 2
     },
     {
-      "id": 14,
+      "id": 4,
       "subdir": "CricketRidesCoyote",
       "src": "CricketRidesCoyote_Engl.wav",
       "type": "audio/wav",
@@ -450,21 +7939,101 @@ const elicitationfiles = [
       "audiosetId": 2
     },
     {
-      "id": 15,
-      "subdir": "WhenDeerKillsChildren",
-      "src": "WhenDeerKillsChildren.wav",
+      "id": 5,
+      "subdir": "LittleMosquito",
+      "src": "LittleMosquito_ Crd.mp3",
+      "type": "audio/mp3",
+      "direct": "yes",
+      "audiosetId": 4
+    },
+    {
+      "id": 6,
+      "subdir": "LittleMosquito",
+      "src": "LittleMosquito_Crd.wav",
+      "type": "audio/wav",
+      "direct": "yes",
+      "audiosetId": 4
+    },
+    {
+      "id": 7,
+      "subdir": "LittleMosquito",
+      "src": "LittleMosquito_Engl.mp3",
+      "type": "audio/mp3",
+      "direct": "yes",
+      "audiosetId": 3
+    },
+    {
+      "id": 8,
+      "subdir": "LittleMosquito",
+      "src": "LittleMosquito_Engl.wav",
       "type": "audio/wav",
       "direct": "yes",
       "audiosetId": 3
     },
     {
-      "id": 16,
+      "id": 9,
+      "subdir": "RabbitAndJackRabbit",
+      "src": "RabbitAndJackRabbit_Crd.mp3",
+      "type": "audio/mp3",
+      "direct": "yes",
+      "audiosetId": 5
+    },
+    {
+      "id": 10,
+      "subdir": "RabbitAndJackRabbit",
+      "src": "RabbitAndJackRabbit_Crd.wav",
+      "type": "audio/wav",
+      "direct": "yes",
+      "audiosetId": 5
+    },
+    {
+      "id": 11,
+      "subdir": "RabbitAndJackRabbit",
+      "src": "RabbitAndJackRabbit_Engl.mp3",
+      "type": "audio/mp3",
+      "direct": "yes",
+      "audiosetId": 6
+    },
+    {
+      "id": 12,
+      "subdir": "RabbitAndJackRabbit",
+      "src": "RabbitAndJackRabbit_Engl.wav",
+      "type": "audio/wav",
+      "direct": "yes",
+      "audiosetId": 6
+    },
+    {
+      "id": 13,
       "subdir": "WhenDeerKillsChildren",
       "src": "WhenDeerKillsChildren.mp3",
       "type": "audio/mp3",
       "direct": "yes",
-      "audiosetId": 3
-    }
+      "audiosetId": 7
+    },
+    {
+      "id": 14,
+      "subdir": "WhenDeerKillsChildren",
+      "src": "WhenDeerKillsChildren.wav",
+      "type": "audio/wav",
+      "direct": "yes",
+      "audiosetId": 7
+    },
+    {
+      "id": 15,
+      "subdir": "LordsPrayer",
+      "src": "LordsPrayer.mp3",
+      "type": "audio/mp3",
+      "direct": "yes",
+      "audiosetId": 8
+    },
+    {
+      "id": 16,
+      "subdir": "LordsPrayer",
+      "src": "LordsPrayer.wav",
+      "type": "audio/wav",
+      "direct": "yes",
+      "audiosetId": 8
+    },
   ]
  const bibliography = [
     {
