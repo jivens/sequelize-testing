@@ -7784,49 +7784,49 @@
   const audiosets = [
     {
       "id": 1,
-      "title": "Cricket Rides Coyote - Coeur d'Alene",
+      "title": "Cricket Rides Coyote - in Coeur d'Alene",
       "speaker": "Lawrence Nicodemus",
       "textId": 21
     },  
     {
       "id": 2,
-      "title": "Cricket Rides Coyote - English",
+      "title": "Cricket Rides Coyote - in English",
       "speaker": "Lawrence Nicodemus",
       "textId": 21
     },             
     {
       "id": 3,
-      "title": "Little Mosquito - English",
+      "title": "Little Mosquito Part 1 - in Coeur d'Alene",
       "speaker": "Lawrence Nicodemus (unconfirmed)",
       "textId": 28
     },             
     {
       "id": 4,
-      "title": "Little Mosquito - Coeur d'Alene",
+      "title": "Little Mosquito Part 2 - in Coeur d'Alene",
       "speaker": "Lawrence Nicodemus (unconfirmed)",
       "textId": 28
     }, 
     {
       "id": 5,
-      "title": "Rabbit and Jackrabbit - Coeur d'Alene",
+      "title": "Rabbit and Jackrabbit Part 1 - in Coeur d'Alene",
       "speaker": "Lawrence Nicodemus",
       "textId": 32
     }, 
     {
       "id": 6,
-      "title": "Rabbit and Jackrabbit - English",
+      "title": "Rabbit and Jackrabbit Part 2 - begins in Coeur d'Alene, ends in English",
       "speaker": "Lawrence Nicodemus",
       "textId": 32
     }, 
     {
       "id": 7,
-      "title": "When Deer Kills Children (Song, in Coeur d'Alene",
+      "title": "When Deer Kills Children - song, in Coeur d'Alene",
       "speaker": "Unconfirmed",
       "textId": ""
     },   
     {
       "id": 8,
-      "title": "Lord's Prayer, Angel's Salutation (in Coeur d'Alene)",
+      "title": "Lord's Prayer, Angel's Salutation - in Coeur d'Alene",
       "speaker": "Unconfirmed",
       "textId": ""
     }
@@ -7940,7 +7940,7 @@ const elicitationfiles = [
     {
       "id": 5,
       "subdir": "LittleMosquito",
-      "src": "LittleMosquito_ Crd.mp3",
+      "src": "LittleMosquito1_Crd.mp3",
       "type": "audio/mp3",
       "direct": "yes",
       "audiosetId": 4
@@ -7948,7 +7948,7 @@ const elicitationfiles = [
     {
       "id": 6,
       "subdir": "LittleMosquito",
-      "src": "LittleMosquito_Crd.wav",
+      "src": "LittleMosquito1_Crd.wav",
       "type": "audio/wav",
       "direct": "yes",
       "audiosetId": 4
@@ -7956,7 +7956,7 @@ const elicitationfiles = [
     {
       "id": 7,
       "subdir": "LittleMosquito",
-      "src": "LittleMosquito_Engl.mp3",
+      "src": "LittleMosquito2_Crd.mp3",
       "type": "audio/mp3",
       "direct": "yes",
       "audiosetId": 3
@@ -7964,7 +7964,7 @@ const elicitationfiles = [
     {
       "id": 8,
       "subdir": "LittleMosquito",
-      "src": "LittleMosquito_Engl.wav",
+      "src": "LittleMosquito2_Crd.wav",
       "type": "audio/wav",
       "direct": "yes",
       "audiosetId": 3
