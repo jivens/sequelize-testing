@@ -1,6 +1,6 @@
 const audiometadata = [
   {
-    "textFileId": 78,
+    "audioSetId": 3,
     "originalTitle": "Title: Little Mosquito (audio Coeur d'Alene) Part I and Part II",
     "isFormatofCrd": "isFormatof: XXX Little Mosquito (typed manuscript)",
     "subject": "Subject: Reading of unpublished typed manuscript; Coeur d'Alene Narrative",
@@ -19,7 +19,7 @@ const audiometadata = [
   "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
   },
   {
-    "textFileId": 89,
+    "audioSetId": 5,
     "originalTitle": "Title:  Rabbit and Jack Rabbit (audio Coeur d'Alene and English) Part I and Part II",
     "isFormatofEnlgish": "isFormatof (Published English Translation): 35 Rabbit and Jack Rabbit",
     "isFormatofCrd": "isFormatof (typed manuscript): XXXVII Rabbit and Jack Rabbit",
@@ -41,7 +41,7 @@ const audiometadata = [
   },
 ,
   {
-    "textFileId": 58,
+    "audioSetId": 1,
     "originalTitle": "Title: Cricket rides coyote (audio Coeur d'Alene)",
     "isFormatofCrd": "isFormatof (typed manuscript): XVI Cricket rides Coyote",
     "subject": "Subject: Reading of unpublished typed manuscript; Coeur d'Alene Narrative",
