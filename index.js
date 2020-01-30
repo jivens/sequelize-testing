@@ -501,9 +501,10 @@ async function makeAffixTable(){
 async function makeStemTable(){
   await Stem.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\stems_both_lists.txt', 'utf8');
+  var contents = fs. readFileSync('data\\stems_both_lists_nodoak.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
+    row = row.trim();
     row = row.replace(/(\r)/gm, "");
     columns = row.split(":::");
     if (columns[5]) {
@@ -774,9 +775,9 @@ async function makeTables(){
 
 // below call the build function(s) you want.
 //makeRootTable()
-//makeAffixTable();
+makeStemTable();
 //makeTables();
 //makeAudiofileTable();
 //makeElicitationfileTable();
-makeMedia();
+//makeMedia();
 //makeUsersTable()
