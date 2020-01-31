@@ -20,11 +20,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http:// lasrv01.pfw.edu/COLRC/texts/1_ccr/crdt27-29_tm1.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm1",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss",
   },
-  {  
+  {
     "textFileId": 85,
     "originalTitle": "Origin of Indian Tribes (From Parts of Monster) (handwritten fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 2 Origin of Indian Tribes (From Parts of Monster)",
@@ -44,12 +44,12 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http:// lasrv01.pfw.edu/COLRC/texts/2_gblr/crdt27-29_fn2.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn2",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
-  }, 
-  {  
-    "textFileId": 86, 
+  },
+  {
+    "textFileId": 86,
     "originalTitle": "Origin of Indian Tribes (From Parts of Monster) (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 2 Origin of Indian Tribes (From Parts of Monster)",
     "isVersionofNotes": "isVersionof (fieldnotes): none in COLRC",
@@ -69,11 +69,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http:// lasrv01.pfw.edu/COLRC/texts/2_gblr/crdt27-29_tm2.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm2",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 49,
     "originalTitle": "Coyote overpowers Sun (Securing Sun Disk) (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 3 Coyote Overpowers Sun (Securing Sundisk) (fieldnotes)",
@@ -94,11 +94,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/3_fcsh/crdt27-29_tm3.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm3",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 48,
     "originalTitle": "Coyote Overpowers Sun (Securing Sundisk) (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 3 Coyote Overpowers Sun (Securing Sundisk) (fieldnotes)",
@@ -119,11 +119,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/3_fccsh/crdt27-29_fn3.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn3",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 55,
     "originalTitle": "Coyote steals son's wife (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 4 Coyote steals his daughter-in-law (fieldnotes)",
@@ -144,11 +144,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/4_fcssw/crdt27-29_tm4.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm4",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss",
   },
-  {  
+  {
     "textFileId": 54,
     "originalTitle": "Coyote steals son's wife (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 4 Coyote steals his daughter-in-law (fieldnotes)",
@@ -169,12 +169,12 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/4_fcssw/crdt27-29_fn4.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn4",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
-    "textFileId": 75, 
+  {
+    "textFileId": 75,
     "originalTitle": "Little Beaver (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 5 Little Beaver",
     "isVersionofNotes": "isVersionof (fieldnotes): V Little Beaver",
@@ -194,11 +194,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/5_flb/crdt27-29_tm5.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm5",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 74,
     "originalTitle": "Little Beaver (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 5 Little Beaver",
@@ -219,11 +219,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/5_flb/crdt27-29_fn5.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn5",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 32,
     "originalTitle": "Coyote devours his own children (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): IX Coyote Devours his own children",
@@ -244,11 +244,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/6_fcdoc/crdt27-29_tm6.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm6",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 31,
     "originalTitle": "Coyote devours his own children (fieldnotes) [NOTE: no title on original]",
     "isVersionofEngl": "isVersionof (published English translation): 6 Coyote devours his own children",
@@ -269,11 +269,12 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/6_fcdoc/crdt27-29_fn6.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn6",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
-  {  
-    "textFileId": 43, 
+  },
+  {
+    "textFileId": 43,
     "originalTitle": "Coyote loses his eyes (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 7 Coyote loses his eyes (eye juggling)",
     "isVersionofNotes": "isVersionof (fieldnotes): VII Coyote loses his eyes",
@@ -293,11 +294,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/7_clhe/crdt27-29_tm7.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm7",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 35,
     "originalTitle": "Crane (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 8 Coyote hunts with Crane and releases Salmon",
@@ -318,11 +319,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/8_fcrane/crdt27-29_tm8.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm8",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 34,
     "originalTitle": "Crane hunts Coyote frees Salmon (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 8 Coyote hunts with Crane and releases Salmon",
@@ -343,11 +344,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/8_fcrane/crdt27-29_fn8.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn8",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 98,
     "originalTitle": "Lynx (typed manuscript: Tom Miyal)",
     "isVersionofEngl": "isVersionof (published English translation): 9a Story of Lynx by Tom Miyal",
@@ -368,11 +369,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/9a_flynxt/crdt27-29_tm9a.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm9a",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 97,
     "originalTitle": "Lynx (original field notes: Tom Miyal)",
     "isVersionofEngl": "isVersionof (published English translation): 9a Story of Lynx by Tom Miyal",
@@ -393,11 +394,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/9a_flynxt/crdt27-29_tm9a.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm9a",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 95,
     "originalTitle": "Lynx (typed manuscript: Dorothy)",
     "isVersionofEngl": "isVersionof (published English translation): 9b Story of Lynx by Dorothy Nicodemus",
@@ -418,11 +419,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/9b_flynxd/crdt27-29_tm9b.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm9b",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 94,
     "originalTitle": "Lynx (fieldnotes: Dorothy)",
     "isVersionofEngl": "isVersionof (published English translation): 9b Story of Lynx by Dorothy Nicodemus",
@@ -443,11 +444,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/9b_flynxd/crdt27-29_fn9b.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn9b",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 132,
     "originalTitle": "War between Land and Water People (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 10 War between Land and Water People",
@@ -468,11 +469,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/10_fwblwp/crdt27-29_tm10.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm10",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 131,
     "originalTitle": "War vs. Land + Water People (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 10 War between Land and Water People",
@@ -493,11 +494,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/10_fwblwp/crdt27-29_fn10.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn10",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
     },
-  {  
+  {
     "textFileId": 63,
     "originalTitle": "Dog Husband (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 11 Dog Husband",
@@ -518,11 +519,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/11_dh/crdt27-29_tm11.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm11",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 26,
     "originalTitle": "Coyote and Fox gamble (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 12 Coyote and Fox gamble with Fish",
@@ -543,11 +544,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/12_cfg/crdt27-29_tm12.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm12",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 46,
     "originalTitle": "Coyote marries Pinesquirrel (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 13 Coyote marries Squirrel, sister of Geese",
@@ -568,11 +569,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/13_fcms/crdt27-29_tm13.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm13",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 45,
     "originalTitle": "Coyote marries Squirrel, sister of Geese (fieldnotes) [Note: not title on original]",
     "isVersionofEngl": "isVersionof (published English translation): 13 Coyote marries Squirrel, sister of Geese",
@@ -593,11 +594,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/13_fcms/crdt27-29_fn13.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn13",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 38,
     "originalTitle": "Coyote Imitates Magpie (Bungling Host) (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 14 Coyote imitates Magpie (Bungling Host)",
@@ -618,11 +619,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/14_fcim/crdt27-29_tm14.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm14",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 37,
     "originalTitle": "Coyote Imitates Magpie (Bungling Host) (fieldnotes) [Note: not title on original]",
     "isVersionofEngl": "isVersionof (published English translation): 14 Coyote imitates Magpie (Bungling Host)",
@@ -643,11 +644,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/14_fcim/crdt27-29_fn14.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn14",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 24,
     "originalTitle": "Coyote and Badger (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 15 Coyote and Badger",
@@ -668,11 +669,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/15_fcb/crdt27-29_tm15.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm15",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 23,
     "originalTitle": "Badger + Coyote (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 15 Coyote and Badger",
@@ -693,11 +694,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/15_fcb/crdt27-29_fn15.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn15",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 10,
     "originalTitle": "Calling the deer (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 16 Calling the deer",
@@ -718,11 +719,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/16_fctd/crdt27-29_tm16.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm16",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 9,
     "originalTitle": "Woodtick calls the Deer (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 16 Calling the deer",
@@ -743,11 +744,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/16_fctd/crdt27-29_fn16.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn16",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 4,
     "originalTitle": "Calling his kind (Dorothy) (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 17a Calling one's kind (by Dorothy Nicodemus)",
@@ -768,11 +769,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/17a_cokd/crdt27-29_tm17a.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm17a",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 7,
     "originalTitle": "Calling his kind (Tom) (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 17b Calling one's kind (by Tom Miyal)",
@@ -793,11 +794,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/17b_chkt/crdt27-29_tm17b.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm17b",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 41,
     "originalTitle": "Coyote kills Cricket with Elk Fat (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 18 Coyote kills Cricket with elk fat (Mistaken Kindness)",
@@ -818,11 +819,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/18_fckc/crdt27-29_tm18.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm18",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 40,
     "originalTitle": "Coyote kills Cricket by feeding him Elk Grease (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 18 Coyote kills Cricket with elk fat (Mistaken Kindness)",
@@ -843,11 +844,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/18_fckc/crdt27-29_fn18.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn18",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 29,
     "originalTitle": "Coyote + Nighthawk change shirts / Coyote and Nighthawk change clothes (typed manuscript) [Note: two titles on original]",
     "isVersionofEngl": "isVersionof (published English translation): 19 Coyote and Nighthawk change coats (Rolling Rock)",
@@ -868,11 +869,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/19_fcnch/crdt27-29_tm19.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm19",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 28,
     "originalTitle": "Coyote changes coats with Nighthawk (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 19 Coyote and Nighthawk change coats (Rolling Rock)",
@@ -893,12 +894,12 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/19_fcnch/crdt27-29_fn19.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn19",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
-    "textFileId": 58, 
+  {
+    "textFileId": 58,
     "originalTitle": "Cricket rides Coyote (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 20 Cricket rides Coyote",
     "isVersionofNotes": "isVersionof (fieldnotes): XX Cricket rides Coyote",
@@ -918,12 +919,12 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/20_fcrc/crdt27-29_tm20.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm20",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
-    "textFileId": 57, 
+  {
+    "textFileId": 57,
     "originalTitle": "Cricket rides Coyote (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 20 Cricket rides Coyote",
     "isVersionofTyped": "isVersionof (typed manuscript): XVI Cricket rides Coyote",
@@ -943,11 +944,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/20_fcrc/crdt27-29_fn20.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn20",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 52,
     "originalTitle": "Coyote snares wind (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 21 Coyote snares the wind",
@@ -968,11 +969,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/21_fcsw/crdt27-29_tm21.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm21",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 51,
     "originalTitle": "Coyote traps the wind (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 21 Coyote snares the wind",
@@ -993,12 +994,12 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/21_fcsw/crdt27-29_fn21.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn21",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
-    "textFileId": 14, 
+  {
+    "textFileId": 14,
     "originalTitle": "Catbird (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 22 Catbird",
     "isVersionofNotes": "isVersionof (fieldnotes): Catbird (fieldnotes) [NOTE: No title or number on original]",
@@ -1018,11 +1019,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/22_fcatbrd/crdt27-29_tm22.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm22",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 13,
     "originalTitle": "Catbird (fieldnotes) [NOTE: No title or number on original]",
     "isVersionofEngl": "isVersionof (published English translation): 22 Catbird",
@@ -1043,11 +1044,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/22_fcatbrd/crdt27-29_fn22.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn22",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 92,
     "originalTitle": "Skunk and Fisher (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 23 Skunk and Fisher",
@@ -1068,11 +1069,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/23_fsf/crdt27-29_tm23.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm23",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 91,
     "originalTitle": "Skunk + Fisher (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 23 Skunk and Fisher",
@@ -1093,11 +1094,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/23_fsf/crdt27-29_tm23.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn23",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 109,
     "originalTitle": "Girls Steal Dentalia (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 24 The girls who stole dentalia (Kidnapping)",
@@ -1118,12 +1119,12 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/24_fgwsd/crdt27-29_tm24.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm24",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
-    "textFileId": 108, 
+  {
+    "textFileId": 108,
     "originalTitle": "Girls Steal Dentalia (fieldnotes) [NOTE: no title on original]",
     "isVersionofEngl": "isVersionof (published English translation): 24 The girls who stole dentalia (Kidnapping)",
     "isVersionofTyped": "isVersionof (typed manuscript): XXIV Girls Steal Dentalia",
@@ -1143,11 +1144,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/24_fgwsd/crdt27-29_fn24.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn24",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 115,
     "originalTitle": "Thunder (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 25 Thunder",
@@ -1168,11 +1169,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/25_fthndr/crdt27-29_tm25.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm25",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 114,
     "originalTitle": "Thunder (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 25 Thunder",
@@ -1193,11 +1194,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/25_fthndr/crdt27-29_fn25.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn25",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 135,
     "originalTitle": "Waterbird Contests for Woman (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 26 Waterbird contests for woman (Gift Test)",
@@ -1218,11 +1219,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/26_fwcfw/crdt27-29_tm26.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm26",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 134,
     "originalTitle": "Waterbird Contests for Woman (fieldnotes) [NOTE: No title on original]",
     "isVersionofEngl": "isVersionof (published English translation): 26 Waterbird contests for woman (Gift Test)",
@@ -1243,11 +1244,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/26_fwcfw/crdt27-29_fn26.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn26",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 137,
     "originalTitle": "Monster Woman / Whale Woman (typed manuscript) [Note: two titles on original]",
     "isVersionofEngl": "isVersionof (published English translation): 27 Water Monster Woman",
@@ -1268,11 +1269,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/27_fwmw/crdt27-29_tm27.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm27",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 78,
     "originalTitle": "Little Mosquito (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 28 Little Mosquito",
@@ -1293,11 +1294,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/28_flm/crdt27-29_tm28.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm28",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 77,
     "originalTitle": "Little Mosquito (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 28 Little Mosquito",
@@ -1318,11 +1319,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/28_flm/crdt27-29_fn28.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn28",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 72,
     "originalTitle": "Grizzly and his Brothers-in-law (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 29 Grizzly and his brothers-in-law",
@@ -1343,11 +1344,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/29_fghbl/crdt27-29_tm29.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm29",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 71,
     "originalTitle": "Grizzly and his Bros-in-law (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 29 Grizzly and his brothers-in-law",
@@ -1368,11 +1369,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/29_fghbl/crdt27-29_fn29.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn29",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 83,
     "originalTitle": "Muskrat trespasses (fieldnotes) [NOTE: No title or number on original]",
     "isVersionofEngl": "isVersionof (published English translation): 30 Muskrat trespasses",
@@ -1393,11 +1394,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/30_fmt/crdt27-29_fn30.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn30",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 118,
     "originalTitle": "Toad saves Children (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 31 Toad saves children",
@@ -1418,11 +1419,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/31_ftsc/crdt27-29_tm31.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm31",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss",
   },
-  {  
+  {
     "textFileId": 117,
     "originalTitle": "Toad saves children (fieldnotes) [NOTE: no title on original]",
     "isVersionofEngl": "isVersionof (published English translation): 31 Toad saves children",
@@ -1443,11 +1444,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/31_ftsc/crdt27-29_fn31.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn31",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 16,
     "originalTitle": "Chipmunk and Snake (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 32 Chipmunk and Snake (Contest for Winter and Spring)",
@@ -1468,11 +1469,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/32_fcs/crdt27-29_tm32.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm32",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss",
   },
-  {  
+  {
     "textFileId": 18,
     "originalTitle": "Chipmunk + Snake (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 32 Chipmunk and Snake (Contest for Winter and Spring)",
@@ -1493,11 +1494,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/32_fcs/crdt27-29_fn32.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn32",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 66,
     "originalTitle": "Elk and Snowshoes (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 33 Elk and Snowshoes",
@@ -1518,11 +1519,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/33_fes/crdt27-29_tm33.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm33",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 65,
     "originalTitle": "Elk and Snowshoes (fieldnotes) [NOTE: no title on original]",
     "isVersionofEngl": "isVersionof (published English translation): 33 Elk and Snowshoes",
@@ -1543,11 +1544,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/33_fes/crdt27-29_fn33.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn33",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 21,
     "originalTitle": "Cold and Heat (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 34 Contest between Cold and Heat",
@@ -1568,11 +1569,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/34_fcbch/crdt27-29_tm34.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm34",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 20,
     "originalTitle": "Contest vs. Cold and Heat (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 34 Contest between Cold and Heat",
@@ -1593,11 +1594,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/34_fcbch/crdt27-29_fn34.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn34",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 89,
     "originalTitle": "Rabbit and Jack Rabbit (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 35 Rabbit and Jack Rabbit",
@@ -1618,11 +1619,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/35_frjr/crdt27-29_tm35.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm35",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 88,
     "originalTitle": "Rabbit + Jack Rabbit (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 35 Rabbit and Jack Rabbit",
@@ -1643,11 +1644,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/35_frjr/crdt27-29_fn35.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn35",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 61,
     "originalTitle": "Dog procures fire (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 36 Dog goes for fire",
@@ -1668,11 +1669,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/36_fdgf/crdt27-29_tm36.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm36",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 60,
     "originalTitle": "Fire (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 36 Dog goes for fire",
@@ -1693,11 +1694,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/36_fdgf/crdt27-29_fn36.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn36",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 121,
     "originalTitle": "Turtle's war Party (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 37 Turtle's war party (Mock Plea)",
@@ -1718,11 +1719,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/37_ftwp/crdt27-29_tm37.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm37",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 120,
     "originalTitle": "(Snake) Turtle's war Party (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 37 Turtle's war party (Mock Plea)",
@@ -1743,11 +1744,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/37_ftwp/crdt27-29_fn37.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn37",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 124,
     "originalTitle": "Two-headed snakes (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 38 Two-headed snakes",
@@ -1768,11 +1769,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/38_fths/crdt27-29_tm38.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm38",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 123,
     "originalTitle": "Two-headed snakes (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 38 Two-headed snakes",
@@ -1793,11 +1794,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/38_fths/crdt27-29_fn38.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn38",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 106,
     "originalTitle": "The dwarf (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 39 The dwarf",
@@ -1818,11 +1819,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/39_dwrf/crdt27-29_tm39.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm39",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 81,
     "originalTitle": "Man caught in fire coral (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 40 Man caught in fire coral",
@@ -1843,11 +1844,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/40_fmcfc/crdt27-29_tm40.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm40",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 80,
     "originalTitle": "Man caught in fire coral (fieldnotes) [NOTE: no title on original]",
     "isVersionofEngl": "isVersionof (published English translation): 40 Man caught in fire coral",
@@ -1868,11 +1869,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/40_fmcfc/crdt27-29_fn40.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn40",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 68,
     "originalTitle": "Chief sends daughter to Hinwaxani (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 41 Flathead chief sends his daughter to Chief Waxance",
@@ -1893,11 +1894,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/41_fcsd/crdt27-29_tm41.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm41",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 67,
     "originalTitle": "Chief sends D. to Waxane (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 41 Flathead chief sends his daughter to Chief Waxance",
@@ -1918,11 +1919,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/41_fcsd/crdt27-29_fn41.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn41",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 101,
     "originalTitle": "The Coeur d'Alene attacked (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 42 the Coeur d'Alene attacked",
@@ -1943,11 +1944,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/42_fcrda/crdt27-29_tm42.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm42",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 127,
     "originalTitle": "Nez Perce killed by mush (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 43 Two women overcome Nez Perce man",
@@ -1968,11 +1969,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/43_ftwonp/crdt27-29_tm43.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm43",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 126,
     "originalTitle": "Nez Perce killed by hot mush (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 43 Two women overcome Nez Perce man",
@@ -1993,11 +1994,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/43_ftwonp/crdt27-29_fn43.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn43",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 139,
     "originalTitle": "Woman saved by loose saddlecinch (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 44 Woman saved by loose saddle cinch",
@@ -2018,11 +2019,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/44_wsbs/crdt27-29_tm44.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm44",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 104,
     "originalTitle": "Coeur d'Alene fight Kutenai (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 45 The Coeur d'Alene fight the Kuntenai",
@@ -2043,11 +2044,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/45_fcfk/crdt27-29_tm45.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm45",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 103,
     "originalTitle": "2 Cd'A fight 2 Kut. (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 45 The Coeur d'Alene fight the Kuntenai",
@@ -2068,11 +2069,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/45_fcfk/crdt27-29_fn45.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn45",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 3,
     "originalTitle": "Boy steals from parents / Boy takes food (typed manuscript) [NOTE: two titles on original]",
     "isVersionofEngl": "isVersionof (published English translation): 46 Boy takes food",
@@ -2093,11 +2094,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/46_fbtf/crdt27-29_tm46.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm46",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss" 
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 2,
     "originalTitle": "Boy takes food (fieldnotes) [NOTE: no title on original]",
     "isVersionofEngl": "isVersionof (published English translation): 46 Boy takes food",
@@ -2118,12 +2119,12 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/46_fbtf/crdt27-29_fn46.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn46",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
-    "textFileId": 112, 
+  {
+    "textFileId": 112,
     "originalTitle": "Practical Joker (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 47 The Practical Joker",
     "isVersionofNotes": "isVersionof (fieldnotes): XXV Practical Joker",
@@ -2143,12 +2144,12 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/47_fjkr/crdt27-29_tm47.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm47",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
-    "langBoth": "Language: Coeur d'Alene with English gloss"  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
+    "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
-    "textFileId": 111, 
+  {
+    "textFileId": 111,
     "originalTitle": "Practical Joker (fieldnotes)",
     "isVersionofEngl": "isVersionof (published English translation): 47 The Practical Joker",
     "isVersionofTyped": "isVersionof (typed manuscript): XLIX Practical Joker",
@@ -2168,11 +2169,11 @@ const metadata = [
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
     "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/47_fjkr/crdt27-29_fn47.pdf",
     "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_fn47",
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
   },
-  {  
+  {
     "textFileId": 129,
     "originalTitle": "War between Coeur d'Alene and Blackfoot (typed manuscript)",
     "isVersionofEngl": "isVersionof (published English translation): 48 War between the Blackfoot and the Coeur d'Alene",
@@ -2191,13 +2192,13 @@ const metadata = [
     "creatorCoEditors": "Creator (coeditors): Lawrence Nicodemus, Julia Antelope Nicodemus, Gladys Reichard",
     "format": "Format: PDF and PNG",
     "identifierArchive": "Identifier: URL from digital archive deposited into (e.g. ELAR) (coming soon)",
-    "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/48_wbc/crdt27-29_tm48.pdf", 
-    "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm48", 
-    "langEng": "Language (ISO639-3): eng-US, English",  
-    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",  
+    "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.pfw.edu/COLRC/texts/48_wbc/crdt27-29_tm48.pdf",
+    "identifierColrcNo": "Identifier (COLRC NO.):  crdt27-29_tm48",
+    "langEng": "Language (ISO639-3): eng-US, English",
+    "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langBoth": "Language: Coeur d'Alene with English gloss"
-  } 
-] 
+  }
+]
 module.exports = {
   metadata: metadata
 };
