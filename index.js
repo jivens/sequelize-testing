@@ -475,7 +475,7 @@ async function makeRootTable(){
 async function makeAffixTable(){
   await Affix.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\affixes.txt', 'utf8');
+  var contents = fs. readFileSync('data\\affixes_spelled.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.replace(/(\r)/gm, "");
@@ -501,7 +501,7 @@ async function makeAffixTable(){
 async function makeStemTable(){
   await Stem.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\stems_both_lists_nodoak.txt', 'utf8');
+  var contents = fs. readFileSync('data\\stems_both_lists_nodoak_spelled.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.trim();
@@ -775,8 +775,8 @@ async function makeTables(){
 
 // below call the build function(s) you want.
 //makeRootTable()
-makeStemTable();
-//makeTables();
+//makeStemTable();
+makeTables();
 //makeAudiofileTable();
 //makeElicitationfileTable();
 //makeMedia();
