@@ -1,4 +1,6 @@
 const data = require('./Data');
+const textFileMetaDatafile = require('./data/metadata_tables')
+const audioSetMetaDatafile = require('./data/metadata_audio')
 const express = require('express');
 const app = express();
 // store config variables in dotenv
@@ -240,6 +242,15 @@ const Textimage = sequelize.define('textimage', {
   collate: 'utf8mb4_unicode_ci'
 });
 
+const TextFileMetaData = sequelize.define('textfilemetadata', {
+  textFileId: { type: Sequelize.INTEGER },
+  metadata:{ type: Sequelize.TEXT }
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
 
 const Audioset = sequelize.define('audioset', {
   title: { type: Sequelize.STRING },
@@ -260,6 +271,15 @@ const Audiofile = sequelize.define('audiofile', {
   direct: { type: Sequelize.STRING },
   active: { type: Sequelize.STRING(1) },
   userId: { type: Sequelize.STRING }
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
+const AudioSetMetaData = sequelize.define('audiosetmetadata', {
+  audioSetId: { type: Sequelize.INTEGER },
+  metadata:{ type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -307,6 +327,16 @@ const Audiorelation = sequelize.define('audiorelation', {
   collate: 'utf8mb4_unicode_ci'
 });
 
+// audiosets to audiometadata
+// const Audiometadatarelation = sequelize.define('audiometadatarelation', {
+//   AudiosetId: { type: Sequelize.STRING },
+//   AudiosetmetadataId: { type: Sequelize.STRING },
+// },
+// {
+//   charset: 'utf8mb4',
+//   collate: 'utf8mb4_unicode_ci'
+// });
+
 // elicitationsets to elicitationfiles
 const Elicitationrelation = sequelize.define('elicitationrelation', {
   ElicitationsetId: { type: Sequelize.STRING },
@@ -326,6 +356,16 @@ const Filetoimagerelation = sequelize.define('filetoimagerelation', {
   charset: 'utf8mb4',
   collate: 'utf8mb4_unicode_ci'
 });
+
+// // textfiles to textfilemetadata
+// const Filetometadatarelation = sequelize.define('filetometadatarelation', {
+//   TextfileId: { type: Sequelize.STRING },
+//   TextfilemetadataId: { type: Sequelize.STRING },
+// },
+// {
+//   charset: 'utf8mb4',
+//   collate: 'utf8mb4_unicode_ci'
+// });
 
 //texts to textfiles
 const Texttofilerelation = sequelize.define('texttofilerelation', {
@@ -444,7 +484,7 @@ async function makeUsersTable(){
 async function makeRootTable(){
   await Root.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\fixed_entries_trim.txt', 'utf8');
+  var contents = fs. readFileSync('data/fixed_entries_trim.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.replace(/(\r)/gm, "");
@@ -667,6 +707,30 @@ async function makeTextimageTable(){
   console.log("I have a textimages table");
 }
 
+async function makeTextFileMetaDataTable(){
+  await TextFileMetaData.sync({force: true});
+  for (row of textFileMetaDatafile.metadata) {
+    await TextFileMetaData.create({
+      textFileId: row.textFileId,
+      metadata: "{ \"originalTitle\" : \"" + row.originalTitle + "\", \n" +
+      "\"isVersionofEngl\" : \"" + row.isVersionofEngl + "\" }" 
+    });
+  };
+  console.log("I have a textfilemetadata table");
+}
+
+async function makeAudioSetMetaDataTable(){
+  await AudioSetMetaData.sync({force: true});
+  for (row of audioSetMetaDatafile.audiometadata) {
+    await AudioSetMetaData.create({
+      audioSetId: row.audioSetId,
+      metadata: "{ \"originalTitle\" : \"" + row.originalTitle + "\", \n" +
+      "\"isFormatofCrd\" : \"" + row.isFormatofCrd + "\" }" 
+    });
+  };
+  console.log("I have a audiosetmetadata table");
+}
+
 // make the audioset table
 async function makeAudiosetTable(){
   await makeTexttoaudiosetrelationTable();
@@ -762,6 +826,8 @@ async function makeMedia(){
 }
 
 async function makeTables(){
+  await makeAudioSetMetaDataTable();
+  await makeTextFileMetaDataTable();
   await makeUsersTable();
   await makeRootTable();
   await makeStemTable();
