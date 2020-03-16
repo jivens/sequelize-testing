@@ -14,7 +14,7 @@ const audiometadata = [
   "creatorReader": "Creator (reader): Lawrence Nicodemus",
   "format":  "Format: wave file (.wav)",
   "identifierPermanent": "Identifier (permanent): Indiana University Bloomington Archive of Traditional Music, Collection Title: 85-550-F. Idaho, Coeur d'Alene. Gladys Reichard, ca. 1935. Speaker: Lawrence Nicodemus.",
-  "identifierColrcNo": "Identifier (COLRC URL): http://lasrv01.ipfw.edu/COLRC/audio/crdt27-29_arc28.wav",
+  "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.ipfw.edu/COLRC/audio/crdt27-29_arc28.wav",
   "identifierColrcNo": "Identifier (COLRC NO.): crdt27-29_arc28",
   "langCrd": "Language (ISO639-3): crd, Coeur d'Alene"
   },
@@ -34,7 +34,7 @@ const audiometadata = [
   "creatorReader": "Creator (reader): Lawrence Nicodemus",
   "format":  "Format: wave file (.wav)",
   "identifierPermanent": "Indiana University Bloomington Archive of Traditional Music, Collection Title: 85-550-F. Idaho, Coeur d'Alene. Gladys Reichard, ca. 1935. Speaker: Lawrence Nicodemus.",
-  "identifierColrcNo": "Identifier (COLRC URL): http://lasrv01.ipfw.edu/COLRC/audio/crdt27-29_arc-e35.wav",
+  "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.ipfw.edu/COLRC/audio/crdt27-29_arc-e35.wav",
   "identifierColrcNo": "Identifier (COLRC NO.): crdt27-29_arc-e35",
   "langCrd": "Language (ISO639-3): crd, Coeur d'Alene",
     "langEng": "Language (ISO639-3): eng-US, English"
@@ -54,7 +54,7 @@ const audiometadata = [
   "creatorReader": "Creator (reader): Lawrence Nicodemus",
   "format":  "Format: wave file (.wav)",
   "identifierPermanent": "Indiana University Bloomington Archive of Traditional Music, Collection Title: 85-550-F. Idaho, Coeur d'Alene. Gladys Reichard, ca. 1935. Speaker: Lawrence Nicodemus.",
-  "identifierColrcNo": "Identifier (COLRC URL): http://lasrv01.ipfw.edu/COLRC/audio/crdt27-29_arc20.wav",
+  "identifierColrcUrl": "Identifier (COLRC URL): http://lasrv01.ipfw.edu/COLRC/audio/crdt27-29_arc20.wav",
   "identifierColrcNo": "Identifier (COLRC NO.): crdt27-29_arc20",
   "langCrd": "Language (ISO639-3): crd, Coeur d'Alene"
   }

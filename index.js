@@ -732,7 +732,27 @@ async function makeTextFileMetaDataTable(){
     await TextFileMetaData.create({
       textFileId: row.textFileId,
       metadata: "{ \"originalTitle\" : \"" + row.originalTitle + "\", \n" +
-      "\"isVersionofEngl\" : \"" + row.isVersionofEngl + "\" }" 
+      "\"isVersionofEngl\" : \"" + row.isVersionofEngl + "\" ,\n" +
+      "\"isVersionofTyped\" : \"" + row.isVersionofTyped + "\" ,\n"  +
+      "\"subject\" : \"" + row.subject + "\" ,\n" +
+      "\"description\" : \"" + row.description + "\" ,\n" +
+      "\"type\" : \"" + row.type + "\" ,\n" +
+      "\"source\" : \"" + row.source + "\" ,\n" +
+      "\"coverageLang\" : \"" + row.coverageLang + "\" ,\n" +
+      "\"coverageTime\" : \"" + row.coverageTime + "\" ,\n" +
+      "\"date\" : \"" + row.date + "\" ,\n" +
+      "\"modified\" : \"" + row.modified + "\" ,\n" +
+      "\"creatorNarrator\" : \"" + row.creatorNarrator + "\" ,\n" +
+      "\"creatorInterpreter\" : \"" + row.creatorInterpreter + "\" ,\n" +
+      "\"creatorLinguist\" : \"" + row.creatorLinguist + "\" ,\n" +
+      "\"creatorCoEditors\" : \"" + row.creatorCoEditors + "\" ,\n" +
+      "\"format\" : \"" + row.format + "\" ,\n" +
+      "\"identifierArchive\" : \"" + row.identifierArchive + "\" ,\n" +
+      "\"identifierColrcUrl\" : \"" + row.identifierColrcUrl + "\" ,\n" +
+      "\"identifierColrcNo\" : \"" + row.identifierColrcNo + "\" ,\n" +
+      "\"langEng\" : \"" + row.langEng + "\" ,\n" +
+      "\"langCrd\" : \"" + row.langCrd + "\" ,\n" +
+      "\"langBoth\" : \"" + row.langBoth + "\" }" 
     });
   };
   console.log("I have a textfilemetadata table");
@@ -744,7 +764,21 @@ async function makeAudioSetMetaDataTable(){
     await AudioSetMetaData.create({
       audioSetId: row.audioSetId,
       metadata: "{ \"originalTitle\" : \"" + row.originalTitle + "\", \n" +
-      "\"isFormatofCrd\" : \"" + row.isFormatofCrd + "\" }" 
+      "\"isFormatofCrd\" : \"" + row.isFormatofCrd + "\" ,\n" +
+      "\"subject\" : \"" + row.subject + "\" ,\n"  +
+      "\"description\" : \"" + row.description + "\" ,\n" +
+      "\"type\" : \"" + row.type + "\" ,\n" +
+      "\"source\" : \"" + row.source + "\" ,\n" +
+      "\"coverageLang\" : \"" + row.coverageLang + "\" ,\n" +
+      "\"coverageTime\" : \"" + row.coverageTime + "\" ,\n" +
+      "\"date\" : \"" + row.date + "\" ,\n" +
+      "\"creatorLinguist\" : \"" + row.creatorLinguist + "\" ,\n" +
+      "\"creatorReader\" : \"" + row.creatorReader + "\" ,\n" +
+      "\"format\" : \"" + row.format + "\" ,\n" +
+      "\"identifierPermanent\" : \"" + row.identifierPermanent + "\" ,\n" +
+      "\"identifierColrcUrl\" : \"" + row.identifierColrcUrl + "\" ,\n" +
+      "\"identifierColrcNo\" : \"" + row.identifierColrcNo + "\" ,\n" +
+      "\"langCrd\" : \"" + row.langCrd + "\" \n}" 
     });
   };
   console.log("I have a audiosetmetadata table");
