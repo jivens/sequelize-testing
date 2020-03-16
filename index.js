@@ -79,6 +79,15 @@ const User = sequelize.define('user', {
   collate: 'utf8mb4_unicode_ci'
 });
 
+const Role = sequelize.define('role', {
+  role_code: { type: Sequelize.STRING, unique: true },
+  role_value: { type: Sequelize.STRING, unique: true }
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+})
+
 const Root = sequelize.define('root', {
   root: { type: Sequelize.STRING },
   number: { type: Sequelize.INTEGER },
@@ -480,6 +489,16 @@ async function makeUsersTable(){
   }
 }
 
+async function makeRoleTable() {
+  await Role.sync({force: true})
+  for (row of data.roles) {
+    await Role.create({
+      role_code: row.role_code,
+      role_value: row.role_value
+    })
+  }
+}
+
 // next, build the Root Dictionary, Affix List and Stem List from files in the 'data' directory
 async function makeRootTable(){
   await Root.sync({force: true});
@@ -515,7 +534,7 @@ async function makeRootTable(){
 async function makeAffixTable(){
   await Affix.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\affixes_spelled.txt', 'utf8');
+  var contents = fs. readFileSync('data/affixes_spelled.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.replace(/(\r)/gm, "");
@@ -541,7 +560,7 @@ async function makeAffixTable(){
 async function makeStemTable(){
   await Stem.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\stems_both_lists_nodoak_spelled.txt', 'utf8');
+  var contents = fs. readFileSync('data/stems_both_lists_nodoak_spelled.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.trim();
@@ -828,6 +847,7 @@ async function makeMedia(){
 async function makeTables(){
   await makeAudioSetMetaDataTable();
   await makeTextFileMetaDataTable();
+  await makeRoleTable();
   await makeUsersTable();
   await makeRootTable();
   await makeStemTable();
@@ -842,8 +862,9 @@ async function makeTables(){
 // below call the build function(s) you want.
 //makeRootTable()
 //makeStemTable();
-makeTables();
+//makeTables();
 //makeAudiofileTable();
 //makeElicitationfileTable();
 //makeMedia();
 //makeUsersTable()
+makeRoleTable()
