@@ -891,14 +891,15 @@ async function makeTables(){
   await makeConsonantTable();
   await makeVowelTable();
   await makeMedia();
+  await makeRoleTable();
 }
 
 // below call the build function(s) you want.
 //makeRootTable()
 //makeStemTable();
-//makeTables();
+makeTables();
 //makeAudiofileTable();
 //makeElicitationfileTable();
 //makeMedia();
 //makeUsersTable()
-makeRoleTable()
+//makeRoleTable()
